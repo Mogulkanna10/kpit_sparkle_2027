@@ -1,0 +1,6 @@
+# Regression Test Selection Configuration
+selection_policy: "safety_aware_impact_driven"
+always_include_safety_critical: true
+max_test_suite_overhead_pct: 100.0
+target_reduction_objective_pct: 85.0
+traceability_mapping_mode: "explicit_first_then_structural_then_semantic"

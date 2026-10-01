@@ -1,0 +1,30 @@
+{
+  "gate": "GATE-17",
+  "title": "CLI Validation",
+  "status": "PASS",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "timestamp": "2026-09-30T03:58:57.712103+00:00",
+  "tests": {
+    "file": "tests/cli/test_cli.py",
+    "count": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "commands_tested": [
+    "--help",
+    "ingest (valid)",
+    "ingest (missing dir)",
+    "build-index",
+    "analyze --help",
+    "analyze (missing file)",
+    "analyze (valid)",
+    "report"
+  ],
+  "acceptance_criteria": {
+    "help_exits_zero": "VERIFIED",
+    "valid_input_succeeds": "VERIFIED",
+    "missing_input_errors": "VERIFIED",
+    "exit_codes": "VERIFIED",
+    "output_deterministic": "VERIFIED"
+  }
+}

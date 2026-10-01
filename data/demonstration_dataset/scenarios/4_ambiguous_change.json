@@ -1,0 +1,15 @@
+{
+  "name": "Ambiguous Change (Review Required)",
+  "description": "Under-specified requirement REQ_AMB_099 lacks technical parameters, triggering REVIEW_REQUIRED instead of hallucinating certainty.",
+  "artifact_id": "REQ_AMB_099",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Under-specified driver notification logic with ambiguous alert thresholds.",
+  "change_semantics": "Ambiguous unclear driver alert notification without technical parameters",
+  "force_semantic": true,
+  "expected": {
+    "status": "REVIEW_REQUIRED"
+  }
+}

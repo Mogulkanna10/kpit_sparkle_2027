@@ -1,0 +1,10 @@
+tc_level_pct,graph_recall,raw_embedding_recall,contextual_embedding_recall,aura_hybrid_recall,semantic_delta_gain,dominance
+100,1.0,0.2,1.0,1.0,0.0,Graph-Only
+90,0.9,0.2,0.9407,0.9407,4.07,Graph-Only
+85,0.85,0.2,0.911,0.911,6.1,AURA Contextual Hybrid
+80,0.8,0.2,0.8813,0.8813,8.13,AURA Contextual Hybrid
+70,0.7,0.2,0.822,0.822,12.2,AURA Contextual Hybrid
+60,0.6,0.2,0.7627,0.7627,16.27,AURA Contextual Hybrid
+50,0.5,0.2,0.7034,0.7034,20.34,AURA Contextual Hybrid
+40,0.4,0.2,0.644,0.644,24.4,AURA Contextual Hybrid
+30,0.3,0.2,0.5847,0.5847,28.47,AURA Contextual Hybrid

@@ -1,0 +1,6 @@
+source_domain,target_domain,impact_recall,precision,safety_recall
+ADAS,ADAS (Within-Domain),0.895,0.962,1.0
+Powertrain,Powertrain (Within-Domain),0.884,0.958,1.0
+ADAS,Battery_EV (Cross-Domain),0.871,0.945,1.0
+Powertrain,ADAS (Cross-Domain),0.868,0.94,1.0
+Battery_EV,Body_Electronics (Cross-Domain),0.862,0.938,1.0

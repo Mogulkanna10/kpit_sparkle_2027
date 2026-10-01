@@ -1,0 +1,29 @@
+{
+  "gate": "GATE-22",
+  "title": "README / Claim / Documentation Audit",
+  "status": "PASS",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "timestamp": "2026-09-30T04:12:00.000000+00:00",
+  "audited_documents": [
+    "README.md",
+    "docs/TECHNICAL_REPORT.md",
+    "docs/START_HERE.md",
+    "docs/PROJECT_STATUS.md",
+    "reports/final/documentation_claim_audit.md"
+  ],
+  "claims_reconciled": {
+    "maturity_level": "RESEARCH_PROTOTYPE_STATED",
+    "dataset_type": "SYNTHETIC_AUTOSAR_MODELS_STATED",
+    "semantic_model": "AURA-DomainHashEmbedder-384_ACCURATE",
+    "headline_metrics": "0.6311_RECALL_84.4_REDUCTION_STATED",
+    "safety_distinction": "INVARIANT_VS_DISCOVERY_DISTINGUISHED",
+    "test_count": "214_TESTS_STATED",
+    "limitations": "CLEARLY_DISCLOSED"
+  },
+  "acceptance_criteria": {
+    "unsupported_claims_removed": "VERIFIED",
+    "research_prototype_clarified": "VERIFIED",
+    "bge_m3_misleading_label_removed": "VERIFIED",
+    "safety_recall_clarified": "VERIFIED"
+  }
+}

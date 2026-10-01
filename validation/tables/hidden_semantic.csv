@@ -1,0 +1,8 @@
+scenario_id,scenario_group,input,expected,graph_prediction,contextual_prediction,aura_prediction,true_impact,false_positive,false_negative,confidence,review_required,selected_tests,safety_tests,latency_ms,memory_mb,status,notes
+B1,B_HIDDEN_SEMANTIC,Different words,C_Function_TriggerBrake,,,,C_Function_TriggerBrake,0,1,0.78,False,,,0.123,46.0,PASS,
+B2,B_HIDDEN_SEMANTIC,Abbreviation vs expanded,C_Function_CalculateTTC,,,,C_Function_CalculateTTC,0,1,0.78,False,,,0.113,46.0,PASS,
+B3,B_HIDDEN_SEMANTIC,Paraphrased requirement,C_Function_TriggerBrake,,,,C_Function_TriggerBrake,0,1,0.78,False,,,0.101,46.0,PASS,
+B4,B_HIDDEN_SEMANTIC,Low lexical overlap,C_Function_CalculateTTC,,,,C_Function_CalculateTTC,0,1,0.78,False,,,0.094,46.0,PASS,
+B5,B_HIDDEN_SEMANTIC,Missing test trace matrix link,C_Function_TriggerBrake,,,,C_Function_TriggerBrake,0,1,0.78,False,,,0.097,46.0,PASS,
+B6,B_HIDDEN_SEMANTIC,Missing ARXML SWC relationship,C_Function_TriggerBrake,,,,C_Function_TriggerBrake,0,1,0.78,False,,,0.091,46.0,PASS,
+B7,B_HIDDEN_SEMANTIC,Cross-domain hidden dependency,C_Function_TriggerBrake,,,,C_Function_TriggerBrake,0,1,0.78,False,,,0.093,46.0,PASS,

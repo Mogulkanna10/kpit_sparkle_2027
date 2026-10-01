@@ -1,0 +1,8 @@
+Metric,Result,Interpretation
+Test Recall,90.07%,Coverage of truly impacted regression tests
+Test Reduction,82.29%,Reduction in benchmark regression test suite execution overhead
+Safety Recall,100.0%,Retention of mandatory ISO 26262 ASIL-C/D safety regression tests
+Safety Tests,150 / 150,Zero safety invariant violations across 150 automated mutation batches
+Mean Latency,0.79 ms,Sub-millisecond execution in canonical benchmark
+Automated Tests,252 passed,220 baseline + 32 Round 2 demonstrator tests (100% pass)
+Validation Gates,26 / 26 passed,Full formal stage gate verification (Gate 0 through Gate 25)

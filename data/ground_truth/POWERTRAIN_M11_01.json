@@ -1,0 +1,172 @@
+{
+  "mutation_id": "POWERTRAIN_M11_01",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+  "target_node_id": "PT_Func_009",
+  "true_impacted_artifacts": [
+    "PT_Func_009",
+    "PT_Func_011",
+    "PT_Func_013",
+    "PT_Func_015",
+    "PT_Func_017",
+    "PT_Func_019",
+    "SWC_ClutchController_TorqueDemand",
+    "SWC_EmissionMonitor_TorqueDemand",
+    "SWC_FuelInjection_TorqueDemand",
+    "SWC_ThrottleControl_TorqueDemand",
+    "SWC_Transmission_TorqueDemand"
+  ],
+  "true_impacted_tests": [
+    "TC_PT_009",
+    "TC_PT_011",
+    "TC_PT_013",
+    "TC_PT_015",
+    "TC_PT_017",
+    "TC_PT_019"
+  ],
+  "safety_critical_tests": [
+    "TC_PT_009",
+    "TC_PT_011",
+    "TC_PT_013",
+    "TC_PT_015",
+    "TC_PT_017",
+    "TC_PT_019"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "PT_Func_009",
+      "relation_path": [
+        "PT_Func_009"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_011",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ClutchController_TorqueDemand",
+      "relation_path": [
+        "PT_Func_009",
+        "SWC_ClutchController_TorqueDemand"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThrottleControl_TorqueDemand",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "SWC_ThrottleControl_TorqueDemand"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_013",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "PT_Func_013"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_Transmission_TorqueDemand",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "PT_Func_013",
+        "SWC_Transmission_TorqueDemand"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_015",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "PT_Func_013",
+        "PT_Func_015"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_FuelInjection_TorqueDemand",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "PT_Func_013",
+        "PT_Func_015",
+        "SWC_FuelInjection_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_017",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "PT_Func_013",
+        "PT_Func_015",
+        "PT_Func_017"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_EmissionMonitor_TorqueDemand",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "PT_Func_013",
+        "PT_Func_015",
+        "PT_Func_017",
+        "SWC_EmissionMonitor_TorqueDemand"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_019",
+      "relation_path": [
+        "PT_Func_009",
+        "PT_Func_011",
+        "PT_Func_013",
+        "PT_Func_015",
+        "PT_Func_017",
+        "PT_Func_019"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

@@ -1,0 +1,1284 @@
+{
+  "tests": [
+    {
+      "id": "TC_BMS_001",
+      "name": "Battery Test TC_BMS_001",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_001",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_001"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_001"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_002",
+      "name": "Battery Test TC_BMS_002",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_002",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_002"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_002"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_003",
+      "name": "Battery Test TC_BMS_003",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_003",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_003"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_003"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_004",
+      "name": "Battery Test TC_BMS_004",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_004",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_004"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_004"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_005",
+      "name": "Battery Test TC_BMS_005",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_005",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_005"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_005"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_006",
+      "name": "Battery Test TC_BMS_006",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_006",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_006"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_006"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_007",
+      "name": "Battery Test TC_BMS_007",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_007",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_007"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_007"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_008",
+      "name": "Battery Test TC_BMS_008",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_008",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_008"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_008"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_009",
+      "name": "Battery Test TC_BMS_009",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_009",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_009"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_009"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_010",
+      "name": "Battery Test TC_BMS_010",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_010",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_010"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_010"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_011",
+      "name": "Battery Test TC_BMS_011",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_011",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_011"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_011"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_012",
+      "name": "Battery Test TC_BMS_012",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_012",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_012"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_012"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_013",
+      "name": "Battery Test TC_BMS_013",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_013",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_013"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_013"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_014",
+      "name": "Battery Test TC_BMS_014",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_014",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_014"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_014"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_015",
+      "name": "Battery Test TC_BMS_015",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_015",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_015"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_015"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_016",
+      "name": "Battery Test TC_BMS_016",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_016",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_016"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_016"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_017",
+      "name": "Battery Test TC_BMS_017",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_017",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_017"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_017"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_018",
+      "name": "Battery Test TC_BMS_018",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_018",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_018"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_018"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_019",
+      "name": "Battery Test TC_BMS_019",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_019",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_019"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_019"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_020",
+      "name": "Battery Test TC_BMS_020",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_020",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_020"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_020"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_021",
+      "name": "Battery Test TC_BMS_021",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_021",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_021"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_021"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_022",
+      "name": "Battery Test TC_BMS_022",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_022",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_022"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_022"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_023",
+      "name": "Battery Test TC_BMS_023",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_023",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_023"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_023"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_024",
+      "name": "Battery Test TC_BMS_024",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_024",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_024"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_024"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_025",
+      "name": "Battery Test TC_BMS_025",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_025",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "BMS_Func_025"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_025"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_026",
+      "name": "Battery Test TC_BMS_026",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_026",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_026"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_026"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_027",
+      "name": "Battery Test TC_BMS_027",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_027",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_027"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_027"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_028",
+      "name": "Battery Test TC_BMS_028",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_028",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_028"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_028"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_029",
+      "name": "Battery Test TC_BMS_029",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_029",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_029"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_029"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_030",
+      "name": "Battery Test TC_BMS_030",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_030",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_030"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_030"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_031",
+      "name": "Battery Test TC_BMS_031",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_031",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_031"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_031"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_032",
+      "name": "Battery Test TC_BMS_032",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_032",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_032"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_032"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_033",
+      "name": "Battery Test TC_BMS_033",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_033",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_033"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_033"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_034",
+      "name": "Battery Test TC_BMS_034",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_034",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_034"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_034"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_035",
+      "name": "Battery Test TC_BMS_035",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_035",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_035"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_035"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_036",
+      "name": "Battery Test TC_BMS_036",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_036",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_036"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_036"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_037",
+      "name": "Battery Test TC_BMS_037",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_037",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_037"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_037"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_038",
+      "name": "Battery Test TC_BMS_038",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_038",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_038"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_038"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_039",
+      "name": "Battery Test TC_BMS_039",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_039",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_039"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_039"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_040",
+      "name": "Battery Test TC_BMS_040",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_040",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_040"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_040"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_041",
+      "name": "Battery Test TC_BMS_041",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_041",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_041"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_041"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_042",
+      "name": "Battery Test TC_BMS_042",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_042",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_042"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_042"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_043",
+      "name": "Battery Test TC_BMS_043",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_043",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_043"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_043"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_044",
+      "name": "Battery Test TC_BMS_044",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_044",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_044"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_044"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_045",
+      "name": "Battery Test TC_BMS_045",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_045",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_045"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_045"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_046",
+      "name": "Battery Test TC_BMS_046",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_046",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_046"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_046"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_047",
+      "name": "Battery Test TC_BMS_047",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_047",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_047"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_047"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_048",
+      "name": "Battery Test TC_BMS_048",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_048",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_048"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_048"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_049",
+      "name": "Battery Test TC_BMS_049",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_049",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_049"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_049"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_050",
+      "name": "Battery Test TC_BMS_050",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_050",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_050"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_051",
+      "name": "Battery Test TC_BMS_051",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_051",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_051"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_052",
+      "name": "Battery Test TC_BMS_052",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_052",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_052"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_053",
+      "name": "Battery Test TC_BMS_053",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_053",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_053"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_054",
+      "name": "Battery Test TC_BMS_054",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_054",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_054"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_055",
+      "name": "Battery Test TC_BMS_055",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_055",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_055"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_056",
+      "name": "Battery Test TC_BMS_056",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_056",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_056"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_057",
+      "name": "Battery Test TC_BMS_057",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_057",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_057"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_058",
+      "name": "Battery Test TC_BMS_058",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_058",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_058"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_059",
+      "name": "Battery Test TC_BMS_059",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_059",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_059"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_060",
+      "name": "Battery Test TC_BMS_060",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_060",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_060"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_061",
+      "name": "Battery Test TC_BMS_061",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_061",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_061"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_062",
+      "name": "Battery Test TC_BMS_062",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_062",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_062"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_063",
+      "name": "Battery Test TC_BMS_063",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_063",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_063"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_064",
+      "name": "Battery Test TC_BMS_064",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_064",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_064"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_065",
+      "name": "Battery Test TC_BMS_065",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_065",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_065"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_066",
+      "name": "Battery Test TC_BMS_066",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_066",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_066"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_067",
+      "name": "Battery Test TC_BMS_067",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_067",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_067"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_068",
+      "name": "Battery Test TC_BMS_068",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_068",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_068"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_069",
+      "name": "Battery Test TC_BMS_069",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_069",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_069"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_070",
+      "name": "Battery Test TC_BMS_070",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_070",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_070"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_071",
+      "name": "Battery Test TC_BMS_071",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_071",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_071"
+      ],
+      "target_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_072",
+      "name": "Battery Test TC_BMS_072",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_072",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_072"
+      ],
+      "target_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_073",
+      "name": "Battery Test TC_BMS_073",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_073",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_073"
+      ],
+      "target_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_074",
+      "name": "Battery Test TC_BMS_074",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_074",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_074"
+      ],
+      "target_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_075",
+      "name": "Battery Test TC_BMS_075",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_075",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_075"
+      ],
+      "target_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_BMS_076",
+      "name": "Battery Test TC_BMS_076",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_076",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_076"
+      ],
+      "target_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_BMS_077",
+      "name": "Battery Test TC_BMS_077",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_077",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_077"
+      ],
+      "target_swcs": [
+        "SWC_InverterControl"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_BMS_078",
+      "name": "Battery Test TC_BMS_078",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_078",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_078"
+      ],
+      "target_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 120
+    },
+    {
+      "id": "TC_BMS_079",
+      "name": "Battery Test TC_BMS_079",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_079",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_079"
+      ],
+      "target_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_BMS_080",
+      "name": "Battery Test TC_BMS_080",
+      "description": "Monitors cell over-voltage threshold for BMS_Func_080",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "BMS_Func_080"
+      ],
+      "target_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "target_requirements": [
+        "R_BMS_050"
+      ],
+      "execution_time_ms": 60
+    }
+  ]
+}

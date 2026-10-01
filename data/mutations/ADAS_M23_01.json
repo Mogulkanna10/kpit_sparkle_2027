@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M23_01",
+  "project_id": "ADAS",
+  "change_type": "M23",
+  "category_name": "Semantic requirement change with little textual overlap",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_026",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Maintain headway gap in adaptive cruise mode.",
+  "after_state": "Radar-guided distance tracking regulation.",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+  "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M23",
+    "repeat": 1
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "name": "Safety-Critical Regression (Non-Bypassable Gate)",
+  "description": "Simulate removal attempt of mandatory ASIL-D safety tests TC_AEB_001 and TC_AEB_002. Safety Gate blocks exclusion.",
+  "artifact_id": "REQ_AEB_001",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Update Time-to-Collision threshold formula.",
+  "change_semantics": "Time-to-collision calculation TTC radar distance",
+  "mandatory_safety_tests": [
+    "TC_AEB_001",
+    "TC_AEB_002"
+  ],
+  "expected": {
+    "safety_invariant": "100% Retained",
+    "blocked_attempt": true
+  }
+}

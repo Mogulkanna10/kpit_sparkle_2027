@@ -1,0 +1,491 @@
+{
+  "mutation_id": "ADAS_M21_01",
+  "project_id": "ADAS",
+  "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+  "target_node_id": "ADAS_Func_003",
+  "true_impacted_artifacts": [
+    "ADAS_Func_001",
+    "ADAS_Func_002",
+    "ADAS_Func_003",
+    "ADAS_Func_004",
+    "ADAS_Func_005",
+    "ADAS_Func_006",
+    "ADAS_Func_007",
+    "ADAS_Func_008",
+    "ADAS_Func_009",
+    "ADAS_Func_010",
+    "ADAS_Func_011",
+    "ADAS_Func_012",
+    "ADAS_Func_014",
+    "ADAS_Func_015",
+    "ADAS_Func_018",
+    "SWC_ACC_RawData",
+    "SWC_ACC_Signal",
+    "SWC_AEB_RawData",
+    "SWC_AEB_Signal",
+    "SWC_BrakeActuator_RawData",
+    "SWC_BrakeActuator_Signal",
+    "SWC_DriverHMI_RawData",
+    "SWC_DriverHMI_Signal",
+    "SWC_LKA_RawData",
+    "SWC_LKA_Signal",
+    "SWC_ObstacleDetector_RawData",
+    "SWC_ObstacleDetector_Signal",
+    "SWC_SensorFusion_RawData",
+    "SWC_SensorFusion_Signal",
+    "SWC_SpeedLimiter_RawData",
+    "SWC_SpeedLimiter_Signal",
+    "SWC_SteeringActuator_RawData",
+    "SWC_SteeringActuator_Signal",
+    "Sensor"
+  ],
+  "true_impacted_tests": [
+    "TC_ADAS_001",
+    "TC_ADAS_002",
+    "TC_ADAS_003",
+    "TC_ADAS_004",
+    "TC_ADAS_005",
+    "TC_ADAS_006",
+    "TC_ADAS_007",
+    "TC_ADAS_008",
+    "TC_ADAS_009",
+    "TC_ADAS_010",
+    "TC_ADAS_011",
+    "TC_ADAS_012",
+    "TC_ADAS_014",
+    "TC_ADAS_015",
+    "TC_ADAS_018"
+  ],
+  "safety_critical_tests": [
+    "TC_ADAS_001",
+    "TC_ADAS_002",
+    "TC_ADAS_003",
+    "TC_ADAS_004",
+    "TC_ADAS_005",
+    "TC_ADAS_006",
+    "TC_ADAS_007",
+    "TC_ADAS_008",
+    "TC_ADAS_009",
+    "TC_ADAS_010",
+    "TC_ADAS_011",
+    "TC_ADAS_012",
+    "TC_ADAS_014",
+    "TC_ADAS_015",
+    "TC_ADAS_018"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "ADAS_Func_003",
+      "relation_path": [
+        "ADAS_Func_003"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_LKA_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "SWC_LKA_Signal"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_006",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_002",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_002"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_LKA_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "SWC_LKA_RawData"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_005",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_009",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_009"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BrakeActuator_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "SWC_BrakeActuator_Signal"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BrakeActuator_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "SWC_BrakeActuator_RawData"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_001",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_002",
+        "ADAS_Func_001"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ACC_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_002",
+        "SWC_ACC_Signal"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ACC_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_002",
+        "SWC_ACC_RawData"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_008",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SensorFusion_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "SWC_SensorFusion_Signal"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_004",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_004"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SensorFusion_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "SWC_SensorFusion_RawData"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_009",
+        "SWC_SpeedLimiter_RawData"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_009",
+        "SWC_SpeedLimiter_Signal"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_012",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_009",
+        "ADAS_Func_012"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "Sensor",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_002",
+        "ADAS_Func_001",
+        "Sensor"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_AEB_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_002",
+        "ADAS_Func_001",
+        "SWC_AEB_RawData"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_AEB_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_002",
+        "ADAS_Func_001",
+        "SWC_AEB_Signal"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DriverHMI_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "SWC_DriverHMI_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_007",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "ADAS_Func_007"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_011",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "ADAS_Func_011"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DriverHMI_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "SWC_DriverHMI_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_004",
+        "SWC_ObstacleDetector_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_004",
+        "SWC_ObstacleDetector_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_015",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_009",
+        "ADAS_Func_012",
+        "ADAS_Func_015"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_Signal",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "ADAS_Func_007",
+        "SWC_SteeringActuator_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_RawData",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "ADAS_Func_007",
+        "SWC_SteeringActuator_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_010",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "ADAS_Func_007",
+        "ADAS_Func_010"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_014",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_005",
+        "ADAS_Func_008",
+        "ADAS_Func_011",
+        "ADAS_Func_014"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_018",
+      "relation_path": [
+        "ADAS_Func_003",
+        "ADAS_Func_006",
+        "ADAS_Func_009",
+        "ADAS_Func_012",
+        "ADAS_Func_015",
+        "ADAS_Func_018"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

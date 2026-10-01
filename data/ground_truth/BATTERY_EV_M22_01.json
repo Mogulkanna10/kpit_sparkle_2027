@@ -1,0 +1,172 @@
+{
+  "mutation_id": "BATTERY_EV_M22_01",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_014",
+  "true_impacted_artifacts": [
+    "BMS_Func_014",
+    "BMS_Func_015",
+    "BMS_Func_016",
+    "BMS_Func_017",
+    "BMS_Func_018",
+    "BMS_Func_019",
+    "SWC_CellBalancing_Health",
+    "SWC_ChargingInterface_Health",
+    "SWC_HighVoltageSafety_Health",
+    "SWC_InverterControl_Health",
+    "SWC_RegenCoordinator_Health"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_014",
+    "TC_BMS_015",
+    "TC_BMS_016",
+    "TC_BMS_017",
+    "TC_BMS_018",
+    "TC_BMS_019"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_014",
+    "TC_BMS_015",
+    "TC_BMS_016",
+    "TC_BMS_017",
+    "TC_BMS_018",
+    "TC_BMS_019"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "BMS_Func_014",
+      "relation_path": [
+        "BMS_Func_014"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_015",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_CellBalancing_Health",
+      "relation_path": [
+        "BMS_Func_014",
+        "SWC_CellBalancing_Health"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_016",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "BMS_Func_016"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_RegenCoordinator_Health",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "SWC_RegenCoordinator_Health"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_017",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "BMS_Func_016",
+        "BMS_Func_017"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_HighVoltageSafety_Health",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "BMS_Func_016",
+        "SWC_HighVoltageSafety_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_Health",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "BMS_Func_016",
+        "BMS_Func_017",
+        "SWC_InverterControl_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_018",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "BMS_Func_016",
+        "BMS_Func_017",
+        "BMS_Func_018"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_Health",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "BMS_Func_016",
+        "BMS_Func_017",
+        "BMS_Func_018",
+        "SWC_ChargingInterface_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_019",
+      "relation_path": [
+        "BMS_Func_014",
+        "BMS_Func_015",
+        "BMS_Func_016",
+        "BMS_Func_017",
+        "BMS_Func_018",
+        "BMS_Func_019"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

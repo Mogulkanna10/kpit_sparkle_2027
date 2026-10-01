@@ -1,0 +1,171 @@
+{
+  "mutation_id": "BATTERY_EV_M16_01",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_080",
+  "true_impacted_artifacts": [
+    "BMS_Func_001",
+    "BMS_Func_002",
+    "BMS_Func_003",
+    "BMS_Func_004",
+    "BMS_Func_005",
+    "BMS_Func_080",
+    "SWC_BMS_Main_Health",
+    "SWC_BatteryStateHealth_Health",
+    "SWC_CellBalancing_Health",
+    "SWC_SoC_Estimator_Health",
+    "SWC_ThermalRunawayMonitor_Health"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_001",
+    "TC_BMS_002",
+    "TC_BMS_003",
+    "TC_BMS_004",
+    "TC_BMS_005",
+    "TC_BMS_080"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_001",
+    "TC_BMS_002",
+    "TC_BMS_003",
+    "TC_BMS_004",
+    "TC_BMS_005"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "BMS_Func_080",
+      "relation_path": [
+        "BMS_Func_080"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BatteryStateHealth_Health",
+      "relation_path": [
+        "BMS_Func_080",
+        "SWC_BatteryStateHealth_Health"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_001",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_002",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "BMS_Func_002"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BMS_Main_Health",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "SWC_BMS_Main_Health"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SoC_Estimator_Health",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "BMS_Func_002",
+        "SWC_SoC_Estimator_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_003",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "BMS_Func_002",
+        "BMS_Func_003"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_004",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "BMS_Func_002",
+        "BMS_Func_003",
+        "BMS_Func_004"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThermalRunawayMonitor_Health",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "BMS_Func_002",
+        "BMS_Func_003",
+        "SWC_ThermalRunawayMonitor_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_005",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "BMS_Func_002",
+        "BMS_Func_003",
+        "BMS_Func_004",
+        "BMS_Func_005"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_CellBalancing_Health",
+      "relation_path": [
+        "BMS_Func_080",
+        "BMS_Func_001",
+        "BMS_Func_002",
+        "BMS_Func_003",
+        "BMS_Func_004",
+        "SWC_CellBalancing_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "Semantic Decoy Rejection",
+  "description": "Semantic search on brake trigger pressure matches C_Function_TriggerBrake (ADAS) and C_Function_CabinClimateControl (Body). ContextFilter rejects Body decoy.",
+  "artifact_id": "REQ_AEB_014",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Emergency braking actuation and deceleration pressure clamping on obstacle arrival.",
+  "change_semantics": "Emergency deceleration brake trigger clamp hydraulic braking hazard pressure blower level",
+  "filter_subsystem_in_index": false,
+  "force_semantic": true,
+  "expected": {
+    "accepted": [
+      "C_Function_TriggerBrake"
+    ],
+    "rejected_decoys": [
+      "C_Function_CabinClimateControl"
+    ],
+    "rejection_reason": "Subsystem mismatch"
+  }
+}

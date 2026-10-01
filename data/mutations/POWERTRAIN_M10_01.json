@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M10_01",
+  "project_id": "POWERTRAIN",
+  "change_type": "M10",
+  "category_name": "C function signature change",
+  "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+  "target_node_id": "PT_Func_027",
+  "artifact_type": "C_CODE",
+  "before_state": "Std_ReturnType PT_Func_027(uint16 raw_input);",
+  "after_state": "Std_ReturnType PT_Func_027(uint32 raw_input, uint8 flags);",
+  "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType PT_Func_027(uint16 raw_input);\n+Std_ReturnType PT_Func_027(uint32 raw_input, uint8 flags);",
+  "intended_change_semantics": "Function argument and signature change",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M10",
+    "repeat": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M12_01",
+  "project_id": "POWERTRAIN",
+  "change_type": "M12",
+  "category_name": "Function dependency change",
+  "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+  "target_node_id": "PT_Func_014",
+  "artifact_type": "C_CODE",
+  "before_state": "void PT_Func_014() { StepA(); StepB(); }",
+  "after_state": "void PT_Func_014() { StepA(); StepB(); Step_Validation(); }",
+  "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-void PT_Func_014() { StepA(); StepB(); }\n+void PT_Func_014() { StepA(); StepB(); Step_Validation(); }",
+  "intended_change_semantics": "Added dependency call to validation function",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M12",
+    "repeat": 1
+  }
+}

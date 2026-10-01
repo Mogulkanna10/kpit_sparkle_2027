@@ -1,0 +1,31 @@
+{
+  "mutation_id": "BATTERY_EV_M19_01",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_014",
+  "true_impacted_artifacts": [
+    "R_BMS_014"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_014"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_014"
+  ],
+  "ground_truth_method": [
+    "DISAMBIGUATED_DOMAIN_SPECIFICATION",
+    "COMPILER_SYMBOL_TABLE"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_BMS_014",
+      "relation_path": [
+        "R_BMS_014"
+      ],
+      "distance": 0,
+      "ground_truth_method": "DISAMBIGUATED_DOMAIN_SPECIFICATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

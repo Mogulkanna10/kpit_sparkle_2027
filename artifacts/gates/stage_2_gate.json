@@ -1,0 +1,49 @@
+{
+  "stage": "2",
+  "gate_id": "GATE-02",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:29:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "branch": "main",
+  "objective": "Select, verify, and freeze ONE canonical runtime path (Architecture B)",
+  "changes": [
+    "Created docs/CANONICAL_ARCHITECTURE.md",
+    "Created configs/canonical_architecture.yaml",
+    "Verified end-to-end execution of AuraImpactPipeline on live data",
+    "Imported Set in src/api/pipeline.py for strict typing compliance",
+    "Created reports/final/canonical_architecture_report.md",
+    "Created artifacts/gates/stage_2_gate.json"
+  ],
+  "tests": [
+    "End-to-end live analysis on data/projects/adas",
+    "Baseline tests (30/30 passed)"
+  ],
+  "test_results": {
+    "total": 30,
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0,
+    "live_e2e_verified": true,
+    "e2e_impacts_count": 10,
+    "e2e_selected_tests_count": 10,
+    "e2e_reduction_pct": 94.12
+  },
+  "acceptance_criteria": {
+    "canonical_pipeline_traced": true,
+    "competing_pipelines_eliminated": true,
+    "canonical_architecture_documented": true,
+    "canonical_config_created": true,
+    "live_end_to_end_demonstrated": true
+  },
+  "failures": [],
+  "evidence_files": [
+    "docs/CANONICAL_ARCHITECTURE.md",
+    "configs/canonical_architecture.yaml",
+    "reports/final/canonical_architecture_report.md"
+  ],
+  "next_stage": "3",
+  "checkpoint": "Gate 2 passed cleanly. Ready for Gate 3: Semantic Model Resolution.",
+  "gate": "GATE-2",
+  "title": "Select, verify, and freeze ONE canonical runtime path (Architecture B)",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

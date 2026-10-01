@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M01_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M01",
+  "category_name": "Numeric requirement change",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_031",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 20 meters]",
+  "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 15 meters]",
+  "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 20 meters]\n+Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 15 meters]",
+  "intended_change_semantics": "Tighter distance threshold for emergency braking",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M01",
+    "repeat": 2
+  }
+}

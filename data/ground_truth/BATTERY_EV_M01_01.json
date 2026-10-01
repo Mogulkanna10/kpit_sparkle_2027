@@ -1,0 +1,225 @@
+{
+  "mutation_id": "BATTERY_EV_M01_01",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_047",
+  "true_impacted_artifacts": [
+    "BMS_Func_047",
+    "BMS_Func_048",
+    "BMS_Func_049",
+    "BMS_Func_050",
+    "I_SWC_InverterControl_Out",
+    "I_SWC_InverterControl_Out_DE_SWC_InverterControl_Health",
+    "R_BMS_047",
+    "SWC_ChargingInterface_Health",
+    "SWC_DCDC_Converter_Health",
+    "SWC_InverterControl",
+    "SWC_InverterControl_Health",
+    "SWC_InverterControl_P_SWC_InverterControl_Status",
+    "SWC_InverterControl_RE_SWC_InverterControl_Step",
+    "SWC_InverterControl_Step",
+    "TC_BMS_047"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_007",
+    "TC_BMS_017",
+    "TC_BMS_027",
+    "TC_BMS_037",
+    "TC_BMS_047",
+    "TC_BMS_048",
+    "TC_BMS_049",
+    "TC_BMS_050",
+    "TC_BMS_057",
+    "TC_BMS_067",
+    "TC_BMS_077"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_007",
+    "TC_BMS_017"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_BMS_047",
+      "relation_path": [
+        "R_BMS_047"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl",
+      "relation_path": [
+        "R_BMS_047",
+        "SWC_InverterControl"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_BMS_047",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_P_SWC_InverterControl_Status",
+      "relation_path": [
+        "R_BMS_047",
+        "SWC_InverterControl",
+        "SWC_InverterControl_P_SWC_InverterControl_Status"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_RE_SWC_InverterControl_Step",
+      "relation_path": [
+        "R_BMS_047",
+        "SWC_InverterControl",
+        "SWC_InverterControl_RE_SWC_InverterControl_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_047",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047",
+        "BMS_Func_047"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_InverterControl_Out",
+      "relation_path": [
+        "R_BMS_047",
+        "SWC_InverterControl",
+        "SWC_InverterControl_P_SWC_InverterControl_Status",
+        "I_SWC_InverterControl_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_Step",
+      "relation_path": [
+        "R_BMS_047",
+        "SWC_InverterControl",
+        "SWC_InverterControl_RE_SWC_InverterControl_Step",
+        "SWC_InverterControl_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_Health",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047",
+        "BMS_Func_047",
+        "SWC_InverterControl_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_048",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047",
+        "BMS_Func_047",
+        "BMS_Func_048"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_InverterControl_Out_DE_SWC_InverterControl_Health",
+      "relation_path": [
+        "R_BMS_047",
+        "SWC_InverterControl",
+        "SWC_InverterControl_P_SWC_InverterControl_Status",
+        "I_SWC_InverterControl_Out",
+        "I_SWC_InverterControl_Out_DE_SWC_InverterControl_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_Health",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "SWC_ChargingInterface_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_049",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "BMS_Func_049"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DCDC_Converter_Health",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "SWC_DCDC_Converter_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_050",
+      "relation_path": [
+        "R_BMS_047",
+        "TC_BMS_047",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "BMS_Func_050"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

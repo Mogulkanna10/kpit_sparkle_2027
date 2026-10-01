@@ -1,0 +1,55 @@
+{
+  "stage": "6",
+  "gate_id": "GATE-06",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:38:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "branch": "main",
+  "objective": "Validate deterministic graph analysis across 16 core structural scenarios",
+  "changes": [
+    "Created tests/structural/test_structural_impact.py with 15 test functions covering all 16 required structural scenarios",
+    "Created reports/final/structural_validation.md",
+    "Created artifacts/gates/stage_6_gate.json"
+  ],
+  "tests": [
+    "tests/structural/test_structural_impact.py::test_no_change_scenario",
+    "tests/structural/test_structural_impact.py::test_single_changed_function",
+    "tests/structural/test_structural_impact.py::test_caller_callee_propagation",
+    "tests/structural/test_structural_impact.py::test_multiple_callers",
+    "tests/structural/test_structural_impact.py::test_cyclic_dependencies",
+    "tests/structural/test_structural_impact.py::test_depth_boundary_enforcement",
+    "tests/structural/test_structural_impact.py::test_missing_arxml_handling",
+    "tests/structural/test_structural_impact.py::test_malformed_cpp_handling",
+    "tests/structural/test_structural_impact.py::test_unrelated_subsystem_isolation",
+    "tests/structural/test_structural_impact.py::test_documentation_only_change",
+    "tests/structural/test_structural_impact.py::test_variable_reads_and_writes",
+    "tests/structural/test_structural_impact.py::test_rte_apis_modeling",
+    "tests/structural/test_structural_impact.py::test_reverse_traversal",
+    "tests/structural/test_structural_impact.py::test_missing_graph_edge",
+    "tests/structural/test_structural_impact.py::test_dynamic_function_pointer_limitation"
+  ],
+  "test_results": {
+    "total": 51,
+    "passed": 51,
+    "failed": 0,
+    "skipped": 0,
+    "structural_tests_passed": 15
+  },
+  "acceptance_criteria": {
+    "all_structural_scenarios_pass": true,
+    "depth_boundary_enforced": true,
+    "cyclic_dependencies_handled": true,
+    "parser_robustness_proven": true,
+    "dynamic_pointer_limitation_safe": true
+  },
+  "failures": [],
+  "evidence_files": [
+    "tests/structural/test_structural_impact.py",
+    "reports/final/structural_validation.md"
+  ],
+  "next_stage": "7",
+  "checkpoint": "Gate 6 passed cleanly. Ready for Gate 7: Semantic Fallback Validation.",
+  "gate": "GATE-6",
+  "title": "Validate deterministic graph analysis across 16 core structural scenarios",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

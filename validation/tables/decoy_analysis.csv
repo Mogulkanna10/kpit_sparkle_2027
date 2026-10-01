@@ -1,0 +1,11 @@
+scenario_id,scenario_group,input,expected,graph_prediction,contextual_prediction,aura_prediction,true_impact,false_positive,false_negative,confidence,review_required,selected_tests,safety_tests,latency_ms,memory_mb,status,notes
+C1,C_SEMANTIC_DECOYS,"Same vocabulary, different subsystem",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.069,46.2,PASS,
+C2,C_SEMANTIC_DECOYS,"Same variable name, different ECU",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.096,46.2,PASS,
+C3,C_SEMANTIC_DECOYS,"Same threshold, unrelated function",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.093,46.2,PASS,
+C4,C_SEMANTIC_DECOYS,"Same safety terminology, different mechanism",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.088,46.2,PASS,
+C5,C_SEMANTIC_DECOYS,"Same signal, different behavior",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.067,46.2,PASS,
+C6,C_SEMANTIC_DECOYS,"Same acronym, different meaning",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.083,46.2,PASS,
+C7,C_SEMANTIC_DECOYS,"Similar requirement, wrong implementation",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.061,46.2,PASS,
+C8,C_SEMANTIC_DECOYS,"Similar implementation, wrong requirement",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.079,46.2,PASS,
+C9,C_SEMANTIC_DECOYS,"Similar test description, wrong test",No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.083,46.2,PASS,
+C10,C_SEMANTIC_DECOYS,Dead code with high semantic similarity,No ADAS impacts selected (Decoy Suppressed),,,,,0,0,0.3,False,,,0.099,46.2,PASS,

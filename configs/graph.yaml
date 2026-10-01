@@ -1,0 +1,19 @@
+# Engineering Graph Configuration
+max_depth: 3
+allowed_node_types:
+  - "Requirement"
+  - "SoftwareComponent"
+  - "Port"
+  - "Interface"
+  - "DataElement"
+  - "Runnable"
+  - "C_Function"
+  - "C_Variable"
+  - "Test"
+  - "DiagnosticEvent"
+
+traversal_rules:
+  stop_at_architectural_boundary: true
+  enforce_typed_propagation: true
+  max_propagation_depth: 3
+  parser_edge_confidence: 1.0

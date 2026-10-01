@@ -1,0 +1,225 @@
+{
+  "mutation_id": "POWERTRAIN_M02_02",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_051",
+  "true_impacted_artifacts": [
+    "I_SWC_ThrottleControl_Out",
+    "I_SWC_ThrottleControl_Out_DE_SWC_ThrottleControl_TorqueDemand",
+    "PT_Func_051",
+    "PT_Func_053",
+    "PT_Func_055",
+    "PT_Func_057",
+    "R_PT_051",
+    "SWC_FuelInjection_TorqueDemand",
+    "SWC_ThrottleControl",
+    "SWC_ThrottleControl_P_SWC_ThrottleControl_Torque",
+    "SWC_ThrottleControl_RE_SWC_ThrottleControl_Step",
+    "SWC_ThrottleControl_Step",
+    "SWC_ThrottleControl_TorqueDemand",
+    "SWC_Transmission_TorqueDemand",
+    "TC_PT_051"
+  ],
+  "true_impacted_tests": [
+    "TC_PT_001",
+    "TC_PT_011",
+    "TC_PT_021",
+    "TC_PT_031",
+    "TC_PT_041",
+    "TC_PT_051",
+    "TC_PT_053",
+    "TC_PT_055",
+    "TC_PT_057",
+    "TC_PT_061",
+    "TC_PT_071"
+  ],
+  "safety_critical_tests": [
+    "TC_PT_001",
+    "TC_PT_011"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_PT_051",
+      "relation_path": [
+        "R_PT_051"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThrottleControl",
+      "relation_path": [
+        "R_PT_051",
+        "SWC_ThrottleControl"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_PT_051",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThrottleControl_P_SWC_ThrottleControl_Torque",
+      "relation_path": [
+        "R_PT_051",
+        "SWC_ThrottleControl",
+        "SWC_ThrottleControl_P_SWC_ThrottleControl_Torque"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThrottleControl_RE_SWC_ThrottleControl_Step",
+      "relation_path": [
+        "R_PT_051",
+        "SWC_ThrottleControl",
+        "SWC_ThrottleControl_RE_SWC_ThrottleControl_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_051",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051",
+        "PT_Func_051"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ThrottleControl_Out",
+      "relation_path": [
+        "R_PT_051",
+        "SWC_ThrottleControl",
+        "SWC_ThrottleControl_P_SWC_ThrottleControl_Torque",
+        "I_SWC_ThrottleControl_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThrottleControl_Step",
+      "relation_path": [
+        "R_PT_051",
+        "SWC_ThrottleControl",
+        "SWC_ThrottleControl_RE_SWC_ThrottleControl_Step",
+        "SWC_ThrottleControl_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThrottleControl_TorqueDemand",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051",
+        "PT_Func_051",
+        "SWC_ThrottleControl_TorqueDemand"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_053",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051",
+        "PT_Func_051",
+        "PT_Func_053"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ThrottleControl_Out_DE_SWC_ThrottleControl_TorqueDemand",
+      "relation_path": [
+        "R_PT_051",
+        "SWC_ThrottleControl",
+        "SWC_ThrottleControl_P_SWC_ThrottleControl_Torque",
+        "I_SWC_ThrottleControl_Out",
+        "I_SWC_ThrottleControl_Out_DE_SWC_ThrottleControl_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_Transmission_TorqueDemand",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051",
+        "PT_Func_051",
+        "PT_Func_053",
+        "SWC_Transmission_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_055",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051",
+        "PT_Func_051",
+        "PT_Func_053",
+        "PT_Func_055"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_FuelInjection_TorqueDemand",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051",
+        "PT_Func_051",
+        "PT_Func_053",
+        "PT_Func_055",
+        "SWC_FuelInjection_TorqueDemand"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_057",
+      "relation_path": [
+        "R_PT_051",
+        "TC_PT_051",
+        "PT_Func_051",
+        "PT_Func_053",
+        "PT_Func_055",
+        "PT_Func_057"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

@@ -1,0 +1,38 @@
+# AURA-Impact Architecture Configuration
+# Locked Architecture B: Two-Stage Bounded Graph + Context-Constrained Semantic Recovery
+
+version: "1.0.0"
+architecture_name: "Architecture_B_Routed_Hybrid"
+
+graph:
+  enabled: true
+  max_depth: 3
+  direction: "forward"
+  deterministic_confidence: 1.0
+
+semantic:
+  enabled: true
+  model: "AURA-DomainHashEmbedder-384"
+  embedding_dimension: 384
+  threshold: 0.45
+  top_k: 10
+  fallback_on_incomplete_structural: true
+
+impact_union:
+  mode: "union"  # S_final = S_struct UNION S_semantic
+  allow_weighted_fusion: false
+
+safety_gate:
+  mandatory: true
+  critical_levels:
+    - "ASIL_C"
+    - "ASIL_D"
+    - "ASIL-C"
+    - "ASIL-D"
+  invariant_assertion: true
+
+evidence:
+  generate_json: true
+  generate_html: true
+  generate_markdown: true
+  output_dir: "reports/analysis"

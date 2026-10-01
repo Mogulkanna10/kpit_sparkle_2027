@@ -1,0 +1,7 @@
+{
+  "master_seed": 42,
+  "dataset_generation_seed": 1001,
+  "mutation_seed": 2002,
+  "split_seed": 3003,
+  "evaluation_seed": 4004
+}

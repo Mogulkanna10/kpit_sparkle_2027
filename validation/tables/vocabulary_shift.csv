@@ -1,0 +1,5 @@
+shift_id,term_shift,target_artifact,recovered,similarity_score
+T1,TTC -> collision time,C_Function_CalculateTTC,False,0.65
+T2,derating -> power reduction,C_Function_CalculateTTC,False,0.65
+T3,braking -> deceleration control,C_Function_TriggerBrake,False,0.65
+T4,thermal protection -> over-temperature,C_Function_TriggerBrake,False,0.65

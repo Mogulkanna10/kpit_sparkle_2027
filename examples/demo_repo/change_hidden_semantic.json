@@ -1,0 +1,9 @@
+{
+  "artifact_id": "REQ_AEB_014",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Emergency braking actuation and deceleration pressure clamping on obstacle arrival.",
+  "change_semantics": "Emergency deceleration brake trigger clamp hydraulic braking hazard"
+}

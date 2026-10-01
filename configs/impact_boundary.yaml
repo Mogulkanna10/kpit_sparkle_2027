@@ -1,0 +1,32 @@
+impact_boundary:
+  version: "2.0.0"
+  description: "Formal AUTOSAR Architectural Impact Propagation Boundary"
+  
+  max_propagation_depth: 5
+  allowed_relation_paths:
+    - "Requirement -> IMPLEMENTS -> SWC -> OWNS -> Port -> REFERENCES -> Interface -> EXPOSES -> DataElement"
+    - "Requirement -> IMPLEMENTS -> SWC -> OWNS -> Runnable -> MAPS_TO -> C_Function"
+    - "C_Function -> CALLS -> C_Function"
+    - "C_Function -> READS -> DataElement"
+    - "C_Function -> WRITES -> DataElement"
+    - "Test -> TESTS -> C_Function"
+    - "Requirement -> VERIFIES -> Test"
+
+  call_graph_max_depth: 3
+  decay_factor: 0.85
+
+  edge_weights:
+    IMPLEMENTS: 1.0
+    MAPS_TO: 1.0
+    OWNS: 1.0
+    EXPOSES: 0.95
+    REFERENCES: 0.90
+    CALLS: 0.85
+    READS: 0.80
+    WRITES: 0.85
+    TESTS: 1.0
+    VERIFIES: 1.0
+    DEPENDS_ON: 0.80
+
+  domain_isolation:
+    enforce_same_project: true

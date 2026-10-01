@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M01_02",
+  "project_id": "ADAS",
+  "change_type": "M01",
+  "category_name": "Numeric requirement change",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_039",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 20 meters]",
+  "after_state": "R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 15 meters]",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 20 meters]\n+R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 15 meters]",
+  "intended_change_semantics": "Tighter distance threshold for emergency braking",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M01",
+    "repeat": 2
+  }
+}

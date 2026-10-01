@@ -1,0 +1,4 @@
+experiment,hsr,f1,fpr
+Exp_A (Train ADAS+PT -> Test Battery_EV),0.4,0.072,0.0
+Exp_B (Train ADAS+Battery -> Test PT),0.42,0.075,0.0
+Exp_C (Train PT+Battery -> Test ADAS),0.4,0.075,0.0

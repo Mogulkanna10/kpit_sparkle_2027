@@ -1,0 +1,4 @@
+run_index,structural_impacts_count,semantic_impacts_count,final_impacts,selected_tests,safety_tests,latency_ms
+1,0,0,,,,0.134
+2,0,0,,,,0.074
+3,0,0,,,,0.063

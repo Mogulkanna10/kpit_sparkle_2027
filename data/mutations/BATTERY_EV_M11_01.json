@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M11_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M11",
+  "category_name": "C constant change",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_008",
+  "artifact_type": "C_CODE",
+  "before_state": "#define BMS_FUNC_008_LIMIT 100",
+  "after_state": "#define BMS_FUNC_008_LIMIT 75",
+  "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-#define BMS_FUNC_008_LIMIT 100\n+#define BMS_FUNC_008_LIMIT 75",
+  "intended_change_semantics": "C preprocessor threshold constant modification",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M11",
+    "repeat": 1
+  }
+}

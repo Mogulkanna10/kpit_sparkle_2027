@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M03_02",
+  "project_id": "POWERTRAIN",
+  "change_type": "M03",
+  "category_name": "Semantic wording change",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_021",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+  "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+  "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+  "intended_change_semantics": "Paraphrased requirement semantics",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M03",
+    "repeat": 2
+  }
+}

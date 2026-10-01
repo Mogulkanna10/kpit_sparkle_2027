@@ -1,0 +1,98 @@
+{
+  "audit_title": "AURA-Impact Final Release Integrity Audit",
+  "audit_date": "2026-09-30T10:06:00+05:30",
+  "auditor": "Antigravity Engineering & Audit Agent",
+  "verdict": "FINAL_RELEASE_FREEZE_VERIFIED",
+  "git_state": {
+    "branch": "main",
+    "commit": "13a368ba8955e6f58398dce0a0834792823f2f2b",
+    "baseline_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+    "working_tree_status": "CLEAN"
+  },
+  "environment": {
+    "os": "Windows 11 x64",
+    "python_version": "3.14.0",
+    "pytest_version": "9.1.1"
+  },
+  "test_suite": {
+    "total_collected": 220,
+    "passed": 220,
+    "failed": 0,
+    "skipped": 0,
+    "duration_seconds": 10.44,
+    "subsystems_with_dedicated_tests": 28,
+    "all_subsystems_verified": true
+  },
+  "architecture": {
+    "locked_architecture": "Architecture B (Two-Stage Bounded Graph + Context-Constrained Semantic Fallback)",
+    "union_mode": "strict_union (S_final = S_struct UNION S_semantic)",
+    "weighted_fusion_status": "DISABLED_AND_PURGED_FROM_ACTIVE_PATH"
+  },
+  "semantic_model": {
+    "canonical_identity": "AURA-DomainHashEmbedder-384",
+    "dimension": 384,
+    "algorithm": "Deterministic domain hash vectorizer with ontology concept expansion",
+    "is_neural": false,
+    "bge_m3_status": "DEPRECATED_LABEL_PURGED"
+  },
+  "canonical_configuration": {
+    "config_file": "configs/final.yaml",
+    "consumer": "benchmark/final/config.py",
+    "threshold": 0.45,
+    "max_depth": 3,
+    "seed": 42,
+    "top_k": 10
+  },
+  "benchmark_metrics": {
+    "dataset": "150 mutations across ADAS, Powertrain, Battery_EV",
+    "dataset_fingerprint": "3bc8c11efb2398a0",
+    "aura_hybrid_recall": 0.6311,
+    "graph_only_recall": 0.6307,
+    "delta_semantic_improvement": 0.0004,
+    "test_suite_reduction_pct": 84.4,
+    "reproducibility": "BIT_FOR_BIT_IDENTICAL_IN_HOST_ENV"
+  },
+  "safety_metrics": {
+    "safety_invariant_enforcement": 1.0,
+    "safety_invariant_mutations": "150/150",
+    "autonomous_safety_discovery_recall": 0.4761,
+    "distinction_documented": true
+  },
+  "gate_audit_summary": {
+    "total_gates": 26,
+    "verified_pass": 26,
+    "requires_review": 0,
+    "failed": 0
+  },
+  "subsystem_test_matrix": {
+    "ArtifactLoader": "tests/unit/test_ingestion_and_provenance.py (PASS)",
+    "GitDiffParser": "tests/unit/test_ingestion_and_provenance.py (PASS)",
+    "CppTreeSitterParser": "tests/unit/test_parsers.py (PASS)",
+    "ARXMLParser": "tests/unit/test_parsers.py (PASS)",
+    "RequirementParser": "tests/unit/test_parsers.py (PASS)",
+    "TestParser": "tests/unit/test_parsers.py (PASS)",
+    "EngineeringGraph": "tests/unit/test_graph.py (PASS)",
+    "BoundedGraphTraverser": "tests/structural/test_structural_impact.py (PASS)",
+    "ProvenanceTracker": "tests/unit/test_ingestion_and_provenance.py (PASS)",
+    "ChangeDetector": "tests/unit/test_ranking_classifier.py (PASS)",
+    "ChangeClassifier": "tests/unit/test_ranking_classifier.py (PASS)",
+    "SemanticEmbedder": "tests/semantic/test_model_identity.py (PASS)",
+    "FAISSSemanticIndex": "tests/semantic/test_model_identity.py (PASS)",
+    "ContextFilter": "tests/semantic/test_semantic_fallback_validation.py (PASS)",
+    "ContextualRetriever": "tests/semantic/test_model_identity.py (PASS)",
+    "SemanticFallbackEngine": "tests/semantic/test_semantic_fallback_validation.py (PASS)",
+    "ImpactUnion": "tests/failure_injection/test_failure_injection.py (PASS)",
+    "ImpactFusionEngine": "tests/failure_injection/test_failure_injection.py (PASS)",
+    "ImpactRanker": "tests/unit/test_ranking_classifier.py (PASS)",
+    "SafetyGate": "tests/safety/test_safety_gate_hardening.py (PASS)",
+    "TestMapper": "tests/testing/test_regression_selection_validation.py (PASS)",
+    "RegressionSelector": "tests/unit/test_ingestion_and_provenance.py (PASS)",
+    "EvidenceLogger": "tests/evidence/test_evidence_audit_validation.py (PASS)",
+    "EvidenceModel": "tests/evidence/test_evidence_audit_validation.py (PASS)",
+    "MultiFormatReportGenerator": "tests/evidence/test_evidence_audit_validation.py (PASS)",
+    "AuraImpactPipeline": "tests/integration/test_pipeline.py (PASS)",
+    "CLI": "tests/cli/test_cli.py (PASS)",
+    "Dashboard": "tests/dashboard/test_dashboard.py (PASS)",
+    "BenchmarkRunner": "tests/benchmark/test_final_benchmark.py (PASS)"
+  }
+}

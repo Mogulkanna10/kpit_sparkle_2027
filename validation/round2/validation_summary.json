@@ -1,0 +1,85 @@
+{
+  "timestamp": "2026-09-30T14:59:40",
+  "total_scenarios": 12,
+  "passed_scenarios": 12,
+  "pass_rate_pct": 100.0,
+  "scenarios": [
+    {
+      "scenario_id": "SCENARIO_01",
+      "name": "Explicit Structural Dependency",
+      "passed": true,
+      "details": "Found 4 structural impacts, selected 1 tests."
+    },
+    {
+      "scenario_id": "SCENARIO_02",
+      "name": "Graph-Blind Hidden Semantic Dependency",
+      "passed": true,
+      "details": "Graph impacts: 0 | Semantic recovered: 3 | Safety test: True"
+    },
+    {
+      "scenario_id": "SCENARIO_03",
+      "name": "Semantic Decoy Rejection",
+      "passed": true,
+      "details": "Rejected 2 out-of-domain decoys via hard subsystem isolation."
+    },
+    {
+      "scenario_id": "SCENARIO_04",
+      "name": "Ambiguity Surfacing (REVIEW_REQUIRED)",
+      "passed": true,
+      "details": "Surfaced 7 items for manual engineer review."
+    },
+    {
+      "scenario_id": "SCENARIO_05",
+      "name": "Safety Gate Invariant Enforcement",
+      "passed": true,
+      "details": "Enforced T_safe subset T_final: 100% mandatory tests retained ({'TC_AEB_001', 'TC_AEB_002'})."
+    },
+    {
+      "scenario_id": "SCENARIO_06",
+      "name": "Traceability Degradation Resilience",
+      "passed": true,
+      "details": "Recovered 4 semantic impacts when graph links were completely absent."
+    },
+    {
+      "scenario_id": "SCENARIO_07",
+      "name": "Cross-Subsystem Collision Rejection",
+      "passed": true,
+      "details": "Rejected acronym collision (TTC in Telematics vs TTC in ADAS): Subsystem mismatch: Candidate belongs to 'Infotainment', expected 'ADAS'"
+    },
+    {
+      "scenario_id": "SCENARIO_08",
+      "name": "Stale Artifact / Index Detection",
+      "passed": true,
+      "details": "Detected staleness flag: DELETED:fake_modified_file.c"
+    },
+    {
+      "scenario_id": "SCENARIO_09",
+      "name": "Malformed Input Graceful Degradation",
+      "passed": true,
+      "details": "Empty/malformed input handled safely without unhandled exception."
+    },
+    {
+      "scenario_id": "SCENARIO_10",
+      "name": "Large Project Scaling (Full ADAS Project)",
+      "passed": true,
+      "details": "Ingested 170+ tests, analyzed change in 57.50 ms with 94.12% suite reduction."
+    },
+    {
+      "scenario_id": "SCENARIO_11",
+      "name": "Multiple Simultaneous Modifications",
+      "passed": true,
+      "details": "Analyzed 2 concurrent changes, selected 2 tests."
+    },
+    {
+      "scenario_id": "SCENARIO_12",
+      "name": "No-Impact Isolated Change",
+      "passed": true,
+      "details": "Documentation change yielded 0 false positive impacts and 0 unnecessary test executions."
+    }
+  ],
+  "performance_summary": {
+    "mean_total_latency_ms": 5.34,
+    "max_latency_ms": 57.502,
+    "min_latency_ms": 0.004
+  }
+}

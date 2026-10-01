@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M15_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M15",
+  "category_name": "Unrelated/no-impact change",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_005",
+  "artifact_type": "C_CODE",
+  "before_state": "/* unreferenced local helper */ static void dead_helper() { int a = 1; }",
+  "after_state": "/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+  "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-/* unreferenced local helper */ static void dead_helper() { int a = 1; }\n+/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+  "intended_change_semantics": "Modification inside uncalled local dead code",
+  "expected_impact_scope": "LOCAL",
+  "metadata": {
+    "change_type": "M15",
+    "repeat": 1
+  }
+}

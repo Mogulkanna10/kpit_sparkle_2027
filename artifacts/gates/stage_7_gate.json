@@ -1,0 +1,54 @@
+{
+  "stage": "7",
+  "gate_id": "GATE-07",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:42:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "branch": "main",
+  "objective": "Validate context-constrained semantic fallback, decoy suppression, REVIEW_REQUIRED, and index staleness detection",
+  "changes": [
+    "Created tests/semantic/test_semantic_fallback_validation.py with 14 test functions covering all required semantic scenarios",
+    "Created reports/final/semantic_validation.md",
+    "Created artifacts/gates/stage_7_gate.json"
+  ],
+  "tests": [
+    "tests/semantic/test_semantic_fallback_validation.py::test_hidden_semantic_dependency",
+    "tests/semantic/test_semantic_fallback_validation.py::test_same_words_different_subsystem",
+    "tests/semantic/test_semantic_fallback_validation.py::test_same_acronym_different_meaning",
+    "tests/semantic/test_semantic_fallback_validation.py::test_same_physical_quantity_different_function",
+    "tests/semantic/test_semantic_fallback_validation.py::test_documentation_terminology_recovery",
+    "tests/semantic/test_semantic_fallback_validation.py::test_dead_unrelated_code_low_similarity",
+    "tests/semantic/test_semantic_fallback_validation.py::test_cross_artifact_decoy_rejection",
+    "tests/semantic/test_semantic_fallback_validation.py::test_ambiguous_case_abstention",
+    "tests/semantic/test_semantic_fallback_validation.py::test_missing_context_handling",
+    "tests/semantic/test_semantic_fallback_validation.py::test_missing_index_handling",
+    "tests/semantic/test_semantic_fallback_validation.py::test_stale_index_detection",
+    "tests/semantic/test_semantic_fallback_validation.py::test_low_similarity_rejection",
+    "tests/semantic/test_semantic_fallback_validation.py::test_top_k_boundary",
+    "tests/semantic/test_semantic_fallback_validation.py::test_threshold_boundary"
+  ],
+  "test_results": {
+    "total": 65,
+    "passed": 65,
+    "failed": 0,
+    "skipped": 0,
+    "semantic_validation_passed": 14
+  },
+  "acceptance_criteria": {
+    "hidden_semantic_recovery_proven": true,
+    "decoy_rejection_proven": true,
+    "review_required_abstention_proven": true,
+    "stale_index_detection_proven": true,
+    "threshold_boundary_proven": true
+  },
+  "failures": [],
+  "evidence_files": [
+    "tests/semantic/test_semantic_fallback_validation.py",
+    "reports/final/semantic_validation.md"
+  ],
+  "next_stage": "8",
+  "checkpoint": "Gate 7 passed cleanly. Ready for Gate 8: Safety Gate Hardening.",
+  "gate": "GATE-7",
+  "title": "Validate context-constrained semantic fallback, decoy suppression, REVIEW_REQUIRED, and index staleness detection",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

@@ -1,0 +1,6 @@
+stage,offline_ms,online_ms
+Graph Indexing,1.2,0.0
+Semantic Indexing,4.8,0.0
+Graph Traversal,0.0,0.15
+Context Filtering,0.0,0.45
+Impact Fusion & Safety Gate,0.0,0.1

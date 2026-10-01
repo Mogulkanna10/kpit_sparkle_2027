@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M12_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M12",
+  "category_name": "Function dependency change",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_035",
+  "artifact_type": "C_CODE",
+  "before_state": "void BMS_Func_035() { StepA(); StepB(); }",
+  "after_state": "void BMS_Func_035() { StepA(); StepB(); Step_Validation(); }",
+  "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_035() { StepA(); StepB(); }\n+void BMS_Func_035() { StepA(); StepB(); Step_Validation(); }",
+  "intended_change_semantics": "Added dependency call to validation function",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M12",
+    "repeat": 2
+  }
+}

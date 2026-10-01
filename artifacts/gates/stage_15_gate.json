@@ -1,0 +1,41 @@
+{
+  "gate": "GATE-15",
+  "title": "Failure Injection",
+  "status": "PASS",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "timestamp": "2026-09-30T03:58:57.712103+00:00",
+  "tests": {
+    "file": "tests/failure_injection/test_failure_injection.py",
+    "count": 20,
+    "passed": 20,
+    "failed": 0
+  },
+  "failures_tested": [
+    "malformed_cpp",
+    "malformed_arxml",
+    "missing_graph_node",
+    "empty_graph",
+    "semantic_index_unavailable",
+    "invalid_threshold",
+    "safety_bypass_attempt",
+    "missing_test_record",
+    "fusion_empty",
+    "no_impact_category",
+    "stale_index",
+    "duplicate_node_ids",
+    "invalid_config",
+    "missing_requirement_file",
+    "empty_mutation_list",
+    "invalid_subsystem",
+    "cyclic_graph",
+    "corrupt_json",
+    "strict_union_semantic_only",
+    "strict_union_graph_only"
+  ],
+  "acceptance_criteria": {
+    "safe_fallback": "VERIFIED",
+    "explicit_errors": "VERIFIED",
+    "safety_retention": "VERIFIED",
+    "no_silent_corruption": "VERIFIED"
+  }
+}

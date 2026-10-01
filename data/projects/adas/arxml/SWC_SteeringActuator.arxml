@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ADAS_Components</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE>
+          <SHORT-NAME>SWC_SteeringActuator</SHORT-NAME>
+          <DESC>AUTOSAR Application SWC SWC_SteeringActuator for ADAS control sub-system</DESC>
+          <PORTS>
+            <P-PORT-PROTOTYPE>
+              <SHORT-NAME>P_SWC_SteeringActuator_Command</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF>/Interfaces/I_SWC_SteeringActuator_Out</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE>
+              <SHORT-NAME>R_SWC_SteeringActuator_SensorInput</SHORT-NAME>
+              <REQUIRED-INTERFACE-TREF>/Interfaces/I_SWC_SteeringActuator_In</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
+          <SWC-INTERNAL-BEHAVIOR>
+            <SHORT-NAME>SWC_SteeringActuator_Behavior</SHORT-NAME>
+            <RUNNABLES>
+              <RUNNABLE-ENTITY>
+                <SHORT-NAME>RE_SWC_SteeringActuator_Step</SHORT-NAME>
+                <SYMBOL>SWC_SteeringActuator_Step</SYMBOL>
+              </RUNNABLE-ENTITY>
+              <RUNNABLE-ENTITY>
+                <SHORT-NAME>RE_SWC_SteeringActuator_Init</SHORT-NAME>
+                <SYMBOL>SWC_SteeringActuator_Init</SYMBOL>
+              </RUNNABLE-ENTITY>
+            </RUNNABLES>
+          </SWC-INTERNAL-BEHAVIOR>
+        </APPLICATION-SW-COMPONENT-TYPE>
+        <SENDER-RECEIVER-INTERFACE>
+          <SHORT-NAME>I_SWC_SteeringActuator_Out</SHORT-NAME>
+          <DESC>Sender Receiver Interface for SWC_SteeringActuator outputs</DESC>
+          <DATA-ELEMENTS>
+            <VARIABLE-DATA-PROTOTYPE>
+              <SHORT-NAME>DE_SWC_SteeringActuator_Signal</SHORT-NAME>
+              <TYPE-TREF>/AUTOSAR/Platform/uint32</TYPE-TREF>
+            </VARIABLE-DATA-PROTOTYPE>
+          </DATA-ELEMENTS>
+        </SENDER-RECEIVER-INTERFACE>
+        <SENDER-RECEIVER-INTERFACE>
+          <SHORT-NAME>I_SWC_SteeringActuator_In</SHORT-NAME>
+          <DESC>Sender Receiver Interface for SWC_SteeringActuator inputs</DESC>
+          <DATA-ELEMENTS>
+            <VARIABLE-DATA-PROTOTYPE>
+              <SHORT-NAME>DE_SWC_SteeringActuator_RawData</SHORT-NAME>
+              <TYPE-TREF>/AUTOSAR/Platform/uint16</TYPE-TREF>
+            </VARIABLE-DATA-PROTOTYPE>
+          </DATA-ELEMENTS>
+        </SENDER-RECEIVER-INTERFACE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

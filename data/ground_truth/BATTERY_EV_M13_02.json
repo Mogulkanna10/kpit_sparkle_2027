@@ -1,0 +1,27 @@
+{
+  "mutation_id": "BATTERY_EV_M13_02",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\arxml\\SWC_BMS_Main.arxml",
+  "target_node_id": "SWC_BMS_Main_Step",
+  "true_impacted_artifacts": [
+    "SWC_BMS_Main_Step"
+  ],
+  "true_impacted_tests": [],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "SWC_BMS_Main_Step",
+      "relation_path": [
+        "SWC_BMS_Main_Step"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

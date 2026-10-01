@@ -1,0 +1,5 @@
+strategy,tests_selected,test_reduction_pct,test_recall,test_precision,safety_recall
+Full Test Suite,4,0.0,1.0,0.5,1.0
+Graph-Only Selector,1,75.0,0.5,1.0,0.5
+Contextual Semantic Selector,2,50.0,1.0,1.0,1.0
+AURA-Impact (Architecture B),2,50.0,1.0,1.0,1.0

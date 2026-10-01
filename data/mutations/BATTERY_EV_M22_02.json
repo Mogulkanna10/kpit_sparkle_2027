@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M22_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M22",
+  "category_name": "Structural rename with same semantics",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_040",
+  "artifact_type": "C_CODE",
+  "before_state": "void BMS_Func_040_Old() { execute(); }",
+  "after_state": "void BMS_Func_040_New() { execute(); }",
+  "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_040_Old() { execute(); }\n+void BMS_Func_040_New() { execute(); }",
+  "intended_change_semantics": "Structural symbol renaming preserving body logic",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M22",
+    "repeat": 2
+  }
+}

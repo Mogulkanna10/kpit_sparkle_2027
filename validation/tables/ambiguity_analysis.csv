@@ -1,0 +1,6 @@
+scenario_id,scenario_group,input,expected,graph_prediction,contextual_prediction,aura_prediction,true_impact,false_positive,false_negative,confidence,review_required,selected_tests,safety_tests,latency_ms,memory_mb,status,notes
+D1,D_AMBIGUITY,Insufficient subsystem info,REVIEW_REQUIRED / Abstention,,,,,0,0,0.25,True,,,0.085,46.5,PASS,
+D2,D_AMBIGUITY,Multiple equally plausible targets,REVIEW_REQUIRED / Abstention,,,,,0,0,0.25,True,,,0.084,46.5,PASS,
+D3,D_AMBIGUITY,Requirement too vague,REVIEW_REQUIRED / Abstention,,,,,0,0,0.25,True,,,0.089,46.5,PASS,
+D4,D_AMBIGUITY,Conflicting artifact context,REVIEW_REQUIRED / Abstention,,,,,0,0,0.25,True,,,0.082,46.5,PASS,
+D5,D_AMBIGUITY,Conflicting semantic signals,REVIEW_REQUIRED / Abstention,,,,,0,0,0.25,True,,,0.08,46.5,PASS,

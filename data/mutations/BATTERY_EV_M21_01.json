@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M21_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M21",
+  "category_name": "Lexical renaming",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_022",
+  "artifact_type": "C_CODE",
+  "before_state": "int old_calc_var = 10;",
+  "after_state": "int new_calc_var = 10; /* renamed */",
+  "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-int old_calc_var = 10;\n+int new_calc_var = 10; /* renamed */",
+  "intended_change_semantics": "Lexical renaming of internal variable",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M21",
+    "repeat": 1
+  }
+}

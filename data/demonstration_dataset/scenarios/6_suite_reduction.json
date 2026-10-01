@@ -1,0 +1,16 @@
+{
+  "name": "Large Regression Suite Reduction",
+  "description": "Starting with 100 regression tests, localized change in REQ_AEB_001 selects only required verification tests (96% suite reduction).",
+  "artifact_id": "REQ_AEB_001",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Update Time-to-Collision threshold formula.",
+  "change_semantics": "Time-to-collision calculation TTC radar distance",
+  "expected": {
+    "total_tests": 100,
+    "selected_tests_max": 5,
+    "reduction_pct_min": 95.0
+  }
+}

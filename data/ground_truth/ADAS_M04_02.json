@@ -1,0 +1,511 @@
+{
+  "mutation_id": "ADAS_M04_02",
+  "project_id": "ADAS",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_037",
+  "true_impacted_artifacts": [
+    "ADAS_Func_034",
+    "ADAS_Func_035",
+    "ADAS_Func_036",
+    "ADAS_Func_037",
+    "ADAS_Func_038",
+    "ADAS_Func_039",
+    "ADAS_Func_040",
+    "ADAS_Func_042",
+    "ADAS_Func_043",
+    "ADAS_Func_046",
+    "I_SWC_SteeringActuator_In",
+    "I_SWC_SteeringActuator_In_DE_SWC_SteeringActuator_RawData",
+    "I_SWC_SteeringActuator_Out",
+    "I_SWC_SteeringActuator_Out_DE_SWC_SteeringActuator_Signal",
+    "R_ADAS_037",
+    "SWC_BrakeActuator_RawData",
+    "SWC_BrakeActuator_Signal",
+    "SWC_EmergencySteering_RawData",
+    "SWC_EmergencySteering_Signal",
+    "SWC_LKA_RawData",
+    "SWC_LKA_Signal",
+    "SWC_SensorFusion_RawData",
+    "SWC_SensorFusion_Signal",
+    "SWC_SpeedLimiter_RawData",
+    "SWC_SpeedLimiter_Signal",
+    "SWC_SteeringActuator",
+    "SWC_SteeringActuator_Init",
+    "SWC_SteeringActuator_P_SWC_SteeringActuator_Command",
+    "SWC_SteeringActuator_RE_SWC_SteeringActuator_Init",
+    "SWC_SteeringActuator_RE_SWC_SteeringActuator_Step",
+    "SWC_SteeringActuator_R_SWC_SteeringActuator_SensorInput",
+    "SWC_SteeringActuator_RawData",
+    "SWC_SteeringActuator_Signal",
+    "SWC_SteeringActuator_Step",
+    "TC_ADAS_037"
+  ],
+  "true_impacted_tests": [
+    "TC_ADAS_007",
+    "TC_ADAS_017",
+    "TC_ADAS_027",
+    "TC_ADAS_034",
+    "TC_ADAS_035",
+    "TC_ADAS_036",
+    "TC_ADAS_037",
+    "TC_ADAS_038",
+    "TC_ADAS_039",
+    "TC_ADAS_040",
+    "TC_ADAS_042",
+    "TC_ADAS_043",
+    "TC_ADAS_046",
+    "TC_ADAS_047",
+    "TC_ADAS_057",
+    "TC_ADAS_067",
+    "TC_ADAS_077"
+  ],
+  "safety_critical_tests": [
+    "TC_ADAS_007",
+    "TC_ADAS_017"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_ADAS_037",
+      "relation_path": [
+        "R_ADAS_037"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_ADAS_037",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_P_SWC_SteeringActuator_Command",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_P_SWC_SteeringActuator_Command"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_R_SWC_SteeringActuator_SensorInput",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_R_SWC_SteeringActuator_SensorInput"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_RE_SWC_SteeringActuator_Step",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_RE_SWC_SteeringActuator_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_RE_SWC_SteeringActuator_Init",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_RE_SWC_SteeringActuator_Init"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_037",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SteeringActuator_Out",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_P_SWC_SteeringActuator_Command",
+        "I_SWC_SteeringActuator_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SteeringActuator_In",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_R_SWC_SteeringActuator_SensorInput",
+        "I_SWC_SteeringActuator_In"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_Step",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_RE_SWC_SteeringActuator_Step",
+        "SWC_SteeringActuator_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_Init",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_RE_SWC_SteeringActuator_Init",
+        "SWC_SteeringActuator_Init"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_040",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_036",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_036"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_Signal",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "SWC_SteeringActuator_Signal"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_RawData",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "SWC_SteeringActuator_RawData"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SteeringActuator_Out_DE_SWC_SteeringActuator_Signal",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_P_SWC_SteeringActuator_Command",
+        "I_SWC_SteeringActuator_Out",
+        "I_SWC_SteeringActuator_Out_DE_SWC_SteeringActuator_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SteeringActuator_In_DE_SWC_SteeringActuator_RawData",
+      "relation_path": [
+        "R_ADAS_037",
+        "SWC_SteeringActuator",
+        "SWC_SteeringActuator_R_SWC_SteeringActuator_SensorInput",
+        "I_SWC_SteeringActuator_In",
+        "I_SWC_SteeringActuator_In_DE_SWC_SteeringActuator_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_EmergencySteering_Signal",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "SWC_EmergencySteering_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_EmergencySteering_RawData",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "SWC_EmergencySteering_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_043",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_043"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_039",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_039"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BrakeActuator_Signal",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_036",
+        "SWC_BrakeActuator_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_035",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_036",
+        "ADAS_Func_035"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BrakeActuator_RawData",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_036",
+        "SWC_BrakeActuator_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_LKA_Signal",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_043",
+        "SWC_LKA_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_042",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_043",
+        "ADAS_Func_042"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_046",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_043",
+        "ADAS_Func_046"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_LKA_RawData",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_043",
+        "SWC_LKA_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_RawData",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_039",
+        "SWC_SpeedLimiter_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_038",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_039",
+        "ADAS_Func_038"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_Signal",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_039",
+        "SWC_SpeedLimiter_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SensorFusion_Signal",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_036",
+        "ADAS_Func_035",
+        "SWC_SensorFusion_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SensorFusion_RawData",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_036",
+        "ADAS_Func_035",
+        "SWC_SensorFusion_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_034",
+      "relation_path": [
+        "R_ADAS_037",
+        "TC_ADAS_037",
+        "ADAS_Func_037",
+        "ADAS_Func_036",
+        "ADAS_Func_035",
+        "ADAS_Func_034"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

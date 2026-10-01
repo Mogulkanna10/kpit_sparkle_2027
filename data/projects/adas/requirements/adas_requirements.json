@@ -1,0 +1,562 @@
+[
+  {
+    "id": "REQ_ADAS_001",
+    "name": "AEB_Deceleration_Req_01",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 1.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_001"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_002",
+    "name": "AEB_Deceleration_Req_02",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 2.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_002"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_003",
+    "name": "AEB_Deceleration_Req_03",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 3.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_003"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_004",
+    "name": "AEB_Deceleration_Req_04",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 4.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_004"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_005",
+    "name": "AEB_Deceleration_Req_05",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 5.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_005"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_006",
+    "name": "AEB_Deceleration_Req_06",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 6.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_006"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_007",
+    "name": "AEB_Deceleration_Req_07",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 7.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_007"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_008",
+    "name": "AEB_Deceleration_Req_08",
+    "description": "Emergency braking deceleration and collision mitigation when obstacle hazard detected. Operational verification requirement variant 8.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_008"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_009",
+    "name": "ACC_Headway_Req_01",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 1.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_009"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_010",
+    "name": "ACC_Headway_Req_02",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 2.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_010"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_011",
+    "name": "ACC_Headway_Req_03",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 3.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_011"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_012",
+    "name": "ACC_Headway_Req_04",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 4.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_012"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_013",
+    "name": "ACC_Headway_Req_05",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 5.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_013"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_014",
+    "name": "ACC_Headway_Req_06",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 6.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_014"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_015",
+    "name": "ACC_Headway_Req_07",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 7.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_015"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_016",
+    "name": "ACC_Headway_Req_08",
+    "description": "Adaptive cruise headway distance tracking and vehicle speed regulation. Operational verification requirement variant 8.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_016"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_017",
+    "name": "LKA_Steering_Req_01",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 1.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_017"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_018",
+    "name": "LKA_Steering_Req_02",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 2.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_018"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_019",
+    "name": "LKA_Steering_Req_03",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 3.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_019"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_020",
+    "name": "LKA_Steering_Req_04",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 4.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_020"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_021",
+    "name": "LKA_Steering_Req_05",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 5.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_021"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_022",
+    "name": "LKA_Steering_Req_06",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 6.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_022"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_023",
+    "name": "LKA_Steering_Req_07",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 7.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_023"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_024",
+    "name": "LKA_Steering_Req_08",
+    "description": "Lane keeping assist steering torque regulation and lane departure avoidance. Operational verification requirement variant 8.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_024"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_025",
+    "name": "Sensor_Radar_Req_01",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 1.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_025"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_026",
+    "name": "Sensor_Radar_Req_02",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 2.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_026"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_027",
+    "name": "Sensor_Radar_Req_03",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 3.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_027"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_028",
+    "name": "Sensor_Radar_Req_04",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 4.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_028"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_029",
+    "name": "Sensor_Radar_Req_05",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 5.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_029"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_030",
+    "name": "Sensor_Radar_Req_06",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 6.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_030"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_031",
+    "name": "Sensor_Radar_Req_07",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 7.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_031"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_032",
+    "name": "Sensor_Radar_Req_08",
+    "description": "Long-range radar object distance measurement and relative velocity tracking. Operational verification requirement variant 8.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_032"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_033",
+    "name": "Sensor_Camera_Req_01",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 1.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_033"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_034",
+    "name": "Sensor_Camera_Req_02",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 2.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_034"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_035",
+    "name": "Sensor_Camera_Req_03",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 3.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_035"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_036",
+    "name": "Sensor_Camera_Req_04",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 4.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_036"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_037",
+    "name": "Sensor_Camera_Req_05",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 5.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_037"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_038",
+    "name": "Sensor_Camera_Req_06",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 6.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_038"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_039",
+    "name": "Sensor_Camera_Req_07",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 7.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_039"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_040",
+    "name": "Sensor_Camera_Req_08",
+    "description": "Front camera vision object detection and pedestrian path prediction. Operational verification requirement variant 8.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_040"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_041",
+    "name": "Actuator_Brake_Req_01",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 1.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_041"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_042",
+    "name": "Actuator_Brake_Req_02",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 2.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_042"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_043",
+    "name": "Actuator_Brake_Req_03",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 3.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_043"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_044",
+    "name": "Actuator_Brake_Req_04",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 4.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_044"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_045",
+    "name": "Actuator_Brake_Req_05",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 5.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_045"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_046",
+    "name": "Actuator_Brake_Req_06",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 6.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_046"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_047",
+    "name": "Actuator_Brake_Req_07",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 7.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_047"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_048",
+    "name": "Actuator_Brake_Req_08",
+    "description": "Hydraulic brake pressure hold and electronic stability brake intervention. Operational verification requirement variant 8.",
+    "asil_level": "ASIL_D",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_048"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_049",
+    "name": "Driver_Alert_Req_01",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 1.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_049"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_050",
+    "name": "Driver_Alert_Req_02",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 2.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_050"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_051",
+    "name": "Driver_Alert_Req_03",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 3.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_051"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_052",
+    "name": "Driver_Alert_Req_04",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 4.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_052"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_053",
+    "name": "Driver_Alert_Req_05",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 5.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_053"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_054",
+    "name": "Driver_Alert_Req_06",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 6.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_054"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_055",
+    "name": "Driver_Alert_Req_07",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 7.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_055"
+    ]
+  },
+  {
+    "id": "REQ_ADAS_056",
+    "name": "Driver_Alert_Req_08",
+    "description": "Audio and visual collision warning indication upon time-to-collision threshold. Operational verification requirement variant 8.",
+    "asil_level": "ASIL_B",
+    "project": "ADAS",
+    "verification_tests": [
+      "TC_ADAS_056"
+    ]
+  }
+]

@@ -1,0 +1,31 @@
+mutation_id,change_type,project,query,true_target,rank1,rank3,rank5,rank10,rank_true_target,MRR,top_candidate,top_raw_cosine,top_context_score,top_final_score
+ADAS_M03_01,M03,ADAS,The automated braking system shall execute autonomous stopping when a collision ,R_ADAS_033,False,False,False,False,>10,0.0,R_ADAS_011,0.31666672229766846,0.53,0.4233
+ADAS_M04_01,M04,ADAS,Compute longitudinal velocity and exert deceleration force.,R_ADAS_021,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+ADAS_M05_01,M05,ADAS,R_GEN_050: Control module SWC_EmergencySteering shall compute actuation command ,R_ADAS_050,True,True,True,True,1,1.0,R_ADAS_050,0.6502702832221985,0.7,0.6751
+ADAS_M19_01,M19,ADAS,Calibrate parking brake pressure hold threshold.,R_ADAS_031,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+ADAS_M23_01,M23,ADAS,Radar-guided distance tracking regulation.,R_ADAS_026,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+ADAS_M03_02,M03,ADAS,The automated braking system shall execute autonomous stopping when a collision ,R_ADAS_034,False,False,False,False,>10,0.0,R_ADAS_011,0.31666672229766846,0.53,0.4233
+ADAS_M04_02,M04,ADAS,Compute longitudinal velocity and exert deceleration force.,R_ADAS_037,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+ADAS_M05_02,M05,ADAS,R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command ,R_ADAS_040,True,True,True,True,1,1.0,R_ADAS_040,0.6522367000579834,0.7,0.6761
+ADAS_M19_02,M19,ADAS,Calibrate parking brake pressure hold threshold.,R_ADAS_029,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+ADAS_M23_02,M23,ADAS,Radar-guided distance tracking regulation.,R_ADAS_019,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M03_01,M03,POWERTRAIN,The automated braking system shall execute autonomous stopping when a collision ,R_PT_028,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M04_01,M04,POWERTRAIN,Compute longitudinal velocity and exert deceleration force.,R_PT_052,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M05_01,M05,POWERTRAIN,Electronic throttle control shall regulate intake air valve position within 2.5%,R_PT_006,False,False,True,True,4,0.25,R_PT_036,0.5858328938484192,0.7,0.6429
+POWERTRAIN_M19_01,M19,POWERTRAIN,Calibrate parking brake pressure hold threshold.,R_PT_002,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M23_01,M23,POWERTRAIN,Radar-guided distance tracking regulation.,R_PT_016,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M03_02,M03,POWERTRAIN,The automated braking system shall execute autonomous stopping when a collision ,R_PT_021,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M04_02,M04,POWERTRAIN,Compute longitudinal velocity and exert deceleration force.,R_PT_022,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M05_02,M05,POWERTRAIN,Electronic throttle control shall regulate intake air valve position within 2.5%,R_PT_021,True,True,True,True,1,1.0,R_PT_021,0.5396724939346313,0.7,0.6198
+POWERTRAIN_M19_02,M19,POWERTRAIN,Calibrate parking brake pressure hold threshold.,R_PT_032,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+POWERTRAIN_M23_02,M23,POWERTRAIN,Radar-guided distance tracking regulation.,R_PT_025,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M03_01,M03,BATTERY_EV,The automated braking system shall execute autonomous stopping when a collision ,R_BMS_045,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M04_01,M04,BATTERY_EV,Compute longitudinal velocity and exert deceleration force.,R_BMS_041,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M05_01,M05,BATTERY_EV,Thermal runaway monitor shall isolate high voltage contactors within 18 ms if ce,R_BMS_024,True,True,True,True,1,1.0,R_BMS_024,0.7191010117530823,0.7,0.7096
+BATTERY_EV_M19_01,M19,BATTERY_EV,Calibrate parking brake pressure hold threshold.,R_BMS_014,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M23_01,M23,BATTERY_EV,Radar-guided distance tracking regulation.,R_BMS_011,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M03_02,M03,BATTERY_EV,The automated braking system shall execute autonomous stopping when a collision ,R_BMS_016,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M04_02,M04,BATTERY_EV,Compute longitudinal velocity and exert deceleration force.,R_BMS_037,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M05_02,M05,BATTERY_EV,Thermal runaway monitor shall isolate high voltage contactors within 10 ms if ce,R_BMS_030,True,True,True,True,1,1.0,R_BMS_030,0.7353291511535645,0.7,0.7177
+BATTERY_EV_M19_02,M19,BATTERY_EV,Calibrate parking brake pressure hold threshold.,R_BMS_012,False,False,False,False,>10,0.0,None,0.0,0.0,0.0
+BATTERY_EV_M23_02,M23,BATTERY_EV,Radar-guided distance tracking regulation.,R_BMS_036,False,False,False,False,>10,0.0,None,0.0,0.0,0.0

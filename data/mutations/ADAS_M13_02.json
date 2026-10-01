@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M13_02",
+  "project_id": "ADAS",
+  "change_type": "M13",
+  "category_name": "Variable dependency change",
+  "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+  "target_node_id": "ADAS_Func_081",
+  "artifact_type": "C_CODE",
+  "before_state": "g_status = 1;",
+  "after_state": "g_filtered_status = 1;",
+  "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-g_status = 1;\n+g_filtered_status = 1;",
+  "intended_change_semantics": "Modified global state variable write dependency",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M13",
+    "repeat": 2
+  }
+}

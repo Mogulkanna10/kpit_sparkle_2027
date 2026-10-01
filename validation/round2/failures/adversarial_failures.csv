@@ -1,0 +1,2 @@
+scenario,input,expected,actual,failure_type,severity,root_cause,status
+ADV_02_Extreme_Vocabulary_Shift,Hardware chirp antenna frequency terms vs generic TTC requirement,Potential low cosine similarity requiring manual interface mapping,"Passed context score=1.00, but raw cosine similarity is low (<0.35)",Known_Limitation_OOV,LOW,Deterministic domain hash vectorizer relies on automotive domain terms; extreme RF antenna hardware terms require explicit interface mapping,DOCUMENTED_KNOWN_LIMITATION

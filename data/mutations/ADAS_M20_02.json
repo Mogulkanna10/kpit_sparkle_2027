@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M20_02",
+  "project_id": "ADAS",
+  "change_type": "M20",
+  "category_name": "Multiple simultaneous changes",
+  "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+  "target_node_id": "ADAS_Func_060",
+  "artifact_type": "C_CODE",
+  "before_state": "void ADAS_Func_060() { compute(); send(); }",
+  "after_state": "void ADAS_Func_060() { compute_v2(); filter(); send(); }",
+  "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-void ADAS_Func_060() { compute(); send(); }\n+void ADAS_Func_060() { compute_v2(); filter(); send(); }",
+  "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M20",
+    "repeat": 2
+  }
+}

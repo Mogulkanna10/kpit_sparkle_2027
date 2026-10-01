@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M22_01",
+  "project_id": "ADAS",
+  "change_type": "M22",
+  "category_name": "Structural rename with same semantics",
+  "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+  "target_node_id": "ADAS_Func_057",
+  "artifact_type": "C_CODE",
+  "before_state": "void ADAS_Func_057_Old() { execute(); }",
+  "after_state": "void ADAS_Func_057_New() { execute(); }",
+  "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-void ADAS_Func_057_Old() { execute(); }\n+void ADAS_Func_057_New() { execute(); }",
+  "intended_change_semantics": "Structural symbol renaming preserving body logic",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M22",
+    "repeat": 1
+  }
+}

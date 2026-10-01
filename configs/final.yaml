@@ -1,0 +1,94 @@
+# ==============================================================================
+# AURA-IMPACT CANONICAL PRODUCTION CONFIGURATION
+# Locked Architecture B: Two-Stage Bounded Graph + Context-Constrained Semantic Fallback
+# Single Authoritative Configuration File for KPIT Sparkle 2027 Prototype
+# ==============================================================================
+
+version: "1.0.0-PROD"
+release_target: "KPIT_Sparkle_2027"
+locked: true
+lock_date: "2026-09-29"
+
+# Master Reproducibility Seed
+master_seed: 42
+
+# Orchestrator Specification
+pipeline:
+  orchestrator: "src.api.pipeline.AuraImpactPipeline"
+  mode: "two_stage_strict_union"
+
+# Stage 1: Deterministic Engineering Graph Traversal
+graph:
+  enabled: true
+  traverser: "src.graph.traversal.BoundedGraphTraverser"
+  max_depth: 3
+  call_graph_max_depth: 3
+  direction: "forward"
+  deterministic_confidence: 1.0
+  allow_cycles: false
+  track_provenance: true
+
+# Stage 2: Context-Constrained Semantic Fallback
+semantic:
+  enabled: true
+  embedder: "src.semantic.embedder.SemanticEmbedder"
+  model: "AURA-DomainHashEmbedder-384"
+  embedding_dimension: 384
+  similarity_metric: "cosine"
+  threshold: 0.45
+  top_k: 10
+  fallback_on_incomplete_structural: true
+  
+  # Context Constraints (Decoy Suppression Gate)
+  context_constraints:
+    enforce_subsystem_isolation: true
+    enforce_artifact_type_compatibility: true
+    enforce_domain_compatibility: true
+    enforce_interface_compatibility: true
+    reject_out_of_domain_distractors: true
+    min_context_score: 0.50
+
+  # Abstention & Ambiguity Handling
+  abstention:
+    low_confidence_threshold: 0.40
+    missing_context_action: "REVIEW_REQUIRED"
+    conflicting_context_action: "REVIEW_REQUIRED"
+
+# Strict Set Union (Zero Weighted Fusion)
+impact_union:
+  mode: "strict_union"  # S_final = S_struct UNION S_semantic
+  allow_weighted_fusion: false
+  allow_learned_routing: false
+
+# Deterministic Impact Ranking
+ranking:
+  structural_base_score: 1.00
+  semantic_base_score: 0.85
+  decay_factor: 0.85
+
+# Non-Bypassable Fail-Closed Safety Gate
+safety_gate:
+  mandatory: true
+  enforcer: "src.testing.safety_gate.SafetyGate"
+  fail_mode: "FAIL_CLOSED"
+  critical_levels:
+    - "ASIL_C"
+    - "ASIL_D"
+    - "ASIL-C"
+    - "ASIL-D"
+  invariant_assertion: true
+
+# Regression Test Selection
+test_selection:
+  selector: "src.testing.regression_selector.RegressionSelector"
+  strategy: "safety_first_prioritization"
+  min_target_reduction_pct: 50.0
+
+# Evidence & Audit Logging
+evidence:
+  logger: "src.evidence.evidence_logger.EvidenceLogger"
+  report_generator: "src.evidence.report_generator.ReportGenerator"
+  generate_json: true
+  generate_html: true
+  generate_markdown: true
+  output_dir: "reports/analysis"

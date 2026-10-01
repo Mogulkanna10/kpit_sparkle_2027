@@ -1,0 +1,27 @@
+{
+  "mutation_id": "POWERTRAIN_M22_01",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\arxml\\SWC_Transmission.arxml",
+  "target_node_id": "SWC_Transmission_Step",
+  "true_impacted_artifacts": [
+    "SWC_Transmission_Step"
+  ],
+  "true_impacted_tests": [],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "SWC_Transmission_Step",
+      "relation_path": [
+        "SWC_Transmission_Step"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

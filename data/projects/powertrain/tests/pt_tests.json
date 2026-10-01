@@ -1,0 +1,722 @@
+[
+  {
+    "id": "TC_PT_001",
+    "name": "Test_PT_001",
+    "target_function": "PT_Func_001",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_001",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_002",
+    "name": "Test_PT_002",
+    "target_function": "PT_Func_002",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_002",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_003",
+    "name": "Test_PT_003",
+    "target_function": "PT_Func_003",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_003",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_004",
+    "name": "Test_PT_004",
+    "target_function": "PT_Func_004",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_004",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_005",
+    "name": "Test_PT_005",
+    "target_function": "PT_Func_005",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_005",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_006",
+    "name": "Test_PT_006",
+    "target_function": "PT_Func_006",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_006",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_007",
+    "name": "Test_PT_007",
+    "target_function": "PT_Func_007",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_007",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_008",
+    "name": "Test_PT_008",
+    "target_function": "PT_Func_008",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_008",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_009",
+    "name": "Test_PT_009",
+    "target_function": "PT_Func_009",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_009",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_010",
+    "name": "Test_PT_010",
+    "target_function": "PT_Func_010",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_010",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_011",
+    "name": "Test_PT_011",
+    "target_function": "PT_Func_011",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_011",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_012",
+    "name": "Test_PT_012",
+    "target_function": "PT_Func_012",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_012",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_013",
+    "name": "Test_PT_013",
+    "target_function": "PT_Func_013",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_013",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_014",
+    "name": "Test_PT_014",
+    "target_function": "PT_Func_014",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_014",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_015",
+    "name": "Test_PT_015",
+    "target_function": "PT_Func_015",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_015",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_016",
+    "name": "Test_PT_016",
+    "target_function": "PT_Func_016",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_016",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_017",
+    "name": "Test_PT_017",
+    "target_function": "PT_Func_017",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_017",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_018",
+    "name": "Test_PT_018",
+    "target_function": "PT_Func_018",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_018",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_019",
+    "name": "Test_PT_019",
+    "target_function": "PT_Func_019",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_019",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_020",
+    "name": "Test_PT_020",
+    "target_function": "PT_Func_020",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_020",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_021",
+    "name": "Test_PT_021",
+    "target_function": "PT_Func_021",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_021",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_022",
+    "name": "Test_PT_022",
+    "target_function": "PT_Func_022",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_022",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_023",
+    "name": "Test_PT_023",
+    "target_function": "PT_Func_023",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_023",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_024",
+    "name": "Test_PT_024",
+    "target_function": "PT_Func_024",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_024",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_025",
+    "name": "Test_PT_025",
+    "target_function": "PT_Func_025",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_025",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_026",
+    "name": "Test_PT_026",
+    "target_function": "PT_Func_026",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_026",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_027",
+    "name": "Test_PT_027",
+    "target_function": "PT_Func_027",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_027",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_028",
+    "name": "Test_PT_028",
+    "target_function": "PT_Func_028",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_028",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_029",
+    "name": "Test_PT_029",
+    "target_function": "PT_Func_029",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_029",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_030",
+    "name": "Test_PT_030",
+    "target_function": "PT_Func_030",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_030",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_031",
+    "name": "Test_PT_031",
+    "target_function": "PT_Func_031",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_031",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_032",
+    "name": "Test_PT_032",
+    "target_function": "PT_Func_032",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_032",
+    "safety_level": "QM",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_033",
+    "name": "Test_PT_033",
+    "target_function": "PT_Func_033",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_033",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_034",
+    "name": "Test_PT_034",
+    "target_function": "PT_Func_034",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_034",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_035",
+    "name": "Test_PT_035",
+    "target_function": "PT_Func_035",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_035",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_036",
+    "name": "Test_PT_036",
+    "target_function": "PT_Func_036",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_036",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_037",
+    "name": "Test_PT_037",
+    "target_function": "PT_Func_037",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_037",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_038",
+    "name": "Test_PT_038",
+    "target_function": "PT_Func_038",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_038",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_039",
+    "name": "Test_PT_039",
+    "target_function": "PT_Func_039",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_039",
+    "safety_level": "QM",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_040",
+    "name": "Test_PT_040",
+    "target_function": "PT_Func_040",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_040",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_041",
+    "name": "Test_PT_041",
+    "target_function": "PT_Func_041",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_041",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_042",
+    "name": "Test_PT_042",
+    "target_function": "PT_Func_042",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_042",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_043",
+    "name": "Test_PT_043",
+    "target_function": "PT_Func_043",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_043",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_044",
+    "name": "Test_PT_044",
+    "target_function": "PT_Func_044",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_044",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_045",
+    "name": "Test_PT_045",
+    "target_function": "PT_Func_045",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_045",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_046",
+    "name": "Test_PT_046",
+    "target_function": "PT_Func_046",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_046",
+    "safety_level": "QM",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_047",
+    "name": "Test_PT_047",
+    "target_function": "PT_Func_047",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_047",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_048",
+    "name": "Test_PT_048",
+    "target_function": "PT_Func_048",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_048",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_049",
+    "name": "Test_PT_049",
+    "target_function": "PT_Func_049",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_049",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_050",
+    "name": "Test_PT_050",
+    "target_function": "PT_Func_050",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_051",
+    "name": "Test_PT_051",
+    "target_function": "PT_Func_051",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_052",
+    "name": "Test_PT_052",
+    "target_function": "PT_Func_052",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_053",
+    "name": "Test_PT_053",
+    "target_function": "PT_Func_053",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_054",
+    "name": "Test_PT_054",
+    "target_function": "PT_Func_054",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_055",
+    "name": "Test_PT_055",
+    "target_function": "PT_Func_055",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_056",
+    "name": "Test_PT_056",
+    "target_function": "PT_Func_056",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_057",
+    "name": "Test_PT_057",
+    "target_function": "PT_Func_057",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_058",
+    "name": "Test_PT_058",
+    "target_function": "PT_Func_058",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_059",
+    "name": "Test_PT_059",
+    "target_function": "PT_Func_059",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_060",
+    "name": "Test_PT_060",
+    "target_function": "PT_Func_060",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_061",
+    "name": "Test_PT_061",
+    "target_function": "PT_Func_061",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_062",
+    "name": "Test_PT_062",
+    "target_function": "PT_Func_062",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_063",
+    "name": "Test_PT_063",
+    "target_function": "PT_Func_063",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_064",
+    "name": "Test_PT_064",
+    "target_function": "PT_Func_064",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_065",
+    "name": "Test_PT_065",
+    "target_function": "PT_Func_065",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_066",
+    "name": "Test_PT_066",
+    "target_function": "PT_Func_066",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_067",
+    "name": "Test_PT_067",
+    "target_function": "PT_Func_067",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_068",
+    "name": "Test_PT_068",
+    "target_function": "PT_Func_068",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_069",
+    "name": "Test_PT_069",
+    "target_function": "PT_Func_069",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_070",
+    "name": "Test_PT_070",
+    "target_function": "PT_Func_070",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_071",
+    "name": "Test_PT_071",
+    "target_function": "PT_Func_071",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_072",
+    "name": "Test_PT_072",
+    "target_function": "PT_Func_072",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_073",
+    "name": "Test_PT_073",
+    "target_function": "PT_Func_073",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  },
+  {
+    "id": "TC_PT_074",
+    "name": "Test_PT_074",
+    "target_function": "PT_Func_074",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Regenerative braking energy recovery and deceleration torque blending.."
+  },
+  {
+    "id": "TC_PT_075",
+    "name": "Test_PT_075",
+    "target_function": "PT_Func_075",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for High voltage DC bus voltage regulation and active discharge fail-safe.."
+  },
+  {
+    "id": "TC_PT_076",
+    "name": "Test_PT_076",
+    "target_function": "PT_Func_076",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Motor rotor angular position resolver sensor decoding and speed estimation.."
+  },
+  {
+    "id": "TC_PT_077",
+    "name": "Test_PT_077",
+    "target_function": "PT_Func_077",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Traction motor over-speed protection and emergency torque shutoff.."
+  },
+  {
+    "id": "TC_PT_078",
+    "name": "Test_PT_078",
+    "target_function": "PT_Func_078",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Electric motor stator magnetic field torque regulation and PMSM field oriented control.."
+  },
+  {
+    "id": "TC_PT_079",
+    "name": "Test_PT_079",
+    "target_function": "PT_Func_079",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Inverter IGBT temperature thermal protection and power derating control.."
+  },
+  {
+    "id": "TC_PT_080",
+    "name": "Test_PT_080",
+    "target_function": "PT_Func_080",
+    "target_swc": "SWC_MotorControl",
+    "requirement_id": "REQ_PT_050",
+    "safety_level": "QM",
+    "description": "Verification test for Accelerator pedal demand torque mapping and traction torque ramp rate limitation.."
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "mutation_id": "POWERTRAIN_M19_02",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_032",
+  "true_impacted_artifacts": [
+    "R_PT_032"
+  ],
+  "true_impacted_tests": [
+    "TC_PT_032"
+  ],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "DISAMBIGUATED_DOMAIN_SPECIFICATION",
+    "COMPILER_SYMBOL_TABLE"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_PT_032",
+      "relation_path": [
+        "R_PT_032"
+      ],
+      "distance": 0,
+      "ground_truth_method": "DISAMBIGUATED_DOMAIN_SPECIFICATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

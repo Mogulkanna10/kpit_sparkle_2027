@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M10_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M10",
+  "category_name": "C function signature change",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_028",
+  "artifact_type": "C_CODE",
+  "before_state": "Std_ReturnType BMS_Func_028(uint16 raw_input);",
+  "after_state": "Std_ReturnType BMS_Func_028(uint32 raw_input, uint8 flags);",
+  "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType BMS_Func_028(uint16 raw_input);\n+Std_ReturnType BMS_Func_028(uint32 raw_input, uint8 flags);",
+  "intended_change_semantics": "Function argument and signature change",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M10",
+    "repeat": 1
+  }
+}

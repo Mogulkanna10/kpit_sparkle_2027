@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M23_02",
+  "project_id": "POWERTRAIN",
+  "change_type": "M23",
+  "category_name": "Semantic requirement change with little textual overlap",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_025",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Maintain headway gap in adaptive cruise mode.",
+  "after_state": "Radar-guided distance tracking regulation.",
+  "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+  "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M23",
+    "repeat": 2
+  }
+}

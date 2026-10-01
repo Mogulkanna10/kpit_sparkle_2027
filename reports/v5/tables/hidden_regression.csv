@@ -1,0 +1,7 @@
+method,safety_recall,test_reduction
+B0_Full_Suite,1.0,0.0
+B1_Keyword,1.0,0.8565
+B2_Raw_Embedding,1.0,0.8708
+B3_Graph_Only,1.0,0.987
+B4_Contextual_Embedding,1.0,0.8644
+B5_AURA_Hybrid,1.0,0.8644

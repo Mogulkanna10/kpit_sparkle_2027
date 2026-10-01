@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>Battery_EV_Components</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE>
+          <SHORT-NAME>SWC_InverterControl</SHORT-NAME>
+          <DESC>AUTOSAR Application SWC SWC_InverterControl for Battery EV Safety</DESC>
+          <PORTS>
+            <P-PORT-PROTOTYPE>
+              <SHORT-NAME>P_SWC_InverterControl_Status</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF>/Interfaces/I_SWC_InverterControl_Out</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+          </PORTS>
+          <SWC-INTERNAL-BEHAVIOR>
+            <SHORT-NAME>SWC_InverterControl_Behavior</SHORT-NAME>
+            <RUNNABLES>
+              <RUNNABLE-ENTITY>
+                <SHORT-NAME>RE_SWC_InverterControl_Step</SHORT-NAME>
+                <SYMBOL>SWC_InverterControl_Step</SYMBOL>
+              </RUNNABLE-ENTITY>
+            </RUNNABLES>
+          </SWC-INTERNAL-BEHAVIOR>
+        </APPLICATION-SW-COMPONENT-TYPE>
+        <SENDER-RECEIVER-INTERFACE>
+          <SHORT-NAME>I_SWC_InverterControl_Out</SHORT-NAME>
+          <DATA-ELEMENTS>
+            <VARIABLE-DATA-PROTOTYPE>
+              <SHORT-NAME>DE_SWC_InverterControl_Health</SHORT-NAME>
+              <TYPE-TREF>/AUTOSAR/Platform/uint32</TYPE-TREF>
+            </VARIABLE-DATA-PROTOTYPE>
+          </DATA-ELEMENTS>
+        </SENDER-RECEIVER-INTERFACE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M08_01",
+  "project_id": "ADAS",
+  "change_type": "M08",
+  "category_name": "Interface field change",
+  "source_artifact": "arxml/adas_swc.arxml",
+  "target_node_id": "I_SWC_ACC_Out_DE_SWC_ACC_Signal",
+  "artifact_type": "ARXML",
+  "before_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+  "after_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+  "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>\n+<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+  "intended_change_semantics": "Interface data element member alteration",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M08",
+    "repeat": 1
+  }
+}

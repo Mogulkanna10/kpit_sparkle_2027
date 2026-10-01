@@ -1,0 +1,19 @@
+# Semantic Retrieval & Context Filter Configuration
+model_name: "AURA-DomainHashEmbedder-384"
+embedding_dim: 384
+similarity_metric: "cosine"
+threshold: 0.45
+top_k: 10
+
+context_constraints:
+  enforce_subsystem_isolation: true
+  enforce_artifact_type_compatibility: true
+  enforce_domain_compatibility: true
+  enforce_interface_compatibility: true
+  reject_out_of_domain_distractors: true
+  min_context_score: 0.50
+
+abstention:
+  low_confidence_threshold: 0.40
+  missing_context_action: "REVIEW_REQUIRED"
+  conflicting_context_action: "REVIEW_REQUIRED"

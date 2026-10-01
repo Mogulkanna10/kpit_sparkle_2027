@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M24_01",
+  "project_id": "POWERTRAIN",
+  "change_type": "M24",
+  "category_name": "Dead-code modification",
+  "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+  "target_node_id": "PT_Func_056",
+  "artifact_type": "C_CODE",
+  "before_state": "if (0) { execute_unused_routine(); }",
+  "after_state": "if (0) { execute_unused_routine_v2(); }",
+  "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+  "intended_change_semantics": "Dead branch modification",
+  "expected_impact_scope": "LOCAL",
+  "metadata": {
+    "change_type": "M24",
+    "repeat": 1
+  }
+}

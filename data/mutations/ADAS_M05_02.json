@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M05_02",
+  "project_id": "ADAS",
+  "change_type": "M05",
+  "category_name": "Requirement constraint addition",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_040",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms.",
+  "after_state": "R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms.\n+R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+  "intended_change_semantics": "Operational condition and environmental constraint addition",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M05",
+    "repeat": 2
+  }
+}

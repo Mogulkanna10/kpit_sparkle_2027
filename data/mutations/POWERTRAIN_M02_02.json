@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M02_02",
+  "project_id": "POWERTRAIN",
+  "change_type": "M02",
+  "category_name": "Threshold change",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_051",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.8 seconds]",
+  "after_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.4 seconds]",
+  "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.8 seconds]\n+Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.4 seconds]",
+  "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M02",
+    "repeat": 2
+  }
+}

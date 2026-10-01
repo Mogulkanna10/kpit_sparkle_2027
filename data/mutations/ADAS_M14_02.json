@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M14_02",
+  "project_id": "ADAS",
+  "change_type": "M14",
+  "category_name": "Test requirement modification",
+  "source_artifact": "data\\projects\\adas\\tests\\test_adas.json",
+  "target_node_id": "TC_ADAS_075",
+  "artifact_type": "TEST",
+  "before_state": "TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 20",
+  "after_state": "TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 15",
+  "diff": "--- data\\projects\\adas\\tests\\test_adas.json\n+++ data\\projects\\adas\\tests\\test_adas.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 20\n+TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 15",
+  "intended_change_semantics": "Test expectation assertion updated",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M14",
+    "repeat": 2
+  }
+}

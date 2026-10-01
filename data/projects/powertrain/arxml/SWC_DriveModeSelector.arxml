@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>Powertrain_Components</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE>
+          <SHORT-NAME>SWC_DriveModeSelector</SHORT-NAME>
+          <DESC>AUTOSAR Application SWC SWC_DriveModeSelector for Powertrain Control</DESC>
+          <PORTS>
+            <P-PORT-PROTOTYPE>
+              <SHORT-NAME>P_SWC_DriveModeSelector_Torque</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF>/Interfaces/I_SWC_DriveModeSelector_Out</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+          </PORTS>
+          <SWC-INTERNAL-BEHAVIOR>
+            <SHORT-NAME>SWC_DriveModeSelector_Behavior</SHORT-NAME>
+            <RUNNABLES>
+              <RUNNABLE-ENTITY>
+                <SHORT-NAME>RE_SWC_DriveModeSelector_Step</SHORT-NAME>
+                <SYMBOL>SWC_DriveModeSelector_Step</SYMBOL>
+              </RUNNABLE-ENTITY>
+            </RUNNABLES>
+          </SWC-INTERNAL-BEHAVIOR>
+        </APPLICATION-SW-COMPONENT-TYPE>
+        <SENDER-RECEIVER-INTERFACE>
+          <SHORT-NAME>I_SWC_DriveModeSelector_Out</SHORT-NAME>
+          <DATA-ELEMENTS>
+            <VARIABLE-DATA-PROTOTYPE>
+              <SHORT-NAME>DE_SWC_DriveModeSelector_TorqueDemand</SHORT-NAME>
+              <TYPE-TREF>/AUTOSAR/Platform/uint32</TYPE-TREF>
+            </VARIABLE-DATA-PROTOTYPE>
+          </DATA-ELEMENTS>
+        </SENDER-RECEIVER-INTERFACE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

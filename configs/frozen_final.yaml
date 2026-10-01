@@ -1,0 +1,44 @@
+# ==============================================================================
+# HISTORICAL ARCHIVE — DO NOT USE FOR PRODUCTION RUNTIME
+# Frozen configuration used in historical v6 benchmark evaluations.
+# Canonical runtime configuration is defined in configs/final.yaml.
+# ==============================================================================
+frozen_configuration:
+  version: "2.0.0-HISTORICAL"
+  status: "ARCHIVED_BENCHMARK_SWEEP"
+  timestamp: "2026-08-31"
+
+  impact_boundary:
+    max_propagation_depth: 5
+    call_graph_max_depth: 3
+    decay_factor: 0.85
+
+  semantic_retrieval:
+    variant: "VARIANT_C"
+    frozen_threshold: 0.65
+    top_k: 10
+    weights:
+      alpha_cosine: 0.50
+      beta_artifact_type: 0.20
+      gamma_subsystem: 0.15
+      delta_graph_proximity: 0.10
+      epsilon_trace_support: 0.05
+
+  fusion_engine:
+    default_wg: 0.55
+    default_ws: 0.30
+    default_wc: 0.15
+    min_impact_score: 0.20
+
+  routing:
+    structural_ws: 0.00
+    semantic_ws: 0.50
+    semantic_wg: 0.35
+    mixed_ws: 0.30
+    mixed_wg: 0.55
+
+  safety_gate:
+    enforce_mandatory_asil_d: true
+    enforce_mandatory_asil_c: true
+    enforce_mandatory_safety_critical: true
+    allow_semantic_bypass: false

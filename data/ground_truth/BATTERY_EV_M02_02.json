@@ -1,0 +1,225 @@
+{
+  "mutation_id": "BATTERY_EV_M02_02",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_048",
+  "true_impacted_artifacts": [
+    "BMS_Func_048",
+    "BMS_Func_049",
+    "BMS_Func_050",
+    "BMS_Func_051",
+    "I_SWC_ChargingInterface_Out",
+    "I_SWC_ChargingInterface_Out_DE_SWC_ChargingInterface_Health",
+    "R_BMS_048",
+    "SWC_BatteryStateHealth_Health",
+    "SWC_ChargingInterface",
+    "SWC_ChargingInterface_Health",
+    "SWC_ChargingInterface_P_SWC_ChargingInterface_Status",
+    "SWC_ChargingInterface_RE_SWC_ChargingInterface_Step",
+    "SWC_ChargingInterface_Step",
+    "SWC_DCDC_Converter_Health",
+    "TC_BMS_048"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_008",
+    "TC_BMS_018",
+    "TC_BMS_028",
+    "TC_BMS_038",
+    "TC_BMS_048",
+    "TC_BMS_049",
+    "TC_BMS_050",
+    "TC_BMS_051",
+    "TC_BMS_058",
+    "TC_BMS_068",
+    "TC_BMS_078"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_008",
+    "TC_BMS_018"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_BMS_048",
+      "relation_path": [
+        "R_BMS_048"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface",
+      "relation_path": [
+        "R_BMS_048",
+        "SWC_ChargingInterface"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_BMS_048",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_P_SWC_ChargingInterface_Status",
+      "relation_path": [
+        "R_BMS_048",
+        "SWC_ChargingInterface",
+        "SWC_ChargingInterface_P_SWC_ChargingInterface_Status"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_RE_SWC_ChargingInterface_Step",
+      "relation_path": [
+        "R_BMS_048",
+        "SWC_ChargingInterface",
+        "SWC_ChargingInterface_RE_SWC_ChargingInterface_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_048",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048",
+        "BMS_Func_048"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ChargingInterface_Out",
+      "relation_path": [
+        "R_BMS_048",
+        "SWC_ChargingInterface",
+        "SWC_ChargingInterface_P_SWC_ChargingInterface_Status",
+        "I_SWC_ChargingInterface_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_Step",
+      "relation_path": [
+        "R_BMS_048",
+        "SWC_ChargingInterface",
+        "SWC_ChargingInterface_RE_SWC_ChargingInterface_Step",
+        "SWC_ChargingInterface_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_Health",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048",
+        "BMS_Func_048",
+        "SWC_ChargingInterface_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_049",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048",
+        "BMS_Func_048",
+        "BMS_Func_049"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ChargingInterface_Out_DE_SWC_ChargingInterface_Health",
+      "relation_path": [
+        "R_BMS_048",
+        "SWC_ChargingInterface",
+        "SWC_ChargingInterface_P_SWC_ChargingInterface_Status",
+        "I_SWC_ChargingInterface_Out",
+        "I_SWC_ChargingInterface_Out_DE_SWC_ChargingInterface_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DCDC_Converter_Health",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "SWC_DCDC_Converter_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_050",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "BMS_Func_050"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BatteryStateHealth_Health",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "BMS_Func_050",
+        "SWC_BatteryStateHealth_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_051",
+      "relation_path": [
+        "R_BMS_048",
+        "TC_BMS_048",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "BMS_Func_050",
+        "BMS_Func_051"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

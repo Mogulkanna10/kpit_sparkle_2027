@@ -1,0 +1,1284 @@
+{
+  "tests": [
+    {
+      "id": "TC_PT_001",
+      "name": "Powertrain Test TC_PT_001",
+      "description": "Validates torque regulation for PT_Func_001",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_001"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_001"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_002",
+      "name": "Powertrain Test TC_PT_002",
+      "description": "Validates torque regulation for PT_Func_002",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_002"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_002"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_003",
+      "name": "Powertrain Test TC_PT_003",
+      "description": "Validates torque regulation for PT_Func_003",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_003"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_003"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_004",
+      "name": "Powertrain Test TC_PT_004",
+      "description": "Validates torque regulation for PT_Func_004",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_004"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_004"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_005",
+      "name": "Powertrain Test TC_PT_005",
+      "description": "Validates torque regulation for PT_Func_005",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_005"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_005"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_006",
+      "name": "Powertrain Test TC_PT_006",
+      "description": "Validates torque regulation for PT_Func_006",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_006"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_006"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_007",
+      "name": "Powertrain Test TC_PT_007",
+      "description": "Validates torque regulation for PT_Func_007",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_007"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_007"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_008",
+      "name": "Powertrain Test TC_PT_008",
+      "description": "Validates torque regulation for PT_Func_008",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_008"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_008"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_009",
+      "name": "Powertrain Test TC_PT_009",
+      "description": "Validates torque regulation for PT_Func_009",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_009"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_009"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_010",
+      "name": "Powertrain Test TC_PT_010",
+      "description": "Validates torque regulation for PT_Func_010",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_010"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_010"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_011",
+      "name": "Powertrain Test TC_PT_011",
+      "description": "Validates torque regulation for PT_Func_011",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_011"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_011"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_012",
+      "name": "Powertrain Test TC_PT_012",
+      "description": "Validates torque regulation for PT_Func_012",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_012"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_012"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_013",
+      "name": "Powertrain Test TC_PT_013",
+      "description": "Validates torque regulation for PT_Func_013",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_013"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_013"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_014",
+      "name": "Powertrain Test TC_PT_014",
+      "description": "Validates torque regulation for PT_Func_014",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_014"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_014"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_015",
+      "name": "Powertrain Test TC_PT_015",
+      "description": "Validates torque regulation for PT_Func_015",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_015"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_015"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_016",
+      "name": "Powertrain Test TC_PT_016",
+      "description": "Validates torque regulation for PT_Func_016",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_016"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_016"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_017",
+      "name": "Powertrain Test TC_PT_017",
+      "description": "Validates torque regulation for PT_Func_017",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_017"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_017"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_018",
+      "name": "Powertrain Test TC_PT_018",
+      "description": "Validates torque regulation for PT_Func_018",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_018"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_018"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_019",
+      "name": "Powertrain Test TC_PT_019",
+      "description": "Validates torque regulation for PT_Func_019",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_019"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_019"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_020",
+      "name": "Powertrain Test TC_PT_020",
+      "description": "Validates torque regulation for PT_Func_020",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "PT_Func_020"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_020"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_021",
+      "name": "Powertrain Test TC_PT_021",
+      "description": "Validates torque regulation for PT_Func_021",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_021"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_021"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_022",
+      "name": "Powertrain Test TC_PT_022",
+      "description": "Validates torque regulation for PT_Func_022",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_022"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_022"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_023",
+      "name": "Powertrain Test TC_PT_023",
+      "description": "Validates torque regulation for PT_Func_023",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_023"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_023"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_024",
+      "name": "Powertrain Test TC_PT_024",
+      "description": "Validates torque regulation for PT_Func_024",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_024"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_024"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_025",
+      "name": "Powertrain Test TC_PT_025",
+      "description": "Validates torque regulation for PT_Func_025",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_025"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_025"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_026",
+      "name": "Powertrain Test TC_PT_026",
+      "description": "Validates torque regulation for PT_Func_026",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_026"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_026"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_027",
+      "name": "Powertrain Test TC_PT_027",
+      "description": "Validates torque regulation for PT_Func_027",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_027"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_027"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_028",
+      "name": "Powertrain Test TC_PT_028",
+      "description": "Validates torque regulation for PT_Func_028",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_028"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_028"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_029",
+      "name": "Powertrain Test TC_PT_029",
+      "description": "Validates torque regulation for PT_Func_029",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_029"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_029"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_030",
+      "name": "Powertrain Test TC_PT_030",
+      "description": "Validates torque regulation for PT_Func_030",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_030"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_030"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_031",
+      "name": "Powertrain Test TC_PT_031",
+      "description": "Validates torque regulation for PT_Func_031",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_031"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_031"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_032",
+      "name": "Powertrain Test TC_PT_032",
+      "description": "Validates torque regulation for PT_Func_032",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_032"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_032"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_033",
+      "name": "Powertrain Test TC_PT_033",
+      "description": "Validates torque regulation for PT_Func_033",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_033"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_033"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_034",
+      "name": "Powertrain Test TC_PT_034",
+      "description": "Validates torque regulation for PT_Func_034",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_034"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_034"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_035",
+      "name": "Powertrain Test TC_PT_035",
+      "description": "Validates torque regulation for PT_Func_035",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_035"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_035"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_036",
+      "name": "Powertrain Test TC_PT_036",
+      "description": "Validates torque regulation for PT_Func_036",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_036"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_036"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_037",
+      "name": "Powertrain Test TC_PT_037",
+      "description": "Validates torque regulation for PT_Func_037",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_037"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_037"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_038",
+      "name": "Powertrain Test TC_PT_038",
+      "description": "Validates torque regulation for PT_Func_038",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_038"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_038"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_039",
+      "name": "Powertrain Test TC_PT_039",
+      "description": "Validates torque regulation for PT_Func_039",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_039"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_039"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_040",
+      "name": "Powertrain Test TC_PT_040",
+      "description": "Validates torque regulation for PT_Func_040",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_040"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_040"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_041",
+      "name": "Powertrain Test TC_PT_041",
+      "description": "Validates torque regulation for PT_Func_041",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_041"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_041"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_042",
+      "name": "Powertrain Test TC_PT_042",
+      "description": "Validates torque regulation for PT_Func_042",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_042"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_042"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_043",
+      "name": "Powertrain Test TC_PT_043",
+      "description": "Validates torque regulation for PT_Func_043",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_043"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_043"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_044",
+      "name": "Powertrain Test TC_PT_044",
+      "description": "Validates torque regulation for PT_Func_044",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_044"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_044"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_045",
+      "name": "Powertrain Test TC_PT_045",
+      "description": "Validates torque regulation for PT_Func_045",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_045"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_045"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_046",
+      "name": "Powertrain Test TC_PT_046",
+      "description": "Validates torque regulation for PT_Func_046",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_046"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_046"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_047",
+      "name": "Powertrain Test TC_PT_047",
+      "description": "Validates torque regulation for PT_Func_047",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_047"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_047"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_048",
+      "name": "Powertrain Test TC_PT_048",
+      "description": "Validates torque regulation for PT_Func_048",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_048"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_048"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_049",
+      "name": "Powertrain Test TC_PT_049",
+      "description": "Validates torque regulation for PT_Func_049",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_049"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_049"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_050",
+      "name": "Powertrain Test TC_PT_050",
+      "description": "Validates torque regulation for PT_Func_050",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_050"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_050"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_051",
+      "name": "Powertrain Test TC_PT_051",
+      "description": "Validates torque regulation for PT_Func_051",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_051"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_051"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_052",
+      "name": "Powertrain Test TC_PT_052",
+      "description": "Validates torque regulation for PT_Func_052",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_052"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_053",
+      "name": "Powertrain Test TC_PT_053",
+      "description": "Validates torque regulation for PT_Func_053",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_053"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_054",
+      "name": "Powertrain Test TC_PT_054",
+      "description": "Validates torque regulation for PT_Func_054",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_054"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_055",
+      "name": "Powertrain Test TC_PT_055",
+      "description": "Validates torque regulation for PT_Func_055",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_055"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_056",
+      "name": "Powertrain Test TC_PT_056",
+      "description": "Validates torque regulation for PT_Func_056",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_056"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_057",
+      "name": "Powertrain Test TC_PT_057",
+      "description": "Validates torque regulation for PT_Func_057",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_057"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_058",
+      "name": "Powertrain Test TC_PT_058",
+      "description": "Validates torque regulation for PT_Func_058",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_058"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_059",
+      "name": "Powertrain Test TC_PT_059",
+      "description": "Validates torque regulation for PT_Func_059",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_059"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_060",
+      "name": "Powertrain Test TC_PT_060",
+      "description": "Validates torque regulation for PT_Func_060",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_060"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_061",
+      "name": "Powertrain Test TC_PT_061",
+      "description": "Validates torque regulation for PT_Func_061",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_061"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_062",
+      "name": "Powertrain Test TC_PT_062",
+      "description": "Validates torque regulation for PT_Func_062",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_062"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_063",
+      "name": "Powertrain Test TC_PT_063",
+      "description": "Validates torque regulation for PT_Func_063",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_063"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_064",
+      "name": "Powertrain Test TC_PT_064",
+      "description": "Validates torque regulation for PT_Func_064",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_064"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_065",
+      "name": "Powertrain Test TC_PT_065",
+      "description": "Validates torque regulation for PT_Func_065",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_065"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_066",
+      "name": "Powertrain Test TC_PT_066",
+      "description": "Validates torque regulation for PT_Func_066",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_066"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_067",
+      "name": "Powertrain Test TC_PT_067",
+      "description": "Validates torque regulation for PT_Func_067",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_067"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_068",
+      "name": "Powertrain Test TC_PT_068",
+      "description": "Validates torque regulation for PT_Func_068",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_068"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_069",
+      "name": "Powertrain Test TC_PT_069",
+      "description": "Validates torque regulation for PT_Func_069",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_069"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_070",
+      "name": "Powertrain Test TC_PT_070",
+      "description": "Validates torque regulation for PT_Func_070",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_070"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_071",
+      "name": "Powertrain Test TC_PT_071",
+      "description": "Validates torque regulation for PT_Func_071",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_071"
+      ],
+      "target_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_072",
+      "name": "Powertrain Test TC_PT_072",
+      "description": "Validates torque regulation for PT_Func_072",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_072"
+      ],
+      "target_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 40
+    },
+    {
+      "id": "TC_PT_073",
+      "name": "Powertrain Test TC_PT_073",
+      "description": "Validates torque regulation for PT_Func_073",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_073"
+      ],
+      "target_swcs": [
+        "SWC_Transmission"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_PT_074",
+      "name": "Powertrain Test TC_PT_074",
+      "description": "Validates torque regulation for PT_Func_074",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_074"
+      ],
+      "target_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 60
+    },
+    {
+      "id": "TC_PT_075",
+      "name": "Powertrain Test TC_PT_075",
+      "description": "Validates torque regulation for PT_Func_075",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_075"
+      ],
+      "target_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 70
+    },
+    {
+      "id": "TC_PT_076",
+      "name": "Powertrain Test TC_PT_076",
+      "description": "Validates torque regulation for PT_Func_076",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_076"
+      ],
+      "target_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_PT_077",
+      "name": "Powertrain Test TC_PT_077",
+      "description": "Validates torque regulation for PT_Func_077",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_077"
+      ],
+      "target_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 90
+    },
+    {
+      "id": "TC_PT_078",
+      "name": "Powertrain Test TC_PT_078",
+      "description": "Validates torque regulation for PT_Func_078",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_078"
+      ],
+      "target_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 100
+    },
+    {
+      "id": "TC_PT_079",
+      "name": "Powertrain Test TC_PT_079",
+      "description": "Validates torque regulation for PT_Func_079",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_079"
+      ],
+      "target_swcs": [
+        "SWC_ClutchController"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_PT_080",
+      "name": "Powertrain Test TC_PT_080",
+      "description": "Validates torque regulation for PT_Func_080",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "PT_Func_080"
+      ],
+      "target_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "target_requirements": [
+        "R_PT_052"
+      ],
+      "execution_time_ms": 40
+    }
+  ]
+}

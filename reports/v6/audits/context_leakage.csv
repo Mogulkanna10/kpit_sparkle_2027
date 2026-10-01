@@ -1,0 +1,6 @@
+feature,source,available_before_prediction,ground_truth_dependency,status
+artifact_type,File extension & AST node metadata,True,False,VALID_PREEXISTING_FEATURE
+subsystem_domain,Directory structure & SWC package,True,False,VALID_PREEXISTING_FEATURE
+graph_proximity,NetworkX BFS distance on static graph,True,False,VALID_PREEXISTING_FEATURE
+trace_support,Existing requirement-SWC trace links,True,False,VALID_PREEXISTING_FEATURE
+ground_truth_labels,Hidden benchmark answer key,False,False,NEVER_ACCESSIBLE_AT_INFERENCE

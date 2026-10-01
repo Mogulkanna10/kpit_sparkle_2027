@@ -1,0 +1,434 @@
+[
+  {
+    "id": "TC_BODY_001",
+    "name": "Test_Body_Functionality_001",
+    "target_function": "BODY_Func_001",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_001",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 001."
+  },
+  {
+    "id": "TC_BODY_002",
+    "name": "Test_Body_Functionality_002",
+    "target_function": "BODY_Func_002",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_002",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 002."
+  },
+  {
+    "id": "TC_BODY_003",
+    "name": "Test_Body_Functionality_003",
+    "target_function": "BODY_Func_003",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_003",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 003."
+  },
+  {
+    "id": "TC_BODY_004",
+    "name": "Test_Body_Functionality_004",
+    "target_function": "BODY_Func_004",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_004",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 004."
+  },
+  {
+    "id": "TC_BODY_005",
+    "name": "Test_Body_Functionality_005",
+    "target_function": "BODY_Func_005",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_005",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 005."
+  },
+  {
+    "id": "TC_BODY_006",
+    "name": "Test_Body_Functionality_006",
+    "target_function": "BODY_Func_006",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_006",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 006."
+  },
+  {
+    "id": "TC_BODY_007",
+    "name": "Test_Body_Functionality_007",
+    "target_function": "BODY_Func_007",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_007",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 007."
+  },
+  {
+    "id": "TC_BODY_008",
+    "name": "Test_Body_Functionality_008",
+    "target_function": "BODY_Func_008",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_008",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 008."
+  },
+  {
+    "id": "TC_BODY_009",
+    "name": "Test_Body_Functionality_009",
+    "target_function": "BODY_Func_009",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_009",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 009."
+  },
+  {
+    "id": "TC_BODY_010",
+    "name": "Test_Body_Functionality_010",
+    "target_function": "BODY_Func_010",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_010",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 010."
+  },
+  {
+    "id": "TC_BODY_011",
+    "name": "Test_Body_Functionality_011",
+    "target_function": "BODY_Func_011",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_011",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 011."
+  },
+  {
+    "id": "TC_BODY_012",
+    "name": "Test_Body_Functionality_012",
+    "target_function": "BODY_Func_012",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_012",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 012."
+  },
+  {
+    "id": "TC_BODY_013",
+    "name": "Test_Body_Functionality_013",
+    "target_function": "BODY_Func_013",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_013",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 013."
+  },
+  {
+    "id": "TC_BODY_014",
+    "name": "Test_Body_Functionality_014",
+    "target_function": "BODY_Func_014",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_014",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 014."
+  },
+  {
+    "id": "TC_BODY_015",
+    "name": "Test_Body_Functionality_015",
+    "target_function": "BODY_Func_015",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_015",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 015."
+  },
+  {
+    "id": "TC_BODY_016",
+    "name": "Test_Body_Functionality_016",
+    "target_function": "BODY_Func_016",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_016",
+    "safety_level": "ASIL_B",
+    "description": "Verification test for body electronic sub-function 016."
+  },
+  {
+    "id": "TC_BODY_017",
+    "name": "Test_Body_Functionality_017",
+    "target_function": "BODY_Func_017",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_017",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 017."
+  },
+  {
+    "id": "TC_BODY_018",
+    "name": "Test_Body_Functionality_018",
+    "target_function": "BODY_Func_018",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_018",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 018."
+  },
+  {
+    "id": "TC_BODY_019",
+    "name": "Test_Body_Functionality_019",
+    "target_function": "BODY_Func_019",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_019",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 019."
+  },
+  {
+    "id": "TC_BODY_020",
+    "name": "Test_Body_Functionality_020",
+    "target_function": "BODY_Func_020",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_020",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 020."
+  },
+  {
+    "id": "TC_BODY_021",
+    "name": "Test_Body_Functionality_021",
+    "target_function": "BODY_Func_021",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_021",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 021."
+  },
+  {
+    "id": "TC_BODY_022",
+    "name": "Test_Body_Functionality_022",
+    "target_function": "BODY_Func_022",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_022",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 022."
+  },
+  {
+    "id": "TC_BODY_023",
+    "name": "Test_Body_Functionality_023",
+    "target_function": "BODY_Func_023",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_023",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 023."
+  },
+  {
+    "id": "TC_BODY_024",
+    "name": "Test_Body_Functionality_024",
+    "target_function": "BODY_Func_024",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_024",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 024."
+  },
+  {
+    "id": "TC_BODY_025",
+    "name": "Test_Body_Functionality_025",
+    "target_function": "BODY_Func_025",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_025",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 025."
+  },
+  {
+    "id": "TC_BODY_026",
+    "name": "Test_Body_Functionality_026",
+    "target_function": "BODY_Func_026",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_026",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 026."
+  },
+  {
+    "id": "TC_BODY_027",
+    "name": "Test_Body_Functionality_027",
+    "target_function": "BODY_Func_027",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_027",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 027."
+  },
+  {
+    "id": "TC_BODY_028",
+    "name": "Test_Body_Functionality_028",
+    "target_function": "BODY_Func_028",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_028",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 028."
+  },
+  {
+    "id": "TC_BODY_029",
+    "name": "Test_Body_Functionality_029",
+    "target_function": "BODY_Func_029",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_029",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 029."
+  },
+  {
+    "id": "TC_BODY_030",
+    "name": "Test_Body_Functionality_030",
+    "target_function": "BODY_Func_030",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_030",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 030."
+  },
+  {
+    "id": "TC_BODY_031",
+    "name": "Test_Body_Functionality_031",
+    "target_function": "BODY_Func_031",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_031",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 031."
+  },
+  {
+    "id": "TC_BODY_032",
+    "name": "Test_Body_Functionality_032",
+    "target_function": "BODY_Func_032",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_032",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 032."
+  },
+  {
+    "id": "TC_BODY_033",
+    "name": "Test_Body_Functionality_033",
+    "target_function": "BODY_Func_033",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_033",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 033."
+  },
+  {
+    "id": "TC_BODY_034",
+    "name": "Test_Body_Functionality_034",
+    "target_function": "BODY_Func_034",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_034",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 034."
+  },
+  {
+    "id": "TC_BODY_035",
+    "name": "Test_Body_Functionality_035",
+    "target_function": "BODY_Func_035",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_035",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 035."
+  },
+  {
+    "id": "TC_BODY_036",
+    "name": "Test_Body_Functionality_036",
+    "target_function": "BODY_Func_036",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_036",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 036."
+  },
+  {
+    "id": "TC_BODY_037",
+    "name": "Test_Body_Functionality_037",
+    "target_function": "BODY_Func_037",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_037",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 037."
+  },
+  {
+    "id": "TC_BODY_038",
+    "name": "Test_Body_Functionality_038",
+    "target_function": "BODY_Func_038",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_038",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 038."
+  },
+  {
+    "id": "TC_BODY_039",
+    "name": "Test_Body_Functionality_039",
+    "target_function": "BODY_Func_039",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_039",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 039."
+  },
+  {
+    "id": "TC_BODY_040",
+    "name": "Test_Body_Functionality_040",
+    "target_function": "BODY_Func_040",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_040",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 040."
+  },
+  {
+    "id": "TC_BODY_041",
+    "name": "Test_Body_Functionality_041",
+    "target_function": "BODY_Func_041",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_041",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 041."
+  },
+  {
+    "id": "TC_BODY_042",
+    "name": "Test_Body_Functionality_042",
+    "target_function": "BODY_Func_042",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_042",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 042."
+  },
+  {
+    "id": "TC_BODY_043",
+    "name": "Test_Body_Functionality_043",
+    "target_function": "BODY_Func_043",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_043",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 043."
+  },
+  {
+    "id": "TC_BODY_044",
+    "name": "Test_Body_Functionality_044",
+    "target_function": "BODY_Func_044",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_044",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 044."
+  },
+  {
+    "id": "TC_BODY_045",
+    "name": "Test_Body_Functionality_045",
+    "target_function": "BODY_Func_045",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_045",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 045."
+  },
+  {
+    "id": "TC_BODY_046",
+    "name": "Test_Body_Functionality_046",
+    "target_function": "BODY_Func_046",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_046",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 046."
+  },
+  {
+    "id": "TC_BODY_047",
+    "name": "Test_Body_Functionality_047",
+    "target_function": "BODY_Func_047",
+    "target_swc": "SWC_HVAC_Controller",
+    "requirement_id": "REQ_BODY_047",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 047."
+  },
+  {
+    "id": "TC_BODY_048",
+    "name": "Test_Body_Functionality_048",
+    "target_function": "BODY_Func_048",
+    "target_swc": "SWC_BCM_Lighting",
+    "requirement_id": "REQ_BODY_048",
+    "safety_level": "QM",
+    "description": "Verification test for body electronic sub-function 048."
+  }
+]

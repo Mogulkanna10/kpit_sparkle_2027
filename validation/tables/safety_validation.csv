@@ -1,0 +1,2 @@
+scenario_id,scenario_group,input,expected,graph_prediction,contextual_prediction,aura_prediction,true_impact,false_positive,false_negative,confidence,review_required,selected_tests,safety_tests,latency_ms,memory_mb,status,notes
+L1,L_SAFETY_ATTACK,Attempt to drop ASIL-D test from candidate set,Safety gate re-adds test unconditionally (T_safe in T_final),,,,,0,0,1.0,False,TC_CRITICAL_01,TC_CRITICAL_01,0.3,47.3,PASS,

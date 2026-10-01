@@ -1,0 +1,767 @@
+[
+  {
+    "id": "TC_ADAS_001",
+    "name": "Test_ADAS_Function_001",
+    "target_function": "ADAS_Func_001",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_001",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_002",
+    "name": "Test_ADAS_Function_002",
+    "target_function": "ADAS_Func_002",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_002",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_003",
+    "name": "Test_ADAS_Function_003",
+    "target_function": "ADAS_Func_003",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_003",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_004",
+    "name": "Test_ADAS_Function_004",
+    "target_function": "ADAS_Func_004",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_004",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_005",
+    "name": "Test_ADAS_Function_005",
+    "target_function": "ADAS_Func_005",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_005",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_006",
+    "name": "Test_ADAS_Function_006",
+    "target_function": "ADAS_Func_006",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_006",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_007",
+    "name": "Test_ADAS_Function_007",
+    "target_function": "ADAS_Func_007",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_007",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_008",
+    "name": "Test_ADAS_Function_008",
+    "target_function": "ADAS_Func_008",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_008",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_009",
+    "name": "Test_ADAS_Function_009",
+    "target_function": "ADAS_Func_009",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_009",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_010",
+    "name": "Test_ADAS_Function_010",
+    "target_function": "ADAS_Func_010",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_010",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_011",
+    "name": "Test_ADAS_Function_011",
+    "target_function": "ADAS_Func_011",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_011",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_012",
+    "name": "Test_ADAS_Function_012",
+    "target_function": "ADAS_Func_012",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_012",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_013",
+    "name": "Test_ADAS_Function_013",
+    "target_function": "ADAS_Func_013",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_013",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_014",
+    "name": "Test_ADAS_Function_014",
+    "target_function": "ADAS_Func_014",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_014",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_015",
+    "name": "Test_ADAS_Function_015",
+    "target_function": "ADAS_Func_015",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_015",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_016",
+    "name": "Test_ADAS_Function_016",
+    "target_function": "ADAS_Func_016",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_016",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_017",
+    "name": "Test_ADAS_Function_017",
+    "target_function": "ADAS_Func_017",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_017",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_018",
+    "name": "Test_ADAS_Function_018",
+    "target_function": "ADAS_Func_018",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_018",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_019",
+    "name": "Test_ADAS_Function_019",
+    "target_function": "ADAS_Func_019",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_019",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_020",
+    "name": "Test_ADAS_Function_020",
+    "target_function": "ADAS_Func_020",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_020",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_021",
+    "name": "Test_ADAS_Function_021",
+    "target_function": "ADAS_Func_021",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_021",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_022",
+    "name": "Test_ADAS_Function_022",
+    "target_function": "ADAS_Func_022",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_022",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_023",
+    "name": "Test_ADAS_Function_023",
+    "target_function": "ADAS_Func_023",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_023",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_024",
+    "name": "Test_ADAS_Function_024",
+    "target_function": "ADAS_Func_024",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_024",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_025",
+    "name": "Test_ADAS_Function_025",
+    "target_function": "ADAS_Func_025",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_025",
+    "safety_level": "ASIL_D",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_026",
+    "name": "Test_ADAS_Function_026",
+    "target_function": "ADAS_Func_026",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_026",
+    "safety_level": "QM",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_027",
+    "name": "Test_ADAS_Function_027",
+    "target_function": "ADAS_Func_027",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_027",
+    "safety_level": "QM",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_028",
+    "name": "Test_ADAS_Function_028",
+    "target_function": "ADAS_Func_028",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_028",
+    "safety_level": "QM",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_029",
+    "name": "Test_ADAS_Function_029",
+    "target_function": "ADAS_Func_029",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_029",
+    "safety_level": "QM",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_030",
+    "name": "Test_ADAS_Function_030",
+    "target_function": "ADAS_Func_030",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_030",
+    "safety_level": "QM",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_031",
+    "name": "Test_ADAS_Function_031",
+    "target_function": "ADAS_Func_031",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_031",
+    "safety_level": "QM",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_032",
+    "name": "Test_ADAS_Function_032",
+    "target_function": "ADAS_Func_032",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_032",
+    "safety_level": "QM",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_033",
+    "name": "Test_ADAS_Function_033",
+    "target_function": "ADAS_Func_033",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_033",
+    "safety_level": "QM",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_034",
+    "name": "Test_ADAS_Function_034",
+    "target_function": "ADAS_Func_034",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_034",
+    "safety_level": "QM",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_035",
+    "name": "Test_ADAS_Function_035",
+    "target_function": "ADAS_Func_035",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_035",
+    "safety_level": "QM",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_036",
+    "name": "Test_ADAS_Function_036",
+    "target_function": "ADAS_Func_036",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_036",
+    "safety_level": "QM",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_037",
+    "name": "Test_ADAS_Function_037",
+    "target_function": "ADAS_Func_037",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_037",
+    "safety_level": "QM",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_038",
+    "name": "Test_ADAS_Function_038",
+    "target_function": "ADAS_Func_038",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_038",
+    "safety_level": "QM",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_039",
+    "name": "Test_ADAS_Function_039",
+    "target_function": "ADAS_Func_039",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_039",
+    "safety_level": "QM",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_040",
+    "name": "Test_ADAS_Function_040",
+    "target_function": "ADAS_Func_040",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_040",
+    "safety_level": "QM",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_041",
+    "name": "Test_ADAS_Function_041",
+    "target_function": "ADAS_Func_041",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_041",
+    "safety_level": "QM",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_042",
+    "name": "Test_ADAS_Function_042",
+    "target_function": "ADAS_Func_042",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_042",
+    "safety_level": "QM",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_043",
+    "name": "Test_ADAS_Function_043",
+    "target_function": "ADAS_Func_043",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_043",
+    "safety_level": "QM",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_044",
+    "name": "Test_ADAS_Function_044",
+    "target_function": "ADAS_Func_044",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_044",
+    "safety_level": "QM",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_045",
+    "name": "Test_ADAS_Function_045",
+    "target_function": "ADAS_Func_045",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_045",
+    "safety_level": "QM",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_046",
+    "name": "Test_ADAS_Function_046",
+    "target_function": "ADAS_Func_046",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_046",
+    "safety_level": "QM",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_047",
+    "name": "Test_ADAS_Function_047",
+    "target_function": "ADAS_Func_047",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_047",
+    "safety_level": "QM",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_048",
+    "name": "Test_ADAS_Function_048",
+    "target_function": "ADAS_Func_048",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_048",
+    "safety_level": "QM",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_049",
+    "name": "Test_ADAS_Function_049",
+    "target_function": "ADAS_Func_049",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_049",
+    "safety_level": "QM",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_050",
+    "name": "Test_ADAS_Function_050",
+    "target_function": "ADAS_Func_050",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_050",
+    "safety_level": "QM",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_051",
+    "name": "Test_ADAS_Function_051",
+    "target_function": "ADAS_Func_051",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_051",
+    "safety_level": "QM",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_052",
+    "name": "Test_ADAS_Function_052",
+    "target_function": "ADAS_Func_052",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_052",
+    "safety_level": "QM",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_053",
+    "name": "Test_ADAS_Function_053",
+    "target_function": "ADAS_Func_053",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_053",
+    "safety_level": "QM",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_054",
+    "name": "Test_ADAS_Function_054",
+    "target_function": "ADAS_Func_054",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_054",
+    "safety_level": "QM",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_055",
+    "name": "Test_ADAS_Function_055",
+    "target_function": "ADAS_Func_055",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_055",
+    "safety_level": "QM",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_056",
+    "name": "Test_ADAS_Function_056",
+    "target_function": "ADAS_Func_056",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_057",
+    "name": "Test_ADAS_Function_057",
+    "target_function": "ADAS_Func_057",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_058",
+    "name": "Test_ADAS_Function_058",
+    "target_function": "ADAS_Func_058",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_059",
+    "name": "Test_ADAS_Function_059",
+    "target_function": "ADAS_Func_059",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_060",
+    "name": "Test_ADAS_Function_060",
+    "target_function": "ADAS_Func_060",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_061",
+    "name": "Test_ADAS_Function_061",
+    "target_function": "ADAS_Func_061",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_062",
+    "name": "Test_ADAS_Function_062",
+    "target_function": "ADAS_Func_062",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_063",
+    "name": "Test_ADAS_Function_063",
+    "target_function": "ADAS_Func_063",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_064",
+    "name": "Test_ADAS_Function_064",
+    "target_function": "ADAS_Func_064",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_065",
+    "name": "Test_ADAS_Function_065",
+    "target_function": "ADAS_Func_065",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_066",
+    "name": "Test_ADAS_Function_066",
+    "target_function": "ADAS_Func_066",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_067",
+    "name": "Test_ADAS_Function_067",
+    "target_function": "ADAS_Func_067",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_068",
+    "name": "Test_ADAS_Function_068",
+    "target_function": "ADAS_Func_068",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_069",
+    "name": "Test_ADAS_Function_069",
+    "target_function": "ADAS_Func_069",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_070",
+    "name": "Test_ADAS_Function_070",
+    "target_function": "ADAS_Func_070",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_071",
+    "name": "Test_ADAS_Function_071",
+    "target_function": "ADAS_Func_071",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_072",
+    "name": "Test_ADAS_Function_072",
+    "target_function": "ADAS_Func_072",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_073",
+    "name": "Test_ADAS_Function_073",
+    "target_function": "ADAS_Func_073",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_074",
+    "name": "Test_ADAS_Function_074",
+    "target_function": "ADAS_Func_074",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_075",
+    "name": "Test_ADAS_Function_075",
+    "target_function": "ADAS_Func_075",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  },
+  {
+    "id": "TC_ADAS_076",
+    "name": "Test_ADAS_Function_076",
+    "target_function": "ADAS_Func_076",
+    "target_swc": "SWC_BrakeCtrl",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Hydraulic braking pressure actuator command and electronic stability intervention.."
+  },
+  {
+    "id": "TC_ADAS_077",
+    "name": "Test_ADAS_Function_077",
+    "target_function": "ADAS_Func_077",
+    "target_swc": "SWC_Fusion",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Driver auditory collision alert and visual instrument cluster warning.."
+  },
+  {
+    "id": "TC_ADAS_078",
+    "name": "Test_ADAS_Function_078",
+    "target_function": "ADAS_Func_078",
+    "target_swc": "SWC_Warning",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Sensor fusion multi-target state estimation and track association confidence.."
+  },
+  {
+    "id": "TC_ADAS_079",
+    "name": "Test_ADAS_Function_079",
+    "target_function": "ADAS_Func_079",
+    "target_swc": "SWC_DriverInput",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Driver pedal override detection and steering wheel hands-on sensing.."
+  },
+  {
+    "id": "TC_ADAS_080",
+    "name": "Test_ADAS_Function_080",
+    "target_function": "ADAS_Func_080",
+    "target_swc": "SWC_Actuation",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Brake actuator deceleration force modulation and vehicle standstill hold.."
+  },
+  {
+    "id": "TC_ADAS_081",
+    "name": "Test_ADAS_Function_081",
+    "target_function": "ADAS_Func_081",
+    "target_swc": "SWC_AEB",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Emergency braking deceleration command and autonomous collision avoidance stopping execution.."
+  },
+  {
+    "id": "TC_ADAS_082",
+    "name": "Test_ADAS_Function_082",
+    "target_function": "ADAS_Func_082",
+    "target_swc": "SWC_ACC",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Adaptive cruise headway gap regulation and longitudinal velocity tracking.."
+  },
+  {
+    "id": "TC_ADAS_083",
+    "name": "Test_ADAS_Function_083",
+    "target_function": "ADAS_Func_083",
+    "target_swc": "SWC_LKA",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Lane departure warning and lateral steering torque assist regulation.."
+  },
+  {
+    "id": "TC_ADAS_084",
+    "name": "Test_ADAS_Function_084",
+    "target_function": "ADAS_Func_084",
+    "target_swc": "SWC_Radar",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Radar proximity distance processing and relative obstacle velocity calculation.."
+  },
+  {
+    "id": "TC_ADAS_085",
+    "name": "Test_ADAS_Function_085",
+    "target_function": "ADAS_Func_085",
+    "target_swc": "SWC_Camera",
+    "requirement_id": "REQ_ADAS_056",
+    "safety_level": "QM",
+    "description": "Verification test for Camera computer vision object classification and roadway path estimation.."
+  }
+]

@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M22_02",
+  "project_id": "ADAS",
+  "change_type": "M22",
+  "category_name": "Structural rename with same semantics",
+  "source_artifact": "data\\projects\\adas\\arxml\\SWC_SensorFusion.arxml",
+  "target_node_id": "SWC_SensorFusion_Step",
+  "artifact_type": "C_CODE",
+  "before_state": "void SWC_SensorFusion_Step_Old() { execute(); }",
+  "after_state": "void SWC_SensorFusion_Step_New() { execute(); }",
+  "diff": "--- data\\projects\\adas\\arxml\\SWC_SensorFusion.arxml\n+++ data\\projects\\adas\\arxml\\SWC_SensorFusion.arxml\n@@ -1,4 +1,4 @@\n-void SWC_SensorFusion_Step_Old() { execute(); }\n+void SWC_SensorFusion_Step_New() { execute(); }",
+  "intended_change_semantics": "Structural symbol renaming preserving body logic",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M22",
+    "repeat": 2
+  }
+}

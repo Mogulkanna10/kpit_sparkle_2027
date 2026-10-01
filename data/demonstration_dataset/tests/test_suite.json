@@ -1,0 +1,1008 @@
+[
+  {
+    "id": "TC_AEB_001",
+    "description": "Verify Time-To-Collision calculation accuracy under varied radar distance profiles.",
+    "artifact_targets": [
+      "C_Function_CalculateTTC",
+      "SWC_AEB",
+      "REQ_AEB_001"
+    ],
+    "safety_class": "ASIL_D",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1"
+  },
+  {
+    "id": "TC_AEB_002",
+    "description": "Verify Emergency Brake Actuation deceleration ramp and hydraulic pressure clamping.",
+    "artifact_targets": [
+      "C_Function_TriggerBrake"
+    ],
+    "safety_class": "ASIL_D",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1"
+  },
+  {
+    "id": "TC_BODY_001",
+    "description": "Verify Cabin Climate blower level and setpoint stabilization.",
+    "artifact_targets": [
+      "C_Function_CabinClimateControl",
+      "REQ_BODY_005",
+      "SWC_BodyControl"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body"
+  },
+  {
+    "id": "TC_AMB_001",
+    "description": "Verify driver alert chime buzzer triggering.",
+    "artifact_targets": [
+      "C_Function_UnspecifiedAlert"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1"
+  },
+  {
+    "id": "TC_ACC_001",
+    "description": "Verify Adaptive Cruise Control throttle modulation and vehicle velocity tracking.",
+    "artifact_targets": [
+      "C_Function_AdaptiveCruiseSpeed",
+      "REQ_ACC_001",
+      "SWC_ACC"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Engine"
+  },
+  {
+    "id": "TC_REG_001",
+    "description": "Regression baseline verification for component block #1 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_001"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_002",
+    "description": "Regression baseline verification for component block #2 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_002"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_003",
+    "description": "Regression baseline verification for component block #3 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_003"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_004",
+    "description": "Regression baseline verification for component block #4 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_004"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_005",
+    "description": "Regression baseline verification for component block #5 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_005"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_006",
+    "description": "Regression baseline verification for component block #6 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_006"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_007",
+    "description": "Regression baseline verification for component block #7 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_007"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_008",
+    "description": "Regression baseline verification for component block #8 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_008"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_009",
+    "description": "Regression baseline verification for component block #9 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_009"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_010",
+    "description": "Regression baseline verification for component block #10 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_010"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_011",
+    "description": "Regression baseline verification for component block #11 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_011"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_012",
+    "description": "Regression baseline verification for component block #12 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_012"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_013",
+    "description": "Regression baseline verification for component block #13 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_013"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_014",
+    "description": "Regression baseline verification for component block #14 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_014"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_015",
+    "description": "Regression baseline verification for component block #15 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_015"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_016",
+    "description": "Regression baseline verification for component block #16 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_016"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_017",
+    "description": "Regression baseline verification for component block #17 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_017"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_018",
+    "description": "Regression baseline verification for component block #18 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_018"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_019",
+    "description": "Regression baseline verification for component block #19 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_019"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_020",
+    "description": "Regression baseline verification for component block #20 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_020"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_021",
+    "description": "Regression baseline verification for component block #21 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_021"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_022",
+    "description": "Regression baseline verification for component block #22 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_022"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_023",
+    "description": "Regression baseline verification for component block #23 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_023"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_024",
+    "description": "Regression baseline verification for component block #24 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_024"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_025",
+    "description": "Regression baseline verification for component block #25 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_025"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_026",
+    "description": "Regression baseline verification for component block #26 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_026"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_027",
+    "description": "Regression baseline verification for component block #27 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_027"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_028",
+    "description": "Regression baseline verification for component block #28 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_028"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_029",
+    "description": "Regression baseline verification for component block #29 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_029"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_030",
+    "description": "Regression baseline verification for component block #30 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_030"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_031",
+    "description": "Regression baseline verification for component block #31 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_031"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_032",
+    "description": "Regression baseline verification for component block #32 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_032"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_033",
+    "description": "Regression baseline verification for component block #33 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_033"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_034",
+    "description": "Regression baseline verification for component block #34 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_034"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_035",
+    "description": "Regression baseline verification for component block #35 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_035"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_036",
+    "description": "Regression baseline verification for component block #36 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_036"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_037",
+    "description": "Regression baseline verification for component block #37 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_037"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_038",
+    "description": "Regression baseline verification for component block #38 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_038"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_039",
+    "description": "Regression baseline verification for component block #39 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_039"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_040",
+    "description": "Regression baseline verification for component block #40 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_040"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_041",
+    "description": "Regression baseline verification for component block #41 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_041"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_042",
+    "description": "Regression baseline verification for component block #42 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_042"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_043",
+    "description": "Regression baseline verification for component block #43 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_043"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_044",
+    "description": "Regression baseline verification for component block #44 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_044"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_045",
+    "description": "Regression baseline verification for component block #45 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_045"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_046",
+    "description": "Regression baseline verification for component block #46 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_046"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_047",
+    "description": "Regression baseline verification for component block #47 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_047"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_048",
+    "description": "Regression baseline verification for component block #48 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_048"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_049",
+    "description": "Regression baseline verification for component block #49 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_049"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_050",
+    "description": "Regression baseline verification for component block #50 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_050"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_051",
+    "description": "Regression baseline verification for component block #51 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_051"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_052",
+    "description": "Regression baseline verification for component block #52 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_052"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_053",
+    "description": "Regression baseline verification for component block #53 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_053"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_054",
+    "description": "Regression baseline verification for component block #54 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_054"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_055",
+    "description": "Regression baseline verification for component block #55 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_055"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_056",
+    "description": "Regression baseline verification for component block #56 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_056"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_057",
+    "description": "Regression baseline verification for component block #57 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_057"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_058",
+    "description": "Regression baseline verification for component block #58 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_058"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_059",
+    "description": "Regression baseline verification for component block #59 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_059"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_060",
+    "description": "Regression baseline verification for component block #60 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_060"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_061",
+    "description": "Regression baseline verification for component block #61 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_061"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_062",
+    "description": "Regression baseline verification for component block #62 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_062"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_063",
+    "description": "Regression baseline verification for component block #63 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_063"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_064",
+    "description": "Regression baseline verification for component block #64 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_064"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_065",
+    "description": "Regression baseline verification for component block #65 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_065"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_066",
+    "description": "Regression baseline verification for component block #66 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_066"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_067",
+    "description": "Regression baseline verification for component block #67 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_067"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_068",
+    "description": "Regression baseline verification for component block #68 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_068"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_069",
+    "description": "Regression baseline verification for component block #69 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_069"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_070",
+    "description": "Regression baseline verification for component block #70 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_070"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_071",
+    "description": "Regression baseline verification for component block #71 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_071"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_072",
+    "description": "Regression baseline verification for component block #72 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_072"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_073",
+    "description": "Regression baseline verification for component block #73 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_073"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_074",
+    "description": "Regression baseline verification for component block #74 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_074"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_075",
+    "description": "Regression baseline verification for component block #75 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_075"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_076",
+    "description": "Regression baseline verification for component block #76 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_076"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_077",
+    "description": "Regression baseline verification for component block #77 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_077"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_078",
+    "description": "Regression baseline verification for component block #78 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_078"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_079",
+    "description": "Regression baseline verification for component block #79 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_079"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_080",
+    "description": "Regression baseline verification for component block #80 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_080"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_081",
+    "description": "Regression baseline verification for component block #81 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_081"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_082",
+    "description": "Regression baseline verification for component block #82 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_082"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_083",
+    "description": "Regression baseline verification for component block #83 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_083"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_084",
+    "description": "Regression baseline verification for component block #84 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_084"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_085",
+    "description": "Regression baseline verification for component block #85 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_085"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_086",
+    "description": "Regression baseline verification for component block #86 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_086"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_087",
+    "description": "Regression baseline verification for component block #87 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_087"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_088",
+    "description": "Regression baseline verification for component block #88 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_088"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_089",
+    "description": "Regression baseline verification for component block #89 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_089"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  },
+  {
+    "id": "TC_REG_090",
+    "description": "Regression baseline verification for component block #90 in Body_Electronics.",
+    "artifact_targets": [
+      "SWC_Baseline_Body_Electronics_090"
+    ],
+    "safety_class": "ASIL_B",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body_Electronics"
+  },
+  {
+    "id": "TC_REG_091",
+    "description": "Regression baseline verification for component block #91 in Chassis.",
+    "artifact_targets": [
+      "SWC_Baseline_Chassis_091"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Chassis",
+    "ecu": "ECU_Chassis"
+  },
+  {
+    "id": "TC_REG_092",
+    "description": "Regression baseline verification for component block #92 in Infotainment.",
+    "artifact_targets": [
+      "SWC_Baseline_Infotainment_092"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Infotainment",
+    "ecu": "ECU_Infotainment"
+  },
+  {
+    "id": "TC_REG_093",
+    "description": "Regression baseline verification for component block #93 in Powertrain.",
+    "artifact_targets": [
+      "SWC_Baseline_Powertrain_093"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Powertrain"
+  },
+  {
+    "id": "TC_REG_094",
+    "description": "Regression baseline verification for component block #94 in Comfort.",
+    "artifact_targets": [
+      "SWC_Baseline_Comfort_094"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Comfort",
+    "ecu": "ECU_Comfort"
+  },
+  {
+    "id": "TC_REG_095",
+    "description": "Regression baseline verification for component block #95 in Thermal.",
+    "artifact_targets": [
+      "SWC_Baseline_Thermal_095"
+    ],
+    "safety_class": "QM",
+    "subsystem": "Thermal",
+    "ecu": "ECU_Thermal"
+  }
+]

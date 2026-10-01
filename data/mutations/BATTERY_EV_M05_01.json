@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M05_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M05",
+  "category_name": "Requirement constraint addition",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_024",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C.",
+  "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+  "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C.\n+Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+  "intended_change_semantics": "Operational condition and environmental constraint addition",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M05",
+    "repeat": 1
+  }
+}

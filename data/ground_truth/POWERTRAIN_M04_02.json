@@ -1,0 +1,225 @@
+{
+  "mutation_id": "POWERTRAIN_M04_02",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_022",
+  "true_impacted_artifacts": [
+    "I_SWC_TorqueManager_Out",
+    "I_SWC_TorqueManager_Out_DE_SWC_TorqueManager_TorqueDemand",
+    "PT_Func_022",
+    "PT_Func_024",
+    "PT_Func_026",
+    "PT_Func_028",
+    "R_PT_022",
+    "SWC_CruiseGovernor_TorqueDemand",
+    "SWC_IgnitionTiming_TorqueDemand",
+    "SWC_TorqueManager",
+    "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+    "SWC_TorqueManager_RE_SWC_TorqueManager_Step",
+    "SWC_TorqueManager_Step",
+    "SWC_TorqueManager_TorqueDemand",
+    "TC_PT_022"
+  ],
+  "true_impacted_tests": [
+    "TC_PT_002",
+    "TC_PT_012",
+    "TC_PT_022",
+    "TC_PT_024",
+    "TC_PT_026",
+    "TC_PT_028",
+    "TC_PT_032",
+    "TC_PT_042",
+    "TC_PT_052",
+    "TC_PT_062",
+    "TC_PT_072"
+  ],
+  "safety_critical_tests": [
+    "TC_PT_002",
+    "TC_PT_012"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_PT_022",
+      "relation_path": [
+        "R_PT_022"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager",
+      "relation_path": [
+        "R_PT_022",
+        "SWC_TorqueManager"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_PT_022",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+      "relation_path": [
+        "R_PT_022",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_P_SWC_TorqueManager_Torque"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_RE_SWC_TorqueManager_Step",
+      "relation_path": [
+        "R_PT_022",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_RE_SWC_TorqueManager_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_022",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022",
+        "PT_Func_022"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_TorqueManager_Out",
+      "relation_path": [
+        "R_PT_022",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+        "I_SWC_TorqueManager_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_Step",
+      "relation_path": [
+        "R_PT_022",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_RE_SWC_TorqueManager_Step",
+        "SWC_TorqueManager_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_TorqueDemand",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022",
+        "PT_Func_022",
+        "SWC_TorqueManager_TorqueDemand"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_024",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022",
+        "PT_Func_022",
+        "PT_Func_024"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_TorqueManager_Out_DE_SWC_TorqueManager_TorqueDemand",
+      "relation_path": [
+        "R_PT_022",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+        "I_SWC_TorqueManager_Out",
+        "I_SWC_TorqueManager_Out_DE_SWC_TorqueManager_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_CruiseGovernor_TorqueDemand",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022",
+        "PT_Func_022",
+        "PT_Func_024",
+        "SWC_CruiseGovernor_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_026",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022",
+        "PT_Func_022",
+        "PT_Func_024",
+        "PT_Func_026"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_028",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022",
+        "PT_Func_022",
+        "PT_Func_024",
+        "PT_Func_026",
+        "PT_Func_028"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_IgnitionTiming_TorqueDemand",
+      "relation_path": [
+        "R_PT_022",
+        "TC_PT_022",
+        "PT_Func_022",
+        "PT_Func_024",
+        "PT_Func_026",
+        "SWC_IgnitionTiming_TorqueDemand"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

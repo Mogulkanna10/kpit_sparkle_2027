@@ -1,0 +1,5 @@
+error_code,category,percentage
+E1,Subword Hashing Out-of-Vocabulary,28.0
+E2,Technical Acronym Gap,24.0
+E7,Multi-Hop Semantic Chain,20.0
+E8,Under-specified Technical Scope,14.0

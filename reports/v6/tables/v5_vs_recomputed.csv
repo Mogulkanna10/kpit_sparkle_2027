@@ -1,0 +1,7 @@
+method,v5_recall,recomputed_recall,v5_precision,recomputed_precision,v5_f1,recomputed_f1,max_delta,status
+B0_Full_Suite,0.8667,0.8667,0.002,0.002,0.004,0.004,0.0,MATCH
+B1_Keyword,0.3911,0.3911,0.0454,0.0454,0.0497,0.0497,0.0,MATCH
+B2_Raw_Embedding,0.3356,0.3356,0.0069,0.0069,0.0125,0.0125,0.0,MATCH
+B3_Graph_Only,0.6,0.6,0.4128,0.4128,0.4239,0.4239,0.0,MATCH
+B4_Contextual_Embedding,0.4111,0.4111,0.0144,0.0144,0.0263,0.0263,0.0,MATCH
+B5_AURA_Hybrid,0.7356,0.7356,0.4263,0.4263,0.4486,0.4486,0.0,MATCH

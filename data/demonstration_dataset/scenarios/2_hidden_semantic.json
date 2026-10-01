@@ -1,0 +1,20 @@
+{
+  "name": "Graph-Blind Hidden Semantic Dependency",
+  "description": "Change in REQ_AEB_014 has NO explicit trace links, but latent semantic dependency on C_Function_TriggerBrake is recovered.",
+  "artifact_id": "REQ_AEB_014",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Emergency braking actuation and deceleration pressure clamping on obstacle arrival.",
+  "change_semantics": "Emergency deceleration brake trigger clamp hydraulic braking hazard",
+  "force_semantic": true,
+  "expected": {
+    "graph_found": 0,
+    "semantic_recovered": 1,
+    "recovered_artifact": "C_Function_TriggerBrake",
+    "retained_safety_tests": [
+      "TC_AEB_002"
+    ]
+  }
+}

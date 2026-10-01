@@ -1,0 +1,5 @@
+project,requirements,swcs,c_functions,tests,total_nodes,total_edges
+ADAS,56,27,109,85,439,696
+POWERTRAIN,102,10,90,80,324,684
+BATTERY_EV,100,10,90,80,322,680
+BODY_ELECTRONICS,48,2,50,48,158,202

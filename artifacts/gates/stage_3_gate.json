@@ -1,0 +1,51 @@
+{
+  "stage": "3",
+  "gate_id": "GATE-03",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:32:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "branch": "main",
+  "objective": "Resolve BGE-M3 vs custom vectorizer conflict and freeze truthful semantic model spec",
+  "changes": [
+    "Updated src/semantic/embedder.py with canonical designation AURA-DomainHashEmbedder-384, properties, and docstrings",
+    "Updated src/api/pipeline.py default model name",
+    "Created tests/semantic/test_model_identity.py with 6 comprehensive identity and similarity tests",
+    "Created docs/SEMANTIC_MODEL_SPEC.md",
+    "Created reports/final/semantic_model_resolution_report.md",
+    "Created artifacts/gates/stage_3_gate.json"
+  ],
+  "tests": [
+    "tests/semantic/test_model_identity.py::test_actual_model_identity",
+    "tests/semantic/test_model_identity.py::test_actual_dimension_and_normalization",
+    "tests/semantic/test_model_identity.py::test_deterministic_reproducibility",
+    "tests/semantic/test_model_identity.py::test_actual_index_and_similarity",
+    "tests/semantic/test_model_identity.py::test_configuration_identity_alignment",
+    "tests/semantic/test_model_identity.py::test_fallback_behavior_on_empty_text"
+  ],
+  "test_results": {
+    "total": 36,
+    "passed": 36,
+    "failed": 0,
+    "skipped": 0,
+    "model_identity_tests_passed": 6
+  },
+  "acceptance_criteria": {
+    "truthful_model_identity_established": true,
+    "misleading_claims_removed_from_code": true,
+    "model_identity_test_passes": true,
+    "dimension_and_normalization_verified": true,
+    "reproducibility_verified": true,
+    "fallback_behavior_verified": true
+  },
+  "failures": [],
+  "evidence_files": [
+    "docs/SEMANTIC_MODEL_SPEC.md",
+    "tests/semantic/test_model_identity.py",
+    "reports/final/semantic_model_resolution_report.md"
+  ],
+  "next_stage": "4",
+  "checkpoint": "Gate 3 passed cleanly. Ready for Gate 4: Canonical Configuration.",
+  "gate": "GATE-3",
+  "title": "Resolve BGE-M3 vs custom vectorizer conflict and freeze truthful semantic model spec",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

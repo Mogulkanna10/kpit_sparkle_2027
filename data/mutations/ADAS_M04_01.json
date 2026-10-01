@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M04_01",
+  "project_id": "ADAS",
+  "change_type": "M04",
+  "category_name": "Requirement synonym replacement",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_021",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Calculate vehicle speed and apply braking pressure.",
+  "after_state": "Compute longitudinal velocity and exert deceleration force.",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Calculate vehicle speed and apply braking pressure.\n+Compute longitudinal velocity and exert deceleration force.",
+  "intended_change_semantics": "Synonym replacement preserving technical intent",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M04",
+    "repeat": 1
+  }
+}

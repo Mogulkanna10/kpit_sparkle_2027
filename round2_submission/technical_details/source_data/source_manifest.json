@@ -1,0 +1,131 @@
+{
+  "project": "AURA-Impact",
+  "document": "Source Manifest for Round 2 Technical Details & Research Evidence",
+  "generated_at": "2026-09-30T22:45:00+05:30",
+  "authoritative_release": "Architecture B Canonical Release (commit: 13a368b / audit: 0536543)",
+  "canonical_metrics": {
+    "artifact_recall": 0.6311,
+    "artifact_precision": 0.5492,
+    "artifact_f1": 0.5503,
+    "test_suite_recall": 0.9007,
+    "test_suite_reduction_pct": 82.29,
+    "safety_invariant_retention": "100.0% (150/150)",
+    "mean_latency_ms": 0.79,
+    "model_identity": "AURA-DomainHashEmbedder-384",
+    "fusion_rule": "S_final = S_struct UNION S_semantic",
+    "safety_rule": "T_safe SUBSET_OF T_selected"
+  },
+  "sources": [
+    {
+      "source_filename": "benchmark/final/outputs/summary_table.csv",
+      "source_purpose": "Primary machine-readable benchmark comparison across all 6 evaluated retrieval methods",
+      "evidence_type": "benchmark_evidence",
+      "metric_names_used": [
+        "method",
+        "recall_mean",
+        "recall_std",
+        "precision_mean",
+        "precision_std",
+        "f1_mean",
+        "f1_std",
+        "latency_ms_mean"
+      ],
+      "key_values_extracted": {
+        "Hybrid_AURA_Routed": {
+          "recall": 0.6311,
+          "precision": 0.5492,
+          "f1": 0.5503,
+          "latency_ms": 0.7903
+        },
+        "Graph_Only": {
+          "recall": 0.6307,
+          "precision": 0.5443,
+          "f1": 0.4557,
+          "latency_ms": 0.2079
+        },
+        "Embedding_Only": {
+          "recall": 0.4245,
+          "precision": 0.6678,
+          "f1": 0.3114,
+          "latency_ms": 0.3915
+        },
+        "Keyword": {
+          "recall": 0.4282,
+          "precision": 0.1897,
+          "f1": 0.1485,
+          "latency_ms": 0.9871
+        }
+      },
+      "status": "AUTHORITATIVE_VERIFIED"
+    },
+    {
+      "source_filename": "artifacts/final_benchmark_results.json",
+      "source_purpose": "Canonical JSON benchmark artifact containing dataset fingerprint, parameters, statistical tests, and regression reduction",
+      "evidence_type": "benchmark_evidence",
+      "timestamp": "2026-09-30T04:47:36.756671+00:00",
+      "dataset_fingerprint": "3bc8c11efb2398a0",
+      "metric_names_used": [
+        "test_recall (0.9007)",
+        "test_reduction_pct (82.29%)",
+        "safety_recall (1.0)",
+        "pass_count (150/150)",
+        "wilcoxon_recall_p (0.748)",
+        "wilcoxon_prec_p (0.852)"
+      ],
+      "status": "AUTHORITATIVE_VERIFIED"
+    },
+    {
+      "source_filename": "reports/final/METRIC_INTEGRITY_AUDIT.md",
+      "source_purpose": "Hostile audit reconciling Gate 11 vs historical runs, verifying ground-truth integrity and safety metric separation",
+      "evidence_type": "audit_evidence",
+      "timestamp": "2026-09-29T23:11:49+05:30",
+      "metric_names_used": [
+        "Safety Invariant (T_safe SUBSET_OF T_selected = 100%)",
+        "Safety-Critical Discovery Recall (47.61%)",
+        "Test reduction verification (84.37% raw CSV vs 82.29% canonical macro-metric)"
+      ],
+      "status": "AUDITED_VERIFIED"
+    },
+    {
+      "source_filename": "reports/final/FINAL_RELEASE_EVIDENCE_INTEGRITY.md",
+      "source_purpose": "Final release verification documenting 26 gate files, architecture freeze, and 220 automated tests passing",
+      "evidence_type": "architecture_evidence",
+      "timestamp": "2026-09-30",
+      "metric_names_used": [
+        "220 passed unit/integration tests",
+        "26 verification gates passed (Gate 0 through Gate 25)",
+        "Strict set union architecture verification"
+      ],
+      "status": "AUTHORITATIVE_VERIFIED"
+    },
+    {
+      "source_filename": "validation/round2/performance.csv",
+      "source_purpose": "Actual measured runtime performance across the 12 live Round 2 demonstrator scenarios",
+      "evidence_type": "validation_evidence",
+      "metric_names_used": [
+        "parsing_ms",
+        "graph_analysis_ms",
+        "semantic_retrieval_ms",
+        "context_filtering_ms",
+        "routing_ms",
+        "regression_selection_ms",
+        "total_latency_ms"
+      ],
+      "status": "LIVE_PROTOTYPE_VERIFIED"
+    }
+  ],
+  "discrepancies_and_notes": [
+    {
+      "topic": "Historical vs Canonical Recall (0.4805 vs 0.6311)",
+      "explanation": "Documented in METRIC_INTEGRITY_AUDIT.md: historical 0.4805 run used a broken kwarg in index.search() resulting in 0 semantic contribution. Gate 11/14 fixed the API, yielding canonical 0.6311. Historical numbers are superseded."
+    },
+    {
+      "topic": "Benchmark Latency vs Live Demonstrator Latency (0.79 ms vs 5.34 ms)",
+      "explanation": "Benchmark 0.79 ms measures in-memory vectorized retrieval. Demonstrator 5.34 ms includes cold disk I/O, string parsing, and test suite mapping. Both are distinct, valid, and explicitly labeled."
+    },
+    {
+      "topic": "Safety Invariant (100%) vs Safety Discovery Recall (47.61%)",
+      "explanation": "Safety invariant T_safe SUBSET_OF T_selected is 100% enforced by the non-bypassable safety gate. The 47.61% figure measures unassisted upstream discovery by the retrieval engine alone before safety gate enforcement. These must never be conflated."
+    }
+  ]
+}

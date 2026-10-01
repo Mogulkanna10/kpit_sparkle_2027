@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M17_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M17",
+  "category_name": "Long-chain dependency change",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_024",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "System requirement R_BMS_024 root specification.",
+  "after_state": "System requirement R_BMS_024 propagated down through SWC, ports, runnables, and RTE.",
+  "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-System requirement R_BMS_024 root specification.\n+System requirement R_BMS_024 propagated down through SWC, ports, runnables, and RTE.",
+  "intended_change_semantics": "Long-chain multi-tier downstream impact",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M17",
+    "repeat": 1
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M09_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M09",
+  "category_name": "Interface version change",
+  "source_artifact": "arxml/battery_ev_swc.arxml",
+  "target_node_id": "I_SWC_CellBalancing_Out_DE_SWC_CellBalancing_Health",
+  "artifact_type": "ARXML",
+  "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+  "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+  "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+  "intended_change_semantics": "Interface major version upgrade",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M09",
+    "repeat": 2
+  }
+}

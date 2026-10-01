@@ -1,0 +1,6 @@
+injected_failure,system_response,result_status
+C Parser Syntax Failure,Fallback to regex AST scanner,CONSERVATIVE_SUCCESS
+FAISS Index Failure,Fallback to NumPy flat cosine matrix,CONSERVATIVE_SUCCESS
+Missing Requirement Metadata,Default to subsystem ADAS / ECU_1,CONSERVATIVE_SUCCESS
+Broken Graph Connection,Invoke Stage 2 Semantic Fallback,CONSERVATIVE_SUCCESS
+Missing Test Mapping Entry,Safety Gate retains all ASIL-C/D tests,CONSERVATIVE_SUCCESS

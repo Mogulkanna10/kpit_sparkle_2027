@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M19_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M19",
+  "category_name": "Misleading semantic similarity",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_012",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Calibrate braking hydraulic threshold.",
+  "after_state": "Calibrate parking brake pressure hold threshold.",
+  "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+  "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M19",
+    "repeat": 2
+  }
+}

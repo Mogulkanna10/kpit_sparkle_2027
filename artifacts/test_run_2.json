@@ -1,0 +1,67 @@
+{
+  "run_id": "test_run_2",
+  "timestamp": "2026-09-30T03:22:32Z",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "python_version": "3.14.0",
+  "platform": "Windows 11",
+  "dataset_fingerprint": "3bc8c11efb2398a0",
+  "seed": 42,
+  "model": "AURA-DomainHashEmbedder-384",
+  "embedding_dimension": 384,
+  "canonical_threshold": 0.45,
+  "union_mode": "strict_union",
+  "n_mutations": 150,
+  "metrics": {
+    "aura_hybrid_routed": {
+      "artifact_recall": 0.6311,
+      "artifact_precision": 0.5492,
+      "artifact_f1": 0.5503,
+      "test_recall": 0.9007,
+      "test_reduction_pct": 82.29,
+      "safety_recall": 1.0
+    },
+    "graph_only": {
+      "artifact_recall": 0.6307,
+      "artifact_precision": 0.5443,
+      "artifact_f1": 0.4557
+    },
+    "embedding_context": {
+      "artifact_recall": 0.4336,
+      "artifact_precision": 0.4117,
+      "artifact_f1": 0.2667
+    }
+  },
+  "semantic": {
+    "recall_at_1": 0.0333,
+    "recall_at_3": 0.0667,
+    "recall_at_5": 0.1333,
+    "recall_at_10": 0.2,
+    "mrr": 0.0665
+  },
+  "safety": {
+    "invariant_verified": true,
+    "pass_count": 150,
+    "total": 150,
+    "pass_pct": 100.0
+  },
+  "statistics": {
+    "wilcoxon_recall_W": 5513.0,
+    "wilcoxon_recall_p": 0.7480015320388294,
+    "wilcoxon_prec_W": 981.0,
+    "wilcoxon_prec_p": 0.8524822123046703,
+    "bonferroni_alpha": 0.0125,
+    "significant_recall": false,
+    "significant_prec": false
+  },
+  "output_hashes": {
+    "impact_results_csv": "69e2743aba85605c4ec73ffa327f01a0cc5a8fc2a59aa986aebed788b62c3cf8",
+    "regression_results_csv": "ba278df0032f4ae9a6494f2ee80b984a41c66f96f436c14646f8cd292bae644b",
+    "semantic_results_csv": "73903d227d2b15ea5317c28283cd94cf3f95e7eb960c70bcc8ae271c40615c93",
+    "ablation_results_csv": "2f68ba081e37f9bf5f4ad92e956634361265cd6e2002b5e9fc2bc0ad2a146b02",
+    "scale_results_csv": "47677321e63e5412fc4b1af0a6585fb067e1781af277dd95a8f1a05515c4a30c",
+    "summary_table_csv": "475b54d6fae48f52efc08035945c64fb52329e8e126a020444fe9163f4721d5e"
+  },
+  "prediction_fingerprint": "0a1f4a4e26f985f37df8ccbe952200eaaaa2c97343f2fed8422094390534674d",
+  "regression_fingerprint": "c839cdda5852e17c975106552cef78b56035629e862dce6a5fe8ffcb26b4ca37",
+  "run_duration_s": 2.77
+}

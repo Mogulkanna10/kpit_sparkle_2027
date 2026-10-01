@@ -1,0 +1,2702 @@
+[
+  {
+    "mutation_id": "ADAS_M01_01",
+    "project_id": "ADAS",
+    "change_type": "M01",
+    "category_name": "Numeric requirement change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_047",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "R_GEN_047: Control module SWC_SteeringActuator shall compute actuation command with response latency under 30 ms. [Safety distance: 20 meters]",
+    "after_state": "R_GEN_047: Control module SWC_SteeringActuator shall compute actuation command with response latency under 30 ms. [Safety distance: 15 meters]",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_GEN_047: Control module SWC_SteeringActuator shall compute actuation command with response latency under 30 ms. [Safety distance: 20 meters]\n+R_GEN_047: Control module SWC_SteeringActuator shall compute actuation command with response latency under 30 ms. [Safety distance: 15 meters]",
+    "intended_change_semantics": "Tighter distance threshold for emergency braking",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M01",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M02_01",
+    "project_id": "ADAS",
+    "change_type": "M02",
+    "category_name": "Threshold change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_001",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.8 seconds]",
+    "after_state": "R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.4 seconds]",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.8 seconds]\n+R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.4 seconds]",
+    "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M02",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M03_01",
+    "project_id": "ADAS",
+    "change_type": "M03",
+    "category_name": "Semantic wording change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_033",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+    "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "intended_change_semantics": "Paraphrased requirement semantics",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M03",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M04_01",
+    "project_id": "ADAS",
+    "change_type": "M04",
+    "category_name": "Requirement synonym replacement",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_021",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calculate vehicle speed and apply braking pressure.",
+    "after_state": "Compute longitudinal velocity and exert deceleration force.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Calculate vehicle speed and apply braking pressure.\n+Compute longitudinal velocity and exert deceleration force.",
+    "intended_change_semantics": "Synonym replacement preserving technical intent",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M04",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M05_01",
+    "project_id": "ADAS",
+    "change_type": "M05",
+    "category_name": "Requirement constraint addition",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_050",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "R_GEN_050: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms.",
+    "after_state": "R_GEN_050: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_GEN_050: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms.\n+R_GEN_050: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "intended_change_semantics": "Operational condition and environmental constraint addition",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M05",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M06_01",
+    "project_id": "ADAS",
+    "change_type": "M06",
+    "category_name": "ARXML datatype change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_AEB_In_DE_SWC_AEB_RawData",
+    "artifact_type": "ARXML",
+    "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+    "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M06",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M07_01",
+    "project_id": "ADAS",
+    "change_type": "M07",
+    "category_name": "ARXML scaling change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_EmergencySteering_In_DE_SWC_EmergencySteering_RawData",
+    "artifact_type": "ARXML",
+    "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+    "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "intended_change_semantics": "Physical scaling resolution factor refinement",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M07",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M08_01",
+    "project_id": "ADAS",
+    "change_type": "M08",
+    "category_name": "Interface field change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_ACC_Out_DE_SWC_ACC_Signal",
+    "artifact_type": "ARXML",
+    "before_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "after_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>\n+<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "intended_change_semantics": "Interface data element member alteration",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M08",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M09_01",
+    "project_id": "ADAS",
+    "change_type": "M09",
+    "category_name": "Interface version change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_EmergencySteering_Out_DE_SWC_EmergencySteering_Signal",
+    "artifact_type": "ARXML",
+    "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+    "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "intended_change_semantics": "Interface major version upgrade",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M09",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M10_01",
+    "project_id": "ADAS",
+    "change_type": "M10",
+    "category_name": "C function signature change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_046",
+    "artifact_type": "C_CODE",
+    "before_state": "Std_ReturnType ADAS_Func_046(uint16 raw_input);",
+    "after_state": "Std_ReturnType ADAS_Func_046(uint32 raw_input, uint8 flags);",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType ADAS_Func_046(uint16 raw_input);\n+Std_ReturnType ADAS_Func_046(uint32 raw_input, uint8 flags);",
+    "intended_change_semantics": "Function argument and signature change",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M10",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M11_01",
+    "project_id": "ADAS",
+    "change_type": "M11",
+    "category_name": "C constant change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_020",
+    "artifact_type": "C_CODE",
+    "before_state": "#define ADAS_FUNC_020_LIMIT 100",
+    "after_state": "#define ADAS_FUNC_020_LIMIT 75",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-#define ADAS_FUNC_020_LIMIT 100\n+#define ADAS_FUNC_020_LIMIT 75",
+    "intended_change_semantics": "C preprocessor threshold constant modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M11",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M12_01",
+    "project_id": "ADAS",
+    "change_type": "M12",
+    "category_name": "Function dependency change",
+    "source_artifact": "data\\projects\\adas\\arxml\\SWC_EmergencySteering.arxml",
+    "target_node_id": "SWC_EmergencySteering_Init",
+    "artifact_type": "C_CODE",
+    "before_state": "void SWC_EmergencySteering_Init() { StepA(); StepB(); }",
+    "after_state": "void SWC_EmergencySteering_Init() { StepA(); StepB(); Step_Validation(); }",
+    "diff": "--- data\\projects\\adas\\arxml\\SWC_EmergencySteering.arxml\n+++ data\\projects\\adas\\arxml\\SWC_EmergencySteering.arxml\n@@ -1,4 +1,4 @@\n-void SWC_EmergencySteering_Init() { StepA(); StepB(); }\n+void SWC_EmergencySteering_Init() { StepA(); StepB(); Step_Validation(); }",
+    "intended_change_semantics": "Added dependency call to validation function",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M12",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M13_01",
+    "project_id": "ADAS",
+    "change_type": "M13",
+    "category_name": "Variable dependency change",
+    "source_artifact": "data\\projects\\adas\\arxml\\SWC_DriverHMI.arxml",
+    "target_node_id": "SWC_DriverHMI_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "g_status = 1;",
+    "after_state": "g_filtered_status = 1;",
+    "diff": "--- data\\projects\\adas\\arxml\\SWC_DriverHMI.arxml\n+++ data\\projects\\adas\\arxml\\SWC_DriverHMI.arxml\n@@ -1,4 +1,4 @@\n-g_status = 1;\n+g_filtered_status = 1;",
+    "intended_change_semantics": "Modified global state variable write dependency",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M13",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M14_01",
+    "project_id": "ADAS",
+    "change_type": "M14",
+    "category_name": "Test requirement modification",
+    "source_artifact": "data\\projects\\adas\\tests\\test_adas.json",
+    "target_node_id": "TC_ADAS_044",
+    "artifact_type": "TEST",
+    "before_state": "TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_044 under SWC_ObstacleDetector assert expected <= 20",
+    "after_state": "TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_044 under SWC_ObstacleDetector assert expected <= 15",
+    "diff": "--- data\\projects\\adas\\tests\\test_adas.json\n+++ data\\projects\\adas\\tests\\test_adas.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_044 under SWC_ObstacleDetector assert expected <= 20\n+TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_044 under SWC_ObstacleDetector assert expected <= 15",
+    "intended_change_semantics": "Test expectation assertion updated",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M14",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M15_01",
+    "project_id": "ADAS",
+    "change_type": "M15",
+    "category_name": "Unrelated/no-impact change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_080",
+    "artifact_type": "C_CODE",
+    "before_state": "/* unreferenced local helper */ static void dead_helper() { int a = 1; }",
+    "after_state": "/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-/* unreferenced local helper */ static void dead_helper() { int a = 1; }\n+/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "intended_change_semantics": "Modification inside uncalled local dead code",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M15",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M16_01",
+    "project_id": "ADAS",
+    "change_type": "M16",
+    "category_name": "Indirect dependency change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_027",
+    "artifact_type": "C_CODE",
+    "before_state": "calc_primary();",
+    "after_state": "calc_primary(); trigger_secondary_safety();",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-calc_primary();\n+calc_primary(); trigger_secondary_safety();",
+    "intended_change_semantics": "Indirect dependency branch modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M16",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M17_01",
+    "project_id": "ADAS",
+    "change_type": "M17",
+    "category_name": "Long-chain dependency change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_023",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "System requirement R_ADAS_023 root specification.",
+    "after_state": "System requirement R_ADAS_023 propagated down through SWC, ports, runnables, and RTE.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-System requirement R_ADAS_023 root specification.\n+System requirement R_ADAS_023 propagated down through SWC, ports, runnables, and RTE.",
+    "intended_change_semantics": "Long-chain multi-tier downstream impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M17",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M18_01",
+    "project_id": "ADAS",
+    "change_type": "M18",
+    "category_name": "Cross-domain Req->ARXML->C->Test change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_002",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Cross-domain constraint on R_ADAS_002.",
+    "after_state": "Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Cross-domain constraint on R_ADAS_002.\n+Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "intended_change_semantics": "Cascading cross-domain impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M18",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M19_01",
+    "project_id": "ADAS",
+    "change_type": "M19",
+    "category_name": "Misleading semantic similarity",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_031",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calibrate braking hydraulic threshold.",
+    "after_state": "Calibrate parking brake pressure hold threshold.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+    "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M19",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M20_01",
+    "project_id": "ADAS",
+    "change_type": "M20",
+    "category_name": "Multiple simultaneous changes",
+    "source_artifact": "data\\projects\\adas\\arxml\\SWC_ACC.arxml",
+    "target_node_id": "SWC_ACC_Init",
+    "artifact_type": "C_CODE",
+    "before_state": "void SWC_ACC_Init() { compute(); send(); }",
+    "after_state": "void SWC_ACC_Init() { compute_v2(); filter(); send(); }",
+    "diff": "--- data\\projects\\adas\\arxml\\SWC_ACC.arxml\n+++ data\\projects\\adas\\arxml\\SWC_ACC.arxml\n@@ -1,4 +1,4 @@\n-void SWC_ACC_Init() { compute(); send(); }\n+void SWC_ACC_Init() { compute_v2(); filter(); send(); }",
+    "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M20",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M21_01",
+    "project_id": "ADAS",
+    "change_type": "M21",
+    "category_name": "Lexical renaming",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_003",
+    "artifact_type": "C_CODE",
+    "before_state": "int old_calc_var = 10;",
+    "after_state": "int new_calc_var = 10; /* renamed */",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-int old_calc_var = 10;\n+int new_calc_var = 10; /* renamed */",
+    "intended_change_semantics": "Lexical renaming of internal variable",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M21",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M22_01",
+    "project_id": "ADAS",
+    "change_type": "M22",
+    "category_name": "Structural rename with same semantics",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_057",
+    "artifact_type": "C_CODE",
+    "before_state": "void ADAS_Func_057_Old() { execute(); }",
+    "after_state": "void ADAS_Func_057_New() { execute(); }",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-void ADAS_Func_057_Old() { execute(); }\n+void ADAS_Func_057_New() { execute(); }",
+    "intended_change_semantics": "Structural symbol renaming preserving body logic",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M22",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M23_01",
+    "project_id": "ADAS",
+    "change_type": "M23",
+    "category_name": "Semantic requirement change with little textual overlap",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_026",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Maintain headway gap in adaptive cruise mode.",
+    "after_state": "Radar-guided distance tracking regulation.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+    "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M23",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M24_01",
+    "project_id": "ADAS",
+    "change_type": "M24",
+    "category_name": "Dead-code modification",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_080",
+    "artifact_type": "C_CODE",
+    "before_state": "if (0) { execute_unused_routine(); }",
+    "after_state": "if (0) { execute_unused_routine_v2(); }",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+    "intended_change_semantics": "Dead branch modification",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M24",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M25_01",
+    "project_id": "ADAS",
+    "change_type": "M25",
+    "category_name": "Documentation-only change",
+    "source_artifact": "docs/architecture_overview.md",
+    "target_node_id": "R_ADAS_024",
+    "artifact_type": "DOC",
+    "before_state": "/* Documentation note: System operates under standard conditions. */",
+    "after_state": "/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "diff": "--- docs/architecture_overview.md\n+++ docs/architecture_overview.md\n@@ -1,4 +1,4 @@\n-/* Documentation note: System operates under standard conditions. */\n+/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "intended_change_semantics": "Pure comment / documentation update without code effect",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M25",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "ADAS_M01_02",
+    "project_id": "ADAS",
+    "change_type": "M01",
+    "category_name": "Numeric requirement change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_039",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 20 meters]",
+    "after_state": "R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 15 meters]",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 20 meters]\n+R_GEN_039: Control module SWC_SpeedLimiter shall compute actuation command with response latency under 40 ms. [Safety distance: 15 meters]",
+    "intended_change_semantics": "Tighter distance threshold for emergency braking",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M01",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M02_02",
+    "project_id": "ADAS",
+    "change_type": "M02",
+    "category_name": "Threshold change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_033",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.8 seconds]",
+    "after_state": "R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.4 seconds]",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.8 seconds]\n+R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.4 seconds]",
+    "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M02",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M03_02",
+    "project_id": "ADAS",
+    "change_type": "M03",
+    "category_name": "Semantic wording change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_034",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+    "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "intended_change_semantics": "Paraphrased requirement semantics",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M03",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M04_02",
+    "project_id": "ADAS",
+    "change_type": "M04",
+    "category_name": "Requirement synonym replacement",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_037",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calculate vehicle speed and apply braking pressure.",
+    "after_state": "Compute longitudinal velocity and exert deceleration force.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Calculate vehicle speed and apply braking pressure.\n+Compute longitudinal velocity and exert deceleration force.",
+    "intended_change_semantics": "Synonym replacement preserving technical intent",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M04",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M05_02",
+    "project_id": "ADAS",
+    "change_type": "M05",
+    "category_name": "Requirement constraint addition",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_040",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms.",
+    "after_state": "R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms.\n+R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command with response latency under 20 ms. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "intended_change_semantics": "Operational condition and environmental constraint addition",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M05",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M06_02",
+    "project_id": "ADAS",
+    "change_type": "M06",
+    "category_name": "ARXML datatype change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_ACC_In_DE_SWC_ACC_RawData",
+    "artifact_type": "ARXML",
+    "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+    "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M06",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M07_02",
+    "project_id": "ADAS",
+    "change_type": "M07",
+    "category_name": "ARXML scaling change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_SpeedLimiter_In_DE_SWC_SpeedLimiter_RawData",
+    "artifact_type": "ARXML",
+    "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+    "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "intended_change_semantics": "Physical scaling resolution factor refinement",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M07",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M08_02",
+    "project_id": "ADAS",
+    "change_type": "M08",
+    "category_name": "Interface field change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_EmergencySteering_Out_DE_SWC_EmergencySteering_Signal",
+    "artifact_type": "ARXML",
+    "before_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "after_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>\n+<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "intended_change_semantics": "Interface data element member alteration",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M08",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M09_02",
+    "project_id": "ADAS",
+    "change_type": "M09",
+    "category_name": "Interface version change",
+    "source_artifact": "arxml/adas_swc.arxml",
+    "target_node_id": "I_SWC_SpeedLimiter_In_DE_SWC_SpeedLimiter_RawData",
+    "artifact_type": "ARXML",
+    "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+    "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "intended_change_semantics": "Interface major version upgrade",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M09",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M10_02",
+    "project_id": "ADAS",
+    "change_type": "M10",
+    "category_name": "C function signature change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_039",
+    "artifact_type": "C_CODE",
+    "before_state": "Std_ReturnType ADAS_Func_039(uint16 raw_input);",
+    "after_state": "Std_ReturnType ADAS_Func_039(uint32 raw_input, uint8 flags);",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType ADAS_Func_039(uint16 raw_input);\n+Std_ReturnType ADAS_Func_039(uint32 raw_input, uint8 flags);",
+    "intended_change_semantics": "Function argument and signature change",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M10",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M11_02",
+    "project_id": "ADAS",
+    "change_type": "M11",
+    "category_name": "C constant change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_057",
+    "artifact_type": "C_CODE",
+    "before_state": "#define ADAS_FUNC_057_LIMIT 100",
+    "after_state": "#define ADAS_FUNC_057_LIMIT 75",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-#define ADAS_FUNC_057_LIMIT 100\n+#define ADAS_FUNC_057_LIMIT 75",
+    "intended_change_semantics": "C preprocessor threshold constant modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M11",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M12_02",
+    "project_id": "ADAS",
+    "change_type": "M12",
+    "category_name": "Function dependency change",
+    "source_artifact": "data\\projects\\adas\\arxml\\SWC_AEB.arxml",
+    "target_node_id": "SWC_AEB_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "void SWC_AEB_Step() { StepA(); StepB(); }",
+    "after_state": "void SWC_AEB_Step() { StepA(); StepB(); Step_Validation(); }",
+    "diff": "--- data\\projects\\adas\\arxml\\SWC_AEB.arxml\n+++ data\\projects\\adas\\arxml\\SWC_AEB.arxml\n@@ -1,4 +1,4 @@\n-void SWC_AEB_Step() { StepA(); StepB(); }\n+void SWC_AEB_Step() { StepA(); StepB(); Step_Validation(); }",
+    "intended_change_semantics": "Added dependency call to validation function",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M12",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M13_02",
+    "project_id": "ADAS",
+    "change_type": "M13",
+    "category_name": "Variable dependency change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_081",
+    "artifact_type": "C_CODE",
+    "before_state": "g_status = 1;",
+    "after_state": "g_filtered_status = 1;",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-g_status = 1;\n+g_filtered_status = 1;",
+    "intended_change_semantics": "Modified global state variable write dependency",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M13",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M14_02",
+    "project_id": "ADAS",
+    "change_type": "M14",
+    "category_name": "Test requirement modification",
+    "source_artifact": "data\\projects\\adas\\tests\\test_adas.json",
+    "target_node_id": "TC_ADAS_075",
+    "artifact_type": "TEST",
+    "before_state": "TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 20",
+    "after_state": "TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 15",
+    "diff": "--- data\\projects\\adas\\tests\\test_adas.json\n+++ data\\projects\\adas\\tests\\test_adas.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 20\n+TEST_VERIFICATION: Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion assert expected <= 15",
+    "intended_change_semantics": "Test expectation assertion updated",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M14",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M15_02",
+    "project_id": "ADAS",
+    "change_type": "M15",
+    "category_name": "Unrelated/no-impact change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_022",
+    "artifact_type": "C_CODE",
+    "before_state": "/* unreferenced local helper */ static void dead_helper() { int a = 1; }",
+    "after_state": "/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-/* unreferenced local helper */ static void dead_helper() { int a = 1; }\n+/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "intended_change_semantics": "Modification inside uncalled local dead code",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M15",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M16_02",
+    "project_id": "ADAS",
+    "change_type": "M16",
+    "category_name": "Indirect dependency change",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_014",
+    "artifact_type": "C_CODE",
+    "before_state": "calc_primary();",
+    "after_state": "calc_primary(); trigger_secondary_safety();",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-calc_primary();\n+calc_primary(); trigger_secondary_safety();",
+    "intended_change_semantics": "Indirect dependency branch modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M16",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M17_02",
+    "project_id": "ADAS",
+    "change_type": "M17",
+    "category_name": "Long-chain dependency change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_025",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "System requirement R_ADAS_025 root specification.",
+    "after_state": "System requirement R_ADAS_025 propagated down through SWC, ports, runnables, and RTE.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-System requirement R_ADAS_025 root specification.\n+System requirement R_ADAS_025 propagated down through SWC, ports, runnables, and RTE.",
+    "intended_change_semantics": "Long-chain multi-tier downstream impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M17",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M18_02",
+    "project_id": "ADAS",
+    "change_type": "M18",
+    "category_name": "Cross-domain Req->ARXML->C->Test change",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_023",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Cross-domain constraint on R_ADAS_023.",
+    "after_state": "Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Cross-domain constraint on R_ADAS_023.\n+Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "intended_change_semantics": "Cascading cross-domain impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M18",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M19_02",
+    "project_id": "ADAS",
+    "change_type": "M19",
+    "category_name": "Misleading semantic similarity",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_029",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calibrate braking hydraulic threshold.",
+    "after_state": "Calibrate parking brake pressure hold threshold.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+    "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M19",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M20_02",
+    "project_id": "ADAS",
+    "change_type": "M20",
+    "category_name": "Multiple simultaneous changes",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_060",
+    "artifact_type": "C_CODE",
+    "before_state": "void ADAS_Func_060() { compute(); send(); }",
+    "after_state": "void ADAS_Func_060() { compute_v2(); filter(); send(); }",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-void ADAS_Func_060() { compute(); send(); }\n+void ADAS_Func_060() { compute_v2(); filter(); send(); }",
+    "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M20",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M21_02",
+    "project_id": "ADAS",
+    "change_type": "M21",
+    "category_name": "Lexical renaming",
+    "source_artifact": "data\\projects\\adas\\arxml\\SWC_BrakeActuator.arxml",
+    "target_node_id": "SWC_BrakeActuator_Init",
+    "artifact_type": "C_CODE",
+    "before_state": "int old_calc_var = 10;",
+    "after_state": "int new_calc_var = 10; /* renamed */",
+    "diff": "--- data\\projects\\adas\\arxml\\SWC_BrakeActuator.arxml\n+++ data\\projects\\adas\\arxml\\SWC_BrakeActuator.arxml\n@@ -1,4 +1,4 @@\n-int old_calc_var = 10;\n+int new_calc_var = 10; /* renamed */",
+    "intended_change_semantics": "Lexical renaming of internal variable",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M21",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M22_02",
+    "project_id": "ADAS",
+    "change_type": "M22",
+    "category_name": "Structural rename with same semantics",
+    "source_artifact": "data\\projects\\adas\\arxml\\SWC_SensorFusion.arxml",
+    "target_node_id": "SWC_SensorFusion_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "void SWC_SensorFusion_Step_Old() { execute(); }",
+    "after_state": "void SWC_SensorFusion_Step_New() { execute(); }",
+    "diff": "--- data\\projects\\adas\\arxml\\SWC_SensorFusion.arxml\n+++ data\\projects\\adas\\arxml\\SWC_SensorFusion.arxml\n@@ -1,4 +1,4 @@\n-void SWC_SensorFusion_Step_Old() { execute(); }\n+void SWC_SensorFusion_Step_New() { execute(); }",
+    "intended_change_semantics": "Structural symbol renaming preserving body logic",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M22",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M23_02",
+    "project_id": "ADAS",
+    "change_type": "M23",
+    "category_name": "Semantic requirement change with little textual overlap",
+    "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+    "target_node_id": "R_ADAS_019",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Maintain headway gap in adaptive cruise mode.",
+    "after_state": "Radar-guided distance tracking regulation.",
+    "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+    "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M23",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M24_02",
+    "project_id": "ADAS",
+    "change_type": "M24",
+    "category_name": "Dead-code modification",
+    "source_artifact": "data\\projects\\adas\\src\\adas_controller.c",
+    "target_node_id": "ADAS_Func_071",
+    "artifact_type": "C_CODE",
+    "before_state": "if (0) { execute_unused_routine(); }",
+    "after_state": "if (0) { execute_unused_routine_v2(); }",
+    "diff": "--- data\\projects\\adas\\src\\adas_controller.c\n+++ data\\projects\\adas\\src\\adas_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+    "intended_change_semantics": "Dead branch modification",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M24",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "ADAS_M25_02",
+    "project_id": "ADAS",
+    "change_type": "M25",
+    "category_name": "Documentation-only change",
+    "source_artifact": "docs/architecture_overview.md",
+    "target_node_id": "R_ADAS_025",
+    "artifact_type": "DOC",
+    "before_state": "/* Documentation note: System operates under standard conditions. */",
+    "after_state": "/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "diff": "--- docs/architecture_overview.md\n+++ docs/architecture_overview.md\n@@ -1,4 +1,4 @@\n-/* Documentation note: System operates under standard conditions. */\n+/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "intended_change_semantics": "Pure comment / documentation update without code effect",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M25",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M01_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M01",
+    "category_name": "Numeric requirement change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_027",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 20 meters]",
+    "after_state": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 15 meters]",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 20 meters]\n+Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 15 meters]",
+    "intended_change_semantics": "Tighter distance threshold for emergency braking",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M01",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M02_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M02",
+    "category_name": "Threshold change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_031",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.8 seconds]",
+    "after_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.4 seconds]",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.8 seconds]\n+Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.4 seconds]",
+    "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M02",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M03_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M03",
+    "category_name": "Semantic wording change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_028",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+    "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "intended_change_semantics": "Paraphrased requirement semantics",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M03",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M04_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M04",
+    "category_name": "Requirement synonym replacement",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_052",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calculate vehicle speed and apply braking pressure.",
+    "after_state": "Compute longitudinal velocity and exert deceleration force.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Calculate vehicle speed and apply braking pressure.\n+Compute longitudinal velocity and exert deceleration force.",
+    "intended_change_semantics": "Synonym replacement preserving technical intent",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M04",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M05_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M05",
+    "category_name": "Requirement constraint addition",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_006",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+    "after_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.\n+Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "intended_change_semantics": "Operational condition and environmental constraint addition",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M05",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M06_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M06",
+    "category_name": "ARXML datatype change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_DriveModeSelector_Out_DE_SWC_DriveModeSelector_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+    "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M06",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M07_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M07",
+    "category_name": "ARXML scaling change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_DriveModeSelector_Out_DE_SWC_DriveModeSelector_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+    "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "intended_change_semantics": "Physical scaling resolution factor refinement",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M07",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M08_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M08",
+    "category_name": "Interface field change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_ClutchController_Out_DE_SWC_ClutchController_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "after_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>\n+<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "intended_change_semantics": "Interface data element member alteration",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M08",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M09_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M09",
+    "category_name": "Interface version change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_Turbocharger_Out_DE_SWC_Turbocharger_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+    "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "intended_change_semantics": "Interface major version upgrade",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M09",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M10_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M10",
+    "category_name": "C function signature change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_027",
+    "artifact_type": "C_CODE",
+    "before_state": "Std_ReturnType PT_Func_027(uint16 raw_input);",
+    "after_state": "Std_ReturnType PT_Func_027(uint32 raw_input, uint8 flags);",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType PT_Func_027(uint16 raw_input);\n+Std_ReturnType PT_Func_027(uint32 raw_input, uint8 flags);",
+    "intended_change_semantics": "Function argument and signature change",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M10",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M11_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M11",
+    "category_name": "C constant change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_009",
+    "artifact_type": "C_CODE",
+    "before_state": "#define PT_FUNC_009_LIMIT 100",
+    "after_state": "#define PT_FUNC_009_LIMIT 75",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-#define PT_FUNC_009_LIMIT 100\n+#define PT_FUNC_009_LIMIT 75",
+    "intended_change_semantics": "C preprocessor threshold constant modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M11",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M12_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M12",
+    "category_name": "Function dependency change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_014",
+    "artifact_type": "C_CODE",
+    "before_state": "void PT_Func_014() { StepA(); StepB(); }",
+    "after_state": "void PT_Func_014() { StepA(); StepB(); Step_Validation(); }",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-void PT_Func_014() { StepA(); StepB(); }\n+void PT_Func_014() { StepA(); StepB(); Step_Validation(); }",
+    "intended_change_semantics": "Added dependency call to validation function",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M12",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M13_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M13",
+    "category_name": "Variable dependency change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_020",
+    "artifact_type": "C_CODE",
+    "before_state": "g_status = 1;",
+    "after_state": "g_filtered_status = 1;",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-g_status = 1;\n+g_filtered_status = 1;",
+    "intended_change_semantics": "Modified global state variable write dependency",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M13",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M14_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M14",
+    "category_name": "Test requirement modification",
+    "source_artifact": "data\\projects\\powertrain\\tests\\test_powertrain.json",
+    "target_node_id": "TC_PT_072",
+    "artifact_type": "TEST",
+    "before_state": "TEST_VERIFICATION: Validates torque regulation for PT_Func_072 assert expected <= 20",
+    "after_state": "TEST_VERIFICATION: Validates torque regulation for PT_Func_072 assert expected <= 15",
+    "diff": "--- data\\projects\\powertrain\\tests\\test_powertrain.json\n+++ data\\projects\\powertrain\\tests\\test_powertrain.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Validates torque regulation for PT_Func_072 assert expected <= 20\n+TEST_VERIFICATION: Validates torque regulation for PT_Func_072 assert expected <= 15",
+    "intended_change_semantics": "Test expectation assertion updated",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M14",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M15_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M15",
+    "category_name": "Unrelated/no-impact change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_072",
+    "artifact_type": "C_CODE",
+    "before_state": "/* unreferenced local helper */ static void dead_helper() { int a = 1; }",
+    "after_state": "/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-/* unreferenced local helper */ static void dead_helper() { int a = 1; }\n+/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "intended_change_semantics": "Modification inside uncalled local dead code",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M15",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M16_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M16",
+    "category_name": "Indirect dependency change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_034",
+    "artifact_type": "C_CODE",
+    "before_state": "calc_primary();",
+    "after_state": "calc_primary(); trigger_secondary_safety();",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-calc_primary();\n+calc_primary(); trigger_secondary_safety();",
+    "intended_change_semantics": "Indirect dependency branch modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M16",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M17_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M17",
+    "category_name": "Long-chain dependency change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_051",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "System requirement R_PT_051 root specification.",
+    "after_state": "System requirement R_PT_051 propagated down through SWC, ports, runnables, and RTE.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-System requirement R_PT_051 root specification.\n+System requirement R_PT_051 propagated down through SWC, ports, runnables, and RTE.",
+    "intended_change_semantics": "Long-chain multi-tier downstream impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M17",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M18_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M18",
+    "category_name": "Cross-domain Req->ARXML->C->Test change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_018",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Cross-domain constraint on R_PT_018.",
+    "after_state": "Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Cross-domain constraint on R_PT_018.\n+Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "intended_change_semantics": "Cascading cross-domain impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M18",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M19_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M19",
+    "category_name": "Misleading semantic similarity",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_002",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calibrate braking hydraulic threshold.",
+    "after_state": "Calibrate parking brake pressure hold threshold.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+    "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M19",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M20_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M20",
+    "category_name": "Multiple simultaneous changes",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_019",
+    "artifact_type": "C_CODE",
+    "before_state": "void PT_Func_019() { compute(); send(); }",
+    "after_state": "void PT_Func_019() { compute_v2(); filter(); send(); }",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-void PT_Func_019() { compute(); send(); }\n+void PT_Func_019() { compute_v2(); filter(); send(); }",
+    "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M20",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M21_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M21",
+    "category_name": "Lexical renaming",
+    "source_artifact": "data\\projects\\powertrain\\arxml\\SWC_IgnitionTiming.arxml",
+    "target_node_id": "SWC_IgnitionTiming_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "int old_calc_var = 10;",
+    "after_state": "int new_calc_var = 10; /* renamed */",
+    "diff": "--- data\\projects\\powertrain\\arxml\\SWC_IgnitionTiming.arxml\n+++ data\\projects\\powertrain\\arxml\\SWC_IgnitionTiming.arxml\n@@ -1,4 +1,4 @@\n-int old_calc_var = 10;\n+int new_calc_var = 10; /* renamed */",
+    "intended_change_semantics": "Lexical renaming of internal variable",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M21",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M22_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M22",
+    "category_name": "Structural rename with same semantics",
+    "source_artifact": "data\\projects\\powertrain\\arxml\\SWC_Transmission.arxml",
+    "target_node_id": "SWC_Transmission_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "void SWC_Transmission_Step_Old() { execute(); }",
+    "after_state": "void SWC_Transmission_Step_New() { execute(); }",
+    "diff": "--- data\\projects\\powertrain\\arxml\\SWC_Transmission.arxml\n+++ data\\projects\\powertrain\\arxml\\SWC_Transmission.arxml\n@@ -1,4 +1,4 @@\n-void SWC_Transmission_Step_Old() { execute(); }\n+void SWC_Transmission_Step_New() { execute(); }",
+    "intended_change_semantics": "Structural symbol renaming preserving body logic",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M22",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M23_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M23",
+    "category_name": "Semantic requirement change with little textual overlap",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_016",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Maintain headway gap in adaptive cruise mode.",
+    "after_state": "Radar-guided distance tracking regulation.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+    "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M23",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M24_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M24",
+    "category_name": "Dead-code modification",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_056",
+    "artifact_type": "C_CODE",
+    "before_state": "if (0) { execute_unused_routine(); }",
+    "after_state": "if (0) { execute_unused_routine_v2(); }",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+    "intended_change_semantics": "Dead branch modification",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M24",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M25_01",
+    "project_id": "POWERTRAIN",
+    "change_type": "M25",
+    "category_name": "Documentation-only change",
+    "source_artifact": "docs/architecture_overview.md",
+    "target_node_id": "R_PT_041",
+    "artifact_type": "DOC",
+    "before_state": "/* Documentation note: System operates under standard conditions. */",
+    "after_state": "/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "diff": "--- docs/architecture_overview.md\n+++ docs/architecture_overview.md\n@@ -1,4 +1,4 @@\n-/* Documentation note: System operates under standard conditions. */\n+/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "intended_change_semantics": "Pure comment / documentation update without code effect",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M25",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M01_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M01",
+    "category_name": "Numeric requirement change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_052",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 20 meters]",
+    "after_state": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 15 meters]",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 20 meters]\n+Electronic throttle control shall regulate intake air valve position within 3.0% accuracy. [Safety distance: 15 meters]",
+    "intended_change_semantics": "Tighter distance threshold for emergency braking",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M01",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M02_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M02",
+    "category_name": "Threshold change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_051",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.8 seconds]",
+    "after_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.4 seconds]",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.8 seconds]\n+Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. [TTC limit: 1.4 seconds]",
+    "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M02",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M03_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M03",
+    "category_name": "Semantic wording change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_021",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+    "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "intended_change_semantics": "Paraphrased requirement semantics",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M03",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M04_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M04",
+    "category_name": "Requirement synonym replacement",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_022",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calculate vehicle speed and apply braking pressure.",
+    "after_state": "Compute longitudinal velocity and exert deceleration force.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Calculate vehicle speed and apply braking pressure.\n+Compute longitudinal velocity and exert deceleration force.",
+    "intended_change_semantics": "Synonym replacement preserving technical intent",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M04",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M05_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M05",
+    "category_name": "Requirement constraint addition",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_021",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+    "after_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.\n+Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "intended_change_semantics": "Operational condition and environmental constraint addition",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M05",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M06_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M06",
+    "category_name": "ARXML datatype change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_Turbocharger_Out_DE_SWC_Turbocharger_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+    "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M06",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M07_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M07",
+    "category_name": "ARXML scaling change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_ClutchController_Out_DE_SWC_ClutchController_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+    "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "intended_change_semantics": "Physical scaling resolution factor refinement",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M07",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M08_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M08",
+    "category_name": "Interface field change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_Turbocharger_Out_DE_SWC_Turbocharger_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "after_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>\n+<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "intended_change_semantics": "Interface data element member alteration",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M08",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M09_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M09",
+    "category_name": "Interface version change",
+    "source_artifact": "arxml/powertrain_swc.arxml",
+    "target_node_id": "I_SWC_Transmission_Out_DE_SWC_Transmission_TorqueDemand",
+    "artifact_type": "ARXML",
+    "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+    "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "intended_change_semantics": "Interface major version upgrade",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M09",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M10_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M10",
+    "category_name": "C function signature change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_070",
+    "artifact_type": "C_CODE",
+    "before_state": "Std_ReturnType PT_Func_070(uint16 raw_input);",
+    "after_state": "Std_ReturnType PT_Func_070(uint32 raw_input, uint8 flags);",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType PT_Func_070(uint16 raw_input);\n+Std_ReturnType PT_Func_070(uint32 raw_input, uint8 flags);",
+    "intended_change_semantics": "Function argument and signature change",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M10",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M11_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M11",
+    "category_name": "C constant change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_002",
+    "artifact_type": "C_CODE",
+    "before_state": "#define PT_FUNC_002_LIMIT 100",
+    "after_state": "#define PT_FUNC_002_LIMIT 75",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-#define PT_FUNC_002_LIMIT 100\n+#define PT_FUNC_002_LIMIT 75",
+    "intended_change_semantics": "C preprocessor threshold constant modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M11",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M12_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M12",
+    "category_name": "Function dependency change",
+    "source_artifact": "data\\projects\\powertrain\\arxml\\SWC_ClutchController.arxml",
+    "target_node_id": "SWC_ClutchController_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "void SWC_ClutchController_Step() { StepA(); StepB(); }",
+    "after_state": "void SWC_ClutchController_Step() { StepA(); StepB(); Step_Validation(); }",
+    "diff": "--- data\\projects\\powertrain\\arxml\\SWC_ClutchController.arxml\n+++ data\\projects\\powertrain\\arxml\\SWC_ClutchController.arxml\n@@ -1,4 +1,4 @@\n-void SWC_ClutchController_Step() { StepA(); StepB(); }\n+void SWC_ClutchController_Step() { StepA(); StepB(); Step_Validation(); }",
+    "intended_change_semantics": "Added dependency call to validation function",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M12",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M13_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M13",
+    "category_name": "Variable dependency change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_072",
+    "artifact_type": "C_CODE",
+    "before_state": "g_status = 1;",
+    "after_state": "g_filtered_status = 1;",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-g_status = 1;\n+g_filtered_status = 1;",
+    "intended_change_semantics": "Modified global state variable write dependency",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M13",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M14_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M14",
+    "category_name": "Test requirement modification",
+    "source_artifact": "data\\projects\\powertrain\\tests\\test_powertrain.json",
+    "target_node_id": "TC_PT_027",
+    "artifact_type": "TEST",
+    "before_state": "TEST_VERIFICATION: Validates torque regulation for PT_Func_027 assert expected <= 20",
+    "after_state": "TEST_VERIFICATION: Validates torque regulation for PT_Func_027 assert expected <= 15",
+    "diff": "--- data\\projects\\powertrain\\tests\\test_powertrain.json\n+++ data\\projects\\powertrain\\tests\\test_powertrain.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Validates torque regulation for PT_Func_027 assert expected <= 20\n+TEST_VERIFICATION: Validates torque regulation for PT_Func_027 assert expected <= 15",
+    "intended_change_semantics": "Test expectation assertion updated",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M14",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M15_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M15",
+    "category_name": "Unrelated/no-impact change",
+    "source_artifact": "data\\projects\\powertrain\\arxml\\SWC_FuelInjection.arxml",
+    "target_node_id": "SWC_FuelInjection_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "/* unreferenced local helper */ static void dead_helper() { int a = 1; }",
+    "after_state": "/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "diff": "--- data\\projects\\powertrain\\arxml\\SWC_FuelInjection.arxml\n+++ data\\projects\\powertrain\\arxml\\SWC_FuelInjection.arxml\n@@ -1,4 +1,4 @@\n-/* unreferenced local helper */ static void dead_helper() { int a = 1; }\n+/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "intended_change_semantics": "Modification inside uncalled local dead code",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M15",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M16_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M16",
+    "category_name": "Indirect dependency change",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_050",
+    "artifact_type": "C_CODE",
+    "before_state": "calc_primary();",
+    "after_state": "calc_primary(); trigger_secondary_safety();",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-calc_primary();\n+calc_primary(); trigger_secondary_safety();",
+    "intended_change_semantics": "Indirect dependency branch modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M16",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M17_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M17",
+    "category_name": "Long-chain dependency change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_022",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "System requirement R_PT_022 root specification.",
+    "after_state": "System requirement R_PT_022 propagated down through SWC, ports, runnables, and RTE.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-System requirement R_PT_022 root specification.\n+System requirement R_PT_022 propagated down through SWC, ports, runnables, and RTE.",
+    "intended_change_semantics": "Long-chain multi-tier downstream impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M17",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M18_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M18",
+    "category_name": "Cross-domain Req->ARXML->C->Test change",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_040",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Cross-domain constraint on R_PT_040.",
+    "after_state": "Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Cross-domain constraint on R_PT_040.\n+Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "intended_change_semantics": "Cascading cross-domain impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M18",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M19_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M19",
+    "category_name": "Misleading semantic similarity",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_032",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calibrate braking hydraulic threshold.",
+    "after_state": "Calibrate parking brake pressure hold threshold.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+    "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M19",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M20_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M20",
+    "category_name": "Multiple simultaneous changes",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_043",
+    "artifact_type": "C_CODE",
+    "before_state": "void PT_Func_043() { compute(); send(); }",
+    "after_state": "void PT_Func_043() { compute_v2(); filter(); send(); }",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-void PT_Func_043() { compute(); send(); }\n+void PT_Func_043() { compute_v2(); filter(); send(); }",
+    "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M20",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M21_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M21",
+    "category_name": "Lexical renaming",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_078",
+    "artifact_type": "C_CODE",
+    "before_state": "int old_calc_var = 10;",
+    "after_state": "int new_calc_var = 10; /* renamed */",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-int old_calc_var = 10;\n+int new_calc_var = 10; /* renamed */",
+    "intended_change_semantics": "Lexical renaming of internal variable",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M21",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M22_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M22",
+    "category_name": "Structural rename with same semantics",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_049",
+    "artifact_type": "C_CODE",
+    "before_state": "void PT_Func_049_Old() { execute(); }",
+    "after_state": "void PT_Func_049_New() { execute(); }",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-void PT_Func_049_Old() { execute(); }\n+void PT_Func_049_New() { execute(); }",
+    "intended_change_semantics": "Structural symbol renaming preserving body logic",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M22",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M23_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M23",
+    "category_name": "Semantic requirement change with little textual overlap",
+    "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+    "target_node_id": "R_PT_025",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Maintain headway gap in adaptive cruise mode.",
+    "after_state": "Radar-guided distance tracking regulation.",
+    "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+    "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M23",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M24_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M24",
+    "category_name": "Dead-code modification",
+    "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+    "target_node_id": "PT_Func_026",
+    "artifact_type": "C_CODE",
+    "before_state": "if (0) { execute_unused_routine(); }",
+    "after_state": "if (0) { execute_unused_routine_v2(); }",
+    "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+    "intended_change_semantics": "Dead branch modification",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M24",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "POWERTRAIN_M25_02",
+    "project_id": "POWERTRAIN",
+    "change_type": "M25",
+    "category_name": "Documentation-only change",
+    "source_artifact": "docs/architecture_overview.md",
+    "target_node_id": "R_PT_038",
+    "artifact_type": "DOC",
+    "before_state": "/* Documentation note: System operates under standard conditions. */",
+    "after_state": "/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "diff": "--- docs/architecture_overview.md\n+++ docs/architecture_overview.md\n@@ -1,4 +1,4 @@\n-/* Documentation note: System operates under standard conditions. */\n+/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "intended_change_semantics": "Pure comment / documentation update without code effect",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M25",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M01_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M01",
+    "category_name": "Numeric requirement change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_047",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 70 C. [Safety distance: 20 meters]",
+    "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 70 C. [Safety distance: 15 meters]",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 70 C. [Safety distance: 20 meters]\n+Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 70 C. [Safety distance: 15 meters]",
+    "intended_change_semantics": "Tighter distance threshold for emergency braking",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M01",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M02_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M02",
+    "category_name": "Threshold change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_048",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.8 seconds]",
+    "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.4 seconds]",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.8 seconds]\n+Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.4 seconds]",
+    "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M02",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M03_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M03",
+    "category_name": "Semantic wording change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_045",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+    "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "intended_change_semantics": "Paraphrased requirement semantics",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M03",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M04_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M04",
+    "category_name": "Requirement synonym replacement",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_041",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calculate vehicle speed and apply braking pressure.",
+    "after_state": "Compute longitudinal velocity and exert deceleration force.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Calculate vehicle speed and apply braking pressure.\n+Compute longitudinal velocity and exert deceleration force.",
+    "intended_change_semantics": "Synonym replacement preserving technical intent",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M04",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M05_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M05",
+    "category_name": "Requirement constraint addition",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_024",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C.",
+    "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C.\n+Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "intended_change_semantics": "Operational condition and environmental constraint addition",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M05",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M06_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M06",
+    "category_name": "ARXML datatype change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_RegenCoordinator_Out_DE_SWC_RegenCoordinator_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+    "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M06",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M07_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M07",
+    "category_name": "ARXML scaling change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_DCDC_Converter_Out_DE_SWC_DCDC_Converter_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+    "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "intended_change_semantics": "Physical scaling resolution factor refinement",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M07",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M08_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M08",
+    "category_name": "Interface field change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_CellBalancing_Out_DE_SWC_CellBalancing_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "after_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>\n+<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "intended_change_semantics": "Interface data element member alteration",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M08",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M09_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M09",
+    "category_name": "Interface version change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_HighVoltageSafety_Out_DE_SWC_HighVoltageSafety_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+    "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "intended_change_semantics": "Interface major version upgrade",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M09",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M10_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M10",
+    "category_name": "C function signature change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_028",
+    "artifact_type": "C_CODE",
+    "before_state": "Std_ReturnType BMS_Func_028(uint16 raw_input);",
+    "after_state": "Std_ReturnType BMS_Func_028(uint32 raw_input, uint8 flags);",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType BMS_Func_028(uint16 raw_input);\n+Std_ReturnType BMS_Func_028(uint32 raw_input, uint8 flags);",
+    "intended_change_semantics": "Function argument and signature change",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M10",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M11_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M11",
+    "category_name": "C constant change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_008",
+    "artifact_type": "C_CODE",
+    "before_state": "#define BMS_FUNC_008_LIMIT 100",
+    "after_state": "#define BMS_FUNC_008_LIMIT 75",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-#define BMS_FUNC_008_LIMIT 100\n+#define BMS_FUNC_008_LIMIT 75",
+    "intended_change_semantics": "C preprocessor threshold constant modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M11",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M12_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M12",
+    "category_name": "Function dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_020",
+    "artifact_type": "C_CODE",
+    "before_state": "void BMS_Func_020() { StepA(); StepB(); }",
+    "after_state": "void BMS_Func_020() { StepA(); StepB(); Step_Validation(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_020() { StepA(); StepB(); }\n+void BMS_Func_020() { StepA(); StepB(); Step_Validation(); }",
+    "intended_change_semantics": "Added dependency call to validation function",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M12",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M13_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M13",
+    "category_name": "Variable dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_019",
+    "artifact_type": "C_CODE",
+    "before_state": "g_status = 1;",
+    "after_state": "g_filtered_status = 1;",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-g_status = 1;\n+g_filtered_status = 1;",
+    "intended_change_semantics": "Modified global state variable write dependency",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M13",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M14_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M14",
+    "category_name": "Test requirement modification",
+    "source_artifact": "data\\projects\\battery_ev\\tests\\test_battery.json",
+    "target_node_id": "TC_BMS_077",
+    "artifact_type": "TEST",
+    "before_state": "TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_077 assert expected <= 20",
+    "after_state": "TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_077 assert expected <= 15",
+    "diff": "--- data\\projects\\battery_ev\\tests\\test_battery.json\n+++ data\\projects\\battery_ev\\tests\\test_battery.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_077 assert expected <= 20\n+TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_077 assert expected <= 15",
+    "intended_change_semantics": "Test expectation assertion updated",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M14",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M15_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M15",
+    "category_name": "Unrelated/no-impact change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_005",
+    "artifact_type": "C_CODE",
+    "before_state": "/* unreferenced local helper */ static void dead_helper() { int a = 1; }",
+    "after_state": "/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-/* unreferenced local helper */ static void dead_helper() { int a = 1; }\n+/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "intended_change_semantics": "Modification inside uncalled local dead code",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M15",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M16_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M16",
+    "category_name": "Indirect dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_080",
+    "artifact_type": "C_CODE",
+    "before_state": "calc_primary();",
+    "after_state": "calc_primary(); trigger_secondary_safety();",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-calc_primary();\n+calc_primary(); trigger_secondary_safety();",
+    "intended_change_semantics": "Indirect dependency branch modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M16",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M17_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M17",
+    "category_name": "Long-chain dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_024",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "System requirement R_BMS_024 root specification.",
+    "after_state": "System requirement R_BMS_024 propagated down through SWC, ports, runnables, and RTE.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-System requirement R_BMS_024 root specification.\n+System requirement R_BMS_024 propagated down through SWC, ports, runnables, and RTE.",
+    "intended_change_semantics": "Long-chain multi-tier downstream impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M17",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M18_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M18",
+    "category_name": "Cross-domain Req->ARXML->C->Test change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_020",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Cross-domain constraint on R_BMS_020.",
+    "after_state": "Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Cross-domain constraint on R_BMS_020.\n+Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "intended_change_semantics": "Cascading cross-domain impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M18",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M19_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M19",
+    "category_name": "Misleading semantic similarity",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_014",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calibrate braking hydraulic threshold.",
+    "after_state": "Calibrate parking brake pressure hold threshold.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+    "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M19",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M20_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M20",
+    "category_name": "Multiple simultaneous changes",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_043",
+    "artifact_type": "C_CODE",
+    "before_state": "void BMS_Func_043() { compute(); send(); }",
+    "after_state": "void BMS_Func_043() { compute_v2(); filter(); send(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_043() { compute(); send(); }\n+void BMS_Func_043() { compute_v2(); filter(); send(); }",
+    "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M20",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M21_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M21",
+    "category_name": "Lexical renaming",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_022",
+    "artifact_type": "C_CODE",
+    "before_state": "int old_calc_var = 10;",
+    "after_state": "int new_calc_var = 10; /* renamed */",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-int old_calc_var = 10;\n+int new_calc_var = 10; /* renamed */",
+    "intended_change_semantics": "Lexical renaming of internal variable",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M21",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M22_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M22",
+    "category_name": "Structural rename with same semantics",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_014",
+    "artifact_type": "C_CODE",
+    "before_state": "void BMS_Func_014_Old() { execute(); }",
+    "after_state": "void BMS_Func_014_New() { execute(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_014_Old() { execute(); }\n+void BMS_Func_014_New() { execute(); }",
+    "intended_change_semantics": "Structural symbol renaming preserving body logic",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M22",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M23_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M23",
+    "category_name": "Semantic requirement change with little textual overlap",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_011",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Maintain headway gap in adaptive cruise mode.",
+    "after_state": "Radar-guided distance tracking regulation.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+    "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M23",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M24_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M24",
+    "category_name": "Dead-code modification",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_041",
+    "artifact_type": "C_CODE",
+    "before_state": "if (0) { execute_unused_routine(); }",
+    "after_state": "if (0) { execute_unused_routine_v2(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+    "intended_change_semantics": "Dead branch modification",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M24",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M25_01",
+    "project_id": "BATTERY_EV",
+    "change_type": "M25",
+    "category_name": "Documentation-only change",
+    "source_artifact": "docs/architecture_overview.md",
+    "target_node_id": "R_BMS_016",
+    "artifact_type": "DOC",
+    "before_state": "/* Documentation note: System operates under standard conditions. */",
+    "after_state": "/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "diff": "--- docs/architecture_overview.md\n+++ docs/architecture_overview.md\n@@ -1,4 +1,4 @@\n-/* Documentation note: System operates under standard conditions. */\n+/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "intended_change_semantics": "Pure comment / documentation update without code effect",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M25",
+      "repeat": 1
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M01_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M01",
+    "category_name": "Numeric requirement change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_031",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 20 meters]",
+    "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 15 meters]",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 20 meters]\n+Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C. [Safety distance: 15 meters]",
+    "intended_change_semantics": "Tighter distance threshold for emergency braking",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M01",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M02_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M02",
+    "category_name": "Threshold change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_048",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.8 seconds]",
+    "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.4 seconds]",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.8 seconds]\n+Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.4 seconds]",
+    "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M02",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M03_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M03",
+    "category_name": "Semantic wording change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_016",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+    "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+    "intended_change_semantics": "Paraphrased requirement semantics",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M03",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M04_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M04",
+    "category_name": "Requirement synonym replacement",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_037",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calculate vehicle speed and apply braking pressure.",
+    "after_state": "Compute longitudinal velocity and exert deceleration force.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Calculate vehicle speed and apply braking pressure.\n+Compute longitudinal velocity and exert deceleration force.",
+    "intended_change_semantics": "Synonym replacement preserving technical intent",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M04",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M05_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M05",
+    "category_name": "Requirement constraint addition",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_030",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 65 C.",
+    "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 65 C. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 65 C.\n+Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 65 C. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+    "intended_change_semantics": "Operational condition and environmental constraint addition",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M05",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M06_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M06",
+    "category_name": "ARXML datatype change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_CellBalancing_Out_DE_SWC_CellBalancing_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+    "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+    "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M06",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M07_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M07",
+    "category_name": "ARXML scaling change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_HighVoltageSafety_Out_DE_SWC_HighVoltageSafety_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+    "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+    "intended_change_semantics": "Physical scaling resolution factor refinement",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M07",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M08_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M08",
+    "category_name": "Interface field change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_BatteryStateHealth_Out_DE_SWC_BatteryStateHealth_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "after_state": "<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_raw</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>\n+<VARIABLE-DATA-PROTOTYPE><SHORT-NAME>val_filtered</SHORT-NAME></VARIABLE-DATA-PROTOTYPE>",
+    "intended_change_semantics": "Interface data element member alteration",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M08",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M09_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M09",
+    "category_name": "Interface version change",
+    "source_artifact": "arxml/battery_ev_swc.arxml",
+    "target_node_id": "I_SWC_CellBalancing_Out_DE_SWC_CellBalancing_Health",
+    "artifact_type": "ARXML",
+    "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+    "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+    "intended_change_semantics": "Interface major version upgrade",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M09",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M10_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M10",
+    "category_name": "C function signature change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_012",
+    "artifact_type": "C_CODE",
+    "before_state": "Std_ReturnType BMS_Func_012(uint16 raw_input);",
+    "after_state": "Std_ReturnType BMS_Func_012(uint32 raw_input, uint8 flags);",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-Std_ReturnType BMS_Func_012(uint16 raw_input);\n+Std_ReturnType BMS_Func_012(uint32 raw_input, uint8 flags);",
+    "intended_change_semantics": "Function argument and signature change",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M10",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M11_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M11",
+    "category_name": "C constant change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_067",
+    "artifact_type": "C_CODE",
+    "before_state": "#define BMS_FUNC_067_LIMIT 100",
+    "after_state": "#define BMS_FUNC_067_LIMIT 75",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-#define BMS_FUNC_067_LIMIT 100\n+#define BMS_FUNC_067_LIMIT 75",
+    "intended_change_semantics": "C preprocessor threshold constant modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M11",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M12_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M12",
+    "category_name": "Function dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_035",
+    "artifact_type": "C_CODE",
+    "before_state": "void BMS_Func_035() { StepA(); StepB(); }",
+    "after_state": "void BMS_Func_035() { StepA(); StepB(); Step_Validation(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_035() { StepA(); StepB(); }\n+void BMS_Func_035() { StepA(); StepB(); Step_Validation(); }",
+    "intended_change_semantics": "Added dependency call to validation function",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M12",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M13_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M13",
+    "category_name": "Variable dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\arxml\\SWC_BMS_Main.arxml",
+    "target_node_id": "SWC_BMS_Main_Step",
+    "artifact_type": "C_CODE",
+    "before_state": "g_status = 1;",
+    "after_state": "g_filtered_status = 1;",
+    "diff": "--- data\\projects\\battery_ev\\arxml\\SWC_BMS_Main.arxml\n+++ data\\projects\\battery_ev\\arxml\\SWC_BMS_Main.arxml\n@@ -1,4 +1,4 @@\n-g_status = 1;\n+g_filtered_status = 1;",
+    "intended_change_semantics": "Modified global state variable write dependency",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M13",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M14_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M14",
+    "category_name": "Test requirement modification",
+    "source_artifact": "data\\projects\\battery_ev\\tests\\test_battery.json",
+    "target_node_id": "TC_BMS_046",
+    "artifact_type": "TEST",
+    "before_state": "TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 20",
+    "after_state": "TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 15",
+    "diff": "--- data\\projects\\battery_ev\\tests\\test_battery.json\n+++ data\\projects\\battery_ev\\tests\\test_battery.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 20\n+TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 15",
+    "intended_change_semantics": "Test expectation assertion updated",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M14",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M15_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M15",
+    "category_name": "Unrelated/no-impact change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_040",
+    "artifact_type": "C_CODE",
+    "before_state": "/* unreferenced local helper */ static void dead_helper() { int a = 1; }",
+    "after_state": "/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-/* unreferenced local helper */ static void dead_helper() { int a = 1; }\n+/* unreferenced local helper */ static void dead_helper() { int a = 2; }",
+    "intended_change_semantics": "Modification inside uncalled local dead code",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M15",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M16_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M16",
+    "category_name": "Indirect dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_054",
+    "artifact_type": "C_CODE",
+    "before_state": "calc_primary();",
+    "after_state": "calc_primary(); trigger_secondary_safety();",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-calc_primary();\n+calc_primary(); trigger_secondary_safety();",
+    "intended_change_semantics": "Indirect dependency branch modification",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M16",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M17_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M17",
+    "category_name": "Long-chain dependency change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_045",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "System requirement R_BMS_045 root specification.",
+    "after_state": "System requirement R_BMS_045 propagated down through SWC, ports, runnables, and RTE.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-System requirement R_BMS_045 root specification.\n+System requirement R_BMS_045 propagated down through SWC, ports, runnables, and RTE.",
+    "intended_change_semantics": "Long-chain multi-tier downstream impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M17",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M18_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M18",
+    "category_name": "Cross-domain Req->ARXML->C->Test change",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_047",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Cross-domain constraint on R_BMS_047.",
+    "after_state": "Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Cross-domain constraint on R_BMS_047.\n+Cross-domain update impacting sensor input, control computation, and actuator output.",
+    "intended_change_semantics": "Cascading cross-domain impact",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M18",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M19_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M19",
+    "category_name": "Misleading semantic similarity",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_012",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Calibrate braking hydraulic threshold.",
+    "after_state": "Calibrate parking brake pressure hold threshold.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+    "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M19",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M20_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M20",
+    "category_name": "Multiple simultaneous changes",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_037",
+    "artifact_type": "C_CODE",
+    "before_state": "void BMS_Func_037() { compute(); send(); }",
+    "after_state": "void BMS_Func_037() { compute_v2(); filter(); send(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_037() { compute(); send(); }\n+void BMS_Func_037() { compute_v2(); filter(); send(); }",
+    "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M20",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M21_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M21",
+    "category_name": "Lexical renaming",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_073",
+    "artifact_type": "C_CODE",
+    "before_state": "int old_calc_var = 10;",
+    "after_state": "int new_calc_var = 10; /* renamed */",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-int old_calc_var = 10;\n+int new_calc_var = 10; /* renamed */",
+    "intended_change_semantics": "Lexical renaming of internal variable",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M21",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M22_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M22",
+    "category_name": "Structural rename with same semantics",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_040",
+    "artifact_type": "C_CODE",
+    "before_state": "void BMS_Func_040_Old() { execute(); }",
+    "after_state": "void BMS_Func_040_New() { execute(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-void BMS_Func_040_Old() { execute(); }\n+void BMS_Func_040_New() { execute(); }",
+    "intended_change_semantics": "Structural symbol renaming preserving body logic",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M22",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M23_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M23",
+    "category_name": "Semantic requirement change with little textual overlap",
+    "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+    "target_node_id": "R_BMS_036",
+    "artifact_type": "REQUIREMENT",
+    "before_state": "Maintain headway gap in adaptive cruise mode.",
+    "after_state": "Radar-guided distance tracking regulation.",
+    "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Maintain headway gap in adaptive cruise mode.\n+Radar-guided distance tracking regulation.",
+    "intended_change_semantics": "Semantic change with near-zero lexical token overlap",
+    "expected_impact_scope": "PROPAGATED",
+    "metadata": {
+      "change_type": "M23",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M24_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M24",
+    "category_name": "Dead-code modification",
+    "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+    "target_node_id": "BMS_Func_009",
+    "artifact_type": "C_CODE",
+    "before_state": "if (0) { execute_unused_routine(); }",
+    "after_state": "if (0) { execute_unused_routine_v2(); }",
+    "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+    "intended_change_semantics": "Dead branch modification",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M24",
+      "repeat": 2
+    }
+  },
+  {
+    "mutation_id": "BATTERY_EV_M25_02",
+    "project_id": "BATTERY_EV",
+    "change_type": "M25",
+    "category_name": "Documentation-only change",
+    "source_artifact": "docs/architecture_overview.md",
+    "target_node_id": "R_BMS_043",
+    "artifact_type": "DOC",
+    "before_state": "/* Documentation note: System operates under standard conditions. */",
+    "after_state": "/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "diff": "--- docs/architecture_overview.md\n+++ docs/architecture_overview.md\n@@ -1,4 +1,4 @@\n-/* Documentation note: System operates under standard conditions. */\n+/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+    "intended_change_semantics": "Pure comment / documentation update without code effect",
+    "expected_impact_scope": "LOCAL",
+    "metadata": {
+      "change_type": "M25",
+      "repeat": 2
+    }
+  }
+]

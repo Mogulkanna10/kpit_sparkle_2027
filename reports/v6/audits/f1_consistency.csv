@@ -1,0 +1,7 @@
+method,reported_recall,recomputed_recall,reported_precision,recomputed_precision,reported_f1,recomputed_f1,harmonic_f1,aggregation,difference,status
+B0_Full_Suite,1.0,1.0,0.003,0.003,0.006,0.006,0.006,macro_per_case,0.0,PASS
+B1_Keyword,0.32,0.32,0.0221,0.0221,0.0343,0.0343,0.0413,macro_per_case,0.0,PASS
+B2_Raw_Embedding,0.2,0.2,0.02,0.02,0.0364,0.0364,0.0364,macro_per_case,0.0,PASS
+B3_Graph_Only,0.0,0.0,0.0,0.0,0.0,0.0,0.0,macro_per_case,0.0,PASS
+B4_Contextual_Embedding,0.4067,0.4067,0.0407,0.0407,0.0739,0.0739,0.0739,macro_per_case,0.0,PASS
+B5_AURA_Hybrid,0.4067,0.4067,0.0407,0.0407,0.0739,0.0739,0.0739,macro_per_case,0.0,PASS

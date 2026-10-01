@@ -1,0 +1,432 @@
+{
+  "mutation_id": "BATTERY_EV_M14_01",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\tests\\test_battery.json",
+  "target_node_id": "TC_BMS_077",
+  "true_impacted_artifacts": [
+    "BMS_Func_001",
+    "BMS_Func_002",
+    "BMS_Func_050",
+    "BMS_Func_051",
+    "BMS_Func_052",
+    "BMS_Func_077",
+    "BMS_Func_078",
+    "BMS_Func_079",
+    "I_SWC_BatteryStateHealth_Out",
+    "I_SWC_BatteryStateHealth_Out_DE_SWC_BatteryStateHealth_Health",
+    "I_SWC_InverterControl_Out",
+    "I_SWC_InverterControl_Out_DE_SWC_InverterControl_Health",
+    "R_BMS_050",
+    "SWC_BMS_Main_Health",
+    "SWC_BatteryStateHealth",
+    "SWC_BatteryStateHealth_Health",
+    "SWC_BatteryStateHealth_P_SWC_BatteryStateHealth_Status",
+    "SWC_BatteryStateHealth_RE_SWC_BatteryStateHealth_Step",
+    "SWC_BatteryStateHealth_Step",
+    "SWC_ChargingInterface_Health",
+    "SWC_DCDC_Converter_Health",
+    "SWC_InverterControl",
+    "SWC_InverterControl_Health",
+    "SWC_InverterControl_P_SWC_InverterControl_Status",
+    "SWC_InverterControl_RE_SWC_InverterControl_Step",
+    "SWC_InverterControl_Step",
+    "TC_BMS_050",
+    "TC_BMS_077"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_001",
+    "TC_BMS_002",
+    "TC_BMS_007",
+    "TC_BMS_010",
+    "TC_BMS_017",
+    "TC_BMS_020",
+    "TC_BMS_027",
+    "TC_BMS_030",
+    "TC_BMS_037",
+    "TC_BMS_040",
+    "TC_BMS_047",
+    "TC_BMS_050",
+    "TC_BMS_051",
+    "TC_BMS_052",
+    "TC_BMS_053",
+    "TC_BMS_054",
+    "TC_BMS_055",
+    "TC_BMS_056",
+    "TC_BMS_057",
+    "TC_BMS_058",
+    "TC_BMS_059",
+    "TC_BMS_060",
+    "TC_BMS_061",
+    "TC_BMS_062",
+    "TC_BMS_063",
+    "TC_BMS_064",
+    "TC_BMS_065",
+    "TC_BMS_066",
+    "TC_BMS_067",
+    "TC_BMS_068",
+    "TC_BMS_069",
+    "TC_BMS_070",
+    "TC_BMS_071",
+    "TC_BMS_072",
+    "TC_BMS_073",
+    "TC_BMS_074",
+    "TC_BMS_075",
+    "TC_BMS_076",
+    "TC_BMS_077",
+    "TC_BMS_078",
+    "TC_BMS_079",
+    "TC_BMS_080"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_001",
+    "TC_BMS_002",
+    "TC_BMS_007",
+    "TC_BMS_010",
+    "TC_BMS_017",
+    "TC_BMS_020"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "TC_BMS_077",
+      "relation_path": [
+        "TC_BMS_077"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_077",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl",
+      "relation_path": [
+        "TC_BMS_077",
+        "SWC_InverterControl"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "R_BMS_050",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_Health",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "SWC_InverterControl_Health"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_078",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "BMS_Func_078"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_P_SWC_InverterControl_Status",
+      "relation_path": [
+        "TC_BMS_077",
+        "SWC_InverterControl",
+        "SWC_InverterControl_P_SWC_InverterControl_Status"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_RE_SWC_InverterControl_Step",
+      "relation_path": [
+        "TC_BMS_077",
+        "SWC_InverterControl",
+        "SWC_InverterControl_RE_SWC_InverterControl_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BatteryStateHealth",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "SWC_BatteryStateHealth"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_BMS_050",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "TC_BMS_050"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_Health",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "BMS_Func_078",
+        "SWC_ChargingInterface_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_079",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "BMS_Func_078",
+        "BMS_Func_079"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_InverterControl_Out",
+      "relation_path": [
+        "TC_BMS_077",
+        "SWC_InverterControl",
+        "SWC_InverterControl_P_SWC_InverterControl_Status",
+        "I_SWC_InverterControl_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_Step",
+      "relation_path": [
+        "TC_BMS_077",
+        "SWC_InverterControl",
+        "SWC_InverterControl_RE_SWC_InverterControl_Step",
+        "SWC_InverterControl_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BatteryStateHealth_P_SWC_BatteryStateHealth_Status",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "SWC_BatteryStateHealth",
+        "SWC_BatteryStateHealth_P_SWC_BatteryStateHealth_Status"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BatteryStateHealth_RE_SWC_BatteryStateHealth_Step",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "SWC_BatteryStateHealth",
+        "SWC_BatteryStateHealth_RE_SWC_BatteryStateHealth_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_050",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "TC_BMS_050",
+        "BMS_Func_050"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DCDC_Converter_Health",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "BMS_Func_078",
+        "BMS_Func_079",
+        "SWC_DCDC_Converter_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_001",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "BMS_Func_078",
+        "BMS_Func_079",
+        "BMS_Func_001"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_InverterControl_Out_DE_SWC_InverterControl_Health",
+      "relation_path": [
+        "TC_BMS_077",
+        "SWC_InverterControl",
+        "SWC_InverterControl_P_SWC_InverterControl_Status",
+        "I_SWC_InverterControl_Out",
+        "I_SWC_InverterControl_Out_DE_SWC_InverterControl_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_BatteryStateHealth_Out",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "SWC_BatteryStateHealth",
+        "SWC_BatteryStateHealth_P_SWC_BatteryStateHealth_Status",
+        "I_SWC_BatteryStateHealth_Out"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BatteryStateHealth_Step",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "SWC_BatteryStateHealth",
+        "SWC_BatteryStateHealth_RE_SWC_BatteryStateHealth_Step",
+        "SWC_BatteryStateHealth_Step"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BatteryStateHealth_Health",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "TC_BMS_050",
+        "BMS_Func_050",
+        "SWC_BatteryStateHealth_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_051",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "TC_BMS_050",
+        "BMS_Func_050",
+        "BMS_Func_051"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_002",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "BMS_Func_078",
+        "BMS_Func_079",
+        "BMS_Func_001",
+        "BMS_Func_002"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BMS_Main_Health",
+      "relation_path": [
+        "TC_BMS_077",
+        "BMS_Func_077",
+        "BMS_Func_078",
+        "BMS_Func_079",
+        "BMS_Func_001",
+        "SWC_BMS_Main_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_BatteryStateHealth_Out_DE_SWC_BatteryStateHealth_Health",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "SWC_BatteryStateHealth",
+        "SWC_BatteryStateHealth_P_SWC_BatteryStateHealth_Status",
+        "I_SWC_BatteryStateHealth_Out",
+        "I_SWC_BatteryStateHealth_Out_DE_SWC_BatteryStateHealth_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_052",
+      "relation_path": [
+        "TC_BMS_077",
+        "R_BMS_050",
+        "TC_BMS_050",
+        "BMS_Func_050",
+        "BMS_Func_051",
+        "BMS_Func_052"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

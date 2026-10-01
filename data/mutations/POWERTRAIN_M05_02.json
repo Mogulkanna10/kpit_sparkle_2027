@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M05_02",
+  "project_id": "POWERTRAIN",
+  "change_type": "M05",
+  "category_name": "Requirement constraint addition",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_021",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+  "after_state": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+  "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.\n+Electronic throttle control shall regulate intake air valve position within 2.5% accuracy. under condition that ambient temperature is above -10C and battery SoC > 15%.",
+  "intended_change_semantics": "Operational condition and environmental constraint addition",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M05",
+    "repeat": 2
+  }
+}

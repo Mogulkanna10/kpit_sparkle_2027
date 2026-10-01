@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M09_01",
+  "project_id": "ADAS",
+  "change_type": "M09",
+  "category_name": "Interface version change",
+  "source_artifact": "arxml/adas_swc.arxml",
+  "target_node_id": "I_SWC_EmergencySteering_Out_DE_SWC_EmergencySteering_Signal",
+  "artifact_type": "ARXML",
+  "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+  "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+  "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+  "intended_change_semantics": "Interface major version upgrade",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M09",
+    "repeat": 1
+  }
+}

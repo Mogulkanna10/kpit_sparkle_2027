@@ -1,0 +1,54 @@
+{
+  "stage": "8",
+  "gate_id": "GATE-08",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:44:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "branch": "main",
+  "objective": "Harden safety gate, prove T_safe SUBSET OF T_selected fail-closed invariant, and separate invariant from discovery recall",
+  "changes": [
+    "Created tests/safety/test_safety_gate_hardening.py with 13 comprehensive stress, bypass, and mathematical invariant tests",
+    "Created reports/final/safety_validation.md",
+    "Created artifacts/gates/stage_8_gate.json"
+  ],
+  "tests": [
+    "tests/safety/test_safety_gate_hardening.py::test_normal_selection",
+    "tests/safety/test_safety_gate_hardening.py::test_empty_semantic_results",
+    "tests/safety/test_safety_gate_hardening.py::test_graph_failure_zero_impacts",
+    "tests/safety/test_safety_gate_hardening.py::test_missing_metadata_defaults",
+    "tests/safety/test_safety_gate_hardening.py::test_low_confidence_immunity",
+    "tests/safety/test_safety_gate_hardening.py::test_duplicate_tests_deduplication",
+    "tests/safety/test_safety_gate_hardening.py::test_malformed_test_metadata_normalization",
+    "tests/safety/test_safety_gate_hardening.py::test_attempted_bypass_detection",
+    "tests/safety/test_safety_gate_hardening.py::test_asil_c_retention",
+    "tests/safety/test_safety_gate_hardening.py::test_asil_d_retention",
+    "tests/safety/test_safety_gate_hardening.py::test_multiple_mandatory_tests",
+    "tests/safety/test_safety_gate_hardening.py::test_empty_candidate_set",
+    "tests/safety/test_safety_gate_hardening.py::test_mathematical_invariant_guarantee"
+  ],
+  "test_results": {
+    "total": 78,
+    "passed": 78,
+    "failed": 0,
+    "skipped": 0,
+    "safety_hardening_passed": 13
+  },
+  "acceptance_criteria": {
+    "safety_invariant_verified": true,
+    "safety_invariant_metric": "100.00% PASS",
+    "safety_critical_recall_metric": "47.61% (150-mutation benchmark)",
+    "metrics_strictly_separated": true,
+    "bypass_prevention_verified": true,
+    "fail_closed_mode_verified": true
+  },
+  "failures": [],
+  "evidence_files": [
+    "tests/safety/test_safety_gate_hardening.py",
+    "reports/final/safety_validation.md"
+  ],
+  "next_stage": "9",
+  "checkpoint": "Gate 8 passed cleanly. Ready for Gate 9: Test Mapping and Regression Selection.",
+  "gate": "GATE-8",
+  "title": "Harden safety gate, prove T_safe SUBSET OF T_selected fail-closed invariant, and separate invariant from discovery recall",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

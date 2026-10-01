@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M02_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M02",
+  "category_name": "Threshold change",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_048",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.8 seconds]",
+  "after_state": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.4 seconds]",
+  "diff": "--- data\\projects\\battery_ev\\requirements\\battery_requirements.json\n+++ data\\projects\\battery_ev\\requirements\\battery_requirements.json\n@@ -1,4 +1,4 @@\n-Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.8 seconds]\n+Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C. [TTC limit: 1.4 seconds]",
+  "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M02",
+    "repeat": 1
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "gate": "GATE-19",
+  "title": "CI Integration",
+  "status": "PASS",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "timestamp": "2026-09-30T03:59:19.633792+00:00",
+  "workflow_file": ".github/workflows/aura-impact.yml",
+  "jobs": [
+    "test-fast (unit+safety+semantic+failure_injection+cli+dashboard)",
+    "benchmark-smoke",
+    "full-benchmark (manual/release only)"
+  ],
+  "fast_ci_validates": [
+    "configuration",
+    "architecture_b_strict_union",
+    "all test categories",
+    "cli smoke"
+  ],
+  "full_benchmark_trigger": "manual workflow_dispatch or release tag",
+  "acceptance_criteria": {
+    "workflow_created": "VERIFIED",
+    "fast_vs_full_separated": "VERIFIED",
+    "config_validated_in_ci": "VERIFIED",
+    "no_local_machine_deps": "VERIFIED"
+  }
+}

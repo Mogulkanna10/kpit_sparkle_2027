@@ -1,0 +1,249 @@
+{
+  "mutation_id": "BATTERY_EV_M14_02",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\tests\\test_battery.json",
+  "target_node_id": "TC_BMS_046",
+  "true_impacted_artifacts": [
+    "BMS_Func_046",
+    "BMS_Func_047",
+    "BMS_Func_048",
+    "BMS_Func_049",
+    "BMS_Func_050",
+    "I_SWC_HighVoltageSafety_Out",
+    "I_SWC_HighVoltageSafety_Out_DE_SWC_HighVoltageSafety_Health",
+    "R_BMS_046",
+    "SWC_ChargingInterface_Health",
+    "SWC_DCDC_Converter_Health",
+    "SWC_HighVoltageSafety",
+    "SWC_HighVoltageSafety_Health",
+    "SWC_HighVoltageSafety_P_SWC_HighVoltageSafety_Status",
+    "SWC_HighVoltageSafety_RE_SWC_HighVoltageSafety_Step",
+    "SWC_HighVoltageSafety_Step",
+    "SWC_InverterControl_Health",
+    "TC_BMS_046"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_006",
+    "TC_BMS_016",
+    "TC_BMS_026",
+    "TC_BMS_036",
+    "TC_BMS_046",
+    "TC_BMS_047",
+    "TC_BMS_048",
+    "TC_BMS_049",
+    "TC_BMS_050",
+    "TC_BMS_056",
+    "TC_BMS_066",
+    "TC_BMS_076"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_006",
+    "TC_BMS_016"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "TC_BMS_046",
+      "relation_path": [
+        "TC_BMS_046"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_046",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_HighVoltageSafety",
+      "relation_path": [
+        "TC_BMS_046",
+        "SWC_HighVoltageSafety"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "R_BMS_046",
+      "relation_path": [
+        "TC_BMS_046",
+        "R_BMS_046"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_047",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "BMS_Func_047"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_HighVoltageSafety_Health",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "SWC_HighVoltageSafety_Health"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_HighVoltageSafety_P_SWC_HighVoltageSafety_Status",
+      "relation_path": [
+        "TC_BMS_046",
+        "SWC_HighVoltageSafety",
+        "SWC_HighVoltageSafety_P_SWC_HighVoltageSafety_Status"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_HighVoltageSafety_RE_SWC_HighVoltageSafety_Step",
+      "relation_path": [
+        "TC_BMS_046",
+        "SWC_HighVoltageSafety",
+        "SWC_HighVoltageSafety_RE_SWC_HighVoltageSafety_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_Health",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "SWC_InverterControl_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_048",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "BMS_Func_048"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_HighVoltageSafety_Out",
+      "relation_path": [
+        "TC_BMS_046",
+        "SWC_HighVoltageSafety",
+        "SWC_HighVoltageSafety_P_SWC_HighVoltageSafety_Status",
+        "I_SWC_HighVoltageSafety_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_HighVoltageSafety_Step",
+      "relation_path": [
+        "TC_BMS_046",
+        "SWC_HighVoltageSafety",
+        "SWC_HighVoltageSafety_RE_SWC_HighVoltageSafety_Step",
+        "SWC_HighVoltageSafety_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ChargingInterface_Health",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "SWC_ChargingInterface_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_049",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "BMS_Func_049"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_HighVoltageSafety_Out_DE_SWC_HighVoltageSafety_Health",
+      "relation_path": [
+        "TC_BMS_046",
+        "SWC_HighVoltageSafety",
+        "SWC_HighVoltageSafety_P_SWC_HighVoltageSafety_Status",
+        "I_SWC_HighVoltageSafety_Out",
+        "I_SWC_HighVoltageSafety_Out_DE_SWC_HighVoltageSafety_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DCDC_Converter_Health",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "SWC_DCDC_Converter_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_050",
+      "relation_path": [
+        "TC_BMS_046",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "BMS_Func_048",
+        "BMS_Func_049",
+        "BMS_Func_050"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

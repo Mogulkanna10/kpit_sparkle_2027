@@ -1,0 +1,513 @@
+{
+  "mutation_id": "ADAS_M03_02",
+  "project_id": "ADAS",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_034",
+  "true_impacted_artifacts": [
+    "ADAS_Func_031",
+    "ADAS_Func_032",
+    "ADAS_Func_033",
+    "ADAS_Func_034",
+    "ADAS_Func_035",
+    "ADAS_Func_036",
+    "ADAS_Func_037",
+    "ADAS_Func_039",
+    "ADAS_Func_040",
+    "ADAS_Func_043",
+    "I_SWC_ObstacleDetector_In",
+    "I_SWC_ObstacleDetector_In_DE_SWC_ObstacleDetector_RawData",
+    "I_SWC_ObstacleDetector_Out",
+    "I_SWC_ObstacleDetector_Out_DE_SWC_ObstacleDetector_Signal",
+    "R_ADAS_034",
+    "SWC_ACC_RawData",
+    "SWC_ACC_Signal",
+    "SWC_BrakeActuator_RawData",
+    "SWC_BrakeActuator_Signal",
+    "SWC_EmergencySteering_RawData",
+    "SWC_EmergencySteering_Signal",
+    "SWC_LKA_RawData",
+    "SWC_LKA_Signal",
+    "SWC_ObstacleDetector",
+    "SWC_ObstacleDetector_Init",
+    "SWC_ObstacleDetector_P_SWC_ObstacleDetector_Command",
+    "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Init",
+    "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Step",
+    "SWC_ObstacleDetector_R_SWC_ObstacleDetector_SensorInput",
+    "SWC_ObstacleDetector_RawData",
+    "SWC_ObstacleDetector_Signal",
+    "SWC_ObstacleDetector_Step",
+    "SWC_SteeringActuator_RawData",
+    "SWC_SteeringActuator_Signal",
+    "TC_ADAS_034"
+  ],
+  "true_impacted_tests": [
+    "TC_ADAS_004",
+    "TC_ADAS_014",
+    "TC_ADAS_024",
+    "TC_ADAS_031",
+    "TC_ADAS_032",
+    "TC_ADAS_033",
+    "TC_ADAS_034",
+    "TC_ADAS_035",
+    "TC_ADAS_036",
+    "TC_ADAS_037",
+    "TC_ADAS_039",
+    "TC_ADAS_040",
+    "TC_ADAS_043",
+    "TC_ADAS_044",
+    "TC_ADAS_054",
+    "TC_ADAS_064",
+    "TC_ADAS_074",
+    "TC_ADAS_084"
+  ],
+  "safety_critical_tests": [
+    "TC_ADAS_004",
+    "TC_ADAS_014",
+    "TC_ADAS_024"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_ADAS_034",
+      "relation_path": [
+        "R_ADAS_034"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_ADAS_034",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_P_SWC_ObstacleDetector_Command",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_P_SWC_ObstacleDetector_Command"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_R_SWC_ObstacleDetector_SensorInput",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_R_SWC_ObstacleDetector_SensorInput"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Step",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Init",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Init"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_034",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ObstacleDetector_Out",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_P_SWC_ObstacleDetector_Command",
+        "I_SWC_ObstacleDetector_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ObstacleDetector_In",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_R_SWC_ObstacleDetector_SensorInput",
+        "I_SWC_ObstacleDetector_In"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_Step",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Step",
+        "SWC_ObstacleDetector_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_Init",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_RE_SWC_ObstacleDetector_Init",
+        "SWC_ObstacleDetector_Init"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_033",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_037",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_037"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_RawData",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "SWC_ObstacleDetector_RawData"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ObstacleDetector_Signal",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "SWC_ObstacleDetector_Signal"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ObstacleDetector_Out_DE_SWC_ObstacleDetector_Signal",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_P_SWC_ObstacleDetector_Command",
+        "I_SWC_ObstacleDetector_Out",
+        "I_SWC_ObstacleDetector_Out_DE_SWC_ObstacleDetector_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_ObstacleDetector_In_DE_SWC_ObstacleDetector_RawData",
+      "relation_path": [
+        "R_ADAS_034",
+        "SWC_ObstacleDetector",
+        "SWC_ObstacleDetector_R_SWC_ObstacleDetector_SensorInput",
+        "I_SWC_ObstacleDetector_In",
+        "I_SWC_ObstacleDetector_In_DE_SWC_ObstacleDetector_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_LKA_Signal",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "SWC_LKA_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_036",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_036"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_032",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_032"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_LKA_RawData",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "SWC_LKA_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_040",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_037",
+        "ADAS_Func_040"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_Signal",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_037",
+        "SWC_SteeringActuator_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_RawData",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_037",
+        "SWC_SteeringActuator_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_039",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_036",
+        "ADAS_Func_039"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BrakeActuator_Signal",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_036",
+        "SWC_BrakeActuator_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_035",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_036",
+        "ADAS_Func_035"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BrakeActuator_RawData",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_036",
+        "SWC_BrakeActuator_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_031",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_032",
+        "ADAS_Func_031"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ACC_Signal",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_032",
+        "SWC_ACC_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ACC_RawData",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_033",
+        "ADAS_Func_032",
+        "SWC_ACC_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_EmergencySteering_Signal",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "SWC_EmergencySteering_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_EmergencySteering_RawData",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "SWC_EmergencySteering_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_043",
+      "relation_path": [
+        "R_ADAS_034",
+        "TC_ADAS_034",
+        "ADAS_Func_034",
+        "ADAS_Func_037",
+        "ADAS_Func_040",
+        "ADAS_Func_043"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

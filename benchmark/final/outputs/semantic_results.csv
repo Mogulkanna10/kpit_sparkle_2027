@@ -1,0 +1,31 @@
+mutation_id,change_type,project,query,true_target,rank1,rank3,rank5,rank10,rank_true_target,MRR,top_candidate,top_raw_cosine,top_context_score,top_final_score
+ADAS_M03_01,M03,ADAS,The automated braking system shall execute autonomous stopping when a collision ,R_ADAS_033,False,False,False,False,>10,0.0,REQ_ADAS_006,0.6487421989440918,0.7987421989440918,0.7987421989440918
+ADAS_M04_01,M04,ADAS,Compute longitudinal velocity and exert deceleration force.,R_ADAS_021,False,False,False,False,>10,0.0,REQ_ADAS_012,0.4634276032447815,0.6134276032447815,0.6134276032447815
+ADAS_M05_01,M05,ADAS,R_GEN_050: Control module SWC_EmergencySteering shall compute actuation command ,R_ADAS_050,False,False,True,True,4,0.25,REQ_ADAS_026,0.3676302134990692,0.5176302134990692,0.5176302134990692
+ADAS_M19_01,M19,ADAS,Calibrate parking brake pressure hold threshold.,R_ADAS_031,False,False,False,False,>10,0.0,REQ_ADAS_046,0.46145302057266235,0.6114530205726624,0.6114530205726624
+ADAS_M23_01,M23,ADAS,Radar-guided distance tracking regulation.,R_ADAS_026,False,False,False,False,>10,0.0,REQ_ADAS_011,0.6445032954216003,0.7945032954216004,0.7945032954216004
+ADAS_M03_02,M03,ADAS,The automated braking system shall execute autonomous stopping when a collision ,R_ADAS_034,False,False,False,False,>10,0.0,REQ_ADAS_006,0.6487421989440918,0.7987421989440918,0.7987421989440918
+ADAS_M04_02,M04,ADAS,Compute longitudinal velocity and exert deceleration force.,R_ADAS_037,False,False,False,False,>10,0.0,REQ_ADAS_012,0.4634276032447815,0.6134276032447815,0.6134276032447815
+ADAS_M05_02,M05,ADAS,R_GEN_040: Control module SWC_EmergencySteering shall compute actuation command ,R_ADAS_040,True,True,True,True,1,1.0,TC_ADAS_040,0.37179768085479736,0.5217976808547974,0.5217976808547974
+ADAS_M19_02,M19,ADAS,Calibrate parking brake pressure hold threshold.,R_ADAS_029,False,False,False,False,>10,0.0,REQ_ADAS_046,0.46145302057266235,0.6114530205726624,0.6114530205726624
+ADAS_M23_02,M23,ADAS,Radar-guided distance tracking regulation.,R_ADAS_019,False,False,False,False,>10,0.0,REQ_ADAS_011,0.6445032954216003,0.7945032954216004,0.7945032954216004
+POWERTRAIN_M03_01,M03,POWERTRAIN,The automated braking system shall execute autonomous stopping when a collision ,R_PT_028,False,False,False,False,>10,0.0,REQ_PT_025,0.3849133849143982,0.5349133849143982,0.5349133849143982
+POWERTRAIN_M04_01,M04,POWERTRAIN,Compute longitudinal velocity and exert deceleration force.,R_PT_052,False,False,False,False,>10,0.0,REQ_PT_004,0.38792163133621216,0.5379216313362122,0.5379216313362122
+POWERTRAIN_M05_01,M05,POWERTRAIN,Electronic throttle control shall regulate intake air valve position within 2.5%,R_PT_006,False,False,False,True,9,0.1111,R_PT_001,0.6213692426681519,0.7713692426681519,0.7713692426681519
+POWERTRAIN_M19_01,M19,POWERTRAIN,Calibrate parking brake pressure hold threshold.,R_PT_002,False,False,False,False,>10,0.0,PT_Func_007,0.2725534737110138,0.4225534737110138,0.4225534737110138
+POWERTRAIN_M23_01,M23,POWERTRAIN,Radar-guided distance tracking regulation.,R_PT_016,False,False,False,False,>10,0.0,SWC_CruiseGovernor,0.48103800415992737,0.6310380041599274,0.6310380041599274
+POWERTRAIN_M03_02,M03,POWERTRAIN,The automated braking system shall execute autonomous stopping when a collision ,R_PT_021,False,False,False,False,>10,0.0,REQ_PT_025,0.3849133849143982,0.5349133849143982,0.5349133849143982
+POWERTRAIN_M04_02,M04,POWERTRAIN,Compute longitudinal velocity and exert deceleration force.,R_PT_022,False,False,False,False,>10,0.0,REQ_PT_004,0.38792163133621216,0.5379216313362122,0.5379216313362122
+POWERTRAIN_M05_02,M05,POWERTRAIN,Electronic throttle control shall regulate intake air valve position within 2.5%,R_PT_021,False,False,False,True,10,0.1,R_PT_001,0.6213692426681519,0.7713692426681519,0.7713692426681519
+POWERTRAIN_M19_02,M19,POWERTRAIN,Calibrate parking brake pressure hold threshold.,R_PT_032,False,False,False,False,>10,0.0,PT_Func_007,0.2725534737110138,0.4225534737110138,0.4225534737110138
+POWERTRAIN_M23_02,M23,POWERTRAIN,Radar-guided distance tracking regulation.,R_PT_025,False,False,False,False,>10,0.0,SWC_CruiseGovernor,0.48103800415992737,0.6310380041599274,0.6310380041599274
+BATTERY_EV_M03_01,M03,BATTERY_EV,The automated braking system shall execute autonomous stopping when a collision ,R_BMS_045,False,False,False,False,>10,0.0,REQ_BMS_032,0.29416385293006897,0.444163852930069,0.444163852930069
+BATTERY_EV_M04_01,M04,BATTERY_EV,Compute longitudinal velocity and exert deceleration force.,R_BMS_041,False,False,False,False,>10,0.0,REQ_BMS_044,0.29395782947540283,0.44395782947540285,0.44395782947540285
+BATTERY_EV_M05_01,M05,BATTERY_EV,Thermal runaway monitor shall isolate high voltage contactors within 18 ms if ce,R_BMS_024,False,True,True,True,3,0.3333,R_BMS_012,0.86488276720047,1.0,1.0
+BATTERY_EV_M19_01,M19,BATTERY_EV,Calibrate parking brake pressure hold threshold.,R_BMS_014,False,False,False,False,>10,0.0,TC_BMS_053,0.3819441497325897,0.5319441497325897,0.5319441497325897
+BATTERY_EV_M23_01,M23,BATTERY_EV,Radar-guided distance tracking regulation.,R_BMS_011,False,False,False,False,>10,0.0,SWC_InverterControl,0.38715556263923645,0.5371555626392365,0.5371555626392365
+BATTERY_EV_M03_02,M03,BATTERY_EV,The automated braking system shall execute autonomous stopping when a collision ,R_BMS_016,False,False,False,False,>10,0.0,REQ_BMS_032,0.29416385293006897,0.444163852930069,0.444163852930069
+BATTERY_EV_M04_02,M04,BATTERY_EV,Compute longitudinal velocity and exert deceleration force.,R_BMS_037,False,False,False,False,>10,0.0,REQ_BMS_044,0.29395782947540283,0.44395782947540285,0.44395782947540285
+BATTERY_EV_M05_02,M05,BATTERY_EV,Thermal runaway monitor shall isolate high voltage contactors within 10 ms if ce,R_BMS_030,False,False,True,True,5,0.2,R_BMS_010,0.8671782612800598,1.0,1.0
+BATTERY_EV_M19_02,M19,BATTERY_EV,Calibrate parking brake pressure hold threshold.,R_BMS_012,False,False,False,False,>10,0.0,TC_BMS_053,0.3819441497325897,0.5319441497325897,0.5319441497325897
+BATTERY_EV_M23_02,M23,BATTERY_EV,Radar-guided distance tracking regulation.,R_BMS_036,False,False,False,False,>10,0.0,SWC_InverterControl,0.38715556263923645,0.5371555626392365,0.5371555626392365

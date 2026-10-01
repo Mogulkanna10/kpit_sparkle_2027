@@ -1,0 +1,654 @@
+{
+  "requirements": [
+    {
+      "id": "R_BMS_001",
+      "name": "BMS Requirement R_BMS_001",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "verification_tests": [
+        "TC_BMS_001"
+      ]
+    },
+    {
+      "id": "R_BMS_002",
+      "name": "BMS Requirement R_BMS_002",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "verification_tests": [
+        "TC_BMS_002"
+      ]
+    },
+    {
+      "id": "R_BMS_003",
+      "name": "BMS Requirement R_BMS_003",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "verification_tests": [
+        "TC_BMS_003"
+      ]
+    },
+    {
+      "id": "R_BMS_004",
+      "name": "BMS Requirement R_BMS_004",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "verification_tests": [
+        "TC_BMS_004"
+      ]
+    },
+    {
+      "id": "R_BMS_005",
+      "name": "BMS Requirement R_BMS_005",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "verification_tests": [
+        "TC_BMS_005"
+      ]
+    },
+    {
+      "id": "R_BMS_006",
+      "name": "BMS Requirement R_BMS_006",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "verification_tests": [
+        "TC_BMS_006"
+      ]
+    },
+    {
+      "id": "R_BMS_007",
+      "name": "BMS Requirement R_BMS_007",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_InverterControl"
+      ],
+      "verification_tests": [
+        "TC_BMS_007"
+      ]
+    },
+    {
+      "id": "R_BMS_008",
+      "name": "BMS Requirement R_BMS_008",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "verification_tests": [
+        "TC_BMS_008"
+      ]
+    },
+    {
+      "id": "R_BMS_009",
+      "name": "BMS Requirement R_BMS_009",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "verification_tests": [
+        "TC_BMS_009"
+      ]
+    },
+    {
+      "id": "R_BMS_010",
+      "name": "BMS Requirement R_BMS_010",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "verification_tests": [
+        "TC_BMS_010"
+      ]
+    },
+    {
+      "id": "R_BMS_011",
+      "name": "BMS Requirement R_BMS_011",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "verification_tests": [
+        "TC_BMS_011"
+      ]
+    },
+    {
+      "id": "R_BMS_012",
+      "name": "BMS Requirement R_BMS_012",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "verification_tests": [
+        "TC_BMS_012"
+      ]
+    },
+    {
+      "id": "R_BMS_013",
+      "name": "BMS Requirement R_BMS_013",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "verification_tests": [
+        "TC_BMS_013"
+      ]
+    },
+    {
+      "id": "R_BMS_014",
+      "name": "BMS Requirement R_BMS_014",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "verification_tests": [
+        "TC_BMS_014"
+      ]
+    },
+    {
+      "id": "R_BMS_015",
+      "name": "BMS Requirement R_BMS_015",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "verification_tests": [
+        "TC_BMS_015"
+      ]
+    },
+    {
+      "id": "R_BMS_016",
+      "name": "BMS Requirement R_BMS_016",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "verification_tests": [
+        "TC_BMS_016"
+      ]
+    },
+    {
+      "id": "R_BMS_017",
+      "name": "BMS Requirement R_BMS_017",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_InverterControl"
+      ],
+      "verification_tests": [
+        "TC_BMS_017"
+      ]
+    },
+    {
+      "id": "R_BMS_018",
+      "name": "BMS Requirement R_BMS_018",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "verification_tests": [
+        "TC_BMS_018"
+      ]
+    },
+    {
+      "id": "R_BMS_019",
+      "name": "BMS Requirement R_BMS_019",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "verification_tests": [
+        "TC_BMS_019"
+      ]
+    },
+    {
+      "id": "R_BMS_020",
+      "name": "BMS Requirement R_BMS_020",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "verification_tests": [
+        "TC_BMS_020"
+      ]
+    },
+    {
+      "id": "R_BMS_021",
+      "name": "BMS Requirement R_BMS_021",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "verification_tests": [
+        "TC_BMS_021"
+      ]
+    },
+    {
+      "id": "R_BMS_022",
+      "name": "BMS Requirement R_BMS_022",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "verification_tests": [
+        "TC_BMS_022"
+      ]
+    },
+    {
+      "id": "R_BMS_023",
+      "name": "BMS Requirement R_BMS_023",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "verification_tests": [
+        "TC_BMS_023"
+      ]
+    },
+    {
+      "id": "R_BMS_024",
+      "name": "BMS Requirement R_BMS_024",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "verification_tests": [
+        "TC_BMS_024"
+      ]
+    },
+    {
+      "id": "R_BMS_025",
+      "name": "BMS Requirement R_BMS_025",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "verification_tests": [
+        "TC_BMS_025"
+      ]
+    },
+    {
+      "id": "R_BMS_026",
+      "name": "BMS Requirement R_BMS_026",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "verification_tests": [
+        "TC_BMS_026"
+      ]
+    },
+    {
+      "id": "R_BMS_027",
+      "name": "BMS Requirement R_BMS_027",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_InverterControl"
+      ],
+      "verification_tests": [
+        "TC_BMS_027"
+      ]
+    },
+    {
+      "id": "R_BMS_028",
+      "name": "BMS Requirement R_BMS_028",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "verification_tests": [
+        "TC_BMS_028"
+      ]
+    },
+    {
+      "id": "R_BMS_029",
+      "name": "BMS Requirement R_BMS_029",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "verification_tests": [
+        "TC_BMS_029"
+      ]
+    },
+    {
+      "id": "R_BMS_030",
+      "name": "BMS Requirement R_BMS_030",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "verification_tests": [
+        "TC_BMS_030"
+      ]
+    },
+    {
+      "id": "R_BMS_031",
+      "name": "BMS Requirement R_BMS_031",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "verification_tests": [
+        "TC_BMS_031"
+      ]
+    },
+    {
+      "id": "R_BMS_032",
+      "name": "BMS Requirement R_BMS_032",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "verification_tests": [
+        "TC_BMS_032"
+      ]
+    },
+    {
+      "id": "R_BMS_033",
+      "name": "BMS Requirement R_BMS_033",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "verification_tests": [
+        "TC_BMS_033"
+      ]
+    },
+    {
+      "id": "R_BMS_034",
+      "name": "BMS Requirement R_BMS_034",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "verification_tests": [
+        "TC_BMS_034"
+      ]
+    },
+    {
+      "id": "R_BMS_035",
+      "name": "BMS Requirement R_BMS_035",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "verification_tests": [
+        "TC_BMS_035"
+      ]
+    },
+    {
+      "id": "R_BMS_036",
+      "name": "BMS Requirement R_BMS_036",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "verification_tests": [
+        "TC_BMS_036"
+      ]
+    },
+    {
+      "id": "R_BMS_037",
+      "name": "BMS Requirement R_BMS_037",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_InverterControl"
+      ],
+      "verification_tests": [
+        "TC_BMS_037"
+      ]
+    },
+    {
+      "id": "R_BMS_038",
+      "name": "BMS Requirement R_BMS_038",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "verification_tests": [
+        "TC_BMS_038"
+      ]
+    },
+    {
+      "id": "R_BMS_039",
+      "name": "BMS Requirement R_BMS_039",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "verification_tests": [
+        "TC_BMS_039"
+      ]
+    },
+    {
+      "id": "R_BMS_040",
+      "name": "BMS Requirement R_BMS_040",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "verification_tests": [
+        "TC_BMS_040"
+      ]
+    },
+    {
+      "id": "R_BMS_041",
+      "name": "BMS Requirement R_BMS_041",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_BMS_Main"
+      ],
+      "verification_tests": [
+        "TC_BMS_041"
+      ]
+    },
+    {
+      "id": "R_BMS_042",
+      "name": "BMS Requirement R_BMS_042",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_SoC_Estimator"
+      ],
+      "verification_tests": [
+        "TC_BMS_042"
+      ]
+    },
+    {
+      "id": "R_BMS_043",
+      "name": "BMS Requirement R_BMS_043",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ThermalRunawayMonitor"
+      ],
+      "verification_tests": [
+        "TC_BMS_043"
+      ]
+    },
+    {
+      "id": "R_BMS_044",
+      "name": "BMS Requirement R_BMS_044",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_CellBalancing"
+      ],
+      "verification_tests": [
+        "TC_BMS_044"
+      ]
+    },
+    {
+      "id": "R_BMS_045",
+      "name": "BMS Requirement R_BMS_045",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_RegenCoordinator"
+      ],
+      "verification_tests": [
+        "TC_BMS_045"
+      ]
+    },
+    {
+      "id": "R_BMS_046",
+      "name": "BMS Requirement R_BMS_046",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 12 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_HighVoltageSafety"
+      ],
+      "verification_tests": [
+        "TC_BMS_046"
+      ]
+    },
+    {
+      "id": "R_BMS_047",
+      "name": "BMS Requirement R_BMS_047",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 14 ms if cell temperature exceeds 70 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_InverterControl"
+      ],
+      "verification_tests": [
+        "TC_BMS_047"
+      ]
+    },
+    {
+      "id": "R_BMS_048",
+      "name": "BMS Requirement R_BMS_048",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 16 ms if cell temperature exceeds 55 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ChargingInterface"
+      ],
+      "verification_tests": [
+        "TC_BMS_048"
+      ]
+    },
+    {
+      "id": "R_BMS_049",
+      "name": "BMS Requirement R_BMS_049",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 18 ms if cell temperature exceeds 60 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_DCDC_Converter"
+      ],
+      "verification_tests": [
+        "TC_BMS_049"
+      ]
+    },
+    {
+      "id": "R_BMS_050",
+      "name": "BMS Requirement R_BMS_050",
+      "description": "Thermal runaway monitor shall isolate high voltage contactors within 10 ms if cell temperature exceeds 65 C.",
+      "domain": "Battery & High Voltage",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_BatteryStateHealth"
+      ],
+      "verification_tests": [
+        "TC_BMS_050"
+      ]
+    }
+  ]
+}

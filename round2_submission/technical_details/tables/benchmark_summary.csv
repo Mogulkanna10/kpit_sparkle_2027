@@ -1,0 +1,5 @@
+Method,Recall,Precision,F1,Latency
+Keyword,42.82%,18.97%,0.1485,0.99 ms
+Embedding-Only,42.45%,66.78%,0.3114,0.39 ms
+Graph-Only,63.07%,54.43%,0.4557,0.21 ms
+AURA-Impact,63.11%,54.92%,0.5503,0.79 ms

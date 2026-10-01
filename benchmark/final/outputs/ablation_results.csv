@@ -1,0 +1,4 @@
+ablation_variant,n_mutations,mean_f1
+Embedding_Only (Raw),24,0.0133
+Embedding + Soft Context,24,0.017
+Embedding + Hard Filter + Soft Rank,24,0.017

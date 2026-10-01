@@ -1,0 +1,7 @@
+method,false_positive_rate
+B0_Full_Suite,1.0
+B1_Keyword,0.9
+B2_Raw_Embedding,1.0
+B3_Graph_Only,0.0
+B4_Contextual_Embedding,1.0
+B5_AURA_Hybrid,0.0

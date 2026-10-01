@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M14_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M14",
+  "category_name": "Test requirement modification",
+  "source_artifact": "data\\projects\\battery_ev\\tests\\test_battery.json",
+  "target_node_id": "TC_BMS_046",
+  "artifact_type": "TEST",
+  "before_state": "TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 20",
+  "after_state": "TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 15",
+  "diff": "--- data\\projects\\battery_ev\\tests\\test_battery.json\n+++ data\\projects\\battery_ev\\tests\\test_battery.json\n@@ -1,4 +1,4 @@\n-TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 20\n+TEST_VERIFICATION: Monitors cell over-voltage threshold for BMS_Func_046 assert expected <= 15",
+  "intended_change_semantics": "Test expectation assertion updated",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M14",
+    "repeat": 2
+  }
+}

@@ -1,0 +1,680 @@
+{
+  "requirements": [
+    {
+      "id": "R_PT_001",
+      "name": "Powertrain Requirement R_PT_001",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "verification_tests": [
+        "TC_PT_001"
+      ]
+    },
+    {
+      "id": "R_PT_002",
+      "name": "Powertrain Requirement R_PT_002",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "verification_tests": [
+        "TC_PT_002"
+      ]
+    },
+    {
+      "id": "R_PT_003",
+      "name": "Powertrain Requirement R_PT_003",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_Transmission"
+      ],
+      "verification_tests": [
+        "TC_PT_003"
+      ]
+    },
+    {
+      "id": "R_PT_004",
+      "name": "Powertrain Requirement R_PT_004",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "verification_tests": [
+        "TC_PT_004"
+      ]
+    },
+    {
+      "id": "R_PT_005",
+      "name": "Powertrain Requirement R_PT_005",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "verification_tests": [
+        "TC_PT_005"
+      ]
+    },
+    {
+      "id": "R_PT_006",
+      "name": "Powertrain Requirement R_PT_006",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "verification_tests": [
+        "TC_PT_006"
+      ]
+    },
+    {
+      "id": "R_PT_007",
+      "name": "Powertrain Requirement R_PT_007",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "verification_tests": [
+        "TC_PT_007"
+      ]
+    },
+    {
+      "id": "R_PT_008",
+      "name": "Powertrain Requirement R_PT_008",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "verification_tests": [
+        "TC_PT_008"
+      ]
+    },
+    {
+      "id": "R_PT_009",
+      "name": "Powertrain Requirement R_PT_009",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_ClutchController"
+      ],
+      "verification_tests": [
+        "TC_PT_009"
+      ]
+    },
+    {
+      "id": "R_PT_010",
+      "name": "Powertrain Requirement R_PT_010",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "verification_tests": [
+        "TC_PT_010"
+      ]
+    },
+    {
+      "id": "R_PT_011",
+      "name": "Powertrain Requirement R_PT_011",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "verification_tests": [
+        "TC_PT_011"
+      ]
+    },
+    {
+      "id": "R_PT_012",
+      "name": "Powertrain Requirement R_PT_012",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_D",
+      "allocated_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "verification_tests": [
+        "TC_PT_012"
+      ]
+    },
+    {
+      "id": "R_PT_013",
+      "name": "Powertrain Requirement R_PT_013",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_Transmission"
+      ],
+      "verification_tests": [
+        "TC_PT_013"
+      ]
+    },
+    {
+      "id": "R_PT_014",
+      "name": "Powertrain Requirement R_PT_014",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "verification_tests": [
+        "TC_PT_014"
+      ]
+    },
+    {
+      "id": "R_PT_015",
+      "name": "Powertrain Requirement R_PT_015",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "verification_tests": [
+        "TC_PT_015"
+      ]
+    },
+    {
+      "id": "R_PT_016",
+      "name": "Powertrain Requirement R_PT_016",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "verification_tests": [
+        "TC_PT_016"
+      ]
+    },
+    {
+      "id": "R_PT_017",
+      "name": "Powertrain Requirement R_PT_017",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "verification_tests": [
+        "TC_PT_017"
+      ]
+    },
+    {
+      "id": "R_PT_018",
+      "name": "Powertrain Requirement R_PT_018",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "verification_tests": [
+        "TC_PT_018"
+      ]
+    },
+    {
+      "id": "R_PT_019",
+      "name": "Powertrain Requirement R_PT_019",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_ClutchController"
+      ],
+      "verification_tests": [
+        "TC_PT_019"
+      ]
+    },
+    {
+      "id": "R_PT_020",
+      "name": "Powertrain Requirement R_PT_020",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "verification_tests": [
+        "TC_PT_020"
+      ]
+    },
+    {
+      "id": "R_PT_021",
+      "name": "Powertrain Requirement R_PT_021",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "verification_tests": [
+        "TC_PT_021"
+      ]
+    },
+    {
+      "id": "R_PT_022",
+      "name": "Powertrain Requirement R_PT_022",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "verification_tests": [
+        "TC_PT_022"
+      ]
+    },
+    {
+      "id": "R_PT_023",
+      "name": "Powertrain Requirement R_PT_023",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_Transmission"
+      ],
+      "verification_tests": [
+        "TC_PT_023"
+      ]
+    },
+    {
+      "id": "R_PT_024",
+      "name": "Powertrain Requirement R_PT_024",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "verification_tests": [
+        "TC_PT_024"
+      ]
+    },
+    {
+      "id": "R_PT_025",
+      "name": "Powertrain Requirement R_PT_025",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "verification_tests": [
+        "TC_PT_025"
+      ]
+    },
+    {
+      "id": "R_PT_026",
+      "name": "Powertrain Requirement R_PT_026",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "verification_tests": [
+        "TC_PT_026"
+      ]
+    },
+    {
+      "id": "R_PT_027",
+      "name": "Powertrain Requirement R_PT_027",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "verification_tests": [
+        "TC_PT_027"
+      ]
+    },
+    {
+      "id": "R_PT_028",
+      "name": "Powertrain Requirement R_PT_028",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "ASIL_C",
+      "allocated_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "verification_tests": [
+        "TC_PT_028"
+      ]
+    },
+    {
+      "id": "R_PT_029",
+      "name": "Powertrain Requirement R_PT_029",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ClutchController"
+      ],
+      "verification_tests": [
+        "TC_PT_029"
+      ]
+    },
+    {
+      "id": "R_PT_030",
+      "name": "Powertrain Requirement R_PT_030",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "verification_tests": [
+        "TC_PT_030"
+      ]
+    },
+    {
+      "id": "R_PT_031",
+      "name": "Powertrain Requirement R_PT_031",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "verification_tests": [
+        "TC_PT_031"
+      ]
+    },
+    {
+      "id": "R_PT_032",
+      "name": "Powertrain Requirement R_PT_032",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "verification_tests": [
+        "TC_PT_032"
+      ]
+    },
+    {
+      "id": "R_PT_033",
+      "name": "Powertrain Requirement R_PT_033",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_Transmission"
+      ],
+      "verification_tests": [
+        "TC_PT_033"
+      ]
+    },
+    {
+      "id": "R_PT_034",
+      "name": "Powertrain Requirement R_PT_034",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "verification_tests": [
+        "TC_PT_034"
+      ]
+    },
+    {
+      "id": "R_PT_035",
+      "name": "Powertrain Requirement R_PT_035",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "verification_tests": [
+        "TC_PT_035"
+      ]
+    },
+    {
+      "id": "R_PT_036",
+      "name": "Powertrain Requirement R_PT_036",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "verification_tests": [
+        "TC_PT_036"
+      ]
+    },
+    {
+      "id": "R_PT_037",
+      "name": "Powertrain Requirement R_PT_037",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "verification_tests": [
+        "TC_PT_037"
+      ]
+    },
+    {
+      "id": "R_PT_038",
+      "name": "Powertrain Requirement R_PT_038",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "verification_tests": [
+        "TC_PT_038"
+      ]
+    },
+    {
+      "id": "R_PT_039",
+      "name": "Powertrain Requirement R_PT_039",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ClutchController"
+      ],
+      "verification_tests": [
+        "TC_PT_039"
+      ]
+    },
+    {
+      "id": "R_PT_040",
+      "name": "Powertrain Requirement R_PT_040",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "verification_tests": [
+        "TC_PT_040"
+      ]
+    },
+    {
+      "id": "R_PT_041",
+      "name": "Powertrain Requirement R_PT_041",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "verification_tests": [
+        "TC_PT_041"
+      ]
+    },
+    {
+      "id": "R_PT_042",
+      "name": "Powertrain Requirement R_PT_042",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "verification_tests": [
+        "TC_PT_042"
+      ]
+    },
+    {
+      "id": "R_PT_043",
+      "name": "Powertrain Requirement R_PT_043",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_Transmission"
+      ],
+      "verification_tests": [
+        "TC_PT_043"
+      ]
+    },
+    {
+      "id": "R_PT_044",
+      "name": "Powertrain Requirement R_PT_044",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_CruiseGovernor"
+      ],
+      "verification_tests": [
+        "TC_PT_044"
+      ]
+    },
+    {
+      "id": "R_PT_045",
+      "name": "Powertrain Requirement R_PT_045",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_FuelInjection"
+      ],
+      "verification_tests": [
+        "TC_PT_045"
+      ]
+    },
+    {
+      "id": "R_PT_046",
+      "name": "Powertrain Requirement R_PT_046",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_IgnitionTiming"
+      ],
+      "verification_tests": [
+        "TC_PT_046"
+      ]
+    },
+    {
+      "id": "R_PT_047",
+      "name": "Powertrain Requirement R_PT_047",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_EmissionMonitor"
+      ],
+      "verification_tests": [
+        "TC_PT_047"
+      ]
+    },
+    {
+      "id": "R_PT_048",
+      "name": "Powertrain Requirement R_PT_048",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_Turbocharger"
+      ],
+      "verification_tests": [
+        "TC_PT_048"
+      ]
+    },
+    {
+      "id": "R_PT_049",
+      "name": "Powertrain Requirement R_PT_049",
+      "description": "Electronic throttle control shall regulate intake air valve position within 4.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ClutchController"
+      ],
+      "verification_tests": [
+        "TC_PT_049"
+      ]
+    },
+    {
+      "id": "R_PT_050",
+      "name": "Powertrain Requirement R_PT_050",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_DriveModeSelector"
+      ],
+      "verification_tests": [
+        "TC_PT_050"
+      ]
+    },
+    {
+      "id": "R_PT_051",
+      "name": "Powertrain Requirement R_PT_051",
+      "description": "Electronic throttle control shall regulate intake air valve position within 2.5% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_ThrottleControl"
+      ],
+      "verification_tests": [
+        "TC_PT_051"
+      ]
+    },
+    {
+      "id": "R_PT_052",
+      "name": "Powertrain Requirement R_PT_052",
+      "description": "Electronic throttle control shall regulate intake air valve position within 3.0% accuracy.",
+      "domain": "Powertrain & Torque",
+      "asil_level": "QM",
+      "allocated_swcs": [
+        "SWC_TorqueManager"
+      ],
+      "verification_tests": [
+        "TC_PT_052"
+      ]
+    }
+  ]
+}

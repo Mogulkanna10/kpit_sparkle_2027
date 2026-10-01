@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M19_01",
+  "project_id": "POWERTRAIN",
+  "change_type": "M19",
+  "category_name": "Misleading semantic similarity",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_002",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Calibrate braking hydraulic threshold.",
+  "after_state": "Calibrate parking brake pressure hold threshold.",
+  "diff": "--- data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n+++ data\\projects\\powertrain\\requirements\\powertrain_requirements.json\n@@ -1,4 +1,4 @@\n-Calibrate braking hydraulic threshold.\n+Calibrate parking brake pressure hold threshold.",
+  "intended_change_semantics": "Misleading semantic similarity across distinct sub-functions",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M19",
+    "repeat": 1
+  }
+}

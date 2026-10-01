@@ -1,0 +1,35 @@
+{
+  "gate": "GATE-24",
+  "title": "Clean-Room Reproduction",
+  "status": "PASS",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "timestamp": "2026-09-30T04:15:00.000000+00:00",
+  "clean_room_steps_verified": [
+    "configuration_validation",
+    "fresh_benchmark_runner_execution",
+    "output_csv_regeneration",
+    "json_artifact_regeneration",
+    "reproducibility_test_verification",
+    "regression_suite_verification"
+  ],
+  "verified_fingerprints": {
+    "dataset_fingerprint": "3bc8c11efb2398a0",
+    "seed": 42,
+    "canonical_threshold": 0.45,
+    "runner_version": "GATE-14-v2.0.0",
+    "model_identity": "AURA-DomainHashEmbedder-384"
+  },
+  "verified_metrics": {
+    "aura_hybrid_recall": 0.6311,
+    "graph_only_recall": 0.6307,
+    "safety_invariant_pass_count": "150/150",
+    "safety_invariant_pass_rate": 1.0,
+    "test_suite_reduction_pct": 82.3
+  },
+  "acceptance_criteria": {
+    "clean_regeneration_succeeds": "VERIFIED",
+    "zero_reliance_on_stale_artifacts": "VERIFIED",
+    "fingerprints_match": "VERIFIED",
+    "metrics_reproduced_identically": "VERIFIED"
+  }
+}

@@ -1,0 +1,7 @@
+claim_text,scope,status
+Graph achieves 100% recall on explicit structural changes,Benchmark Evaluated,SUPPORTED
+Contextual semantic retrieval recovers 40.67% hidden dependencies,Benchmark Evaluated (p=5.71e-15),SUPPORTED
+Context filtering eliminates 100% of out-of-domain semantic decoys,Subsystem Isolation Rule 2,SUPPORTED
+Safety gate guarantees 100% safety-critical test retention,Hard Invariant Verified (0 omissions),SUPPORTED
+Guaranteed universal zero false positives outside benchmark,Real-world Extrapolation,OVERSTATED_QUALIFIED_TO_BENCHMARK
+ISO 26262 Certified Production Ready,Certification Scope,OVERSTATED_QUALIFIED_TO_RESEARCH_PROTOTYPE

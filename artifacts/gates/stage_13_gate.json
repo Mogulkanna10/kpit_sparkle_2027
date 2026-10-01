@@ -1,0 +1,118 @@
+{
+  "stage": 13,
+  "name": "Benchmark Leakage Audit",
+  "status": "PASS",
+  "timestamp": "2026-09-29T23:28:45+05:30",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "baseline_tests": {
+    "before_gate13": "143/143 PASS",
+    "after_gate13": "153/153 PASS",
+    "gate13_tests": "10/10 PASS"
+  },
+  "gate_tests": {
+    "module": "tests/benchmark/test_leakage.py",
+    "total": 10,
+    "passed": 10,
+    "failed": 0
+  },
+  "leakage_vectors_evaluated": {
+    "target_ids": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "mutation_ids": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "ground_truth_labels": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "file_names": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "directory_names": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "answer_keys": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "metadata": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "generated_identifiers": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "semantic_text": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "configuration": {
+      "status": "CLEAN",
+      "verified": true
+    },
+    "safety_oracles_test_names": {
+      "status": "CLEAN",
+      "verified": true
+    }
+  },
+  "findings": [],
+  "blocking_findings": [],
+  "evidence": [
+    "tests/benchmark/test_leakage.py (10 tests, all PASS)",
+    "reports/final/leakage_audit.md",
+    "src/benchmark/runners.py (verified temporal isolation of fn(change_ctx))",
+    "data/mutations/all_mutations.json (0 forbidden answer keys)"
+  ],
+  "gate_pass_criteria": {
+    "target_ids_clean": true,
+    "mutation_ids_clean": true,
+    "ground_truth_labels_clean": true,
+    "file_and_directory_names_clean": true,
+    "answer_keys_clean": true,
+    "metadata_clean": true,
+    "generated_identifiers_clean": true,
+    "semantic_text_clean": true,
+    "configuration_clean": true,
+    "safety_oracles_clean": true,
+    "gate_tests_pass": true,
+    "regression_tests_pass": true,
+    "machine_readable_evidence": true,
+    "documentation_updated": true,
+    "final_status": "PASS"
+  },
+  "next_gate": {
+    "number": 14,
+    "name": "Reproducibility Audit",
+    "prerequisites": [
+      "Run canonical benchmark or validation twice using identical commit, environment, config, seed, dataset, model",
+      "Compare outputs and verify deterministic outputs are identical",
+      "Produce reports/final/reproducibility_report.md",
+      "Produce artifacts/reproducibility_run_1.json, artifacts/reproducibility_run_2.json, artifacts/gates/stage_14_gate.json"
+    ]
+  },
+  "gate": "GATE-13",
+  "title": "Benchmark Leakage Audit",
+  "acceptance_criteria": {
+    "target_ids_clean": true,
+    "mutation_ids_clean": true,
+    "ground_truth_labels_clean": true,
+    "file_and_directory_names_clean": true,
+    "answer_keys_clean": true,
+    "metadata_clean": true,
+    "generated_identifiers_clean": true,
+    "semantic_text_clean": true,
+    "configuration_clean": true,
+    "safety_oracles_clean": true,
+    "gate_tests_pass": true,
+    "regression_tests_pass": true,
+    "machine_readable_evidence": true,
+    "documentation_updated": true,
+    "final_status": "PASS"
+  }
+}

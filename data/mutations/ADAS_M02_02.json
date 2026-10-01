@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M02_02",
+  "project_id": "ADAS",
+  "change_type": "M02",
+  "category_name": "Threshold change",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_033",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.8 seconds]",
+  "after_state": "R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.4 seconds]",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.8 seconds]\n+R_LKA_033: Lane keeping assist shall compute corrective steering torque when lateral lane departure exceeds 0.40 meters. [TTC limit: 1.4 seconds]",
+  "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M02",
+    "repeat": 2
+  }
+}

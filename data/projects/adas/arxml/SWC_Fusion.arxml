@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ADAS_Components</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE>
+          <SHORT-NAME>SWC_Fusion</SHORT-NAME>
+          <DESC>AUTOSAR Application SWC SWC_Fusion for ADAS control</DESC>
+          <PORTS>
+            <P-PORT-PROTOTYPE>
+              <SHORT-NAME>P_SWC_Fusion_Command</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF>/Interfaces/I_SWC_Fusion_Out</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE>
+              <SHORT-NAME>R_SWC_Fusion_SensorInput</SHORT-NAME>
+              <REQUIRED-INTERFACE-TREF>/Interfaces/I_SWC_Fusion_In</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
+          <SWC-INTERNAL-BEHAVIOR>
+            <SHORT-NAME>SWC_Fusion_Behavior</SHORT-NAME>
+            <RUNNABLES>
+              <RUNNABLE-ENTITY>
+                <SHORT-NAME>RE_SWC_Fusion_Step</SHORT-NAME>
+                <SYMBOL>SWC_Fusion_Step</SYMBOL>
+              </RUNNABLE-ENTITY>
+            </RUNNABLES>
+          </SWC-INTERNAL-BEHAVIOR>
+        </APPLICATION-SW-COMPONENT-TYPE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

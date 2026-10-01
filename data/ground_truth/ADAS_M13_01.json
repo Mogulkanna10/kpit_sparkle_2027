@@ -1,0 +1,27 @@
+{
+  "mutation_id": "ADAS_M13_01",
+  "project_id": "ADAS",
+  "source_artifact": "data\\projects\\adas\\arxml\\SWC_DriverHMI.arxml",
+  "target_node_id": "SWC_DriverHMI_Step",
+  "true_impacted_artifacts": [
+    "SWC_DriverHMI_Step"
+  ],
+  "true_impacted_tests": [],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "SWC_DriverHMI_Step",
+      "relation_path": [
+        "SWC_DriverHMI_Step"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M25_01",
+  "project_id": "BATTERY_EV",
+  "change_type": "M25",
+  "category_name": "Documentation-only change",
+  "source_artifact": "docs/architecture_overview.md",
+  "target_node_id": "R_BMS_016",
+  "artifact_type": "DOC",
+  "before_state": "/* Documentation note: System operates under standard conditions. */",
+  "after_state": "/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+  "diff": "--- docs/architecture_overview.md\n+++ docs/architecture_overview.md\n@@ -1,4 +1,4 @@\n-/* Documentation note: System operates under standard conditions. */\n+/* Documentation note: System operates under standard conditions (reviewed 2026). */",
+  "intended_change_semantics": "Pure comment / documentation update without code effect",
+  "expected_impact_scope": "LOCAL",
+  "metadata": {
+    "change_type": "M25",
+    "repeat": 1
+  }
+}

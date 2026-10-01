@@ -1,0 +1,1364 @@
+{
+  "tests": [
+    {
+      "id": "TC_ADAS_001",
+      "name": "Test Case TC_ADAS_001",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_001 under SWC_AEB",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_001"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_001"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_002",
+      "name": "Test Case TC_ADAS_002",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_002 under SWC_ACC",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_002"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_002"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_003",
+      "name": "Test Case TC_ADAS_003",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_003 under SWC_LKA",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_003"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_003"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_004",
+      "name": "Test Case TC_ADAS_004",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_004 under SWC_ObstacleDetector",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_004"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_004"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_005",
+      "name": "Test Case TC_ADAS_005",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_005 under SWC_SensorFusion",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_005"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_005"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_006",
+      "name": "Test Case TC_ADAS_006",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_006 under SWC_BrakeActuator",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_006"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_006"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_007",
+      "name": "Test Case TC_ADAS_007",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_007 under SWC_SteeringActuator",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_007"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_007"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_008",
+      "name": "Test Case TC_ADAS_008",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_008 under SWC_DriverHMI",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_008"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_008"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_009",
+      "name": "Test Case TC_ADAS_009",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_009 under SWC_SpeedLimiter",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_009"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_009"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_010",
+      "name": "Test Case TC_ADAS_010",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_010 under SWC_EmergencySteering",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_010"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_010"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_011",
+      "name": "Test Case TC_ADAS_011",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_011 under SWC_AEB",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_011"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_011"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_012",
+      "name": "Test Case TC_ADAS_012",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_012 under SWC_ACC",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_012"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_012"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_013",
+      "name": "Test Case TC_ADAS_013",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_013 under SWC_LKA",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_013"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_013"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_014",
+      "name": "Test Case TC_ADAS_014",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_014 under SWC_ObstacleDetector",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_014"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_014"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_015",
+      "name": "Test Case TC_ADAS_015",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_015 under SWC_SensorFusion",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_015"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_015"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_016",
+      "name": "Test Case TC_ADAS_016",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_016 under SWC_BrakeActuator",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_016"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_016"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_017",
+      "name": "Test Case TC_ADAS_017",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_017 under SWC_SteeringActuator",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_017"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_017"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_018",
+      "name": "Test Case TC_ADAS_018",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_018 under SWC_DriverHMI",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_018"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_018"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_019",
+      "name": "Test Case TC_ADAS_019",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_019 under SWC_SpeedLimiter",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_019"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_019"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_020",
+      "name": "Test Case TC_ADAS_020",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_020 under SWC_EmergencySteering",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_020"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_020"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_021",
+      "name": "Test Case TC_ADAS_021",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_021 under SWC_AEB",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_021"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_021"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_022",
+      "name": "Test Case TC_ADAS_022",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_022 under SWC_ACC",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_022"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_022"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_023",
+      "name": "Test Case TC_ADAS_023",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_023 under SWC_LKA",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_023"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_023"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_024",
+      "name": "Test Case TC_ADAS_024",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_024 under SWC_ObstacleDetector",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_024"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_024"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_025",
+      "name": "Test Case TC_ADAS_025",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_025 under SWC_SensorFusion",
+      "category": "SAFETY_CRITICAL",
+      "target_functions": [
+        "ADAS_Func_025"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_025"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_026",
+      "name": "Test Case TC_ADAS_026",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_026 under SWC_BrakeActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_026"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_026"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_027",
+      "name": "Test Case TC_ADAS_027",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_027 under SWC_SteeringActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_027"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_027"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_028",
+      "name": "Test Case TC_ADAS_028",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_028 under SWC_DriverHMI",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_028"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_028"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_029",
+      "name": "Test Case TC_ADAS_029",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_029 under SWC_SpeedLimiter",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_029"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_029"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_030",
+      "name": "Test Case TC_ADAS_030",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_030 under SWC_EmergencySteering",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_030"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_030"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_031",
+      "name": "Test Case TC_ADAS_031",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_031 under SWC_AEB",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_031"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_031"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_032",
+      "name": "Test Case TC_ADAS_032",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_032 under SWC_ACC",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_032"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_032"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_033",
+      "name": "Test Case TC_ADAS_033",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_033 under SWC_LKA",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_033"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_033"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_034",
+      "name": "Test Case TC_ADAS_034",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_034 under SWC_ObstacleDetector",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_034"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_034"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_035",
+      "name": "Test Case TC_ADAS_035",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_035 under SWC_SensorFusion",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_035"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_035"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_036",
+      "name": "Test Case TC_ADAS_036",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_036 under SWC_BrakeActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_036"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_036"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_037",
+      "name": "Test Case TC_ADAS_037",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_037 under SWC_SteeringActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_037"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_037"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_038",
+      "name": "Test Case TC_ADAS_038",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_038 under SWC_DriverHMI",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_038"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_038"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_039",
+      "name": "Test Case TC_ADAS_039",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_039 under SWC_SpeedLimiter",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_039"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_039"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_040",
+      "name": "Test Case TC_ADAS_040",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_040 under SWC_EmergencySteering",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_040"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_040"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_041",
+      "name": "Test Case TC_ADAS_041",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_041 under SWC_AEB",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_041"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_041"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_042",
+      "name": "Test Case TC_ADAS_042",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_042 under SWC_ACC",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_042"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_042"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_043",
+      "name": "Test Case TC_ADAS_043",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_043 under SWC_LKA",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_043"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_043"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_044",
+      "name": "Test Case TC_ADAS_044",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_044 under SWC_ObstacleDetector",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_044"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_044"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_045",
+      "name": "Test Case TC_ADAS_045",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_045 under SWC_SensorFusion",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_045"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_045"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_046",
+      "name": "Test Case TC_ADAS_046",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_046 under SWC_BrakeActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_046"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_046"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_047",
+      "name": "Test Case TC_ADAS_047",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_047 under SWC_SteeringActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_047"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_047"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_048",
+      "name": "Test Case TC_ADAS_048",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_048 under SWC_DriverHMI",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_048"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_048"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_049",
+      "name": "Test Case TC_ADAS_049",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_049 under SWC_SpeedLimiter",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_049"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_049"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_050",
+      "name": "Test Case TC_ADAS_050",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_050 under SWC_EmergencySteering",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_050"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_050"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_051",
+      "name": "Test Case TC_ADAS_051",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_051 under SWC_AEB",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_051"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_051"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_052",
+      "name": "Test Case TC_ADAS_052",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_052 under SWC_ACC",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_052"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_052"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_053",
+      "name": "Test Case TC_ADAS_053",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_053 under SWC_LKA",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_053"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_053"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_054",
+      "name": "Test Case TC_ADAS_054",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_054 under SWC_ObstacleDetector",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_054"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_054"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_055",
+      "name": "Test Case TC_ADAS_055",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_055 under SWC_SensorFusion",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_055"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_056",
+      "name": "Test Case TC_ADAS_056",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_056 under SWC_BrakeActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_056"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_057",
+      "name": "Test Case TC_ADAS_057",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_057 under SWC_SteeringActuator",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_057"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_058",
+      "name": "Test Case TC_ADAS_058",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_058 under SWC_DriverHMI",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_058"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_059",
+      "name": "Test Case TC_ADAS_059",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_059 under SWC_SpeedLimiter",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_059"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_060",
+      "name": "Test Case TC_ADAS_060",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_060 under SWC_EmergencySteering",
+      "category": "FUNCTIONAL",
+      "target_functions": [
+        "ADAS_Func_060"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_061",
+      "name": "Test Case TC_ADAS_061",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_061 under SWC_AEB",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_061"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_062",
+      "name": "Test Case TC_ADAS_062",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_062 under SWC_ACC",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_062"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_063",
+      "name": "Test Case TC_ADAS_063",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_063 under SWC_LKA",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_063"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_064",
+      "name": "Test Case TC_ADAS_064",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_064 under SWC_ObstacleDetector",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_064"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_065",
+      "name": "Test Case TC_ADAS_065",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_065 under SWC_SensorFusion",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_065"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_066",
+      "name": "Test Case TC_ADAS_066",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_066 under SWC_BrakeActuator",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_066"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_067",
+      "name": "Test Case TC_ADAS_067",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_067 under SWC_SteeringActuator",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_067"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_068",
+      "name": "Test Case TC_ADAS_068",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_068 under SWC_DriverHMI",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_068"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_069",
+      "name": "Test Case TC_ADAS_069",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_069 under SWC_SpeedLimiter",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_069"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_070",
+      "name": "Test Case TC_ADAS_070",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_070 under SWC_EmergencySteering",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_070"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_071",
+      "name": "Test Case TC_ADAS_071",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_071 under SWC_AEB",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_071"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_072",
+      "name": "Test Case TC_ADAS_072",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_072 under SWC_ACC",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_072"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_073",
+      "name": "Test Case TC_ADAS_073",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_073 under SWC_LKA",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_073"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_074",
+      "name": "Test Case TC_ADAS_074",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_074 under SWC_ObstacleDetector",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_074"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_075",
+      "name": "Test Case TC_ADAS_075",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_075 under SWC_SensorFusion",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_075"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 125
+    },
+    {
+      "id": "TC_ADAS_076",
+      "name": "Test Case TC_ADAS_076",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_076 under SWC_BrakeActuator",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_076"
+      ],
+      "target_swcs": [
+        "SWC_BrakeActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 140
+    },
+    {
+      "id": "TC_ADAS_077",
+      "name": "Test Case TC_ADAS_077",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_077 under SWC_SteeringActuator",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_077"
+      ],
+      "target_swcs": [
+        "SWC_SteeringActuator"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 155
+    },
+    {
+      "id": "TC_ADAS_078",
+      "name": "Test Case TC_ADAS_078",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_078 under SWC_DriverHMI",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_078"
+      ],
+      "target_swcs": [
+        "SWC_DriverHMI"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 170
+    },
+    {
+      "id": "TC_ADAS_079",
+      "name": "Test Case TC_ADAS_079",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_079 under SWC_SpeedLimiter",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_079"
+      ],
+      "target_swcs": [
+        "SWC_SpeedLimiter"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 185
+    },
+    {
+      "id": "TC_ADAS_080",
+      "name": "Test Case TC_ADAS_080",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_080 under SWC_EmergencySteering",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_080"
+      ],
+      "target_swcs": [
+        "SWC_EmergencySteering"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 50
+    },
+    {
+      "id": "TC_ADAS_081",
+      "name": "Test Case TC_ADAS_081",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_081 under SWC_AEB",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_081"
+      ],
+      "target_swcs": [
+        "SWC_AEB"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 65
+    },
+    {
+      "id": "TC_ADAS_082",
+      "name": "Test Case TC_ADAS_082",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_082 under SWC_ACC",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_082"
+      ],
+      "target_swcs": [
+        "SWC_ACC"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 80
+    },
+    {
+      "id": "TC_ADAS_083",
+      "name": "Test Case TC_ADAS_083",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_083 under SWC_LKA",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_083"
+      ],
+      "target_swcs": [
+        "SWC_LKA"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 95
+    },
+    {
+      "id": "TC_ADAS_084",
+      "name": "Test Case TC_ADAS_084",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_084 under SWC_ObstacleDetector",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_084"
+      ],
+      "target_swcs": [
+        "SWC_ObstacleDetector"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 110
+    },
+    {
+      "id": "TC_ADAS_085",
+      "name": "Test Case TC_ADAS_085",
+      "description": "Verifies functionality and safety invariant for ADAS_Func_085 under SWC_SensorFusion",
+      "category": "INTEGRATION",
+      "target_functions": [
+        "ADAS_Func_085"
+      ],
+      "target_swcs": [
+        "SWC_SensorFusion"
+      ],
+      "target_requirements": [
+        "R_ADAS_055"
+      ],
+      "execution_time_ms": 125
+    }
+  ]
+}

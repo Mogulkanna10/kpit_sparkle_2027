@@ -1,0 +1,19 @@
+# Safety Gate Configuration
+mandatory: true
+bypass_allowed: false
+invariant_rule: "T_safe_subset_of_T_final"
+
+asil_critical_classes:
+  - "ASIL-D"
+  - "ASIL-C"
+  - "ASIL_D"
+  - "ASIL_C"
+
+non_critical_classes:
+  - "ASIL-B"
+  - "ASIL-A"
+  - "QM"
+  - "ASIL_B"
+  - "ASIL_A"
+
+on_violation: "RAISE_EXCEPTION"

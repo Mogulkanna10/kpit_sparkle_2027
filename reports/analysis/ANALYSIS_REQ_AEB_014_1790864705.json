@@ -1,0 +1,182 @@
+{
+  "analysis_id": "ANALYSIS_REQ_AEB_014_1790864705",
+  "timestamp": "2026-10-01T19:55:05.417022",
+  "changed_artifact_id": "REQ_AEB_014",
+  "subsystem": "ADAS",
+  "structural_impacts_count": 0,
+  "semantic_recoveries_count": 3,
+  "rejected_candidates_count": 3,
+  "review_required_count": 0,
+  "total_impacts_count": 3,
+  "tests_selected_count": 2,
+  "safety_tests_count": 2,
+  "total_test_suite_size": 4,
+  "test_reduction_pct": 50.0,
+  "decisions": [
+    {
+      "artifact_id": "REQ_AEB_001",
+      "artifact_type": "Requirement",
+      "decision": "SEMANTIC_ACCEPT",
+      "stage": "SEMANTIC",
+      "confidence": 0.6128421425819397,
+      "reason": "Semantic similarity 0.61",
+      "details": {
+        "context_score": 1.0,
+        "evidence": {
+          "raw_similarity": 0.6128421425819397,
+          "context_rules": {
+            "subsystem_match": true,
+            "type_compatibility": true
+          }
+        }
+      }
+    },
+    {
+      "artifact_id": "C_Function_TriggerBrake",
+      "artifact_type": "C_Function",
+      "decision": "SEMANTIC_ACCEPT",
+      "stage": "SEMANTIC",
+      "confidence": 0.5993654131889343,
+      "reason": "Semantic similarity 0.60",
+      "details": {
+        "context_score": 1.0,
+        "evidence": {
+          "raw_similarity": 0.5993654131889343,
+          "context_rules": {
+            "subsystem_match": true,
+            "type_compatibility": true
+          }
+        }
+      }
+    },
+    {
+      "artifact_id": "C_Function_CalculateTTC",
+      "artifact_type": "C_Function",
+      "decision": "SEMANTIC_ACCEPT",
+      "stage": "SEMANTIC",
+      "confidence": 0.535158634185791,
+      "reason": "Semantic similarity 0.54",
+      "details": {
+        "context_score": 1.0,
+        "evidence": {
+          "raw_similarity": 0.535158634185791,
+          "context_rules": {
+            "subsystem_match": true,
+            "type_compatibility": true
+          }
+        }
+      }
+    },
+    {
+      "artifact_id": "REQ_AMB_099",
+      "artifact_type": "Requirement",
+      "decision": "SEMANTIC_REJECT",
+      "stage": "SEMANTIC",
+      "confidence": 0.0931679978966713,
+      "reason": "Similarity score (0.093) below threshold (0.450)",
+      "details": {
+        "context_score": 1.0,
+        "evidence": {
+          "raw_similarity": 0.0931679978966713,
+          "threshold": 0.45
+        }
+      }
+    },
+    {
+      "artifact_id": "C_Function_CabinClimateControl",
+      "artifact_type": "C_Function",
+      "decision": "SEMANTIC_REJECT",
+      "stage": "SEMANTIC",
+      "confidence": 0.05489332973957062,
+      "reason": "Similarity score (0.055) below threshold (0.450)",
+      "details": {
+        "context_score": 1.0,
+        "evidence": {
+          "raw_similarity": 0.05489332973957062,
+          "threshold": 0.45
+        }
+      }
+    },
+    {
+      "artifact_id": "C_Function_UnspecifiedAlert",
+      "artifact_type": "C_Function",
+      "decision": "SEMANTIC_REJECT",
+      "stage": "SEMANTIC",
+      "confidence": 0.043650127947330475,
+      "reason": "Similarity score (0.044) below threshold (0.450)",
+      "details": {
+        "context_score": 1.0,
+        "evidence": {
+          "raw_similarity": 0.043650127947330475,
+          "threshold": 0.45
+        }
+      }
+    },
+    {
+      "artifact_id": "TC_AEB_001",
+      "artifact_type": "Test",
+      "decision": "SAFETY_GATE_RETAIN",
+      "stage": "SAFETY_GATE",
+      "confidence": 1.0,
+      "reason": "Mandatory safety-critical test (ASIL_D)",
+      "details": {
+        "safety_class": "ASIL_D",
+        "source": "EXPLICIT_TRACE"
+      }
+    },
+    {
+      "artifact_id": "TC_AEB_002",
+      "artifact_type": "Test",
+      "decision": "SAFETY_GATE_RETAIN",
+      "stage": "SAFETY_GATE",
+      "confidence": 1.0,
+      "reason": "Mandatory safety-critical test (ASIL_D)",
+      "details": {
+        "safety_class": "ASIL_D",
+        "source": "EXPLICIT_TRACE"
+      }
+    }
+  ],
+  "impact_items": [
+    {
+      "id": "REQ_AEB_001",
+      "type": "Requirement",
+      "stage": "SEMANTIC",
+      "confidence": 0.6128421425819397,
+      "reason": "Semantic similarity (0.61) above threshold with verified context."
+    },
+    {
+      "id": "C_Function_TriggerBrake",
+      "type": "C_Function",
+      "stage": "SEMANTIC",
+      "confidence": 0.5993654131889343,
+      "reason": "Semantic similarity (0.60) above threshold with verified context."
+    },
+    {
+      "id": "C_Function_CalculateTTC",
+      "type": "C_Function",
+      "stage": "SEMANTIC",
+      "confidence": 0.535158634185791,
+      "reason": "Semantic similarity (0.54) above threshold with verified context."
+    }
+  ],
+  "test_items": [
+    {
+      "id": "TC_AEB_001",
+      "description": "Verify Time-To-Collision calculation accuracy under varied radar distance profiles.",
+      "safety_class": "ASIL_D",
+      "source": "EXPLICIT_TRACE"
+    },
+    {
+      "id": "TC_AEB_002",
+      "description": "Verify Emergency Brake Actuation deceleration ramp and hydraulic pressure clamping.",
+      "safety_class": "ASIL_D",
+      "source": "EXPLICIT_TRACE"
+    }
+  ],
+  "latency_profile": {
+    "stage1_graph_ms": 0.01060900012817001,
+    "stage2_semantic_ms": 0.40579399956186535,
+    "total_ms": 0.42368699996586656
+  }
+}

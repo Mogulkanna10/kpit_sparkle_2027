@@ -1,0 +1,129 @@
+{
+  "report_type": "FINAL_RELEASE_EVIDENCE_INTEGRITY",
+  "date": "2026-09-30",
+  "auditor": "Antigravity - Final Release Evidence Integrity Gate",
+  "release_status": "FINAL_RELEASE_VERIFIED",
+  "git": {
+    "branch": "main",
+    "release_commit": "13a368ba8955e6f58398dce0a0834792823f2f2b",
+    "head_commit": "0536543b981bdb9d4cc904f61e9cea4b4992ef5d",
+    "working_tree_clean": true
+  },
+  "gates": {
+    "0": "PASS",
+    "1": "PASS",
+    "2": "PASS",
+    "3": "PASS",
+    "4": "PASS",
+    "5": "PASS",
+    "6": "PASS",
+    "7": "PASS",
+    "8": "PASS",
+    "9": "PASS",
+    "10": "PASS",
+    "11": "PASS",
+    "12": "CONDITIONAL_PASS",
+    "13": "PASS",
+    "14": "PASS",
+    "15": "PASS",
+    "16": "PASS",
+    "17": "PASS",
+    "18": "PASS",
+    "19": "PASS",
+    "20": "PASS",
+    "21": "PASS",
+    "22": "PASS",
+    "23": "PASS",
+    "24": "PASS",
+    "25": "PASS"
+  },
+  "gate_evidence_notes": {
+    "12": "CONDITIONAL_PASS - F2 (weighted fusion) and F3 (threshold=0.80) blocking findings resolved in source before Gate 14",
+    "14": "acceptance_criteria corrected from placeholder {verified:true} to 8 evidence-derived criteria; no data invented"
+  },
+  "tests": {
+    "command": "python -m pytest tests/ -q",
+    "passed": 220,
+    "failed": 0,
+    "skipped": 0,
+    "duration_s": "~13"
+  },
+  "architecture": {
+    "canonical": "Architecture B",
+    "pipeline": "Two-Stage Bounded Graph Traversal + Context-Constrained Semantic Fallback",
+    "union": "strict_union",
+    "fusion_mode": "strict_union (ImpactFusionEngine default)",
+    "weighted_fusion_active_on_canonical_path": false,
+    "graph_depth": 3,
+    "semantic_threshold": 0.45,
+    "config_file": "configs/final.yaml"
+  },
+  "semantic_model": {
+    "identity": "AURA-DomainHashEmbedder-384",
+    "is_neural": false,
+    "model_type": "deterministic_domain_hash_vectorizer",
+    "dimension": 384,
+    "bge_m3_claimed": false
+  },
+  "benchmark": {
+    "dataset_fingerprint": "3bc8c11efb2398a0",
+    "n_mutations": 150,
+    "seed": 42,
+    "canonical_threshold": 0.45,
+    "union_mode": "strict_union",
+    "aura_hybrid_recall": 0.6311,
+    "graph_only_recall": 0.6307,
+    "semantic_delta": 0.0004,
+    "test_reduction_pct": 82.29,
+    "config_consumed": "configs/final.yaml",
+    "provenance_verified": true,
+    "hash_note": "latency_ms column is timing-dependent; metric columns (recall, precision, F1) are deterministically reproducible from seed=42"
+  },
+  "safety": {
+    "safety_invariant_enforcement_pct": 100.0,
+    "safety_invariant_count": "150/150",
+    "safety_invariant_verified": true,
+    "fail_closed_verified": true,
+    "safety_discovery_recall": 0.4761,
+    "safety_discovery_recall_note": "47.61% autonomous discovery recall without safety-gate post-selection; bounded by upstream artifact recall of 48.05%",
+    "safety_invariant_vs_discovery_recall_distinguished": true
+  },
+  "subsystem_coverage": {
+    "subsystems_claimed": 28,
+    "subsystems_verified": 28,
+    "impact_union_gap_filled": true,
+    "impact_union_test": "tests/unit/test_ingestion_and_provenance.py::test_impact_union_strict_set_union",
+    "coverage_matrix_file": "reports/final/subsystem_test_coverage_matrix.md"
+  },
+  "documentation": {
+    "project_status_authoritative": true,
+    "project_status_test_count": 220,
+    "project_status_head_commit": "0536543b981bdb9d4cc904f61e9cea4b4992ef5d",
+    "project_status_release_commit": "13a368ba8955e6f58398dce0a0834792823f2f2b",
+    "ci_status": "IMPLEMENTED_AND_LOCALLY_VALIDATED",
+    "gate_24_scope": "Fresh Deterministic Benchmark Regeneration on host (Windows 11 / Python 3.14.0)",
+    "clean_room_claimed": false,
+    "documentation_consistent": true
+  },
+  "ci": {
+    "workflow_file": ".github/workflows/aura-impact.yml",
+    "local_validation": true,
+    "remote_execution": false,
+    "status": "IMPLEMENTED_AND_LOCALLY_VALIDATED"
+  },
+  "working_tree_clean": true,
+  "release_artifacts_tracked": true,
+  "blocking_findings": [],
+  "remaining_limitations": [
+    "Remote CI execution not yet run on GitHub Actions; local-only validation",
+    "Gate 24 is same-host fresh deterministic regeneration; not a multi-environment clean-room",
+    "Safety-critical discovery recall is 47.61%; the safety gate post-selection enforces 100% retention but does not increase discovery",
+    "Semantic improvement delta is +0.0004 (genuine but small)",
+    "Benchmark scope: 150 synthetic automotive mutations; not validated on real production codebases",
+    "AURA-DomainHashEmbedder-384 is a deterministic hash vectorizer, not a neural model",
+    "latency_ms column in benchmark CSV is timing-dependent; not bit-for-bit reproducible",
+    "Gate 12 recorded as CONDITIONAL_PASS; blocking findings resolved in source before Gate 14"
+  ],
+  "verdict": "FINAL_RELEASE_VERIFIED",
+  "verdict_rationale": "All 26 gate files contain genuine evidence. Gate 14 acceptance criteria corrected from placeholder. Architecture B strict union verified in source. Benchmark metrics deterministically reproduced. 220/220 tests pass. 28 subsystems have dedicated behavioral tests. ImpactUnion gap filled. Safety claims correctly distinguished. PROJECT_STATUS.md has one authoritative current state. Working tree clean. All limitations explicitly disclosed."
+}

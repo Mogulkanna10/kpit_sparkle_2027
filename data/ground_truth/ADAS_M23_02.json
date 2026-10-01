@@ -1,0 +1,519 @@
+{
+  "mutation_id": "ADAS_M23_02",
+  "project_id": "ADAS",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_019",
+  "true_impacted_artifacts": [
+    "ADAS_Func_016",
+    "ADAS_Func_017",
+    "ADAS_Func_018",
+    "ADAS_Func_019",
+    "ADAS_Func_020",
+    "ADAS_Func_021",
+    "ADAS_Func_022",
+    "ADAS_Func_024",
+    "ADAS_Func_025",
+    "ADAS_Func_028",
+    "I_SWC_SpeedLimiter_In",
+    "I_SWC_SpeedLimiter_In_DE_SWC_SpeedLimiter_RawData",
+    "I_SWC_SpeedLimiter_Out",
+    "I_SWC_SpeedLimiter_Out_DE_SWC_SpeedLimiter_Signal",
+    "R_ADAS_019",
+    "SWC_ACC_RawData",
+    "SWC_ACC_Signal",
+    "SWC_AEB_RawData",
+    "SWC_AEB_Signal",
+    "SWC_DriverHMI_RawData",
+    "SWC_DriverHMI_Signal",
+    "SWC_SensorFusion_RawData",
+    "SWC_SensorFusion_Signal",
+    "SWC_SpeedLimiter",
+    "SWC_SpeedLimiter_Init",
+    "SWC_SpeedLimiter_P_SWC_SpeedLimiter_Command",
+    "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Init",
+    "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Step",
+    "SWC_SpeedLimiter_R_SWC_SpeedLimiter_SensorInput",
+    "SWC_SpeedLimiter_RawData",
+    "SWC_SpeedLimiter_Signal",
+    "SWC_SpeedLimiter_Step",
+    "SWC_SteeringActuator_RawData",
+    "SWC_SteeringActuator_Signal",
+    "TC_ADAS_019"
+  ],
+  "true_impacted_tests": [
+    "TC_ADAS_009",
+    "TC_ADAS_016",
+    "TC_ADAS_017",
+    "TC_ADAS_018",
+    "TC_ADAS_019",
+    "TC_ADAS_020",
+    "TC_ADAS_021",
+    "TC_ADAS_022",
+    "TC_ADAS_024",
+    "TC_ADAS_025",
+    "TC_ADAS_028",
+    "TC_ADAS_029",
+    "TC_ADAS_039",
+    "TC_ADAS_049",
+    "TC_ADAS_059",
+    "TC_ADAS_069",
+    "TC_ADAS_079"
+  ],
+  "safety_critical_tests": [
+    "TC_ADAS_009",
+    "TC_ADAS_016",
+    "TC_ADAS_017",
+    "TC_ADAS_018",
+    "TC_ADAS_019",
+    "TC_ADAS_020",
+    "TC_ADAS_021",
+    "TC_ADAS_022",
+    "TC_ADAS_024",
+    "TC_ADAS_025"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_ADAS_019",
+      "relation_path": [
+        "R_ADAS_019"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_ADAS_019",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_P_SWC_SpeedLimiter_Command",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_P_SWC_SpeedLimiter_Command"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_R_SWC_SpeedLimiter_SensorInput",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_R_SWC_SpeedLimiter_SensorInput"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Step",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Init",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Init"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_019",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SpeedLimiter_Out",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_P_SWC_SpeedLimiter_Command",
+        "I_SWC_SpeedLimiter_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SpeedLimiter_In",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_R_SWC_SpeedLimiter_SensorInput",
+        "I_SWC_SpeedLimiter_In"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_Step",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Step",
+        "SWC_SpeedLimiter_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_Init",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_RE_SWC_SpeedLimiter_Init",
+        "SWC_SpeedLimiter_Init"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_018",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_022",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_022"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_RawData",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "SWC_SpeedLimiter_RawData"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SpeedLimiter_Signal",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "SWC_SpeedLimiter_Signal"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SpeedLimiter_Out_DE_SWC_SpeedLimiter_Signal",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_P_SWC_SpeedLimiter_Command",
+        "I_SWC_SpeedLimiter_Out",
+        "I_SWC_SpeedLimiter_Out_DE_SWC_SpeedLimiter_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_SpeedLimiter_In_DE_SWC_SpeedLimiter_RawData",
+      "relation_path": [
+        "R_ADAS_019",
+        "SWC_SpeedLimiter",
+        "SWC_SpeedLimiter_R_SWC_SpeedLimiter_SensorInput",
+        "I_SWC_SpeedLimiter_In",
+        "I_SWC_SpeedLimiter_In_DE_SWC_SpeedLimiter_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DriverHMI_Signal",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "SWC_DriverHMI_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_021",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_021"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DriverHMI_RawData",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "SWC_DriverHMI_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_017",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_017"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_025",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_022",
+        "ADAS_Func_025"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ACC_Signal",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_022",
+        "SWC_ACC_Signal"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ACC_RawData",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_022",
+        "SWC_ACC_RawData"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_AEB_RawData",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_021",
+        "SWC_AEB_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_020",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_021",
+        "ADAS_Func_020"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_AEB_Signal",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_021",
+        "SWC_AEB_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_024",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_021",
+        "ADAS_Func_024"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_Signal",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_017",
+        "SWC_SteeringActuator_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_016",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_017",
+        "ADAS_Func_016"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SteeringActuator_RawData",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_018",
+        "ADAS_Func_017",
+        "SWC_SteeringActuator_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "ADAS_Func_028",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_022",
+        "ADAS_Func_025",
+        "ADAS_Func_028"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SensorFusion_Signal",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_022",
+        "ADAS_Func_025",
+        "SWC_SensorFusion_Signal"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SensorFusion_RawData",
+      "relation_path": [
+        "R_ADAS_019",
+        "TC_ADAS_019",
+        "ADAS_Func_019",
+        "ADAS_Func_022",
+        "ADAS_Func_025",
+        "SWC_SensorFusion_RawData"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

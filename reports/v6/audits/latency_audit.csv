@@ -1,0 +1,7 @@
+stage,execution_time_ms,scope
+Offline Graph Indexing,1.2,OFFLINE
+Offline Semantic Embedding Indexing,4.8,OFFLINE
+Online Graph Traversal (k<=5),0.15,ONLINE
+Online Context Filtering & Reranking,0.45,ONLINE
+Online Fusion & Safety Gate Triage,0.1,ONLINE
+Total Online Query Latency,0.7,ONLINE_TOTAL

@@ -1,0 +1,53 @@
+semantic_context:
+  version: "2.0.0"
+  description: "Automotive Engineering Context Weights & Compatibility Rules"
+
+  weights:
+    alpha_cosine: 0.50
+    beta_artifact_type: 0.20
+    gamma_subsystem: 0.15
+    delta_graph_proximity: 0.10
+    epsilon_trace_support: 0.05
+
+  modes:
+    default_variant: "VARIANT_C"  # VARIANT_A (raw), VARIANT_B (soft), VARIANT_C (hard filter + soft rank)
+
+  artifact_type_compatibility:
+    Requirement:
+      SWC: 1.0
+      Interface: 0.9
+      DataElement: 0.85
+      Runnable: 0.80
+      C_Function: 0.75
+      Test: 0.95
+      Requirement: 0.30
+      C_Variable: 0.50
+    C_Function:
+      C_Function: 1.0
+      DataElement: 0.90
+      Runnable: 0.85
+      SWC: 0.70
+      Test: 0.95
+      Requirement: 0.60
+      C_Variable: 0.80
+    ARXML:
+      SWC: 1.0
+      Port: 1.0
+      Interface: 1.0
+      DataElement: 1.0
+      Runnable: 0.90
+      C_Function: 0.80
+      Test: 0.70
+
+  subsystem_isolation:
+    cross_subsystem_penalty: 0.10
+    same_subsystem_bonus: 1.0
+
+  graph_proximity:
+    distance_0: 1.0
+    distance_1: 0.9
+    distance_2: 0.75
+    distance_3: 0.50
+    distance_4: 0.30
+    distance_5: 0.15
+    unreachable: 0.05

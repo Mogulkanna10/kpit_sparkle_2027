@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M09_02",
+  "project_id": "POWERTRAIN",
+  "change_type": "M09",
+  "category_name": "Interface version change",
+  "source_artifact": "arxml/powertrain_swc.arxml",
+  "target_node_id": "I_SWC_Transmission_Out_DE_SWC_Transmission_TorqueDemand",
+  "artifact_type": "ARXML",
+  "before_state": "<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>",
+  "after_state": "<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+  "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<ADMIN-DATA><VERSION>1.0.0</VERSION></ADMIN-DATA>\n+<ADMIN-DATA><VERSION>2.0.0</VERSION></ADMIN-DATA>",
+  "intended_change_semantics": "Interface major version upgrade",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M09",
+    "repeat": 2
+  }
+}

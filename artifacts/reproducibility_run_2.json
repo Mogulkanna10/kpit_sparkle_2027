@@ -1,0 +1,62 @@
+{
+  "run_number": 2,
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "python_version": "3.14.0",
+  "n_mutations": 150,
+  "timestamp": "2026-09-30T03:32:28.932028+00:00",
+  "dataset_fingerprint": "3bc8c11efb2398a0",
+  "canonical_threshold": 0.45,
+  "union_mode": "strict_union",
+  "model": "AURA-DomainHashEmbedder-384",
+  "embedding_dimension": 384,
+  "seed": 42,
+  "metrics": {
+    "aura_hybrid_routed": {
+      "artifact_recall": 0.6311,
+      "artifact_precision": 0.5492,
+      "artifact_f1": 0.5503,
+      "test_recall": 0.9007,
+      "test_reduction_pct": 82.29,
+      "safety_recall": 1.0
+    },
+    "graph_only": {
+      "artifact_recall": 0.6307,
+      "artifact_precision": 0.5443,
+      "artifact_f1": 0.4557
+    },
+    "embedding_context": {
+      "artifact_recall": 0.4336,
+      "artifact_precision": 0.4117,
+      "artifact_f1": 0.2667
+    }
+  },
+  "safety": {
+    "invariant_verified": true,
+    "pass_count": 150,
+    "total": 150,
+    "pass_pct": 100.0
+  },
+  "semantic": {
+    "recall_at_1": 0.0333,
+    "recall_at_3": 0.0667,
+    "recall_at_5": 0.1333,
+    "recall_at_10": 0.2,
+    "mrr": 0.0665
+  },
+  "statistics": {
+    "wilcoxon_recall_W": 5513.0,
+    "wilcoxon_recall_p": 0.7480015320388294,
+    "wilcoxon_prec_W": 981.0,
+    "wilcoxon_prec_p": 0.8524822123046703,
+    "bonferroni_alpha": 0.0125,
+    "significant_recall": false,
+    "significant_prec": false
+  },
+  "deterministic_hashes": {
+    "impact_results_csv": "384fd78b6ac26aca0bbc02f35eed7b78133b879e0ded6eb1a906eaabaf5a2b98",
+    "regression_results_csv": "bc821f4de3987cbfd66cbfe2f96a5c968b88bb7d8af192a06077edb6c08fcc73",
+    "semantic_results_csv": "b94be0e79f887a5aabff65d4e512416f3afc24d926cbed31af32492028807fe4",
+    "summary_table_csv": "e2a5f03bc1aca022e61d8734b4e833f66f67a51002ca7e5956e5670ef1cd1963"
+  },
+  "version": "GATE-14-v2.0.0"
+}

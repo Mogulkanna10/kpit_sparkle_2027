@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AURA-Impact Analysis Report - REQ_AEB_014</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; background: #0f172a; color: #f8fafc; margin: 0; padding: 2rem; }
+        .container { max-width: 1000px; margin: 0 auto; background: #1e293b; padding: 2rem; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.5); }
+        h1 { color: #38bdf8; border-bottom: 2px solid #334155; padding-bottom: 0.5rem; }
+        h2 { color: #94a3b8; margin-top: 1.5rem; }
+        .metrics-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+        .metric-card { background: #0f172a; padding: 1.2rem; border-radius: 8px; border-left: 4px solid #38bdf8; }
+        .metric-val { font-size: 1.8rem; font-weight: bold; color: #f1f5f9; }
+        .metric-lbl { font-size: 0.85rem; color: #94a3b8; text-transform: uppercase; }
+        table { width: 100%; border-collapse: collapse; margin-top: 1rem; background: #0f172a; border-radius: 8px; overflow: hidden; }
+        th, td { padding: 0.75rem 1rem; text-align: left; border-bottom: 1px solid #334155; }
+        th { background: #1e293b; color: #38bdf8; }
+        .tag-structural { color: #34d399; font-weight: bold; }
+        .tag-semantic { color: #38bdf8; font-weight: bold; }
+        .tag-safety { color: #f87171; font-weight: bold; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>AURA-Impact Analysis Report</h1>
+        <p><strong>Changed Artifact:</strong> <code>REQ_AEB_014</code> | <strong>Subsystem:</strong> ADAS | <strong>Timestamp:</strong> 2026-08-31T22:50:27.671297</p>
+        
+        <div class="metrics-grid">
+            <div class="metric-card">
+                <div class="metric-val">3</div>
+                <div class="metric-lbl">Total Impacts</div>
+            </div>
+            <div class="metric-card" style="border-left-color: #34d399;">
+                <div class="metric-val">0</div>
+                <div class="metric-lbl">Structural (Stage 1)</div>
+            </div>
+            <div class="metric-card" style="border-left-color: #38bdf8;">
+                <div class="metric-val">3</div>
+                <div class="metric-lbl">Semantic (Stage 2)</div>
+            </div>
+            <div class="metric-card" style="border-left-color: #f87171;">
+                <div class="metric-val">2 / 4</div>
+                <div class="metric-lbl">Tests Selected (50.0% reduction)</div>
+            </div>
+        </div>
+
+        <h2>Impacted Engineering Artifacts</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Artifact ID</th>
+                    <th>Type</th>
+                    <th>Stage</th>
+                    <th>Confidence</th>
+                    <th>Reason</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><code>C_Function_TriggerBrake</code></td><td>C_Function</td><td class='tag-semantic'>SEMANTIC</td><td>0.73</td><td>Semantic similarity (0.73) above threshold with verified context.</td></tr><tr><td><code>REQ_AEB_001</code></td><td>Requirement</td><td class='tag-semantic'>SEMANTIC</td><td>0.61</td><td>Semantic similarity (0.61) above threshold with verified context.</td></tr><tr><td><code>C_Function_CalculateTTC</code></td><td>C_Function</td><td class='tag-semantic'>SEMANTIC</td><td>0.50</td><td>Semantic similarity (0.50) above threshold with verified context.</td></tr>
+            </tbody>
+        </table>
+
+        <h2>Selected Regression Tests (Safety Retained: 2)</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Test ID</th>
+                    <th>Description</th>
+                    <th>Safety Class</th>
+                    <th>Mapping Source</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td><code>TC_AEB_002</code></td><td>Verify Emergency Brake Actuation deceleration ramp and hydraulic pressure clamping.</td><td class='tag-safety'>ASIL_D</td><td>EXPLICIT_TRACE</td></tr><tr><td><code>TC_AEB_001</code></td><td>Verify Time-To-Collision calculation accuracy under varied radar distance profiles.</td><td class='tag-safety'>ASIL_D</td><td>EXPLICIT_TRACE</td></tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>

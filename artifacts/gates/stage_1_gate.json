@@ -1,0 +1,43 @@
+{
+  "stage": "1",
+  "gate_id": "GATE-01",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:26:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "branch": "main",
+  "objective": "Reconcile research claims, historical reports, and executable repository code",
+  "changes": [
+    "Created docs/RESEARCH_REPOSITORY_RECONCILIATION.md",
+    "Created artifacts/research_repository_reconciliation.json",
+    "Created reports/final/research_reconciliation_report.md",
+    "Created artifacts/gates/stage_1_gate.json"
+  ],
+  "tests": [
+    "Baseline tests verified in Gate 0 (30/30 passed)"
+  ],
+  "test_results": {
+    "total": 30,
+    "passed": 30,
+    "failed": 0,
+    "skipped": 0
+  },
+  "acceptance_criteria": {
+    "all_subsystems_audited": true,
+    "architecture_reconciled": true,
+    "semantic_model_reconciled": true,
+    "safety_metrics_separated": true,
+    "config_conflicts_cataloged": true,
+    "unexplained_discrepancies_count": 0
+  },
+  "failures": [],
+  "evidence_files": [
+    "docs/RESEARCH_REPOSITORY_RECONCILIATION.md",
+    "artifacts/research_repository_reconciliation.json",
+    "reports/final/research_reconciliation_report.md"
+  ],
+  "next_stage": "2",
+  "checkpoint": "Gate 1 passed cleanly. Ready for Gate 2: Canonical Architecture Freeze.",
+  "gate": "GATE-1",
+  "title": "Reconcile research claims, historical reports, and executable repository code",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

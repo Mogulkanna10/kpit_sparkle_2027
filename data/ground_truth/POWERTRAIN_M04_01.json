@@ -1,0 +1,248 @@
+{
+  "mutation_id": "POWERTRAIN_M04_01",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\requirements\\powertrain_requirements.json",
+  "target_node_id": "R_PT_052",
+  "true_impacted_artifacts": [
+    "I_SWC_TorqueManager_Out",
+    "I_SWC_TorqueManager_Out_DE_SWC_TorqueManager_TorqueDemand",
+    "PT_Func_052",
+    "PT_Func_054",
+    "PT_Func_056",
+    "PT_Func_058",
+    "R_PT_052",
+    "SWC_CruiseGovernor_TorqueDemand",
+    "SWC_IgnitionTiming_TorqueDemand",
+    "SWC_TorqueManager",
+    "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+    "SWC_TorqueManager_RE_SWC_TorqueManager_Step",
+    "SWC_TorqueManager_Step",
+    "SWC_TorqueManager_TorqueDemand",
+    "TC_PT_052"
+  ],
+  "true_impacted_tests": [
+    "TC_PT_002",
+    "TC_PT_012",
+    "TC_PT_022",
+    "TC_PT_032",
+    "TC_PT_042",
+    "TC_PT_052",
+    "TC_PT_053",
+    "TC_PT_054",
+    "TC_PT_055",
+    "TC_PT_056",
+    "TC_PT_057",
+    "TC_PT_058",
+    "TC_PT_059",
+    "TC_PT_060",
+    "TC_PT_061",
+    "TC_PT_062",
+    "TC_PT_063",
+    "TC_PT_064",
+    "TC_PT_065",
+    "TC_PT_066",
+    "TC_PT_067",
+    "TC_PT_068",
+    "TC_PT_069",
+    "TC_PT_070",
+    "TC_PT_071",
+    "TC_PT_072",
+    "TC_PT_073",
+    "TC_PT_074",
+    "TC_PT_075",
+    "TC_PT_076",
+    "TC_PT_077",
+    "TC_PT_078",
+    "TC_PT_079",
+    "TC_PT_080"
+  ],
+  "safety_critical_tests": [
+    "TC_PT_002",
+    "TC_PT_012"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_PT_052",
+      "relation_path": [
+        "R_PT_052"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager",
+      "relation_path": [
+        "R_PT_052",
+        "SWC_TorqueManager"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_PT_052",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+      "relation_path": [
+        "R_PT_052",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_P_SWC_TorqueManager_Torque"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_RE_SWC_TorqueManager_Step",
+      "relation_path": [
+        "R_PT_052",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_RE_SWC_TorqueManager_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_052",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052",
+        "PT_Func_052"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_TorqueManager_Out",
+      "relation_path": [
+        "R_PT_052",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+        "I_SWC_TorqueManager_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_Step",
+      "relation_path": [
+        "R_PT_052",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_RE_SWC_TorqueManager_Step",
+        "SWC_TorqueManager_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_054",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052",
+        "PT_Func_052",
+        "PT_Func_054"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_TorqueDemand",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052",
+        "PT_Func_052",
+        "SWC_TorqueManager_TorqueDemand"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_TorqueManager_Out_DE_SWC_TorqueManager_TorqueDemand",
+      "relation_path": [
+        "R_PT_052",
+        "SWC_TorqueManager",
+        "SWC_TorqueManager_P_SWC_TorqueManager_Torque",
+        "I_SWC_TorqueManager_Out",
+        "I_SWC_TorqueManager_Out_DE_SWC_TorqueManager_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_056",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_CruiseGovernor_TorqueDemand",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052",
+        "PT_Func_052",
+        "PT_Func_054",
+        "SWC_CruiseGovernor_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_058",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056",
+        "PT_Func_058"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_IgnitionTiming_TorqueDemand",
+      "relation_path": [
+        "R_PT_052",
+        "TC_PT_052",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056",
+        "SWC_IgnitionTiming_TorqueDemand"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

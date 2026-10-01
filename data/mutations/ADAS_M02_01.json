@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M02_01",
+  "project_id": "ADAS",
+  "change_type": "M02",
+  "category_name": "Threshold change",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_001",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.8 seconds]",
+  "after_state": "R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.4 seconds]",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.8 seconds]\n+R_AEB_001: Automatic emergency braking shall activate when predicted collision time falls below configured safety threshold of 1.2 seconds. [TTC limit: 1.4 seconds]",
+  "intended_change_semantics": "Reduced time-to-collision trigger threshold",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M02",
+    "repeat": 1
+  }
+}

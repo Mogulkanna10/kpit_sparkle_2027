@@ -1,0 +1,9 @@
+{
+  "artifact_id": "REQ_BODY_005",
+  "artifact_type": "Requirement",
+  "subsystem": "Body_Electronics",
+  "ecu": "ECU_Body",
+  "change_type": "MODIFY",
+  "after_content": "Cabin temperature setting and interior blower fan control.",
+  "change_semantics": "Cabin temperature interior climate defroster blower power level"
+}

@@ -1,0 +1,13 @@
+scenario,parsing_ms,graph_analysis_ms,semantic_retrieval_ms,context_filtering_ms,routing_ms,regression_selection_ms,total_latency_ms
+Scenario 1 (Structural),6.245,0.04,0.0,0.0,0.05,0.104,0.144
+Scenario 2 (Hidden Semantic),6.245,0.003,0.174,0.075,0.05,0.2,0.311
+Scenario 3 (Decoy Rejection),6.245,0.002,1.826,1.217,0.05,0.15,3.095
+Scenario 4 (Ambiguity),6.245,0.004,0.113,0.048,0.05,0.1,0.188
+Scenario 5 (Safety Gate),6.245,0.0,0.0,0.0,0.0,0.014,0.014
+Scenario 6 (Traceability Degradation),6.245,0.002,0.098,0.042,0.05,0.15,0.188
+Scenario 7 (Cross-Subsystem),0.0,0.0,0.0,0.004,0.0,0.0,0.004
+Scenario 8 (Stale Detection),1.178,0.0,0.0,0.0,0.0,0.0,1.178
+Scenario 9 (Malformed Input),0.0,0.02,0.0,0.0,0.01,0.05,0.041
+Scenario 10 (Large Project),12.5,0.004,0.0,0.0,0.05,0.85,57.502
+Scenario 11 (Multi-Change),0.0,0.043,0.249,0.1,0.1,0.35,0.337
+Scenario 12 (No-Impact),0.0,0.001,0.0,0.0,0.01,0.02,1.096

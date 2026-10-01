@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M03_01",
+  "project_id": "ADAS",
+  "change_type": "M03",
+  "category_name": "Semantic wording change",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_033",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "The vehicle shall initiate emergency deceleration upon obstacle detection.",
+  "after_state": "The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-The vehicle shall initiate emergency deceleration upon obstacle detection.\n+The automated braking system shall execute autonomous stopping when a collision hazard is identified.",
+  "intended_change_semantics": "Paraphrased requirement semantics",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M03",
+    "repeat": 1
+  }
+}

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<AUTOSAR xmlns="http://autosar.org/schema/r4.0">
+  <AR-PACKAGES>
+    <AR-PACKAGE>
+      <SHORT-NAME>ADAS_Components</SHORT-NAME>
+      <ELEMENTS>
+        <APPLICATION-SW-COMPONENT-TYPE>
+          <SHORT-NAME>SWC_SpeedLimiter</SHORT-NAME>
+          <DESC>AUTOSAR Application SWC SWC_SpeedLimiter for ADAS control sub-system</DESC>
+          <PORTS>
+            <P-PORT-PROTOTYPE>
+              <SHORT-NAME>P_SWC_SpeedLimiter_Command</SHORT-NAME>
+              <PROVIDED-INTERFACE-TREF>/Interfaces/I_SWC_SpeedLimiter_Out</PROVIDED-INTERFACE-TREF>
+            </P-PORT-PROTOTYPE>
+            <R-PORT-PROTOTYPE>
+              <SHORT-NAME>R_SWC_SpeedLimiter_SensorInput</SHORT-NAME>
+              <REQUIRED-INTERFACE-TREF>/Interfaces/I_SWC_SpeedLimiter_In</REQUIRED-INTERFACE-TREF>
+            </R-PORT-PROTOTYPE>
+          </PORTS>
+          <SWC-INTERNAL-BEHAVIOR>
+            <SHORT-NAME>SWC_SpeedLimiter_Behavior</SHORT-NAME>
+            <RUNNABLES>
+              <RUNNABLE-ENTITY>
+                <SHORT-NAME>RE_SWC_SpeedLimiter_Step</SHORT-NAME>
+                <SYMBOL>SWC_SpeedLimiter_Step</SYMBOL>
+              </RUNNABLE-ENTITY>
+              <RUNNABLE-ENTITY>
+                <SHORT-NAME>RE_SWC_SpeedLimiter_Init</SHORT-NAME>
+                <SYMBOL>SWC_SpeedLimiter_Init</SYMBOL>
+              </RUNNABLE-ENTITY>
+            </RUNNABLES>
+          </SWC-INTERNAL-BEHAVIOR>
+        </APPLICATION-SW-COMPONENT-TYPE>
+        <SENDER-RECEIVER-INTERFACE>
+          <SHORT-NAME>I_SWC_SpeedLimiter_Out</SHORT-NAME>
+          <DESC>Sender Receiver Interface for SWC_SpeedLimiter outputs</DESC>
+          <DATA-ELEMENTS>
+            <VARIABLE-DATA-PROTOTYPE>
+              <SHORT-NAME>DE_SWC_SpeedLimiter_Signal</SHORT-NAME>
+              <TYPE-TREF>/AUTOSAR/Platform/uint32</TYPE-TREF>
+            </VARIABLE-DATA-PROTOTYPE>
+          </DATA-ELEMENTS>
+        </SENDER-RECEIVER-INTERFACE>
+        <SENDER-RECEIVER-INTERFACE>
+          <SHORT-NAME>I_SWC_SpeedLimiter_In</SHORT-NAME>
+          <DESC>Sender Receiver Interface for SWC_SpeedLimiter inputs</DESC>
+          <DATA-ELEMENTS>
+            <VARIABLE-DATA-PROTOTYPE>
+              <SHORT-NAME>DE_SWC_SpeedLimiter_RawData</SHORT-NAME>
+              <TYPE-TREF>/AUTOSAR/Platform/uint16</TYPE-TREF>
+            </VARIABLE-DATA-PROTOTYPE>
+          </DATA-ELEMENTS>
+        </SENDER-RECEIVER-INTERFACE>
+      </ELEMENTS>
+    </AR-PACKAGE>
+  </AR-PACKAGES>
+</AUTOSAR>

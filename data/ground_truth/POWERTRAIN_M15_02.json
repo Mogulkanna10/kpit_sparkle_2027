@@ -1,0 +1,15 @@
+{
+  "mutation_id": "POWERTRAIN_M15_02",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\arxml\\SWC_FuelInjection.arxml",
+  "target_node_id": "SWC_FuelInjection_Step",
+  "true_impacted_artifacts": [],
+  "true_impacted_tests": [],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "STATIC_DEAD_CODE_ANALYSIS",
+    "DOCUMENTATION_INVARIANCE_CHECK"
+  ],
+  "provenance_records": [],
+  "confidence": "verified"
+}

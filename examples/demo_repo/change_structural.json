@@ -1,0 +1,9 @@
+{
+  "artifact_id": "REQ_AEB_001",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Update Time-to-Collision threshold formula to account for wet asphalt friction coefficient.",
+  "change_semantics": "Time-to-collision calculation TTC radar distance ego speed"
+}

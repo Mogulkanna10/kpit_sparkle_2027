@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M16_01",
+  "project_id": "POWERTRAIN",
+  "change_type": "M16",
+  "category_name": "Indirect dependency change",
+  "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+  "target_node_id": "PT_Func_034",
+  "artifact_type": "C_CODE",
+  "before_state": "calc_primary();",
+  "after_state": "calc_primary(); trigger_secondary_safety();",
+  "diff": "--- data\\projects\\powertrain\\src\\powertrain_controller.c\n+++ data\\projects\\powertrain\\src\\powertrain_controller.c\n@@ -1,4 +1,4 @@\n-calc_primary();\n+calc_primary(); trigger_secondary_safety();",
+  "intended_change_semantics": "Indirect dependency branch modification",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M16",
+    "repeat": 1
+  }
+}

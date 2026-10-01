@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M07_01",
+  "project_id": "POWERTRAIN",
+  "change_type": "M07",
+  "category_name": "ARXML scaling change",
+  "source_artifact": "arxml/powertrain_swc.arxml",
+  "target_node_id": "I_SWC_DriveModeSelector_Out_DE_SWC_DriveModeSelector_TorqueDemand",
+  "artifact_type": "ARXML",
+  "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+  "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+  "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+  "intended_change_semantics": "Physical scaling resolution factor refinement",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M07",
+    "repeat": 1
+  }
+}

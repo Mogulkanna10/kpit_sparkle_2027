@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M18_01",
+  "project_id": "ADAS",
+  "change_type": "M18",
+  "category_name": "Cross-domain Req->ARXML->C->Test change",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_002",
+  "artifact_type": "REQUIREMENT",
+  "before_state": "Cross-domain constraint on R_ADAS_002.",
+  "after_state": "Cross-domain update impacting sensor input, control computation, and actuator output.",
+  "diff": "--- data\\projects\\adas\\requirements\\adas_requirements.json\n+++ data\\projects\\adas\\requirements\\adas_requirements.json\n@@ -1,4 +1,4 @@\n-Cross-domain constraint on R_ADAS_002.\n+Cross-domain update impacting sensor input, control computation, and actuator output.",
+  "intended_change_semantics": "Cascading cross-domain impact",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M18",
+    "repeat": 1
+  }
+}

@@ -1,0 +1,482 @@
+[
+  {
+    "id": "REQ_BODY_001",
+    "name": "BCM_Lighting_Req_01",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 1].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_001"
+    ]
+  },
+  {
+    "id": "REQ_BODY_002",
+    "name": "BCM_Lighting_Req_02",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 2].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_002"
+    ]
+  },
+  {
+    "id": "REQ_BODY_003",
+    "name": "BCM_Lighting_Req_03",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 3].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_003"
+    ]
+  },
+  {
+    "id": "REQ_BODY_004",
+    "name": "BCM_Lighting_Req_04",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 4].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_004"
+    ]
+  },
+  {
+    "id": "REQ_BODY_005",
+    "name": "BCM_Lighting_Req_05",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 5].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_005"
+    ]
+  },
+  {
+    "id": "REQ_BODY_006",
+    "name": "BCM_Lighting_Req_06",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 6].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_006"
+    ]
+  },
+  {
+    "id": "REQ_BODY_007",
+    "name": "BCM_Lighting_Req_07",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 7].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_007"
+    ]
+  },
+  {
+    "id": "REQ_BODY_008",
+    "name": "BCM_Lighting_Req_08",
+    "description": "Exterior and interior lighting automation based on ambient illumination and door switches. [Parameter verification variant 8].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_008"
+    ]
+  },
+  {
+    "id": "REQ_BODY_009",
+    "name": "BCM_DoorLock_Req_01",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 1].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_009"
+    ]
+  },
+  {
+    "id": "REQ_BODY_010",
+    "name": "BCM_DoorLock_Req_02",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 2].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_010"
+    ]
+  },
+  {
+    "id": "REQ_BODY_011",
+    "name": "BCM_DoorLock_Req_03",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 3].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_011"
+    ]
+  },
+  {
+    "id": "REQ_BODY_012",
+    "name": "BCM_DoorLock_Req_04",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 4].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_012"
+    ]
+  },
+  {
+    "id": "REQ_BODY_013",
+    "name": "BCM_DoorLock_Req_05",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 5].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_013"
+    ]
+  },
+  {
+    "id": "REQ_BODY_014",
+    "name": "BCM_DoorLock_Req_06",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 6].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_014"
+    ]
+  },
+  {
+    "id": "REQ_BODY_015",
+    "name": "BCM_DoorLock_Req_07",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 7].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_015"
+    ]
+  },
+  {
+    "id": "REQ_BODY_016",
+    "name": "BCM_DoorLock_Req_08",
+    "description": "Central door locking, auto-relock safety interlocks, and crash unlock triggers. [Parameter verification variant 8].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_016"
+    ]
+  },
+  {
+    "id": "REQ_BODY_017",
+    "name": "BCM_Wiper_Req_01",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 1].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_017"
+    ]
+  },
+  {
+    "id": "REQ_BODY_018",
+    "name": "BCM_Wiper_Req_02",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 2].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_018"
+    ]
+  },
+  {
+    "id": "REQ_BODY_019",
+    "name": "BCM_Wiper_Req_03",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 3].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_019"
+    ]
+  },
+  {
+    "id": "REQ_BODY_020",
+    "name": "BCM_Wiper_Req_04",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 4].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_020"
+    ]
+  },
+  {
+    "id": "REQ_BODY_021",
+    "name": "BCM_Wiper_Req_05",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 5].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_021"
+    ]
+  },
+  {
+    "id": "REQ_BODY_022",
+    "name": "BCM_Wiper_Req_06",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 6].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_022"
+    ]
+  },
+  {
+    "id": "REQ_BODY_023",
+    "name": "BCM_Wiper_Req_07",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 7].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_023"
+    ]
+  },
+  {
+    "id": "REQ_BODY_024",
+    "name": "BCM_Wiper_Req_08",
+    "description": "Rain-sensing windshield wiper interval and high-speed wipe regulation. [Parameter verification variant 8].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_024"
+    ]
+  },
+  {
+    "id": "REQ_BODY_025",
+    "name": "HVAC_CabinComfort_Req_01",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 1].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_025"
+    ]
+  },
+  {
+    "id": "REQ_BODY_026",
+    "name": "HVAC_CabinComfort_Req_02",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 2].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_026"
+    ]
+  },
+  {
+    "id": "REQ_BODY_027",
+    "name": "HVAC_CabinComfort_Req_03",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 3].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_027"
+    ]
+  },
+  {
+    "id": "REQ_BODY_028",
+    "name": "HVAC_CabinComfort_Req_04",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 4].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_028"
+    ]
+  },
+  {
+    "id": "REQ_BODY_029",
+    "name": "HVAC_CabinComfort_Req_05",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 5].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_029"
+    ]
+  },
+  {
+    "id": "REQ_BODY_030",
+    "name": "HVAC_CabinComfort_Req_06",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 6].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_030"
+    ]
+  },
+  {
+    "id": "REQ_BODY_031",
+    "name": "HVAC_CabinComfort_Req_07",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 7].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_031"
+    ]
+  },
+  {
+    "id": "REQ_BODY_032",
+    "name": "HVAC_CabinComfort_Req_08",
+    "description": "Cabin temperature closed-loop regulation and blower motor power management. [Parameter verification variant 8].",
+    "asil_level": "QM",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_032"
+    ]
+  },
+  {
+    "id": "REQ_BODY_033",
+    "name": "BCM_Immobilizer_Req_01",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 1].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_033"
+    ]
+  },
+  {
+    "id": "REQ_BODY_034",
+    "name": "BCM_Immobilizer_Req_02",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 2].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_034"
+    ]
+  },
+  {
+    "id": "REQ_BODY_035",
+    "name": "BCM_Immobilizer_Req_03",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 3].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_035"
+    ]
+  },
+  {
+    "id": "REQ_BODY_036",
+    "name": "BCM_Immobilizer_Req_04",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 4].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_036"
+    ]
+  },
+  {
+    "id": "REQ_BODY_037",
+    "name": "BCM_Immobilizer_Req_05",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 5].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_037"
+    ]
+  },
+  {
+    "id": "REQ_BODY_038",
+    "name": "BCM_Immobilizer_Req_06",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 6].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_038"
+    ]
+  },
+  {
+    "id": "REQ_BODY_039",
+    "name": "BCM_Immobilizer_Req_07",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 7].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_039"
+    ]
+  },
+  {
+    "id": "REQ_BODY_040",
+    "name": "BCM_Immobilizer_Req_08",
+    "description": "Cryptographic key challenge-response and passive start authentication. [Parameter verification variant 8].",
+    "asil_level": "ASIL_C",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_040"
+    ]
+  },
+  {
+    "id": "REQ_BODY_041",
+    "name": "BCM_PowerWindow_Req_01",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 1].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_041"
+    ]
+  },
+  {
+    "id": "REQ_BODY_042",
+    "name": "BCM_PowerWindow_Req_02",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 2].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_042"
+    ]
+  },
+  {
+    "id": "REQ_BODY_043",
+    "name": "BCM_PowerWindow_Req_03",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 3].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_043"
+    ]
+  },
+  {
+    "id": "REQ_BODY_044",
+    "name": "BCM_PowerWindow_Req_04",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 4].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_044"
+    ]
+  },
+  {
+    "id": "REQ_BODY_045",
+    "name": "BCM_PowerWindow_Req_05",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 5].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_045"
+    ]
+  },
+  {
+    "id": "REQ_BODY_046",
+    "name": "BCM_PowerWindow_Req_06",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 6].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_046"
+    ]
+  },
+  {
+    "id": "REQ_BODY_047",
+    "name": "BCM_PowerWindow_Req_07",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 7].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_047"
+    ]
+  },
+  {
+    "id": "REQ_BODY_048",
+    "name": "BCM_PowerWindow_Req_08",
+    "description": "Anti-pinch obstacle detection and one-touch power window express close. [Parameter verification variant 8].",
+    "asil_level": "ASIL_B",
+    "project": "BODY_ELECTRONICS",
+    "verification_tests": [
+      "TC_BODY_048"
+    ]
+  }
+]

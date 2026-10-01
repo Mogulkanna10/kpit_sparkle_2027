@@ -1,0 +1,7 @@
+variant,mean_hsr,decoy_fpr,precision
+C0_Raw_Embedding,0.2,0.65,0.02
+C1_Plus_Artifact_Type,0.2667,0.4167,0.028
+C2_Plus_Subsystem,0.3667,0.05,0.038
+C3_Plus_Graph_Proximity,0.3867,0.0167,0.0395
+C4_Plus_Trace_Context,0.4,0.0,0.04
+C5_All_Context_Combined,0.4067,0.0,0.0407

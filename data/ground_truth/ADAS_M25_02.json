@@ -1,0 +1,15 @@
+{
+  "mutation_id": "ADAS_M25_02",
+  "project_id": "ADAS",
+  "source_artifact": "docs/architecture_overview.md",
+  "target_node_id": "R_ADAS_025",
+  "true_impacted_artifacts": [],
+  "true_impacted_tests": [],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "STATIC_DEAD_CODE_ANALYSIS",
+    "DOCUMENTATION_INVARIANCE_CHECK"
+  ],
+  "provenance_records": [],
+  "confidence": "verified"
+}

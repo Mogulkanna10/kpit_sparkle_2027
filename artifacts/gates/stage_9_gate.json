@@ -1,0 +1,48 @@
+{
+  "stage": "9",
+  "gate_id": "GATE-09",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:46:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "branch": "main",
+  "objective": "Validate artifact to test mapping, regression test selection, test reduction, and metric calculations",
+  "changes": [
+    "Created tests/testing/test_regression_selection_validation.py with 8 comprehensive mapping, reduction, and metric tests",
+    "Created reports/final/test_selection_validation.md",
+    "Created artifacts/gates/stage_9_gate.json"
+  ],
+  "tests": [
+    "tests/testing/test_regression_selection_validation.py::test_artifact_to_test_mapping",
+    "tests/testing/test_regression_selection_validation.py::test_impact_to_tests_propagation",
+    "tests/testing/test_regression_selection_validation.py::test_duplicate_mappings_deduplication",
+    "tests/testing/test_regression_selection_validation.py::test_missing_mappings_handling",
+    "tests/testing/test_regression_selection_validation.py::test_unrelated_tests_omission_and_reduction",
+    "tests/testing/test_regression_selection_validation.py::test_empty_impact_handling",
+    "tests/testing/test_regression_selection_validation.py::test_full_suite_fallback_behavior",
+    "tests/testing/test_regression_selection_validation.py::test_exact_metric_calculations"
+  ],
+  "test_results": {
+    "total": 86,
+    "passed": 86,
+    "failed": 0,
+    "skipped": 0,
+    "test_selection_validation_passed": 8
+  },
+  "acceptance_criteria": {
+    "artifact_to_test_mapping_verified": true,
+    "test_reduction_verified": true,
+    "full_suite_fallback_verified": true,
+    "metric_formulas_audited": true,
+    "zero_ghost_tests_generated": true
+  },
+  "failures": [],
+  "evidence_files": [
+    "tests/testing/test_regression_selection_validation.py",
+    "reports/final/test_selection_validation.md"
+  ],
+  "next_stage": "10",
+  "checkpoint": "Gate 9 passed cleanly. Ready for Gate 10: Evidence and Audit Trail.",
+  "gate": "GATE-9",
+  "title": "Validate artifact to test mapping, regression test selection, test reduction, and metric calculations",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

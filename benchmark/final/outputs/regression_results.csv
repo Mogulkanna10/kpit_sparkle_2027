@@ -1,0 +1,1051 @@
+project,mutation_id,change_type,category_name,method,total_tests,selected_tests,true_impacted_tests,selected_impacted_tests,true_safety_tests,selected_safety_tests,hit_count,recall,precision,f1,specificity,test_reduction,safety_recall,false_negatives,latency_ms
+ADAS,ADAS_M01_01,M01,Numeric requirement change,Full_Suite,85,85,17,17,2,2,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M01_01,M01,Numeric requirement change,Keyword,85,14,17,8,2,2,8,0.4706,0.5714,0.5161,1.0441,0.8353,1.0,9,6.176
+ADAS,ADAS_M01_01,M01,Numeric requirement change,Embedding_Only,85,6,17,2,2,2,2,0.1176,0.3333,0.1739,1.1618,0.9294,1.0,15,0.689
+ADAS,ADAS_M01_01,M01,Numeric requirement change,Embedding_Context,85,10,17,2,2,2,2,0.1176,0.2,0.1481,1.1029,0.8824,1.0,15,1.192
+ADAS,ADAS_M01_01,M01,Numeric requirement change,Graph_Only,85,2,17,2,2,2,2,0.1176,1.0,0.2105,1.2206,0.9765,1.0,15,0.02
+ADAS,ADAS_M01_01,M01,Numeric requirement change,Hybrid_AURA_Routed,85,10,17,2,2,2,2,0.1176,0.2,0.1481,1.1029,0.8824,1.0,15,1.23
+ADAS,ADAS_M01_01,M01,Numeric requirement change,Hybrid_AURA_Fixed,85,10,17,2,2,2,2,0.1176,0.2,0.1481,1.1029,0.8824,1.0,15,1.145
+ADAS,ADAS_M02_01,M02,Threshold change,Full_Suite,85,85,15,15,9,9,15,1.0,0.1765,0.3,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M02_01,M02,Threshold change,Keyword,85,19,15,10,9,9,10,0.6667,0.5263,0.5882,0.9429,0.7765,1.0,5,0.901
+ADAS,ADAS_M02_01,M02,Threshold change,Embedding_Only,85,12,15,9,9,9,9,0.6,0.75,0.6667,1.0429,0.8588,1.0,6,0.572
+ADAS,ADAS_M02_01,M02,Threshold change,Embedding_Context,85,12,15,9,9,9,9,0.6,0.75,0.6667,1.0429,0.8588,1.0,6,1.065
+ADAS,ADAS_M02_01,M02,Threshold change,Graph_Only,85,9,15,9,9,9,9,0.6,1.0,0.75,1.0857,0.8941,1.0,6,0.016
+ADAS,ADAS_M02_01,M02,Threshold change,Hybrid_AURA_Routed,85,12,15,9,9,9,9,0.6,0.75,0.6667,1.0429,0.8588,1.0,6,1.497
+ADAS,ADAS_M02_01,M02,Threshold change,Hybrid_AURA_Fixed,85,12,15,9,9,9,9,0.6,0.75,0.6667,1.0429,0.8588,1.0,6,1.086
+ADAS,ADAS_M03_01,M03,Semantic wording change,Full_Suite,85,85,18,18,3,3,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M03_01,M03,Semantic wording change,Keyword,85,12,18,3,3,3,3,0.1667,0.25,0.2,1.0896,0.8588,1.0,15,0.983
+ADAS,ADAS_M03_01,M03,Semantic wording change,Embedding_Only,85,10,18,3,3,3,3,0.1667,0.3,0.2143,1.1194,0.8824,1.0,15,0.393
+ADAS,ADAS_M03_01,M03,Semantic wording change,Embedding_Context,85,19,18,5,3,3,5,0.2778,0.2632,0.2703,0.9851,0.7765,1.0,13,0.816
+ADAS,ADAS_M03_01,M03,Semantic wording change,Graph_Only,85,3,18,3,3,3,3,0.1667,1.0,0.2857,1.2239,0.9647,1.0,15,0.008
+ADAS,ADAS_M03_01,M03,Semantic wording change,Hybrid_AURA_Routed,85,19,18,5,3,3,5,0.2778,0.2632,0.2703,0.9851,0.7765,1.0,13,0.914
+ADAS,ADAS_M03_01,M03,Semantic wording change,Hybrid_AURA_Fixed,85,19,18,5,3,3,5,0.2778,0.2632,0.2703,0.9851,0.7765,1.0,13,0.889
+ADAS,ADAS_M04_01,M04,Requirement synonym replacement,Full_Suite,85,85,18,18,9,9,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M04_01,M04,Requirement synonym replacement,Keyword,85,19,18,9,9,9,9,0.5,0.4737,0.4865,0.9851,0.7765,1.0,9,0.82
+ADAS,ADAS_M04_01,M04,Requirement synonym replacement,Embedding_Only,85,11,18,9,9,9,9,0.5,0.8182,0.6207,1.1045,0.8706,1.0,9,0.29
+ADAS,ADAS_M04_01,M04,Requirement synonym replacement,Embedding_Context,85,18,18,9,9,9,9,0.5,0.5,0.5,1.0,0.7882,1.0,9,0.787
+ADAS,ADAS_M04_01,M04,Requirement synonym replacement,Graph_Only,85,9,18,9,9,9,9,0.5,1.0,0.6667,1.1343,0.8941,1.0,9,0.009
+ADAS,ADAS_M04_01,M04,Requirement synonym replacement,Hybrid_AURA_Routed,85,18,18,9,9,9,9,0.5,0.5,0.5,1.0,0.7882,1.0,9,0.853
+ADAS,ADAS_M04_01,M04,Requirement synonym replacement,Hybrid_AURA_Fixed,85,18,18,9,9,9,9,0.5,0.5,0.5,1.0,0.7882,1.0,9,0.838
+ADAS,ADAS_M05_01,M05,Requirement constraint addition,Full_Suite,85,85,17,17,2,2,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M05_01,M05,Requirement constraint addition,Keyword,85,8,17,8,2,2,8,0.4706,1.0,0.64,1.1324,0.9059,1.0,9,0.771
+ADAS,ADAS_M05_01,M05,Requirement constraint addition,Embedding_Only,85,2,17,2,2,2,2,0.1176,1.0,0.2105,1.2206,0.9765,1.0,15,0.514
+ADAS,ADAS_M05_01,M05,Requirement constraint addition,Embedding_Context,85,4,17,3,2,2,3,0.1765,0.75,0.2857,1.1912,0.9529,1.0,14,1.081
+ADAS,ADAS_M05_01,M05,Requirement constraint addition,Graph_Only,85,2,17,2,2,2,2,0.1176,1.0,0.2105,1.2206,0.9765,1.0,15,0.009
+ADAS,ADAS_M05_01,M05,Requirement constraint addition,Hybrid_AURA_Routed,85,4,17,3,2,2,3,0.1765,0.75,0.2857,1.1912,0.9529,1.0,14,1.121
+ADAS,ADAS_M05_01,M05,Requirement constraint addition,Hybrid_AURA_Fixed,85,4,17,3,2,2,3,0.1765,0.75,0.2857,1.1912,0.9529,1.0,14,1.238
+ADAS,ADAS_M06_01,M06,ARXML datatype change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M06_01,M06,ARXML datatype change,Keyword,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.101
+ADAS,ADAS_M06_01,M06,ARXML datatype change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.537
+ADAS,ADAS_M06_01,M06,ARXML datatype change,Embedding_Context,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.26
+ADAS,ADAS_M06_01,M06,ARXML datatype change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.012
+ADAS,ADAS_M06_01,M06,ARXML datatype change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.04
+ADAS,ADAS_M06_01,M06,ARXML datatype change,Hybrid_AURA_Fixed,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.136
+ADAS,ADAS_M07_01,M07,ARXML scaling change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M07_01,M07,ARXML scaling change,Keyword,85,7,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9176,1.0,0,0.819
+ADAS,ADAS_M07_01,M07,ARXML scaling change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.222
+ADAS,ADAS_M07_01,M07,ARXML scaling change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.547
+ADAS,ADAS_M07_01,M07,ARXML scaling change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+ADAS,ADAS_M07_01,M07,ARXML scaling change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.026
+ADAS,ADAS_M07_01,M07,ARXML scaling change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.544
+ADAS,ADAS_M08_01,M08,Interface field change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M08_01,M08,Interface field change,Keyword,85,4,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9529,1.0,0,0.912
+ADAS,ADAS_M08_01,M08,Interface field change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.3
+ADAS,ADAS_M08_01,M08,Interface field change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.606
+ADAS,ADAS_M08_01,M08,Interface field change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.006
+ADAS,ADAS_M08_01,M08,Interface field change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.024
+ADAS,ADAS_M08_01,M08,Interface field change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.595
+ADAS,ADAS_M09_01,M09,Interface version change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M09_01,M09,Interface version change,Keyword,85,4,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9529,1.0,0,0.658
+ADAS,ADAS_M09_01,M09,Interface version change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.223
+ADAS,ADAS_M09_01,M09,Interface version change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.53
+ADAS,ADAS_M09_01,M09,Interface version change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+ADAS,ADAS_M09_01,M09,Interface version change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.024
+ADAS,ADAS_M09_01,M09,Interface version change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.564
+ADAS,ADAS_M10_01,M10,C function signature change,Full_Suite,85,85,18,18,0,0,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M10_01,M10,C function signature change,Keyword,85,1,18,1,0,0,1,0.0556,1.0,0.1053,1.2537,0.9882,1.0,17,0.631
+ADAS,ADAS_M10_01,M10,C function signature change,Embedding_Only,85,2,18,1,0,0,1,0.0556,0.5,0.1,1.2388,0.9765,1.0,17,0.275
+ADAS,ADAS_M10_01,M10,C function signature change,Embedding_Context,85,7,18,3,0,0,3,0.1667,0.4286,0.24,1.1642,0.9176,1.0,15,2.518
+ADAS,ADAS_M10_01,M10,C function signature change,Graph_Only,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.352
+ADAS,ADAS_M10_01,M10,C function signature change,Hybrid_AURA_Routed,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.558
+ADAS,ADAS_M10_01,M10,C function signature change,Hybrid_AURA_Fixed,85,27,18,14,0,0,14,0.7778,0.5185,0.6222,0.8657,0.6824,1.0,4,5.194
+ADAS,ADAS_M11_01,M11,C constant change,Full_Suite,85,85,18,18,11,11,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M11_01,M11,C constant change,Keyword,85,13,18,11,11,11,11,0.6111,0.8462,0.7097,1.0746,0.8471,1.0,7,0.913
+ADAS,ADAS_M11_01,M11,C constant change,Embedding_Only,85,11,18,11,11,11,11,0.6111,1.0,0.7586,1.1045,0.8706,1.0,7,0.264
+ADAS,ADAS_M11_01,M11,C constant change,Embedding_Context,85,17,18,13,11,11,13,0.7222,0.7647,0.7429,1.0149,0.8,1.0,5,3.425
+ADAS,ADAS_M11_01,M11,C constant change,Graph_Only,85,26,18,18,11,11,18,1.0,0.6923,0.8182,0.8806,0.6941,1.0,0,0.316
+ADAS,ADAS_M11_01,M11,C constant change,Hybrid_AURA_Routed,85,26,18,18,11,11,18,1.0,0.6923,0.8182,0.8806,0.6941,1.0,0,0.403
+ADAS,ADAS_M11_01,M11,C constant change,Hybrid_AURA_Fixed,85,28,18,18,11,11,18,1.0,0.6429,0.7826,0.8507,0.6706,1.0,0,3.965
+ADAS,ADAS_M12_01,M12,Function dependency change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M12_01,M12,Function dependency change,Keyword,85,10,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8824,1.0,0,0.769
+ADAS,ADAS_M12_01,M12,Function dependency change,Embedding_Only,85,8,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9059,1.0,0,0.422
+ADAS,ADAS_M12_01,M12,Function dependency change,Embedding_Context,85,13,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8471,1.0,0,1.051
+ADAS,ADAS_M12_01,M12,Function dependency change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+ADAS,ADAS_M12_01,M12,Function dependency change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.029
+ADAS,ADAS_M12_01,M12,Function dependency change,Hybrid_AURA_Fixed,85,13,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8471,1.0,0,0.99
+ADAS,ADAS_M13_01,M13,Variable dependency change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M13_01,M13,Variable dependency change,Keyword,85,15,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8235,1.0,0,0.779
+ADAS,ADAS_M13_01,M13,Variable dependency change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.177
+ADAS,ADAS_M13_01,M13,Variable dependency change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.625
+ADAS,ADAS_M13_01,M13,Variable dependency change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.008
+ADAS,ADAS_M13_01,M13,Variable dependency change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.027
+ADAS,ADAS_M13_01,M13,Variable dependency change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.747
+ADAS,ADAS_M14_01,M14,Test requirement modification,Full_Suite,85,85,22,22,3,3,22,1.0,0.2588,0.4112,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M14_01,M14,Test requirement modification,Keyword,85,9,22,9,3,3,9,0.4091,1.0,0.5806,1.2063,0.8941,1.0,13,1.07
+ADAS,ADAS_M14_01,M14,Test requirement modification,Embedding_Only,85,3,22,3,3,3,3,0.1364,1.0,0.24,1.3016,0.9647,1.0,19,0.49
+ADAS,ADAS_M14_01,M14,Test requirement modification,Embedding_Context,85,3,22,3,3,3,3,0.1364,1.0,0.24,1.3016,0.9647,1.0,19,1.071
+ADAS,ADAS_M14_01,M14,Test requirement modification,Graph_Only,85,24,22,18,3,3,18,0.8182,0.75,0.7826,0.9683,0.7176,1.0,4,0.316
+ADAS,ADAS_M14_01,M14,Test requirement modification,Hybrid_AURA_Routed,85,24,22,18,3,3,18,0.8182,0.75,0.7826,0.9683,0.7176,1.0,4,0.406
+ADAS,ADAS_M14_01,M14,Test requirement modification,Hybrid_AURA_Fixed,85,24,22,18,3,3,18,0.8182,0.75,0.7826,0.9683,0.7176,1.0,4,1.531
+ADAS,ADAS_M15_01,M15,Unrelated/no-impact change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M15_01,M15,Unrelated/no-impact change,Keyword,85,5,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9412,1.0,0,0.683
+ADAS,ADAS_M15_01,M15,Unrelated/no-impact change,Embedding_Only,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,0.269
+ADAS,ADAS_M15_01,M15,Unrelated/no-impact change,Embedding_Context,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,0.973
+ADAS,ADAS_M15_01,M15,Unrelated/no-impact change,Graph_Only,85,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7765,1.0,0,0.264
+ADAS,ADAS_M15_01,M15,Unrelated/no-impact change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.009
+ADAS,ADAS_M15_01,M15,Unrelated/no-impact change,Hybrid_AURA_Fixed,85,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7765,1.0,0,1.315
+ADAS,ADAS_M16_01,M16,Indirect dependency change,Full_Suite,85,85,18,18,4,4,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M16_01,M16,Indirect dependency change,Keyword,85,9,18,7,4,4,7,0.3889,0.7778,0.5185,1.1343,0.8941,1.0,11,0.626
+ADAS,ADAS_M16_01,M16,Indirect dependency change,Embedding_Only,85,5,18,5,4,4,5,0.2778,1.0,0.4348,1.194,0.9412,1.0,13,0.225
+ADAS,ADAS_M16_01,M16,Indirect dependency change,Embedding_Context,85,5,18,5,4,4,5,0.2778,1.0,0.4348,1.194,0.9412,1.0,13,2.741
+ADAS,ADAS_M16_01,M16,Indirect dependency change,Graph_Only,85,25,18,17,4,4,17,0.9444,0.68,0.7907,0.8955,0.7059,1.0,1,0.645
+ADAS,ADAS_M16_01,M16,Indirect dependency change,Hybrid_AURA_Routed,85,25,18,17,4,4,17,0.9444,0.68,0.7907,0.8955,0.7059,1.0,1,0.449
+ADAS,ADAS_M16_01,M16,Indirect dependency change,Hybrid_AURA_Fixed,85,25,18,17,4,4,17,0.9444,0.68,0.7907,0.8955,0.7059,1.0,1,3.124
+ADAS,ADAS_M17_01,M17,Long-chain dependency change,Full_Suite,85,85,18,18,8,8,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M17_01,M17,Long-chain dependency change,Keyword,85,20,18,10,8,8,10,0.5556,0.5,0.5263,0.9701,0.7647,1.0,8,0.866
+ADAS,ADAS_M17_01,M17,Long-chain dependency change,Embedding_Only,85,8,18,8,8,8,8,0.4444,1.0,0.6154,1.1493,0.9059,1.0,10,0.36
+ADAS,ADAS_M17_01,M17,Long-chain dependency change,Embedding_Context,85,16,18,10,8,8,10,0.5556,0.625,0.5882,1.0299,0.8118,1.0,8,0.782
+ADAS,ADAS_M17_01,M17,Long-chain dependency change,Graph_Only,85,8,18,8,8,8,8,0.4444,1.0,0.6154,1.1493,0.9059,1.0,10,0.008
+ADAS,ADAS_M17_01,M17,Long-chain dependency change,Hybrid_AURA_Routed,85,8,18,8,8,8,8,0.4444,1.0,0.6154,1.1493,0.9059,1.0,10,0.026
+ADAS,ADAS_M17_01,M17,Long-chain dependency change,Hybrid_AURA_Fixed,85,16,18,10,8,8,10,0.5556,0.625,0.5882,1.0299,0.8118,1.0,8,0.834
+ADAS,ADAS_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Full_Suite,85,85,16,16,10,10,16,1.0,0.1882,0.3168,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Keyword,85,21,16,11,10,10,11,0.6875,0.5238,0.5946,0.9275,0.7529,1.0,5,0.729
+ADAS,ADAS_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Only,85,10,16,10,10,10,10,0.625,1.0,0.7692,1.087,0.8824,1.0,6,0.301
+ADAS,ADAS_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Context,85,18,16,11,10,10,11,0.6875,0.6111,0.6471,0.971,0.7882,1.0,5,0.788
+ADAS,ADAS_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Graph_Only,85,10,16,10,10,10,10,0.625,1.0,0.7692,1.087,0.8824,1.0,6,0.008
+ADAS,ADAS_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Routed,85,18,16,11,10,10,11,0.6875,0.6111,0.6471,0.971,0.7882,1.0,5,0.86
+ADAS,ADAS_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Fixed,85,18,16,11,10,10,11,0.6875,0.6111,0.6471,0.971,0.7882,1.0,5,0.954
+ADAS,ADAS_M19_01,M19,Misleading semantic similarity,Full_Suite,85,85,1,1,0,0,1,1.0,0.0118,0.0233,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M19_01,M19,Misleading semantic similarity,Keyword,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.666
+ADAS,ADAS_M19_01,M19,Misleading semantic similarity,Embedding_Only,85,1,1,0,0,0,0,0.0,0.0,0.0,1.0,0.9882,1.0,1,0.233
+ADAS,ADAS_M19_01,M19,Misleading semantic similarity,Embedding_Context,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.682
+ADAS,ADAS_M19_01,M19,Misleading semantic similarity,Graph_Only,85,0,1,0,0,0,0,0.0,0.0,0.0,1.0119,1.0,1.0,1,0.007
+ADAS,ADAS_M19_01,M19,Misleading semantic similarity,Hybrid_AURA_Routed,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.774
+ADAS,ADAS_M19_01,M19,Misleading semantic similarity,Hybrid_AURA_Fixed,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.754
+ADAS,ADAS_M20_01,M20,Multiple simultaneous changes,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M20_01,M20,Multiple simultaneous changes,Keyword,85,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8941,1.0,0,1.214
+ADAS,ADAS_M20_01,M20,Multiple simultaneous changes,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.468
+ADAS,ADAS_M20_01,M20,Multiple simultaneous changes,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,1.101
+ADAS,ADAS_M20_01,M20,Multiple simultaneous changes,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.011
+ADAS,ADAS_M20_01,M20,Multiple simultaneous changes,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.602
+ADAS,ADAS_M20_01,M20,Multiple simultaneous changes,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.714
+ADAS,ADAS_M21_01,M21,Lexical renaming,Full_Suite,85,85,15,15,15,15,15,1.0,0.1765,0.3,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M21_01,M21,Lexical renaming,Keyword,85,17,15,15,15,15,15,1.0,0.8824,0.9375,0.9714,0.8,1.0,0,0.811
+ADAS,ADAS_M21_01,M21,Lexical renaming,Embedding_Only,85,15,15,15,15,15,15,1.0,1.0,1.0,1.0,0.8235,1.0,0,0.222
+ADAS,ADAS_M21_01,M21,Lexical renaming,Embedding_Context,85,15,15,15,15,15,15,1.0,1.0,1.0,1.0,0.8235,1.0,0,2.15
+ADAS,ADAS_M21_01,M21,Lexical renaming,Graph_Only,85,23,15,15,15,15,15,1.0,0.6522,0.7895,0.8857,0.7294,1.0,0,0.312
+ADAS,ADAS_M21_01,M21,Lexical renaming,Hybrid_AURA_Routed,85,23,15,15,15,15,15,1.0,0.6522,0.7895,0.8857,0.7294,1.0,0,0.422
+ADAS,ADAS_M21_01,M21,Lexical renaming,Hybrid_AURA_Fixed,85,23,15,15,15,15,15,1.0,0.6522,0.7895,0.8857,0.7294,1.0,0,2.44
+ADAS,ADAS_M22_01,M22,Structural rename with same semantics,Full_Suite,85,85,18,18,0,0,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M22_01,M22,Structural rename with same semantics,Keyword,85,5,18,1,0,0,1,0.0556,0.2,0.087,1.194,0.9412,1.0,17,0.69
+ADAS,ADAS_M22_01,M22,Structural rename with same semantics,Embedding_Only,85,1,18,1,0,0,1,0.0556,1.0,0.1053,1.2537,0.9882,1.0,17,0.218
+ADAS,ADAS_M22_01,M22,Structural rename with same semantics,Embedding_Context,85,10,18,1,0,0,1,0.0556,0.1,0.0714,1.1194,0.8824,1.0,17,3.338
+ADAS,ADAS_M22_01,M22,Structural rename with same semantics,Graph_Only,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.297
+ADAS,ADAS_M22_01,M22,Structural rename with same semantics,Hybrid_AURA_Routed,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.396
+ADAS,ADAS_M22_01,M22,Structural rename with same semantics,Hybrid_AURA_Fixed,85,31,18,13,0,0,13,0.7222,0.4194,0.5306,0.806,0.6353,1.0,5,6.665
+ADAS,ADAS_M23_01,M23,Semantic requirement change with little textual overlap,Full_Suite,85,85,17,17,5,5,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M23_01,M23,Semantic requirement change with little textual overlap,Keyword,85,19,17,11,5,5,11,0.6471,0.5789,0.6111,0.9706,0.7765,1.0,6,1.003
+ADAS,ADAS_M23_01,M23,Semantic requirement change with little textual overlap,Embedding_Only,85,14,17,7,5,5,7,0.4118,0.5,0.4516,1.0441,0.8353,1.0,10,0.373
+ADAS,ADAS_M23_01,M23,Semantic requirement change with little textual overlap,Embedding_Context,85,14,17,7,5,5,7,0.4118,0.5,0.4516,1.0441,0.8353,1.0,10,0.875
+ADAS,ADAS_M23_01,M23,Semantic requirement change with little textual overlap,Graph_Only,85,5,17,5,5,5,5,0.2941,1.0,0.4545,1.1765,0.9412,1.0,12,0.011
+ADAS,ADAS_M23_01,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Routed,85,14,17,7,5,5,7,0.4118,0.5,0.4516,1.0441,0.8353,1.0,10,0.871
+ADAS,ADAS_M23_01,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Fixed,85,14,17,7,5,5,7,0.4118,0.5,0.4516,1.0441,0.8353,1.0,10,0.813
+ADAS,ADAS_M24_01,M24,Dead-code modification,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M24_01,M24,Dead-code modification,Keyword,85,5,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9412,1.0,0,0.745
+ADAS,ADAS_M24_01,M24,Dead-code modification,Embedding_Only,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,0.214
+ADAS,ADAS_M24_01,M24,Dead-code modification,Embedding_Context,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,1.52
+ADAS,ADAS_M24_01,M24,Dead-code modification,Graph_Only,85,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7765,1.0,0,0.284
+ADAS,ADAS_M24_01,M24,Dead-code modification,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+ADAS,ADAS_M24_01,M24,Dead-code modification,Hybrid_AURA_Fixed,85,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7765,1.0,0,1.849
+ADAS,ADAS_M25_01,M25,Documentation-only change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M25_01,M25,Documentation-only change,Keyword,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,1.041
+ADAS,ADAS_M25_01,M25,Documentation-only change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.835
+ADAS,ADAS_M25_01,M25,Documentation-only change,Embedding_Context,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.601
+ADAS,ADAS_M25_01,M25,Documentation-only change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.011
+ADAS,ADAS_M25_01,M25,Documentation-only change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.012
+ADAS,ADAS_M25_01,M25,Documentation-only change,Hybrid_AURA_Fixed,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,0.956
+ADAS,ADAS_M01_02,M01,Numeric requirement change,Full_Suite,85,85,17,17,2,2,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M01_02,M01,Numeric requirement change,Keyword,85,13,17,8,2,2,8,0.4706,0.6154,0.5333,1.0588,0.8471,1.0,9,1.18
+ADAS,ADAS_M01_02,M01,Numeric requirement change,Embedding_Only,85,10,17,2,2,2,2,0.1176,0.2,0.1481,1.1029,0.8824,1.0,15,0.64
+ADAS,ADAS_M01_02,M01,Numeric requirement change,Embedding_Context,85,10,17,2,2,2,2,0.1176,0.2,0.1481,1.1029,0.8824,1.0,15,1.475
+ADAS,ADAS_M01_02,M01,Numeric requirement change,Graph_Only,85,2,17,2,2,2,2,0.1176,1.0,0.2105,1.2206,0.9765,1.0,15,0.01
+ADAS,ADAS_M01_02,M01,Numeric requirement change,Hybrid_AURA_Routed,85,10,17,2,2,2,2,0.1176,0.2,0.1481,1.1029,0.8824,1.0,15,1.126
+ADAS,ADAS_M01_02,M01,Numeric requirement change,Hybrid_AURA_Fixed,85,10,17,2,2,2,2,0.1176,0.2,0.1481,1.1029,0.8824,1.0,15,1.088
+ADAS,ADAS_M02_02,M02,Threshold change,Full_Suite,85,85,18,18,3,3,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M02_02,M02,Threshold change,Keyword,85,12,18,3,3,3,3,0.1667,0.25,0.2,1.0896,0.8588,1.0,15,1.099
+ADAS,ADAS_M02_02,M02,Threshold change,Embedding_Only,85,4,18,3,3,3,3,0.1667,0.75,0.2727,1.209,0.9529,1.0,15,0.61
+ADAS,ADAS_M02_02,M02,Threshold change,Embedding_Context,85,10,18,3,3,3,3,0.1667,0.3,0.2143,1.1194,0.8824,1.0,15,0.987
+ADAS,ADAS_M02_02,M02,Threshold change,Graph_Only,85,3,18,3,3,3,3,0.1667,1.0,0.2857,1.2239,0.9647,1.0,15,0.009
+ADAS,ADAS_M02_02,M02,Threshold change,Hybrid_AURA_Routed,85,10,18,3,3,3,3,0.1667,0.3,0.2143,1.1194,0.8824,1.0,15,1.083
+ADAS,ADAS_M02_02,M02,Threshold change,Hybrid_AURA_Fixed,85,10,18,3,3,3,3,0.1667,0.3,0.2143,1.1194,0.8824,1.0,15,1.695
+ADAS,ADAS_M03_02,M03,Semantic wording change,Full_Suite,85,85,18,18,3,3,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M03_02,M03,Semantic wording change,Keyword,85,12,18,3,3,3,3,0.1667,0.25,0.2,1.0896,0.8588,1.0,15,1.683
+ADAS,ADAS_M03_02,M03,Semantic wording change,Embedding_Only,85,10,18,3,3,3,3,0.1667,0.3,0.2143,1.1194,0.8824,1.0,15,0.904
+ADAS,ADAS_M03_02,M03,Semantic wording change,Embedding_Context,85,19,18,4,3,3,4,0.2222,0.2105,0.2162,0.9851,0.7765,1.0,14,1.633
+ADAS,ADAS_M03_02,M03,Semantic wording change,Graph_Only,85,3,18,3,3,3,3,0.1667,1.0,0.2857,1.2239,0.9647,1.0,15,0.015
+ADAS,ADAS_M03_02,M03,Semantic wording change,Hybrid_AURA_Routed,85,19,18,4,3,3,4,0.2222,0.2105,0.2162,0.9851,0.7765,1.0,14,1.701
+ADAS,ADAS_M03_02,M03,Semantic wording change,Hybrid_AURA_Fixed,85,19,18,4,3,3,4,0.2222,0.2105,0.2162,0.9851,0.7765,1.0,14,1.036
+ADAS,ADAS_M04_02,M04,Requirement synonym replacement,Full_Suite,85,85,17,17,2,2,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M04_02,M04,Requirement synonym replacement,Keyword,85,14,17,2,2,2,2,0.1176,0.1429,0.129,1.0441,0.8353,1.0,15,0.862
+ADAS,ADAS_M04_02,M04,Requirement synonym replacement,Embedding_Only,85,4,17,2,2,2,2,0.1176,0.5,0.1905,1.1912,0.9529,1.0,15,0.294
+ADAS,ADAS_M04_02,M04,Requirement synonym replacement,Embedding_Context,85,11,17,2,2,2,2,0.1176,0.1818,0.1429,1.0882,0.8706,1.0,15,0.818
+ADAS,ADAS_M04_02,M04,Requirement synonym replacement,Graph_Only,85,2,17,2,2,2,2,0.1176,1.0,0.2105,1.2206,0.9765,1.0,15,0.008
+ADAS,ADAS_M04_02,M04,Requirement synonym replacement,Hybrid_AURA_Routed,85,11,17,2,2,2,2,0.1176,0.1818,0.1429,1.0882,0.8706,1.0,15,0.877
+ADAS,ADAS_M04_02,M04,Requirement synonym replacement,Hybrid_AURA_Fixed,85,11,17,2,2,2,2,0.1176,0.1818,0.1429,1.0882,0.8706,1.0,15,0.837
+ADAS,ADAS_M05_02,M05,Requirement constraint addition,Full_Suite,85,85,17,17,2,2,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M05_02,M05,Requirement constraint addition,Keyword,85,8,17,8,2,2,8,0.4706,1.0,0.64,1.1324,0.9059,1.0,9,0.816
+ADAS,ADAS_M05_02,M05,Requirement constraint addition,Embedding_Only,85,2,17,2,2,2,2,0.1176,1.0,0.2105,1.2206,0.9765,1.0,15,0.541
+ADAS,ADAS_M05_02,M05,Requirement constraint addition,Embedding_Context,85,3,17,2,2,2,2,0.1176,0.6667,0.2,1.2059,0.9647,1.0,15,1.059
+ADAS,ADAS_M05_02,M05,Requirement constraint addition,Graph_Only,85,2,17,2,2,2,2,0.1176,1.0,0.2105,1.2206,0.9765,1.0,15,0.019
+ADAS,ADAS_M05_02,M05,Requirement constraint addition,Hybrid_AURA_Routed,85,3,17,2,2,2,2,0.1176,0.6667,0.2,1.2059,0.9647,1.0,15,1.385
+ADAS,ADAS_M05_02,M05,Requirement constraint addition,Hybrid_AURA_Fixed,85,3,17,2,2,2,2,0.1176,0.6667,0.2,1.2059,0.9647,1.0,15,1.176
+ADAS,ADAS_M06_02,M06,ARXML datatype change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M06_02,M06,ARXML datatype change,Keyword,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.354
+ADAS,ADAS_M06_02,M06,ARXML datatype change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.544
+ADAS,ADAS_M06_02,M06,ARXML datatype change,Embedding_Context,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.173
+ADAS,ADAS_M06_02,M06,ARXML datatype change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.013
+ADAS,ADAS_M06_02,M06,ARXML datatype change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.039
+ADAS,ADAS_M06_02,M06,ARXML datatype change,Hybrid_AURA_Fixed,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.172
+ADAS,ADAS_M07_02,M07,ARXML scaling change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M07_02,M07,ARXML scaling change,Keyword,85,7,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9176,1.0,0,0.943
+ADAS,ADAS_M07_02,M07,ARXML scaling change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.234
+ADAS,ADAS_M07_02,M07,ARXML scaling change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.542
+ADAS,ADAS_M07_02,M07,ARXML scaling change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.008
+ADAS,ADAS_M07_02,M07,ARXML scaling change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.026
+ADAS,ADAS_M07_02,M07,ARXML scaling change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.562
+ADAS,ADAS_M08_02,M08,Interface field change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M08_02,M08,Interface field change,Keyword,85,4,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9529,1.0,0,0.713
+ADAS,ADAS_M08_02,M08,Interface field change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.286
+ADAS,ADAS_M08_02,M08,Interface field change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.604
+ADAS,ADAS_M08_02,M08,Interface field change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+ADAS,ADAS_M08_02,M08,Interface field change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.03
+ADAS,ADAS_M08_02,M08,Interface field change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.621
+ADAS,ADAS_M09_02,M09,Interface version change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M09_02,M09,Interface version change,Keyword,85,4,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9529,1.0,0,0.777
+ADAS,ADAS_M09_02,M09,Interface version change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.231
+ADAS,ADAS_M09_02,M09,Interface version change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.52
+ADAS,ADAS_M09_02,M09,Interface version change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.006
+ADAS,ADAS_M09_02,M09,Interface version change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.025
+ADAS,ADAS_M09_02,M09,Interface version change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.541
+ADAS,ADAS_M10_02,M10,C function signature change,Full_Suite,85,85,18,18,0,0,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M10_02,M10,C function signature change,Keyword,85,1,18,1,0,0,1,0.0556,1.0,0.1053,1.2537,0.9882,1.0,17,0.634
+ADAS,ADAS_M10_02,M10,C function signature change,Embedding_Only,85,1,18,1,0,0,1,0.0556,1.0,0.1053,1.2537,0.9882,1.0,17,0.257
+ADAS,ADAS_M10_02,M10,C function signature change,Embedding_Context,85,8,18,4,0,0,4,0.2222,0.5,0.3077,1.1493,0.9059,1.0,14,3.159
+ADAS,ADAS_M10_02,M10,C function signature change,Graph_Only,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,1.263
+ADAS,ADAS_M10_02,M10,C function signature change,Hybrid_AURA_Routed,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.634
+ADAS,ADAS_M10_02,M10,C function signature change,Hybrid_AURA_Fixed,85,27,18,15,0,0,15,0.8333,0.5556,0.6667,0.8657,0.6824,1.0,3,4.84
+ADAS,ADAS_M11_02,M11,C constant change,Full_Suite,85,85,18,18,0,0,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M11_02,M11,C constant change,Keyword,85,3,18,2,0,0,2,0.1111,0.6667,0.1905,1.2239,0.9647,1.0,16,0.884
+ADAS,ADAS_M11_02,M11,C constant change,Embedding_Only,85,1,18,1,0,0,1,0.0556,1.0,0.1053,1.2537,0.9882,1.0,17,0.293
+ADAS,ADAS_M11_02,M11,C constant change,Embedding_Context,85,10,18,6,0,0,6,0.3333,0.6,0.4286,1.1194,0.8824,1.0,12,3.841
+ADAS,ADAS_M11_02,M11,C constant change,Graph_Only,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.304
+ADAS,ADAS_M11_02,M11,C constant change,Hybrid_AURA_Routed,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.406
+ADAS,ADAS_M11_02,M11,C constant change,Hybrid_AURA_Fixed,85,29,18,16,0,0,16,0.8889,0.5517,0.6809,0.8358,0.6588,1.0,2,4.31
+ADAS,ADAS_M12_02,M12,Function dependency change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M12_02,M12,Function dependency change,Keyword,85,11,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8706,1.0,0,1.183
+ADAS,ADAS_M12_02,M12,Function dependency change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.503
+ADAS,ADAS_M12_02,M12,Function dependency change,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.663
+ADAS,ADAS_M12_02,M12,Function dependency change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+ADAS,ADAS_M12_02,M12,Function dependency change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.031
+ADAS,ADAS_M12_02,M12,Function dependency change,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.67
+ADAS,ADAS_M13_02,M13,Variable dependency change,Full_Suite,85,85,17,17,8,8,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M13_02,M13,Variable dependency change,Keyword,85,15,17,9,8,8,9,0.5294,0.6,0.5625,1.0294,0.8235,1.0,8,0.797
+ADAS,ADAS_M13_02,M13,Variable dependency change,Embedding_Only,85,9,17,9,8,8,9,0.5294,1.0,0.6923,1.1176,0.8941,1.0,8,0.196
+ADAS,ADAS_M13_02,M13,Variable dependency change,Embedding_Context,85,9,17,9,8,8,9,0.5294,1.0,0.6923,1.1176,0.8941,1.0,8,1.69
+ADAS,ADAS_M13_02,M13,Variable dependency change,Graph_Only,85,18,17,12,8,8,12,0.7059,0.6667,0.6857,0.9853,0.7882,1.0,5,0.277
+ADAS,ADAS_M13_02,M13,Variable dependency change,Hybrid_AURA_Routed,85,18,17,12,8,8,12,0.7059,0.6667,0.6857,0.9853,0.7882,1.0,5,0.366
+ADAS,ADAS_M13_02,M13,Variable dependency change,Hybrid_AURA_Fixed,85,18,17,12,8,8,12,0.7059,0.6667,0.6857,0.9853,0.7882,1.0,5,1.964
+ADAS,ADAS_M14_02,M14,Test requirement modification,Full_Suite,85,85,39,39,4,4,39,1.0,0.4588,0.629,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M14_02,M14,Test requirement modification,Keyword,85,10,39,10,4,4,10,0.2564,1.0,0.4082,1.6304,0.8824,1.0,29,1.05
+ADAS,ADAS_M14_02,M14,Test requirement modification,Embedding_Only,85,4,39,4,4,4,4,0.1026,1.0,0.186,1.7609,0.9529,1.0,35,0.489
+ADAS,ADAS_M14_02,M14,Test requirement modification,Embedding_Context,85,4,39,4,4,4,4,0.1026,1.0,0.186,1.7609,0.9529,1.0,35,1.345
+ADAS,ADAS_M14_02,M14,Test requirement modification,Graph_Only,85,22,39,19,4,4,19,0.4872,0.8636,0.623,1.3696,0.7412,1.0,20,0.55
+ADAS,ADAS_M14_02,M14,Test requirement modification,Hybrid_AURA_Routed,85,22,39,19,4,4,19,0.4872,0.8636,0.623,1.3696,0.7412,1.0,20,0.594
+ADAS,ADAS_M14_02,M14,Test requirement modification,Hybrid_AURA_Fixed,85,22,39,19,4,4,19,0.4872,0.8636,0.623,1.3696,0.7412,1.0,20,1.889
+ADAS,ADAS_M15_02,M15,Unrelated/no-impact change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M15_02,M15,Unrelated/no-impact change,Keyword,85,5,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9412,1.0,0,0.919
+ADAS,ADAS_M15_02,M15,Unrelated/no-impact change,Embedding_Only,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,0.602
+ADAS,ADAS_M15_02,M15,Unrelated/no-impact change,Embedding_Context,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,1.49
+ADAS,ADAS_M15_02,M15,Unrelated/no-impact change,Graph_Only,85,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7529,1.0,0,0.579
+ADAS,ADAS_M15_02,M15,Unrelated/no-impact change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.016
+ADAS,ADAS_M15_02,M15,Unrelated/no-impact change,Hybrid_AURA_Fixed,85,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7529,1.0,0,2.155
+ADAS,ADAS_M16_02,M16,Indirect dependency change,Full_Suite,85,85,18,18,16,16,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M16_02,M16,Indirect dependency change,Keyword,85,18,18,16,16,16,16,0.8889,0.8889,0.8889,1.0,0.7882,1.0,2,0.828
+ADAS,ADAS_M16_02,M16,Indirect dependency change,Embedding_Only,85,16,18,16,16,16,16,0.8889,1.0,0.9412,1.0299,0.8118,1.0,2,0.242
+ADAS,ADAS_M16_02,M16,Indirect dependency change,Embedding_Context,85,16,18,16,16,16,16,0.8889,1.0,0.9412,1.0299,0.8118,1.0,2,2.475
+ADAS,ADAS_M16_02,M16,Indirect dependency change,Graph_Only,85,26,18,18,16,16,18,1.0,0.6923,0.8182,0.8806,0.6941,1.0,0,0.318
+ADAS,ADAS_M16_02,M16,Indirect dependency change,Hybrid_AURA_Routed,85,26,18,18,16,16,18,1.0,0.6923,0.8182,0.8806,0.6941,1.0,0,0.464
+ADAS,ADAS_M16_02,M16,Indirect dependency change,Hybrid_AURA_Fixed,85,26,18,18,16,16,18,1.0,0.6923,0.8182,0.8806,0.6941,1.0,0,3.04
+ADAS,ADAS_M17_02,M17,Long-chain dependency change,Full_Suite,85,85,18,18,6,6,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M17_02,M17,Long-chain dependency change,Keyword,85,19,18,7,6,6,7,0.3889,0.3684,0.3784,0.9851,0.7765,1.0,11,0.778
+ADAS,ADAS_M17_02,M17,Long-chain dependency change,Embedding_Only,85,6,18,6,6,6,6,0.3333,1.0,0.5,1.1791,0.9294,1.0,12,0.322
+ADAS,ADAS_M17_02,M17,Long-chain dependency change,Embedding_Context,85,13,18,8,6,6,8,0.4444,0.6154,0.5161,1.0746,0.8471,1.0,10,0.779
+ADAS,ADAS_M17_02,M17,Long-chain dependency change,Graph_Only,85,6,18,6,6,6,6,0.3333,1.0,0.5,1.1791,0.9294,1.0,12,0.008
+ADAS,ADAS_M17_02,M17,Long-chain dependency change,Hybrid_AURA_Routed,85,6,18,6,6,6,6,0.3333,1.0,0.5,1.1791,0.9294,1.0,12,0.025
+ADAS,ADAS_M17_02,M17,Long-chain dependency change,Hybrid_AURA_Fixed,85,13,18,8,6,6,8,0.4444,0.6154,0.5161,1.0746,0.8471,1.0,10,0.865
+ADAS,ADAS_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Full_Suite,85,85,18,18,8,8,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Keyword,85,20,18,10,8,8,10,0.5556,0.5,0.5263,0.9701,0.7647,1.0,8,1.185
+ADAS,ADAS_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Only,85,8,18,8,8,8,8,0.4444,1.0,0.6154,1.1493,0.9059,1.0,10,0.648
+ADAS,ADAS_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Context,85,15,18,12,8,8,12,0.6667,0.8,0.7273,1.0448,0.8235,1.0,6,1.01
+ADAS,ADAS_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Graph_Only,85,8,18,8,8,8,8,0.4444,1.0,0.6154,1.1493,0.9059,1.0,10,0.011
+ADAS,ADAS_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Routed,85,15,18,12,8,8,12,0.6667,0.8,0.7273,1.0448,0.8235,1.0,6,0.932
+ADAS,ADAS_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Fixed,85,15,18,12,8,8,12,0.6667,0.8,0.7273,1.0448,0.8235,1.0,6,0.906
+ADAS,ADAS_M19_02,M19,Misleading semantic similarity,Full_Suite,85,85,1,1,0,0,1,1.0,0.0118,0.0233,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M19_02,M19,Misleading semantic similarity,Keyword,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.776
+ADAS,ADAS_M19_02,M19,Misleading semantic similarity,Embedding_Only,85,1,1,0,0,0,0,0.0,0.0,0.0,1.0,0.9882,1.0,1,0.273
+ADAS,ADAS_M19_02,M19,Misleading semantic similarity,Embedding_Context,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.711
+ADAS,ADAS_M19_02,M19,Misleading semantic similarity,Graph_Only,85,0,1,0,0,0,0,0.0,0.0,0.0,1.0119,1.0,1.0,1,0.007
+ADAS,ADAS_M19_02,M19,Misleading semantic similarity,Hybrid_AURA_Routed,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.794
+ADAS,ADAS_M19_02,M19,Misleading semantic similarity,Hybrid_AURA_Fixed,85,10,1,0,0,0,0,0.0,0.0,0.0,0.8929,0.8824,1.0,1,0.777
+ADAS,ADAS_M20_02,M20,Multiple simultaneous changes,Full_Suite,85,85,18,18,0,0,18,1.0,0.2118,0.3495,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M20_02,M20,Multiple simultaneous changes,Keyword,85,1,18,1,0,0,1,0.0556,1.0,0.1053,1.2537,0.9882,1.0,17,0.67
+ADAS,ADAS_M20_02,M20,Multiple simultaneous changes,Embedding_Only,85,1,18,1,0,0,1,0.0556,1.0,0.1053,1.2537,0.9882,1.0,17,0.234
+ADAS,ADAS_M20_02,M20,Multiple simultaneous changes,Embedding_Context,85,4,18,1,0,0,1,0.0556,0.25,0.0909,1.209,0.9529,1.0,17,3.019
+ADAS,ADAS_M20_02,M20,Multiple simultaneous changes,Graph_Only,85,21,18,13,0,0,13,0.7222,0.619,0.6667,0.9552,0.7529,1.0,5,0.365
+ADAS,ADAS_M20_02,M20,Multiple simultaneous changes,Hybrid_AURA_Routed,85,24,18,13,0,0,13,0.7222,0.5417,0.619,0.9104,0.7176,1.0,5,3.239
+ADAS,ADAS_M20_02,M20,Multiple simultaneous changes,Hybrid_AURA_Fixed,85,24,18,13,0,0,13,0.7222,0.5417,0.619,0.9104,0.7176,1.0,5,5.047
+ADAS,ADAS_M21_02,M21,Lexical renaming,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M21_02,M21,Lexical renaming,Keyword,85,8,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9059,1.0,0,1.385
+ADAS,ADAS_M21_02,M21,Lexical renaming,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.262
+ADAS,ADAS_M21_02,M21,Lexical renaming,Embedding_Context,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.564
+ADAS,ADAS_M21_02,M21,Lexical renaming,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.009
+ADAS,ADAS_M21_02,M21,Lexical renaming,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.029
+ADAS,ADAS_M21_02,M21,Lexical renaming,Hybrid_AURA_Fixed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.553
+ADAS,ADAS_M22_02,M22,Structural rename with same semantics,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M22_02,M22,Structural rename with same semantics,Keyword,85,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8941,1.0,0,0.732
+ADAS,ADAS_M22_02,M22,Structural rename with same semantics,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.236
+ADAS,ADAS_M22_02,M22,Structural rename with same semantics,Embedding_Context,85,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8941,1.0,0,0.58
+ADAS,ADAS_M22_02,M22,Structural rename with same semantics,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+ADAS,ADAS_M22_02,M22,Structural rename with same semantics,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.112
+ADAS,ADAS_M22_02,M22,Structural rename with same semantics,Hybrid_AURA_Fixed,85,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8941,1.0,0,1.251
+ADAS,ADAS_M23_02,M23,Semantic requirement change with little textual overlap,Full_Suite,85,85,17,17,10,10,17,1.0,0.2,0.3333,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M23_02,M23,Semantic requirement change with little textual overlap,Keyword,85,23,17,12,10,10,12,0.7059,0.5217,0.6,0.9118,0.7294,1.0,5,0.847
+ADAS,ADAS_M23_02,M23,Semantic requirement change with little textual overlap,Embedding_Only,85,18,17,10,10,10,10,0.5882,0.5556,0.5714,0.9853,0.7882,1.0,7,0.811
+ADAS,ADAS_M23_02,M23,Semantic requirement change with little textual overlap,Embedding_Context,85,18,17,10,10,10,10,0.5882,0.5556,0.5714,0.9853,0.7882,1.0,7,0.873
+ADAS,ADAS_M23_02,M23,Semantic requirement change with little textual overlap,Graph_Only,85,10,17,10,10,10,10,0.5882,1.0,0.7407,1.1029,0.8824,1.0,7,0.009
+ADAS,ADAS_M23_02,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Routed,85,18,17,10,10,10,10,0.5882,0.5556,0.5714,0.9853,0.7882,1.0,7,0.832
+ADAS,ADAS_M23_02,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Fixed,85,18,17,10,10,10,10,0.5882,0.5556,0.5714,0.9853,0.7882,1.0,7,0.801
+ADAS,ADAS_M24_02,M24,Dead-code modification,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M24_02,M24,Dead-code modification,Keyword,85,5,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9412,1.0,0,1.458
+ADAS,ADAS_M24_02,M24,Dead-code modification,Embedding_Only,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,0.68
+ADAS,ADAS_M24_02,M24,Dead-code modification,Embedding_Context,85,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9882,1.0,0,1.615
+ADAS,ADAS_M24_02,M24,Dead-code modification,Graph_Only,85,20,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7647,1.0,0,0.307
+ADAS,ADAS_M24_02,M24,Dead-code modification,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.013
+ADAS,ADAS_M24_02,M24,Dead-code modification,Hybrid_AURA_Fixed,85,20,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7647,1.0,0,2.019
+ADAS,ADAS_M25_02,M25,Documentation-only change,Full_Suite,85,85,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+ADAS,ADAS_M25_02,M25,Documentation-only change,Keyword,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.822
+ADAS,ADAS_M25_02,M25,Documentation-only change,Embedding_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.317
+ADAS,ADAS_M25_02,M25,Documentation-only change,Embedding_Context,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,0.743
+ADAS,ADAS_M25_02,M25,Documentation-only change,Graph_Only,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.008
+ADAS,ADAS_M25_02,M25,Documentation-only change,Hybrid_AURA_Routed,85,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+ADAS,ADAS_M25_02,M25,Documentation-only change,Hybrid_AURA_Fixed,85,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9765,1.0,0,1.172
+POWERTRAIN,POWERTRAIN_M01_01,M01,Numeric requirement change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M01_01,M01,Numeric requirement change,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.072
+POWERTRAIN,POWERTRAIN_M01_01,M01,Numeric requirement change,Embedding_Only,80,39,11,7,2,2,7,0.6364,0.1795,0.28,0.5942,0.5125,1.0,4,0.554
+POWERTRAIN,POWERTRAIN_M01_01,M01,Numeric requirement change,Embedding_Context,80,39,11,7,2,2,7,0.6364,0.1795,0.28,0.5942,0.5125,1.0,4,1.373
+POWERTRAIN,POWERTRAIN_M01_01,M01,Numeric requirement change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.237
+POWERTRAIN,POWERTRAIN_M01_01,M01,Numeric requirement change,Hybrid_AURA_Routed,80,50,11,11,2,2,11,1.0,0.22,0.3607,0.4348,0.375,1.0,0,1.701
+POWERTRAIN,POWERTRAIN_M01_01,M01,Numeric requirement change,Hybrid_AURA_Fixed,80,50,11,11,2,2,11,1.0,0.22,0.3607,0.4348,0.375,1.0,0,1.66
+POWERTRAIN,POWERTRAIN_M02_01,M02,Threshold change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M02_01,M02,Threshold change,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.501
+POWERTRAIN,POWERTRAIN_M02_01,M02,Threshold change,Embedding_Only,80,10,11,6,2,2,6,0.5455,0.6,0.5714,1.0145,0.875,1.0,5,0.656
+POWERTRAIN,POWERTRAIN_M02_01,M02,Threshold change,Embedding_Context,80,10,11,6,2,2,6,0.5455,0.6,0.5714,1.0145,0.875,1.0,5,1.345
+POWERTRAIN,POWERTRAIN_M02_01,M02,Threshold change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.239
+POWERTRAIN,POWERTRAIN_M02_01,M02,Threshold change,Hybrid_AURA_Routed,80,24,11,11,2,2,11,1.0,0.4583,0.6286,0.8116,0.7,1.0,0,1.665
+POWERTRAIN,POWERTRAIN_M02_01,M02,Threshold change,Hybrid_AURA_Fixed,80,24,11,11,2,2,11,1.0,0.4583,0.6286,0.8116,0.7,1.0,0,1.582
+POWERTRAIN,POWERTRAIN_M03_01,M03,Semantic wording change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M03_01,M03,Semantic wording change,Keyword,80,13,11,4,2,2,4,0.3636,0.3077,0.3333,0.971,0.8375,1.0,7,1.805
+POWERTRAIN,POWERTRAIN_M03_01,M03,Semantic wording change,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.64
+POWERTRAIN,POWERTRAIN_M03_01,M03,Semantic wording change,Embedding_Context,80,9,11,4,2,2,4,0.3636,0.4444,0.4,1.029,0.8875,1.0,7,1.882
+POWERTRAIN,POWERTRAIN_M03_01,M03,Semantic wording change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.311
+POWERTRAIN,POWERTRAIN_M03_01,M03,Semantic wording change,Hybrid_AURA_Routed,80,23,11,11,2,2,11,1.0,0.4783,0.6471,0.8261,0.7125,1.0,0,1.754
+POWERTRAIN,POWERTRAIN_M03_01,M03,Semantic wording change,Hybrid_AURA_Fixed,80,23,11,11,2,2,11,1.0,0.4783,0.6471,0.8261,0.7125,1.0,0,1.523
+POWERTRAIN,POWERTRAIN_M04_01,M04,Requirement synonym replacement,Full_Suite,80,80,34,34,2,2,34,1.0,0.425,0.5965,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M04_01,M04,Requirement synonym replacement,Keyword,80,39,34,32,2,2,32,0.9412,0.8205,0.8767,0.8913,0.5125,1.0,2,1.129
+POWERTRAIN,POWERTRAIN_M04_01,M04,Requirement synonym replacement,Embedding_Only,80,31,34,31,2,2,31,0.9118,1.0,0.9538,1.0652,0.6125,1.0,3,0.642
+POWERTRAIN,POWERTRAIN_M04_01,M04,Requirement synonym replacement,Embedding_Context,80,42,34,32,2,2,32,0.9412,0.7619,0.8421,0.8261,0.475,1.0,2,2.298
+POWERTRAIN,POWERTRAIN_M04_01,M04,Requirement synonym replacement,Graph_Only,80,34,34,34,2,2,34,1.0,1.0,1.0,1.0,0.575,1.0,0,0.266
+POWERTRAIN,POWERTRAIN_M04_01,M04,Requirement synonym replacement,Hybrid_AURA_Routed,80,44,34,34,2,2,34,1.0,0.7727,0.8718,0.7826,0.45,1.0,0,2.448
+POWERTRAIN,POWERTRAIN_M04_01,M04,Requirement synonym replacement,Hybrid_AURA_Fixed,80,44,34,34,2,2,34,1.0,0.7727,0.8718,0.7826,0.45,1.0,0,2.131
+POWERTRAIN,POWERTRAIN_M05_01,M05,Requirement constraint addition,Full_Suite,80,80,11,11,5,5,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M05_01,M05,Requirement constraint addition,Keyword,80,80,11,11,5,5,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.072
+POWERTRAIN,POWERTRAIN_M05_01,M05,Requirement constraint addition,Embedding_Only,80,13,11,6,5,5,6,0.5455,0.4615,0.5,0.971,0.8375,1.0,5,0.572
+POWERTRAIN,POWERTRAIN_M05_01,M05,Requirement constraint addition,Embedding_Context,80,13,11,6,5,5,6,0.5455,0.4615,0.5,0.971,0.8375,1.0,5,1.347
+POWERTRAIN,POWERTRAIN_M05_01,M05,Requirement constraint addition,Graph_Only,80,19,11,11,5,5,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.23
+POWERTRAIN,POWERTRAIN_M05_01,M05,Requirement constraint addition,Hybrid_AURA_Routed,80,26,11,11,5,5,11,1.0,0.4231,0.5946,0.7826,0.675,1.0,0,1.672
+POWERTRAIN,POWERTRAIN_M05_01,M05,Requirement constraint addition,Hybrid_AURA_Fixed,80,26,11,11,5,5,11,1.0,0.4231,0.5946,0.7826,0.675,1.0,0,1.675
+POWERTRAIN,POWERTRAIN_M06_01,M06,ARXML datatype change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M06_01,M06,ARXML datatype change,Keyword,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.729
+POWERTRAIN,POWERTRAIN_M06_01,M06,ARXML datatype change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.267
+POWERTRAIN,POWERTRAIN_M06_01,M06,ARXML datatype change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.158
+POWERTRAIN,POWERTRAIN_M06_01,M06,ARXML datatype change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+POWERTRAIN,POWERTRAIN_M06_01,M06,ARXML datatype change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.037
+POWERTRAIN,POWERTRAIN_M06_01,M06,ARXML datatype change,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.348
+POWERTRAIN,POWERTRAIN_M07_01,M07,ARXML scaling change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M07_01,M07,ARXML scaling change,Keyword,80,11,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8625,1.0,0,1.289
+POWERTRAIN,POWERTRAIN_M07_01,M07,ARXML scaling change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.576
+POWERTRAIN,POWERTRAIN_M07_01,M07,ARXML scaling change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,1.043
+POWERTRAIN,POWERTRAIN_M07_01,M07,ARXML scaling change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+POWERTRAIN,POWERTRAIN_M07_01,M07,ARXML scaling change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.033
+POWERTRAIN,POWERTRAIN_M07_01,M07,ARXML scaling change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.753
+POWERTRAIN,POWERTRAIN_M08_01,M08,Interface field change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M08_01,M08,Interface field change,Keyword,80,11,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8625,1.0,0,0.85
+POWERTRAIN,POWERTRAIN_M08_01,M08,Interface field change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.32
+POWERTRAIN,POWERTRAIN_M08_01,M08,Interface field change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.637
+POWERTRAIN,POWERTRAIN_M08_01,M08,Interface field change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+POWERTRAIN,POWERTRAIN_M08_01,M08,Interface field change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.027
+POWERTRAIN,POWERTRAIN_M08_01,M08,Interface field change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.666
+POWERTRAIN,POWERTRAIN_M09_01,M09,Interface version change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M09_01,M09,Interface version change,Keyword,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,0.763
+POWERTRAIN,POWERTRAIN_M09_01,M09,Interface version change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.241
+POWERTRAIN,POWERTRAIN_M09_01,M09,Interface version change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.617
+POWERTRAIN,POWERTRAIN_M09_01,M09,Interface version change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+POWERTRAIN,POWERTRAIN_M09_01,M09,Interface version change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.026
+POWERTRAIN,POWERTRAIN_M09_01,M09,Interface version change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.568
+POWERTRAIN,POWERTRAIN_M10_01,M10,C function signature change,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M10_01,M10,C function signature change,Keyword,80,6,6,1,0,0,1,0.1667,0.1667,0.1667,1.0,0.925,1.0,5,0.719
+POWERTRAIN,POWERTRAIN_M10_01,M10,C function signature change,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.266
+POWERTRAIN,POWERTRAIN_M10_01,M10,C function signature change,Embedding_Context,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,1.652
+POWERTRAIN,POWERTRAIN_M10_01,M10,C function signature change,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.293
+POWERTRAIN,POWERTRAIN_M10_01,M10,C function signature change,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.391
+POWERTRAIN,POWERTRAIN_M10_01,M10,C function signature change,Hybrid_AURA_Fixed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,2.889
+POWERTRAIN,POWERTRAIN_M11_01,M11,C constant change,Full_Suite,80,80,6,6,6,6,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M11_01,M11,C constant change,Keyword,80,15,6,6,6,6,6,1.0,0.4,0.5714,0.8784,0.8125,1.0,0,1.335
+POWERTRAIN,POWERTRAIN_M11_01,M11,C constant change,Embedding_Only,80,6,6,6,6,6,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.412
+POWERTRAIN,POWERTRAIN_M11_01,M11,C constant change,Embedding_Context,80,8,6,6,6,6,6,1.0,0.75,0.8571,0.973,0.9,1.0,0,2.6
+POWERTRAIN,POWERTRAIN_M11_01,M11,C constant change,Graph_Only,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.297
+POWERTRAIN,POWERTRAIN_M11_01,M11,C constant change,Hybrid_AURA_Routed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.395
+POWERTRAIN,POWERTRAIN_M11_01,M11,C constant change,Hybrid_AURA_Fixed,80,23,6,6,6,6,6,1.0,0.2609,0.4138,0.7703,0.7125,1.0,0,2.702
+POWERTRAIN,POWERTRAIN_M12_01,M12,Function dependency change,Full_Suite,80,80,6,6,4,4,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M12_01,M12,Function dependency change,Keyword,80,8,6,4,4,4,4,0.6667,0.5,0.5714,0.973,0.9,1.0,2,0.756
+POWERTRAIN,POWERTRAIN_M12_01,M12,Function dependency change,Embedding_Only,80,4,6,4,4,4,4,0.6667,1.0,0.8,1.027,0.95,1.0,2,0.259
+POWERTRAIN,POWERTRAIN_M12_01,M12,Function dependency change,Embedding_Context,80,6,6,4,4,4,4,0.6667,0.6667,0.6667,1.0,0.925,1.0,2,2.002
+POWERTRAIN,POWERTRAIN_M12_01,M12,Function dependency change,Graph_Only,80,21,6,6,4,4,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.285
+POWERTRAIN,POWERTRAIN_M12_01,M12,Function dependency change,Hybrid_AURA_Routed,80,21,6,6,4,4,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.373
+POWERTRAIN,POWERTRAIN_M12_01,M12,Function dependency change,Hybrid_AURA_Fixed,80,22,6,6,4,4,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,2.555
+POWERTRAIN,POWERTRAIN_M13_01,M13,Variable dependency change,Full_Suite,80,80,6,6,1,1,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M13_01,M13,Variable dependency change,Keyword,80,2,6,1,1,1,1,0.1667,0.5,0.25,1.0541,0.975,1.0,5,1.191
+POWERTRAIN,POWERTRAIN_M13_01,M13,Variable dependency change,Embedding_Only,80,1,6,1,1,1,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.308
+POWERTRAIN,POWERTRAIN_M13_01,M13,Variable dependency change,Embedding_Context,80,3,6,1,1,1,1,0.1667,0.3333,0.2222,1.0405,0.9625,1.0,5,1.234
+POWERTRAIN,POWERTRAIN_M13_01,M13,Variable dependency change,Graph_Only,80,21,6,6,1,1,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.296
+POWERTRAIN,POWERTRAIN_M13_01,M13,Variable dependency change,Hybrid_AURA_Routed,80,21,6,6,1,1,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.395
+POWERTRAIN,POWERTRAIN_M13_01,M13,Variable dependency change,Hybrid_AURA_Fixed,80,22,6,6,1,1,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,1.508
+POWERTRAIN,POWERTRAIN_M14_01,M14,Test requirement modification,Full_Suite,80,80,35,35,3,3,35,1.0,0.4375,0.6087,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M14_01,M14,Test requirement modification,Keyword,80,4,35,4,3,3,4,0.1143,1.0,0.2051,1.6889,0.95,1.0,31,1.043
+POWERTRAIN,POWERTRAIN_M14_01,M14,Test requirement modification,Embedding_Only,80,3,35,3,3,3,3,0.0857,1.0,0.1579,1.7111,0.9625,1.0,32,0.425
+POWERTRAIN,POWERTRAIN_M14_01,M14,Test requirement modification,Embedding_Context,80,3,35,3,3,3,3,0.0857,1.0,0.1579,1.7111,0.9625,1.0,32,0.976
+POWERTRAIN,POWERTRAIN_M14_01,M14,Test requirement modification,Graph_Only,80,38,35,35,3,3,35,1.0,0.9211,0.9589,0.9333,0.525,1.0,0,0.349
+POWERTRAIN,POWERTRAIN_M14_01,M14,Test requirement modification,Hybrid_AURA_Routed,80,38,35,35,3,3,35,1.0,0.9211,0.9589,0.9333,0.525,1.0,0,0.486
+POWERTRAIN,POWERTRAIN_M14_01,M14,Test requirement modification,Hybrid_AURA_Fixed,80,38,35,35,3,3,35,1.0,0.9211,0.9589,0.9333,0.525,1.0,0,1.528
+POWERTRAIN,POWERTRAIN_M15_01,M15,Unrelated/no-impact change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M15_01,M15,Unrelated/no-impact change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.69
+POWERTRAIN,POWERTRAIN_M15_01,M15,Unrelated/no-impact change,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.267
+POWERTRAIN,POWERTRAIN_M15_01,M15,Unrelated/no-impact change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.231
+POWERTRAIN,POWERTRAIN_M15_01,M15,Unrelated/no-impact change,Graph_Only,80,18,0,0,0,0,0,1.0,0.0,0.0,0.0,0.775,1.0,0,0.239
+POWERTRAIN,POWERTRAIN_M15_01,M15,Unrelated/no-impact change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.009
+POWERTRAIN,POWERTRAIN_M15_01,M15,Unrelated/no-impact change,Hybrid_AURA_Fixed,80,18,0,0,0,0,0,1.0,0.0,0.0,0.0,0.775,1.0,0,1.515
+POWERTRAIN,POWERTRAIN_M16_01,M16,Indirect dependency change,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M16_01,M16,Indirect dependency change,Keyword,80,11,6,2,0,0,2,0.3333,0.1818,0.2353,0.9324,0.8625,1.0,4,0.859
+POWERTRAIN,POWERTRAIN_M16_01,M16,Indirect dependency change,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.78
+POWERTRAIN,POWERTRAIN_M16_01,M16,Indirect dependency change,Embedding_Context,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,1.51
+POWERTRAIN,POWERTRAIN_M16_01,M16,Indirect dependency change,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.352
+POWERTRAIN,POWERTRAIN_M16_01,M16,Indirect dependency change,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.467
+POWERTRAIN,POWERTRAIN_M16_01,M16,Indirect dependency change,Hybrid_AURA_Fixed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,2.405
+POWERTRAIN,POWERTRAIN_M17_01,M17,Long-chain dependency change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M17_01,M17,Long-chain dependency change,Keyword,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,1.177
+POWERTRAIN,POWERTRAIN_M17_01,M17,Long-chain dependency change,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.387
+POWERTRAIN,POWERTRAIN_M17_01,M17,Long-chain dependency change,Embedding_Context,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,1.074
+POWERTRAIN,POWERTRAIN_M17_01,M17,Long-chain dependency change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.232
+POWERTRAIN,POWERTRAIN_M17_01,M17,Long-chain dependency change,Hybrid_AURA_Routed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.314
+POWERTRAIN,POWERTRAIN_M17_01,M17,Long-chain dependency change,Hybrid_AURA_Fixed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.333
+POWERTRAIN,POWERTRAIN_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Full_Suite,80,80,11,11,3,3,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Keyword,80,14,11,4,3,3,4,0.3636,0.2857,0.32,0.9565,0.825,1.0,7,0.752
+POWERTRAIN,POWERTRAIN_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Only,80,3,11,3,3,3,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.325
+POWERTRAIN,POWERTRAIN_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Context,80,13,11,3,3,3,3,0.2727,0.2308,0.25,0.971,0.8375,1.0,8,1.787
+POWERTRAIN,POWERTRAIN_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Graph_Only,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.229
+POWERTRAIN,POWERTRAIN_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Routed,80,27,11,11,3,3,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,1.781
+POWERTRAIN,POWERTRAIN_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Fixed,80,27,11,11,3,3,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,2.539
+POWERTRAIN,POWERTRAIN_M19_01,M19,Misleading semantic similarity,Full_Suite,80,80,1,1,1,1,1,1.0,0.0125,0.0247,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M19_01,M19,Misleading semantic similarity,Keyword,80,3,1,1,1,1,1,1.0,0.3333,0.5,0.9747,0.9625,1.0,0,1.221
+POWERTRAIN,POWERTRAIN_M19_01,M19,Misleading semantic similarity,Embedding_Only,80,1,1,1,1,1,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,0.46
+POWERTRAIN,POWERTRAIN_M19_01,M19,Misleading semantic similarity,Embedding_Context,80,1,1,1,1,1,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,1.66
+POWERTRAIN,POWERTRAIN_M19_01,M19,Misleading semantic similarity,Graph_Only,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,0.237
+POWERTRAIN,POWERTRAIN_M19_01,M19,Misleading semantic similarity,Hybrid_AURA_Routed,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,1.331
+POWERTRAIN,POWERTRAIN_M19_01,M19,Misleading semantic similarity,Hybrid_AURA_Fixed,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,1.26
+POWERTRAIN,POWERTRAIN_M20_01,M20,Multiple simultaneous changes,Full_Suite,80,80,6,6,1,1,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M20_01,M20,Multiple simultaneous changes,Keyword,80,6,6,1,1,1,1,0.1667,0.1667,0.1667,1.0,0.925,1.0,5,0.777
+POWERTRAIN,POWERTRAIN_M20_01,M20,Multiple simultaneous changes,Embedding_Only,80,1,6,1,1,1,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.236
+POWERTRAIN,POWERTRAIN_M20_01,M20,Multiple simultaneous changes,Embedding_Context,80,2,6,1,1,1,1,0.1667,0.5,0.25,1.0541,0.975,1.0,5,2.337
+POWERTRAIN,POWERTRAIN_M20_01,M20,Multiple simultaneous changes,Graph_Only,80,21,6,6,1,1,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.28
+POWERTRAIN,POWERTRAIN_M20_01,M20,Multiple simultaneous changes,Hybrid_AURA_Routed,80,22,6,6,1,1,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,2.722
+POWERTRAIN,POWERTRAIN_M20_01,M20,Multiple simultaneous changes,Hybrid_AURA_Fixed,80,22,6,6,1,1,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,3.577
+POWERTRAIN,POWERTRAIN_M21_01,M21,Lexical renaming,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M21_01,M21,Lexical renaming,Keyword,80,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8875,1.0,0,0.896
+POWERTRAIN,POWERTRAIN_M21_01,M21,Lexical renaming,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.305
+POWERTRAIN,POWERTRAIN_M21_01,M21,Lexical renaming,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.601
+POWERTRAIN,POWERTRAIN_M21_01,M21,Lexical renaming,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.009
+POWERTRAIN,POWERTRAIN_M21_01,M21,Lexical renaming,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.035
+POWERTRAIN,POWERTRAIN_M21_01,M21,Lexical renaming,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.79
+POWERTRAIN,POWERTRAIN_M22_01,M22,Structural rename with same semantics,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M22_01,M22,Structural rename with same semantics,Keyword,80,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8875,1.0,0,0.786
+POWERTRAIN,POWERTRAIN_M22_01,M22,Structural rename with same semantics,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.267
+POWERTRAIN,POWERTRAIN_M22_01,M22,Structural rename with same semantics,Embedding_Context,80,8,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9,1.0,0,0.57
+POWERTRAIN,POWERTRAIN_M22_01,M22,Structural rename with same semantics,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+POWERTRAIN,POWERTRAIN_M22_01,M22,Structural rename with same semantics,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.026
+POWERTRAIN,POWERTRAIN_M22_01,M22,Structural rename with same semantics,Hybrid_AURA_Fixed,80,8,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9,1.0,0,0.635
+POWERTRAIN,POWERTRAIN_M23_01,M23,Semantic requirement change with little textual overlap,Full_Suite,80,80,11,11,4,4,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M23_01,M23,Semantic requirement change with little textual overlap,Keyword,80,5,11,4,4,4,4,0.3636,0.8,0.5,1.087,0.9375,1.0,7,0.694
+POWERTRAIN,POWERTRAIN_M23_01,M23,Semantic requirement change with little textual overlap,Embedding_Only,80,28,11,4,4,4,4,0.3636,0.1429,0.2051,0.7536,0.65,1.0,7,0.273
+POWERTRAIN,POWERTRAIN_M23_01,M23,Semantic requirement change with little textual overlap,Embedding_Context,80,29,11,4,4,4,4,0.3636,0.1379,0.2,0.7391,0.6375,1.0,7,1.831
+POWERTRAIN,POWERTRAIN_M23_01,M23,Semantic requirement change with little textual overlap,Graph_Only,80,19,11,11,4,4,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.224
+POWERTRAIN,POWERTRAIN_M23_01,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Routed,80,41,11,11,4,4,11,1.0,0.2683,0.4231,0.5652,0.4875,1.0,0,2.123
+POWERTRAIN,POWERTRAIN_M23_01,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Fixed,80,41,11,11,4,4,11,1.0,0.2683,0.4231,0.5652,0.4875,1.0,0,2.359
+POWERTRAIN,POWERTRAIN_M24_01,M24,Dead-code modification,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M24_01,M24,Dead-code modification,Keyword,80,12,0,0,0,0,0,1.0,0.0,0.0,0.0,0.85,1.0,0,0.709
+POWERTRAIN,POWERTRAIN_M24_01,M24,Dead-code modification,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.237
+POWERTRAIN,POWERTRAIN_M24_01,M24,Dead-code modification,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.506
+POWERTRAIN,POWERTRAIN_M24_01,M24,Dead-code modification,Graph_Only,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,0.41
+POWERTRAIN,POWERTRAIN_M24_01,M24,Dead-code modification,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.019
+POWERTRAIN,POWERTRAIN_M24_01,M24,Dead-code modification,Hybrid_AURA_Fixed,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,2.051
+POWERTRAIN,POWERTRAIN_M25_01,M25,Documentation-only change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M25_01,M25,Documentation-only change,Keyword,80,12,0,0,0,0,0,1.0,0.0,0.0,0.0,0.85,1.0,0,0.906
+POWERTRAIN,POWERTRAIN_M25_01,M25,Documentation-only change,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.344
+POWERTRAIN,POWERTRAIN_M25_01,M25,Documentation-only change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.298
+POWERTRAIN,POWERTRAIN_M25_01,M25,Documentation-only change,Graph_Only,80,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7625,1.0,0,0.23
+POWERTRAIN,POWERTRAIN_M25_01,M25,Documentation-only change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+POWERTRAIN,POWERTRAIN_M25_01,M25,Documentation-only change,Hybrid_AURA_Fixed,80,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7625,1.0,0,1.635
+POWERTRAIN,POWERTRAIN_M01_02,M01,Numeric requirement change,Full_Suite,80,80,34,34,2,2,34,1.0,0.425,0.5965,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M01_02,M01,Numeric requirement change,Keyword,80,80,34,34,2,2,34,1.0,0.425,0.5965,0.0,0.0,1.0,0,0.901
+POWERTRAIN,POWERTRAIN_M01_02,M01,Numeric requirement change,Embedding_Only,80,38,34,34,2,2,34,1.0,0.8947,0.9444,0.913,0.525,1.0,0,0.508
+POWERTRAIN,POWERTRAIN_M01_02,M01,Numeric requirement change,Embedding_Context,80,38,34,34,2,2,34,1.0,0.8947,0.9444,0.913,0.525,1.0,0,1.209
+POWERTRAIN,POWERTRAIN_M01_02,M01,Numeric requirement change,Graph_Only,80,34,34,34,2,2,34,1.0,1.0,1.0,1.0,0.575,1.0,0,0.236
+POWERTRAIN,POWERTRAIN_M01_02,M01,Numeric requirement change,Hybrid_AURA_Routed,80,39,34,34,2,2,34,1.0,0.8718,0.9315,0.8913,0.5125,1.0,0,1.65
+POWERTRAIN,POWERTRAIN_M01_02,M01,Numeric requirement change,Hybrid_AURA_Fixed,80,39,34,34,2,2,34,1.0,0.8718,0.9315,0.8913,0.5125,1.0,0,1.62
+POWERTRAIN,POWERTRAIN_M02_02,M02,Threshold change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M02_02,M02,Threshold change,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.864
+POWERTRAIN,POWERTRAIN_M02_02,M02,Threshold change,Embedding_Only,80,10,11,6,2,2,6,0.5455,0.6,0.5714,1.0145,0.875,1.0,5,0.574
+POWERTRAIN,POWERTRAIN_M02_02,M02,Threshold change,Embedding_Context,80,10,11,6,2,2,6,0.5455,0.6,0.5714,1.0145,0.875,1.0,5,2.027
+POWERTRAIN,POWERTRAIN_M02_02,M02,Threshold change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.397
+POWERTRAIN,POWERTRAIN_M02_02,M02,Threshold change,Hybrid_AURA_Routed,80,24,11,11,2,2,11,1.0,0.4583,0.6286,0.8116,0.7,1.0,0,2.506
+POWERTRAIN,POWERTRAIN_M02_02,M02,Threshold change,Hybrid_AURA_Fixed,80,24,11,11,2,2,11,1.0,0.4583,0.6286,0.8116,0.7,1.0,0,1.646
+POWERTRAIN,POWERTRAIN_M03_02,M03,Semantic wording change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M03_02,M03,Semantic wording change,Keyword,80,13,11,3,2,2,3,0.2727,0.2308,0.25,0.971,0.8375,1.0,8,0.846
+POWERTRAIN,POWERTRAIN_M03_02,M03,Semantic wording change,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.351
+POWERTRAIN,POWERTRAIN_M03_02,M03,Semantic wording change,Embedding_Context,80,9,11,4,2,2,4,0.3636,0.4444,0.4,1.029,0.8875,1.0,7,1.3
+POWERTRAIN,POWERTRAIN_M03_02,M03,Semantic wording change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.222
+POWERTRAIN,POWERTRAIN_M03_02,M03,Semantic wording change,Hybrid_AURA_Routed,80,23,11,11,2,2,11,1.0,0.4783,0.6471,0.8261,0.7125,1.0,0,1.712
+POWERTRAIN,POWERTRAIN_M03_02,M03,Semantic wording change,Hybrid_AURA_Fixed,80,23,11,11,2,2,11,1.0,0.4783,0.6471,0.8261,0.7125,1.0,0,1.613
+POWERTRAIN,POWERTRAIN_M04_02,M04,Requirement synonym replacement,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M04_02,M04,Requirement synonym replacement,Keyword,80,11,11,4,2,2,4,0.3636,0.3636,0.3636,1.0,0.8625,1.0,7,0.75
+POWERTRAIN,POWERTRAIN_M04_02,M04,Requirement synonym replacement,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.257
+POWERTRAIN,POWERTRAIN_M04_02,M04,Requirement synonym replacement,Embedding_Context,80,17,11,4,2,2,4,0.3636,0.2353,0.2857,0.913,0.7875,1.0,7,1.607
+POWERTRAIN,POWERTRAIN_M04_02,M04,Requirement synonym replacement,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.257
+POWERTRAIN,POWERTRAIN_M04_02,M04,Requirement synonym replacement,Hybrid_AURA_Routed,80,30,11,11,2,2,11,1.0,0.3667,0.5366,0.7246,0.625,1.0,0,2.668
+POWERTRAIN,POWERTRAIN_M04_02,M04,Requirement synonym replacement,Hybrid_AURA_Fixed,80,30,11,11,2,2,11,1.0,0.3667,0.5366,0.7246,0.625,1.0,0,2.232
+POWERTRAIN,POWERTRAIN_M05_02,M05,Requirement constraint addition,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M05_02,M05,Requirement constraint addition,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.093
+POWERTRAIN,POWERTRAIN_M05_02,M05,Requirement constraint addition,Embedding_Only,80,10,11,6,2,2,6,0.5455,0.6,0.5714,1.0145,0.875,1.0,5,0.589
+POWERTRAIN,POWERTRAIN_M05_02,M05,Requirement constraint addition,Embedding_Context,80,10,11,6,2,2,6,0.5455,0.6,0.5714,1.0145,0.875,1.0,5,1.349
+POWERTRAIN,POWERTRAIN_M05_02,M05,Requirement constraint addition,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.235
+POWERTRAIN,POWERTRAIN_M05_02,M05,Requirement constraint addition,Hybrid_AURA_Routed,80,23,11,11,2,2,11,1.0,0.4783,0.6471,0.8261,0.7125,1.0,0,1.669
+POWERTRAIN,POWERTRAIN_M05_02,M05,Requirement constraint addition,Hybrid_AURA_Fixed,80,23,11,11,2,2,11,1.0,0.4783,0.6471,0.8261,0.7125,1.0,0,1.87
+POWERTRAIN,POWERTRAIN_M06_02,M06,ARXML datatype change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M06_02,M06,ARXML datatype change,Keyword,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.698
+POWERTRAIN,POWERTRAIN_M06_02,M06,ARXML datatype change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.277
+POWERTRAIN,POWERTRAIN_M06_02,M06,ARXML datatype change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.593
+POWERTRAIN,POWERTRAIN_M06_02,M06,ARXML datatype change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+POWERTRAIN,POWERTRAIN_M06_02,M06,ARXML datatype change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.024
+POWERTRAIN,POWERTRAIN_M06_02,M06,ARXML datatype change,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.628
+POWERTRAIN,POWERTRAIN_M07_02,M07,ARXML scaling change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M07_02,M07,ARXML scaling change,Keyword,80,11,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8625,1.0,0,0.682
+POWERTRAIN,POWERTRAIN_M07_02,M07,ARXML scaling change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.203
+POWERTRAIN,POWERTRAIN_M07_02,M07,ARXML scaling change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.513
+POWERTRAIN,POWERTRAIN_M07_02,M07,ARXML scaling change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.006
+POWERTRAIN,POWERTRAIN_M07_02,M07,ARXML scaling change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.023
+POWERTRAIN,POWERTRAIN_M07_02,M07,ARXML scaling change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.734
+POWERTRAIN,POWERTRAIN_M08_02,M08,Interface field change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M08_02,M08,Interface field change,Keyword,80,11,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8625,1.0,0,1.426
+POWERTRAIN,POWERTRAIN_M08_02,M08,Interface field change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.435
+POWERTRAIN,POWERTRAIN_M08_02,M08,Interface field change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.682
+POWERTRAIN,POWERTRAIN_M08_02,M08,Interface field change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.008
+POWERTRAIN,POWERTRAIN_M08_02,M08,Interface field change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.029
+POWERTRAIN,POWERTRAIN_M08_02,M08,Interface field change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.868
+POWERTRAIN,POWERTRAIN_M09_02,M09,Interface version change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M09_02,M09,Interface version change,Keyword,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,1.238
+POWERTRAIN,POWERTRAIN_M09_02,M09,Interface version change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.286
+POWERTRAIN,POWERTRAIN_M09_02,M09,Interface version change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.563
+POWERTRAIN,POWERTRAIN_M09_02,M09,Interface version change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.008
+POWERTRAIN,POWERTRAIN_M09_02,M09,Interface version change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.028
+POWERTRAIN,POWERTRAIN_M09_02,M09,Interface version change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.588
+POWERTRAIN,POWERTRAIN_M10_02,M10,C function signature change,Full_Suite,80,80,6,6,1,1,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M10_02,M10,C function signature change,Keyword,80,6,6,2,1,1,2,0.3333,0.3333,0.3333,1.0,0.925,1.0,4,0.718
+POWERTRAIN,POWERTRAIN_M10_02,M10,C function signature change,Embedding_Only,80,2,6,2,1,1,2,0.3333,1.0,0.5,1.0541,0.975,1.0,4,0.277
+POWERTRAIN,POWERTRAIN_M10_02,M10,C function signature change,Embedding_Context,80,2,6,2,1,1,2,0.3333,1.0,0.5,1.0541,0.975,1.0,4,1.578
+POWERTRAIN,POWERTRAIN_M10_02,M10,C function signature change,Graph_Only,80,20,6,6,1,1,6,1.0,0.3,0.4615,0.8108,0.75,1.0,0,0.261
+POWERTRAIN,POWERTRAIN_M10_02,M10,C function signature change,Hybrid_AURA_Routed,80,20,6,6,1,1,6,1.0,0.3,0.4615,0.8108,0.75,1.0,0,0.387
+POWERTRAIN,POWERTRAIN_M10_02,M10,C function signature change,Hybrid_AURA_Fixed,80,20,6,6,1,1,6,1.0,0.3,0.4615,0.8108,0.75,1.0,0,1.751
+POWERTRAIN,POWERTRAIN_M11_02,M11,C constant change,Full_Suite,80,80,6,6,6,6,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M11_02,M11,C constant change,Keyword,80,16,6,6,6,6,6,1.0,0.375,0.5455,0.8649,0.8,1.0,0,0.665
+POWERTRAIN,POWERTRAIN_M11_02,M11,C constant change,Embedding_Only,80,6,6,6,6,6,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.21
+POWERTRAIN,POWERTRAIN_M11_02,M11,C constant change,Embedding_Context,80,7,6,6,6,6,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,1.91
+POWERTRAIN,POWERTRAIN_M11_02,M11,C constant change,Graph_Only,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.271
+POWERTRAIN,POWERTRAIN_M11_02,M11,C constant change,Hybrid_AURA_Routed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.629
+POWERTRAIN,POWERTRAIN_M11_02,M11,C constant change,Hybrid_AURA_Fixed,80,22,6,6,6,6,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,3.24
+POWERTRAIN,POWERTRAIN_M12_02,M12,Function dependency change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M12_02,M12,Function dependency change,Keyword,80,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8875,1.0,0,0.856
+POWERTRAIN,POWERTRAIN_M12_02,M12,Function dependency change,Embedding_Only,80,8,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9,1.0,0,0.334
+POWERTRAIN,POWERTRAIN_M12_02,M12,Function dependency change,Embedding_Context,80,17,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7875,1.0,0,0.637
+POWERTRAIN,POWERTRAIN_M12_02,M12,Function dependency change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+POWERTRAIN,POWERTRAIN_M12_02,M12,Function dependency change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.026
+POWERTRAIN,POWERTRAIN_M12_02,M12,Function dependency change,Hybrid_AURA_Fixed,80,17,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7875,1.0,0,0.735
+POWERTRAIN,POWERTRAIN_M13_02,M13,Variable dependency change,Full_Suite,80,80,6,6,2,2,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M13_02,M13,Variable dependency change,Keyword,80,3,6,3,2,2,3,0.5,1.0,0.6667,1.0405,0.9625,1.0,3,0.692
+POWERTRAIN,POWERTRAIN_M13_02,M13,Variable dependency change,Embedding_Only,80,3,6,3,2,2,3,0.5,1.0,0.6667,1.0405,0.9625,1.0,3,0.19
+POWERTRAIN,POWERTRAIN_M13_02,M13,Variable dependency change,Embedding_Context,80,5,6,3,2,2,3,0.5,0.6,0.5455,1.0135,0.9375,1.0,3,1.397
+POWERTRAIN,POWERTRAIN_M13_02,M13,Variable dependency change,Graph_Only,80,18,6,6,2,2,6,1.0,0.3333,0.5,0.8378,0.775,1.0,0,0.243
+POWERTRAIN,POWERTRAIN_M13_02,M13,Variable dependency change,Hybrid_AURA_Routed,80,18,6,6,2,2,6,1.0,0.3333,0.5,0.8378,0.775,1.0,0,0.323
+POWERTRAIN,POWERTRAIN_M13_02,M13,Variable dependency change,Hybrid_AURA_Fixed,80,20,6,6,2,2,6,1.0,0.3,0.4615,0.8108,0.75,1.0,0,2.281
+POWERTRAIN,POWERTRAIN_M14_02,M14,Test requirement modification,Full_Suite,80,80,12,12,2,2,12,1.0,0.15,0.2609,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M14_02,M14,Test requirement modification,Keyword,80,3,12,3,2,2,3,0.25,1.0,0.4,1.1324,0.9625,1.0,9,1.059
+POWERTRAIN,POWERTRAIN_M14_02,M14,Test requirement modification,Embedding_Only,80,2,12,2,2,2,2,0.1667,1.0,0.2857,1.1471,0.975,1.0,10,0.423
+POWERTRAIN,POWERTRAIN_M14_02,M14,Test requirement modification,Embedding_Context,80,2,12,2,2,2,2,0.1667,1.0,0.2857,1.1471,0.975,1.0,10,1.03
+POWERTRAIN,POWERTRAIN_M14_02,M14,Test requirement modification,Graph_Only,80,23,12,12,2,2,12,1.0,0.5217,0.6857,0.8382,0.7125,1.0,0,0.272
+POWERTRAIN,POWERTRAIN_M14_02,M14,Test requirement modification,Hybrid_AURA_Routed,80,23,12,12,2,2,12,1.0,0.5217,0.6857,0.8382,0.7125,1.0,0,0.377
+POWERTRAIN,POWERTRAIN_M14_02,M14,Test requirement modification,Hybrid_AURA_Fixed,80,23,12,12,2,2,12,1.0,0.5217,0.6857,0.8382,0.7125,1.0,0,1.854
+POWERTRAIN,POWERTRAIN_M15_02,M15,Unrelated/no-impact change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M15_02,M15,Unrelated/no-impact change,Keyword,80,9,0,0,0,0,0,1.0,0.0,0.0,0.0,0.8875,1.0,0,1.469
+POWERTRAIN,POWERTRAIN_M15_02,M15,Unrelated/no-impact change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.531
+POWERTRAIN,POWERTRAIN_M15_02,M15,Unrelated/no-impact change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,1.1
+POWERTRAIN,POWERTRAIN_M15_02,M15,Unrelated/no-impact change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.012
+POWERTRAIN,POWERTRAIN_M15_02,M15,Unrelated/no-impact change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.014
+POWERTRAIN,POWERTRAIN_M15_02,M15,Unrelated/no-impact change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.952
+POWERTRAIN,POWERTRAIN_M16_02,M16,Indirect dependency change,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M16_02,M16,Indirect dependency change,Keyword,80,12,6,1,0,0,1,0.1667,0.0833,0.1111,0.9189,0.85,1.0,5,0.781
+POWERTRAIN,POWERTRAIN_M16_02,M16,Indirect dependency change,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.228
+POWERTRAIN,POWERTRAIN_M16_02,M16,Indirect dependency change,Embedding_Context,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,1.184
+POWERTRAIN,POWERTRAIN_M16_02,M16,Indirect dependency change,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.31
+POWERTRAIN,POWERTRAIN_M16_02,M16,Indirect dependency change,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.395
+POWERTRAIN,POWERTRAIN_M16_02,M16,Indirect dependency change,Hybrid_AURA_Fixed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,1.414
+POWERTRAIN,POWERTRAIN_M17_02,M17,Long-chain dependency change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M17_02,M17,Long-chain dependency change,Keyword,80,4,11,3,2,2,3,0.2727,0.75,0.4,1.1014,0.95,1.0,8,0.692
+POWERTRAIN,POWERTRAIN_M17_02,M17,Long-chain dependency change,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.305
+POWERTRAIN,POWERTRAIN_M17_02,M17,Long-chain dependency change,Embedding_Context,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,1.033
+POWERTRAIN,POWERTRAIN_M17_02,M17,Long-chain dependency change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.224
+POWERTRAIN,POWERTRAIN_M17_02,M17,Long-chain dependency change,Hybrid_AURA_Routed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.31
+POWERTRAIN,POWERTRAIN_M17_02,M17,Long-chain dependency change,Hybrid_AURA_Fixed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.318
+POWERTRAIN,POWERTRAIN_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Keyword,80,14,11,4,2,2,4,0.3636,0.2857,0.32,0.9565,0.825,1.0,7,0.797
+POWERTRAIN,POWERTRAIN_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.307
+POWERTRAIN,POWERTRAIN_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Context,80,12,11,3,2,2,3,0.2727,0.25,0.2609,0.9855,0.85,1.0,8,2.001
+POWERTRAIN,POWERTRAIN_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.377
+POWERTRAIN,POWERTRAIN_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Routed,80,27,11,11,2,2,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,3.046
+POWERTRAIN,POWERTRAIN_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Fixed,80,27,11,11,2,2,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,2.407
+POWERTRAIN,POWERTRAIN_M19_02,M19,Misleading semantic similarity,Full_Suite,80,80,1,1,0,0,1,1.0,0.0125,0.0247,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M19_02,M19,Misleading semantic similarity,Keyword,80,3,1,1,0,0,1,1.0,0.3333,0.5,0.9747,0.9625,1.0,0,0.811
+POWERTRAIN,POWERTRAIN_M19_02,M19,Misleading semantic similarity,Embedding_Only,80,1,1,1,0,0,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,0.261
+POWERTRAIN,POWERTRAIN_M19_02,M19,Misleading semantic similarity,Embedding_Context,80,1,1,1,0,0,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,0.954
+POWERTRAIN,POWERTRAIN_M19_02,M19,Misleading semantic similarity,Graph_Only,80,19,1,1,0,0,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,0.223
+POWERTRAIN,POWERTRAIN_M19_02,M19,Misleading semantic similarity,Hybrid_AURA_Routed,80,19,1,1,0,0,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,1.28
+POWERTRAIN,POWERTRAIN_M19_02,M19,Misleading semantic similarity,Hybrid_AURA_Fixed,80,19,1,1,0,0,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,1.235
+POWERTRAIN,POWERTRAIN_M20_02,M20,Multiple simultaneous changes,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M20_02,M20,Multiple simultaneous changes,Keyword,80,6,6,1,0,0,1,0.1667,0.1667,0.1667,1.0,0.925,1.0,5,0.766
+POWERTRAIN,POWERTRAIN_M20_02,M20,Multiple simultaneous changes,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.24
+POWERTRAIN,POWERTRAIN_M20_02,M20,Multiple simultaneous changes,Embedding_Context,80,2,6,1,0,0,1,0.1667,0.5,0.25,1.0541,0.975,1.0,5,2.766
+POWERTRAIN,POWERTRAIN_M20_02,M20,Multiple simultaneous changes,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.28
+POWERTRAIN,POWERTRAIN_M20_02,M20,Multiple simultaneous changes,Hybrid_AURA_Routed,80,22,6,6,0,0,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,4.24
+POWERTRAIN,POWERTRAIN_M20_02,M20,Multiple simultaneous changes,Hybrid_AURA_Fixed,80,22,6,6,0,0,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,4.102
+POWERTRAIN,POWERTRAIN_M21_02,M21,Lexical renaming,Full_Suite,80,80,6,6,5,5,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M21_02,M21,Lexical renaming,Keyword,80,7,6,6,5,5,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,0.982
+POWERTRAIN,POWERTRAIN_M21_02,M21,Lexical renaming,Embedding_Only,80,6,6,6,5,5,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.338
+POWERTRAIN,POWERTRAIN_M21_02,M21,Lexical renaming,Embedding_Context,80,7,6,6,5,5,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,1.426
+POWERTRAIN,POWERTRAIN_M21_02,M21,Lexical renaming,Graph_Only,80,20,6,6,5,5,6,1.0,0.3,0.4615,0.8108,0.75,1.0,0,0.272
+POWERTRAIN,POWERTRAIN_M21_02,M21,Lexical renaming,Hybrid_AURA_Routed,80,20,6,6,5,5,6,1.0,0.3,0.4615,0.8108,0.75,1.0,0,0.429
+POWERTRAIN,POWERTRAIN_M21_02,M21,Lexical renaming,Hybrid_AURA_Fixed,80,20,6,6,5,5,6,1.0,0.3,0.4615,0.8108,0.75,1.0,0,1.68
+POWERTRAIN,POWERTRAIN_M22_02,M22,Structural rename with same semantics,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M22_02,M22,Structural rename with same semantics,Keyword,80,11,6,1,0,0,1,0.1667,0.0909,0.1176,0.9324,0.8625,1.0,5,0.744
+POWERTRAIN,POWERTRAIN_M22_02,M22,Structural rename with same semantics,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.247
+POWERTRAIN,POWERTRAIN_M22_02,M22,Structural rename with same semantics,Embedding_Context,80,6,6,1,0,0,1,0.1667,0.1667,0.1667,1.0,0.925,1.0,5,3.434
+POWERTRAIN,POWERTRAIN_M22_02,M22,Structural rename with same semantics,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.317
+POWERTRAIN,POWERTRAIN_M22_02,M22,Structural rename with same semantics,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.405
+POWERTRAIN,POWERTRAIN_M22_02,M22,Structural rename with same semantics,Hybrid_AURA_Fixed,80,26,6,6,0,0,6,1.0,0.2308,0.375,0.7297,0.675,1.0,0,3.476
+POWERTRAIN,POWERTRAIN_M23_02,M23,Semantic requirement change with little textual overlap,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M23_02,M23,Semantic requirement change with little textual overlap,Keyword,80,4,11,3,2,2,3,0.2727,0.75,0.4,1.1014,0.95,1.0,8,0.851
+POWERTRAIN,POWERTRAIN_M23_02,M23,Semantic requirement change with little textual overlap,Embedding_Only,80,27,11,5,2,2,5,0.4545,0.1852,0.2632,0.7681,0.6625,1.0,6,0.349
+POWERTRAIN,POWERTRAIN_M23_02,M23,Semantic requirement change with little textual overlap,Embedding_Context,80,28,11,5,2,2,5,0.4545,0.1786,0.2564,0.7536,0.65,1.0,6,1.877
+POWERTRAIN,POWERTRAIN_M23_02,M23,Semantic requirement change with little textual overlap,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.236
+POWERTRAIN,POWERTRAIN_M23_02,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Routed,80,41,11,11,2,2,11,1.0,0.2683,0.4231,0.5652,0.4875,1.0,0,2.206
+POWERTRAIN,POWERTRAIN_M23_02,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Fixed,80,41,11,11,2,2,11,1.0,0.2683,0.4231,0.5652,0.4875,1.0,0,2.222
+POWERTRAIN,POWERTRAIN_M24_02,M24,Dead-code modification,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M24_02,M24,Dead-code modification,Keyword,80,12,0,0,0,0,0,1.0,0.0,0.0,0.0,0.85,1.0,0,0.744
+POWERTRAIN,POWERTRAIN_M24_02,M24,Dead-code modification,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.227
+POWERTRAIN,POWERTRAIN_M24_02,M24,Dead-code modification,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.298
+POWERTRAIN,POWERTRAIN_M24_02,M24,Dead-code modification,Graph_Only,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,0.586
+POWERTRAIN,POWERTRAIN_M24_02,M24,Dead-code modification,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.017
+POWERTRAIN,POWERTRAIN_M24_02,M24,Dead-code modification,Hybrid_AURA_Fixed,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,2.848
+POWERTRAIN,POWERTRAIN_M25_02,M25,Documentation-only change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+POWERTRAIN,POWERTRAIN_M25_02,M25,Documentation-only change,Keyword,80,12,0,0,0,0,0,1.0,0.0,0.0,0.0,0.85,1.0,0,1.494
+POWERTRAIN,POWERTRAIN_M25_02,M25,Documentation-only change,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.423
+POWERTRAIN,POWERTRAIN_M25_02,M25,Documentation-only change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.919
+POWERTRAIN,POWERTRAIN_M25_02,M25,Documentation-only change,Graph_Only,80,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7625,1.0,0,0.407
+POWERTRAIN,POWERTRAIN_M25_02,M25,Documentation-only change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.021
+POWERTRAIN,POWERTRAIN_M25_02,M25,Documentation-only change,Hybrid_AURA_Fixed,80,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7625,1.0,0,2.867
+BATTERY_EV,BATTERY_EV_M01_01,M01,Numeric requirement change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M01_01,M01,Numeric requirement change,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.317
+BATTERY_EV,BATTERY_EV_M01_01,M01,Numeric requirement change,Embedding_Only,80,10,11,4,2,2,4,0.3636,0.4,0.381,1.0145,0.875,1.0,7,0.571
+BATTERY_EV,BATTERY_EV_M01_01,M01,Numeric requirement change,Embedding_Context,80,10,11,4,2,2,4,0.3636,0.4,0.381,1.0145,0.875,1.0,7,1.465
+BATTERY_EV,BATTERY_EV_M01_01,M01,Numeric requirement change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.238
+BATTERY_EV,BATTERY_EV_M01_01,M01,Numeric requirement change,Hybrid_AURA_Routed,80,26,11,11,2,2,11,1.0,0.4231,0.5946,0.7826,0.675,1.0,0,1.719
+BATTERY_EV,BATTERY_EV_M01_01,M01,Numeric requirement change,Hybrid_AURA_Fixed,80,26,11,11,2,2,11,1.0,0.4231,0.5946,0.7826,0.675,1.0,0,3.11
+BATTERY_EV,BATTERY_EV_M02_01,M02,Threshold change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M02_01,M02,Threshold change,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.354
+BATTERY_EV,BATTERY_EV_M02_01,M02,Threshold change,Embedding_Only,80,11,11,4,2,2,4,0.3636,0.3636,0.3636,1.0,0.8625,1.0,7,0.572
+BATTERY_EV,BATTERY_EV_M02_01,M02,Threshold change,Embedding_Context,80,11,11,4,2,2,4,0.3636,0.3636,0.3636,1.0,0.8625,1.0,7,1.335
+BATTERY_EV,BATTERY_EV_M02_01,M02,Threshold change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.238
+BATTERY_EV,BATTERY_EV_M02_01,M02,Threshold change,Hybrid_AURA_Routed,80,27,11,11,2,2,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,1.672
+BATTERY_EV,BATTERY_EV_M02_01,M02,Threshold change,Hybrid_AURA_Fixed,80,27,11,11,2,2,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,1.641
+BATTERY_EV,BATTERY_EV_M03_01,M03,Semantic wording change,Full_Suite,80,80,11,11,3,3,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M03_01,M03,Semantic wording change,Keyword,80,6,11,4,3,3,4,0.3636,0.6667,0.4706,1.0725,0.925,1.0,7,0.747
+BATTERY_EV,BATTERY_EV_M03_01,M03,Semantic wording change,Embedding_Only,80,4,11,4,3,3,4,0.3636,1.0,0.5333,1.1014,0.95,1.0,7,0.358
+BATTERY_EV,BATTERY_EV_M03_01,M03,Semantic wording change,Embedding_Context,80,4,11,4,3,3,4,0.3636,1.0,0.5333,1.1014,0.95,1.0,7,1.155
+BATTERY_EV,BATTERY_EV_M03_01,M03,Semantic wording change,Graph_Only,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.229
+BATTERY_EV,BATTERY_EV_M03_01,M03,Semantic wording change,Hybrid_AURA_Routed,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.466
+BATTERY_EV,BATTERY_EV_M03_01,M03,Semantic wording change,Hybrid_AURA_Fixed,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.582
+BATTERY_EV,BATTERY_EV_M04_01,M04,Requirement synonym replacement,Full_Suite,80,80,11,11,3,3,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M04_01,M04,Requirement synonym replacement,Keyword,80,5,11,4,3,3,4,0.3636,0.8,0.5,1.087,0.9375,1.0,7,1.209
+BATTERY_EV,BATTERY_EV_M04_01,M04,Requirement synonym replacement,Embedding_Only,80,4,11,4,3,3,4,0.3636,1.0,0.5333,1.1014,0.95,1.0,7,0.481
+BATTERY_EV,BATTERY_EV_M04_01,M04,Requirement synonym replacement,Embedding_Context,80,4,11,4,3,3,4,0.3636,1.0,0.5333,1.1014,0.95,1.0,7,1.471
+BATTERY_EV,BATTERY_EV_M04_01,M04,Requirement synonym replacement,Graph_Only,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.244
+BATTERY_EV,BATTERY_EV_M04_01,M04,Requirement synonym replacement,Hybrid_AURA_Routed,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.783
+BATTERY_EV,BATTERY_EV_M04_01,M04,Requirement synonym replacement,Hybrid_AURA_Fixed,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.715
+BATTERY_EV,BATTERY_EV_M05_01,M05,Requirement constraint addition,Full_Suite,80,80,11,11,4,4,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M05_01,M05,Requirement constraint addition,Keyword,80,80,11,11,4,4,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.966
+BATTERY_EV,BATTERY_EV_M05_01,M05,Requirement constraint addition,Embedding_Only,80,12,11,5,4,4,5,0.4545,0.4167,0.4348,0.9855,0.85,1.0,6,0.612
+BATTERY_EV,BATTERY_EV_M05_01,M05,Requirement constraint addition,Embedding_Context,80,12,11,5,4,4,5,0.4545,0.4167,0.4348,0.9855,0.85,1.0,6,1.393
+BATTERY_EV,BATTERY_EV_M05_01,M05,Requirement constraint addition,Graph_Only,80,19,11,11,4,4,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.226
+BATTERY_EV,BATTERY_EV_M05_01,M05,Requirement constraint addition,Hybrid_AURA_Routed,80,25,11,11,4,4,11,1.0,0.44,0.6111,0.7971,0.6875,1.0,0,1.765
+BATTERY_EV,BATTERY_EV_M05_01,M05,Requirement constraint addition,Hybrid_AURA_Fixed,80,25,11,11,4,4,11,1.0,0.44,0.6111,0.7971,0.6875,1.0,0,1.723
+BATTERY_EV,BATTERY_EV_M06_01,M06,ARXML datatype change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M06_01,M06,ARXML datatype change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.705
+BATTERY_EV,BATTERY_EV_M06_01,M06,ARXML datatype change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.267
+BATTERY_EV,BATTERY_EV_M06_01,M06,ARXML datatype change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.046
+BATTERY_EV,BATTERY_EV_M06_01,M06,ARXML datatype change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.011
+BATTERY_EV,BATTERY_EV_M06_01,M06,ARXML datatype change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.035
+BATTERY_EV,BATTERY_EV_M06_01,M06,ARXML datatype change,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.281
+BATTERY_EV,BATTERY_EV_M07_01,M07,ARXML scaling change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M07_01,M07,ARXML scaling change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.798
+BATTERY_EV,BATTERY_EV_M07_01,M07,ARXML scaling change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.263
+BATTERY_EV,BATTERY_EV_M07_01,M07,ARXML scaling change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.606
+BATTERY_EV,BATTERY_EV_M07_01,M07,ARXML scaling change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+BATTERY_EV,BATTERY_EV_M07_01,M07,ARXML scaling change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.025
+BATTERY_EV,BATTERY_EV_M07_01,M07,ARXML scaling change,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.591
+BATTERY_EV,BATTERY_EV_M08_01,M08,Interface field change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M08_01,M08,Interface field change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.715
+BATTERY_EV,BATTERY_EV_M08_01,M08,Interface field change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.295
+BATTERY_EV,BATTERY_EV_M08_01,M08,Interface field change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.598
+BATTERY_EV,BATTERY_EV_M08_01,M08,Interface field change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+BATTERY_EV,BATTERY_EV_M08_01,M08,Interface field change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.024
+BATTERY_EV,BATTERY_EV_M08_01,M08,Interface field change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.611
+BATTERY_EV,BATTERY_EV_M09_01,M09,Interface version change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M09_01,M09,Interface version change,Keyword,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.668
+BATTERY_EV,BATTERY_EV_M09_01,M09,Interface version change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.214
+BATTERY_EV,BATTERY_EV_M09_01,M09,Interface version change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.522
+BATTERY_EV,BATTERY_EV_M09_01,M09,Interface version change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.006
+BATTERY_EV,BATTERY_EV_M09_01,M09,Interface version change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.022
+BATTERY_EV,BATTERY_EV_M09_01,M09,Interface version change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.551
+BATTERY_EV,BATTERY_EV_M10_01,M10,C function signature change,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M10_01,M10,C function signature change,Keyword,80,2,6,1,0,0,1,0.1667,0.5,0.25,1.0541,0.975,1.0,5,0.634
+BATTERY_EV,BATTERY_EV_M10_01,M10,C function signature change,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.254
+BATTERY_EV,BATTERY_EV_M10_01,M10,C function signature change,Embedding_Context,80,4,6,1,0,0,1,0.1667,0.25,0.2,1.027,0.95,1.0,5,2.674
+BATTERY_EV,BATTERY_EV_M10_01,M10,C function signature change,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.286
+BATTERY_EV,BATTERY_EV_M10_01,M10,C function signature change,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.409
+BATTERY_EV,BATTERY_EV_M10_01,M10,C function signature change,Hybrid_AURA_Fixed,80,24,6,6,0,0,6,1.0,0.25,0.4,0.7568,0.7,1.0,0,3.286
+BATTERY_EV,BATTERY_EV_M11_01,M11,C constant change,Full_Suite,80,80,6,6,6,6,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M11_01,M11,C constant change,Keyword,80,8,6,6,6,6,6,1.0,0.75,0.8571,0.973,0.9,1.0,0,0.92
+BATTERY_EV,BATTERY_EV_M11_01,M11,C constant change,Embedding_Only,80,7,6,6,6,6,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,0.491
+BATTERY_EV,BATTERY_EV_M11_01,M11,C constant change,Embedding_Context,80,14,6,6,6,6,6,1.0,0.4286,0.6,0.8919,0.825,1.0,0,2.685
+BATTERY_EV,BATTERY_EV_M11_01,M11,C constant change,Graph_Only,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.288
+BATTERY_EV,BATTERY_EV_M11_01,M11,C constant change,Hybrid_AURA_Routed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.4
+BATTERY_EV,BATTERY_EV_M11_01,M11,C constant change,Hybrid_AURA_Fixed,80,29,6,6,6,6,6,1.0,0.2069,0.3429,0.6892,0.6375,1.0,0,3.068
+BATTERY_EV,BATTERY_EV_M12_01,M12,Function dependency change,Full_Suite,80,80,6,6,6,6,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M12_01,M12,Function dependency change,Keyword,80,6,6,6,6,6,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.795
+BATTERY_EV,BATTERY_EV_M12_01,M12,Function dependency change,Embedding_Only,80,6,6,6,6,6,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.262
+BATTERY_EV,BATTERY_EV_M12_01,M12,Function dependency change,Embedding_Context,80,6,6,6,6,6,6,1.0,1.0,1.0,1.0,0.925,1.0,0,2.854
+BATTERY_EV,BATTERY_EV_M12_01,M12,Function dependency change,Graph_Only,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.281
+BATTERY_EV,BATTERY_EV_M12_01,M12,Function dependency change,Hybrid_AURA_Routed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.388
+BATTERY_EV,BATTERY_EV_M12_01,M12,Function dependency change,Hybrid_AURA_Fixed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,3.342
+BATTERY_EV,BATTERY_EV_M13_01,M13,Variable dependency change,Full_Suite,80,80,6,6,6,6,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M13_01,M13,Variable dependency change,Keyword,80,7,6,6,6,6,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,0.901
+BATTERY_EV,BATTERY_EV_M13_01,M13,Variable dependency change,Embedding_Only,80,6,6,6,6,6,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.428
+BATTERY_EV,BATTERY_EV_M13_01,M13,Variable dependency change,Embedding_Context,80,7,6,6,6,6,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,2.794
+BATTERY_EV,BATTERY_EV_M13_01,M13,Variable dependency change,Graph_Only,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.297
+BATTERY_EV,BATTERY_EV_M13_01,M13,Variable dependency change,Hybrid_AURA_Routed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.402
+BATTERY_EV,BATTERY_EV_M13_01,M13,Variable dependency change,Hybrid_AURA_Fixed,80,22,6,6,6,6,6,1.0,0.2727,0.4286,0.7838,0.725,1.0,0,3.18
+BATTERY_EV,BATTERY_EV_M14_01,M14,Test requirement modification,Full_Suite,80,80,42,42,6,6,42,1.0,0.525,0.6885,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M14_01,M14,Test requirement modification,Keyword,80,7,42,7,6,6,7,0.1667,1.0,0.2857,1.9211,0.9125,1.0,35,1.16
+BATTERY_EV,BATTERY_EV_M14_01,M14,Test requirement modification,Embedding_Only,80,6,42,6,6,6,6,0.1429,1.0,0.25,1.9474,0.925,1.0,36,0.436
+BATTERY_EV,BATTERY_EV_M14_01,M14,Test requirement modification,Embedding_Context,80,6,42,6,6,6,6,0.1429,1.0,0.25,1.9474,0.925,1.0,36,1.052
+BATTERY_EV,BATTERY_EV_M14_01,M14,Test requirement modification,Graph_Only,80,51,42,42,6,6,42,1.0,0.8235,0.9032,0.7632,0.3625,1.0,0,0.436
+BATTERY_EV,BATTERY_EV_M14_01,M14,Test requirement modification,Hybrid_AURA_Routed,80,51,42,42,6,6,42,1.0,0.8235,0.9032,0.7632,0.3625,1.0,0,0.582
+BATTERY_EV,BATTERY_EV_M14_01,M14,Test requirement modification,Hybrid_AURA_Fixed,80,51,42,42,6,6,42,1.0,0.8235,0.9032,0.7632,0.3625,1.0,0,1.724
+BATTERY_EV,BATTERY_EV_M15_01,M15,Unrelated/no-impact change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M15_01,M15,Unrelated/no-impact change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.742
+BATTERY_EV,BATTERY_EV_M15_01,M15,Unrelated/no-impact change,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.279
+BATTERY_EV,BATTERY_EV_M15_01,M15,Unrelated/no-impact change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,2.665
+BATTERY_EV,BATTERY_EV_M15_01,M15,Unrelated/no-impact change,Graph_Only,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,0.518
+BATTERY_EV,BATTERY_EV_M15_01,M15,Unrelated/no-impact change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.018
+BATTERY_EV,BATTERY_EV_M15_01,M15,Unrelated/no-impact change,Hybrid_AURA_Fixed,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,2.778
+BATTERY_EV,BATTERY_EV_M16_01,M16,Indirect dependency change,Full_Suite,80,80,6,6,5,5,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M16_01,M16,Indirect dependency change,Keyword,80,6,6,6,5,5,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.835
+BATTERY_EV,BATTERY_EV_M16_01,M16,Indirect dependency change,Embedding_Only,80,6,6,6,5,5,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.25
+BATTERY_EV,BATTERY_EV_M16_01,M16,Indirect dependency change,Embedding_Context,80,6,6,6,5,5,6,1.0,1.0,1.0,1.0,0.925,1.0,0,1.7
+BATTERY_EV,BATTERY_EV_M16_01,M16,Indirect dependency change,Graph_Only,80,18,6,6,5,5,6,1.0,0.3333,0.5,0.8378,0.775,1.0,0,0.254
+BATTERY_EV,BATTERY_EV_M16_01,M16,Indirect dependency change,Hybrid_AURA_Routed,80,18,6,6,5,5,6,1.0,0.3333,0.5,0.8378,0.775,1.0,0,0.343
+BATTERY_EV,BATTERY_EV_M16_01,M16,Indirect dependency change,Hybrid_AURA_Fixed,80,18,6,6,5,5,6,1.0,0.3333,0.5,0.8378,0.775,1.0,0,1.94
+BATTERY_EV,BATTERY_EV_M17_01,M17,Long-chain dependency change,Full_Suite,80,80,11,11,4,4,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M17_01,M17,Long-chain dependency change,Keyword,80,5,11,4,4,4,4,0.3636,0.8,0.5,1.087,0.9375,1.0,7,0.722
+BATTERY_EV,BATTERY_EV_M17_01,M17,Long-chain dependency change,Embedding_Only,80,4,11,4,4,4,4,0.3636,1.0,0.5333,1.1014,0.95,1.0,7,0.864
+BATTERY_EV,BATTERY_EV_M17_01,M17,Long-chain dependency change,Embedding_Context,80,4,11,4,4,4,4,0.3636,1.0,0.5333,1.1014,0.95,1.0,7,1.8
+BATTERY_EV,BATTERY_EV_M17_01,M17,Long-chain dependency change,Graph_Only,80,19,11,11,4,4,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.363
+BATTERY_EV,BATTERY_EV_M17_01,M17,Long-chain dependency change,Hybrid_AURA_Routed,80,19,11,11,4,4,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.447
+BATTERY_EV,BATTERY_EV_M17_01,M17,Long-chain dependency change,Hybrid_AURA_Fixed,80,19,11,11,4,4,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,2.966
+BATTERY_EV,BATTERY_EV_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Full_Suite,80,80,11,11,5,5,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Keyword,80,7,11,5,5,5,5,0.4545,0.7143,0.5556,1.058,0.9125,1.0,6,1.008
+BATTERY_EV,BATTERY_EV_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Only,80,5,11,5,5,5,5,0.4545,1.0,0.625,1.087,0.9375,1.0,6,0.436
+BATTERY_EV,BATTERY_EV_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Context,80,5,11,5,5,5,5,0.4545,1.0,0.625,1.087,0.9375,1.0,6,1.866
+BATTERY_EV,BATTERY_EV_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Graph_Only,80,19,11,11,5,5,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.249
+BATTERY_EV,BATTERY_EV_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Routed,80,19,11,11,5,5,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.871
+BATTERY_EV,BATTERY_EV_M18_01,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Fixed,80,19,11,11,5,5,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.739
+BATTERY_EV,BATTERY_EV_M19_01,M19,Misleading semantic similarity,Full_Suite,80,80,1,1,1,1,1,1.0,0.0125,0.0247,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M19_01,M19,Misleading semantic similarity,Keyword,80,3,1,1,1,1,1,1.0,0.3333,0.5,0.9747,0.9625,1.0,0,1.096
+BATTERY_EV,BATTERY_EV_M19_01,M19,Misleading semantic similarity,Embedding_Only,80,1,1,1,1,1,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,0.428
+BATTERY_EV,BATTERY_EV_M19_01,M19,Misleading semantic similarity,Embedding_Context,80,1,1,1,1,1,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,1.236
+BATTERY_EV,BATTERY_EV_M19_01,M19,Misleading semantic similarity,Graph_Only,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,0.313
+BATTERY_EV,BATTERY_EV_M19_01,M19,Misleading semantic similarity,Hybrid_AURA_Routed,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,2.179
+BATTERY_EV,BATTERY_EV_M19_01,M19,Misleading semantic similarity,Hybrid_AURA_Fixed,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,2.221
+BATTERY_EV,BATTERY_EV_M20_01,M20,Multiple simultaneous changes,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M20_01,M20,Multiple simultaneous changes,Keyword,80,2,6,1,0,0,1,0.1667,0.5,0.25,1.0541,0.975,1.0,5,1.511
+BATTERY_EV,BATTERY_EV_M20_01,M20,Multiple simultaneous changes,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.482
+BATTERY_EV,BATTERY_EV_M20_01,M20,Multiple simultaneous changes,Embedding_Context,80,5,6,1,0,0,1,0.1667,0.2,0.1818,1.0135,0.9375,1.0,5,3.699
+BATTERY_EV,BATTERY_EV_M20_01,M20,Multiple simultaneous changes,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.344
+BATTERY_EV,BATTERY_EV_M20_01,M20,Multiple simultaneous changes,Hybrid_AURA_Routed,80,25,6,6,0,0,6,1.0,0.24,0.3871,0.7432,0.6875,1.0,0,4.856
+BATTERY_EV,BATTERY_EV_M20_01,M20,Multiple simultaneous changes,Hybrid_AURA_Fixed,80,25,6,6,0,0,6,1.0,0.24,0.3871,0.7432,0.6875,1.0,0,5.343
+BATTERY_EV,BATTERY_EV_M21_01,M21,Lexical renaming,Full_Suite,80,80,6,6,4,4,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M21_01,M21,Lexical renaming,Keyword,80,43,6,4,4,4,4,0.6667,0.093,0.1633,0.5,0.4625,1.0,2,1.236
+BATTERY_EV,BATTERY_EV_M21_01,M21,Lexical renaming,Embedding_Only,80,4,6,4,4,4,4,0.6667,1.0,0.8,1.027,0.95,1.0,2,0.361
+BATTERY_EV,BATTERY_EV_M21_01,M21,Lexical renaming,Embedding_Context,80,4,6,4,4,4,4,0.6667,1.0,0.8,1.027,0.95,1.0,2,1.748
+BATTERY_EV,BATTERY_EV_M21_01,M21,Lexical renaming,Graph_Only,80,21,6,6,4,4,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.476
+BATTERY_EV,BATTERY_EV_M21_01,M21,Lexical renaming,Hybrid_AURA_Routed,80,21,6,6,4,4,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.515
+BATTERY_EV,BATTERY_EV_M21_01,M21,Lexical renaming,Hybrid_AURA_Fixed,80,21,6,6,4,4,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,2.528
+BATTERY_EV,BATTERY_EV_M22_01,M22,Structural rename with same semantics,Full_Suite,80,80,6,6,6,6,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M22_01,M22,Structural rename with same semantics,Keyword,80,8,6,6,6,6,6,1.0,0.75,0.8571,0.973,0.9,1.0,0,1.133
+BATTERY_EV,BATTERY_EV_M22_01,M22,Structural rename with same semantics,Embedding_Only,80,7,6,6,6,6,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,0.356
+BATTERY_EV,BATTERY_EV_M22_01,M22,Structural rename with same semantics,Embedding_Context,80,10,6,6,6,6,6,1.0,0.6,0.75,0.9459,0.875,1.0,0,3.133
+BATTERY_EV,BATTERY_EV_M22_01,M22,Structural rename with same semantics,Graph_Only,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.383
+BATTERY_EV,BATTERY_EV_M22_01,M22,Structural rename with same semantics,Hybrid_AURA_Routed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.495
+BATTERY_EV,BATTERY_EV_M22_01,M22,Structural rename with same semantics,Hybrid_AURA_Fixed,80,26,6,6,6,6,6,1.0,0.2308,0.375,0.7297,0.675,1.0,0,4.716
+BATTERY_EV,BATTERY_EV_M23_01,M23,Semantic requirement change with little textual overlap,Full_Suite,80,80,11,11,6,6,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M23_01,M23,Semantic requirement change with little textual overlap,Keyword,80,7,11,6,6,6,6,0.5455,0.8571,0.6667,1.058,0.9125,1.0,5,1.704
+BATTERY_EV,BATTERY_EV_M23_01,M23,Semantic requirement change with little textual overlap,Embedding_Only,80,6,11,6,6,6,6,0.5455,1.0,0.7059,1.0725,0.925,1.0,5,0.576
+BATTERY_EV,BATTERY_EV_M23_01,M23,Semantic requirement change with little textual overlap,Embedding_Context,80,14,11,6,6,6,6,0.5455,0.4286,0.48,0.9565,0.825,1.0,5,3.243
+BATTERY_EV,BATTERY_EV_M23_01,M23,Semantic requirement change with little textual overlap,Graph_Only,80,19,11,11,6,6,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.35
+BATTERY_EV,BATTERY_EV_M23_01,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Routed,80,26,11,11,6,6,11,1.0,0.4231,0.5946,0.7826,0.675,1.0,0,2.995
+BATTERY_EV,BATTERY_EV_M23_01,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Fixed,80,26,11,11,6,6,11,1.0,0.4231,0.5946,0.7826,0.675,1.0,0,2.827
+BATTERY_EV,BATTERY_EV_M24_01,M24,Dead-code modification,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M24_01,M24,Dead-code modification,Keyword,80,3,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9625,1.0,0,1.216
+BATTERY_EV,BATTERY_EV_M24_01,M24,Dead-code modification,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.454
+BATTERY_EV,BATTERY_EV_M24_01,M24,Dead-code modification,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.852
+BATTERY_EV,BATTERY_EV_M24_01,M24,Dead-code modification,Graph_Only,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,0.545
+BATTERY_EV,BATTERY_EV_M24_01,M24,Dead-code modification,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.024
+BATTERY_EV,BATTERY_EV_M24_01,M24,Dead-code modification,Hybrid_AURA_Fixed,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,2.022
+BATTERY_EV,BATTERY_EV_M25_01,M25,Documentation-only change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M25_01,M25,Documentation-only change,Keyword,80,3,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9625,1.0,0,1.851
+BATTERY_EV,BATTERY_EV_M25_01,M25,Documentation-only change,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.395
+BATTERY_EV,BATTERY_EV_M25_01,M25,Documentation-only change,Embedding_Context,80,3,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9625,1.0,0,0.938
+BATTERY_EV,BATTERY_EV_M25_01,M25,Documentation-only change,Graph_Only,80,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7625,1.0,0,0.285
+BATTERY_EV,BATTERY_EV_M25_01,M25,Documentation-only change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.012
+BATTERY_EV,BATTERY_EV_M25_01,M25,Documentation-only change,Hybrid_AURA_Fixed,80,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7625,1.0,0,1.231
+BATTERY_EV,BATTERY_EV_M01_02,M01,Numeric requirement change,Full_Suite,80,80,11,11,3,3,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M01_02,M01,Numeric requirement change,Keyword,80,80,11,11,3,3,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.037
+BATTERY_EV,BATTERY_EV_M01_02,M01,Numeric requirement change,Embedding_Only,80,12,11,4,3,3,4,0.3636,0.3333,0.3478,0.9855,0.85,1.0,7,0.535
+BATTERY_EV,BATTERY_EV_M01_02,M01,Numeric requirement change,Embedding_Context,80,12,11,4,3,3,4,0.3636,0.3333,0.3478,0.9855,0.85,1.0,7,1.38
+BATTERY_EV,BATTERY_EV_M01_02,M01,Numeric requirement change,Graph_Only,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.238
+BATTERY_EV,BATTERY_EV_M01_02,M01,Numeric requirement change,Hybrid_AURA_Routed,80,25,11,11,3,3,11,1.0,0.44,0.6111,0.7971,0.6875,1.0,0,1.713
+BATTERY_EV,BATTERY_EV_M01_02,M01,Numeric requirement change,Hybrid_AURA_Fixed,80,25,11,11,3,3,11,1.0,0.44,0.6111,0.7971,0.6875,1.0,0,2.53
+BATTERY_EV,BATTERY_EV_M02_02,M02,Threshold change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M02_02,M02,Threshold change,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.795
+BATTERY_EV,BATTERY_EV_M02_02,M02,Threshold change,Embedding_Only,80,11,11,4,2,2,4,0.3636,0.3636,0.3636,1.0,0.8625,1.0,7,0.995
+BATTERY_EV,BATTERY_EV_M02_02,M02,Threshold change,Embedding_Context,80,11,11,4,2,2,4,0.3636,0.3636,0.3636,1.0,0.8625,1.0,7,1.836
+BATTERY_EV,BATTERY_EV_M02_02,M02,Threshold change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.26
+BATTERY_EV,BATTERY_EV_M02_02,M02,Threshold change,Hybrid_AURA_Routed,80,27,11,11,2,2,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,1.887
+BATTERY_EV,BATTERY_EV_M02_02,M02,Threshold change,Hybrid_AURA_Fixed,80,27,11,11,2,2,11,1.0,0.4074,0.5789,0.7681,0.6625,1.0,0,1.797
+BATTERY_EV,BATTERY_EV_M03_02,M03,Semantic wording change,Full_Suite,80,80,11,11,5,5,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M03_02,M03,Semantic wording change,Keyword,80,7,11,5,5,5,5,0.4545,0.7143,0.5556,1.058,0.9125,1.0,6,0.933
+BATTERY_EV,BATTERY_EV_M03_02,M03,Semantic wording change,Embedding_Only,80,5,11,5,5,5,5,0.4545,1.0,0.625,1.087,0.9375,1.0,6,0.4
+BATTERY_EV,BATTERY_EV_M03_02,M03,Semantic wording change,Embedding_Context,80,5,11,5,5,5,5,0.4545,1.0,0.625,1.087,0.9375,1.0,6,1.218
+BATTERY_EV,BATTERY_EV_M03_02,M03,Semantic wording change,Graph_Only,80,19,11,11,5,5,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.257
+BATTERY_EV,BATTERY_EV_M03_02,M03,Semantic wording change,Hybrid_AURA_Routed,80,19,11,11,5,5,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.47
+BATTERY_EV,BATTERY_EV_M03_02,M03,Semantic wording change,Hybrid_AURA_Fixed,80,19,11,11,5,5,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,2.426
+BATTERY_EV,BATTERY_EV_M04_02,M04,Requirement synonym replacement,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M04_02,M04,Requirement synonym replacement,Keyword,80,5,11,3,2,2,3,0.2727,0.6,0.375,1.087,0.9375,1.0,8,1.111
+BATTERY_EV,BATTERY_EV_M04_02,M04,Requirement synonym replacement,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.428
+BATTERY_EV,BATTERY_EV_M04_02,M04,Requirement synonym replacement,Embedding_Context,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,2.532
+BATTERY_EV,BATTERY_EV_M04_02,M04,Requirement synonym replacement,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.467
+BATTERY_EV,BATTERY_EV_M04_02,M04,Requirement synonym replacement,Hybrid_AURA_Routed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,2.913
+BATTERY_EV,BATTERY_EV_M04_02,M04,Requirement synonym replacement,Hybrid_AURA_Fixed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,2.97
+BATTERY_EV,BATTERY_EV_M05_02,M05,Requirement constraint addition,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M05_02,M05,Requirement constraint addition,Keyword,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,1.792
+BATTERY_EV,BATTERY_EV_M05_02,M05,Requirement constraint addition,Embedding_Only,80,40,11,8,2,2,8,0.7273,0.2,0.3137,0.5797,0.5,1.0,3,1.221
+BATTERY_EV,BATTERY_EV_M05_02,M05,Requirement constraint addition,Embedding_Context,80,40,11,8,2,2,8,0.7273,0.2,0.3137,0.5797,0.5,1.0,3,2.991
+BATTERY_EV,BATTERY_EV_M05_02,M05,Requirement constraint addition,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.56
+BATTERY_EV,BATTERY_EV_M05_02,M05,Requirement constraint addition,Hybrid_AURA_Routed,80,52,11,11,2,2,11,1.0,0.2115,0.3492,0.4058,0.35,1.0,0,2.667
+BATTERY_EV,BATTERY_EV_M05_02,M05,Requirement constraint addition,Hybrid_AURA_Fixed,80,52,11,11,2,2,11,1.0,0.2115,0.3492,0.4058,0.35,1.0,0,1.944
+BATTERY_EV,BATTERY_EV_M06_02,M06,ARXML datatype change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M06_02,M06,ARXML datatype change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.918
+BATTERY_EV,BATTERY_EV_M06_02,M06,ARXML datatype change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.31
+BATTERY_EV,BATTERY_EV_M06_02,M06,ARXML datatype change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.625
+BATTERY_EV,BATTERY_EV_M06_02,M06,ARXML datatype change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+BATTERY_EV,BATTERY_EV_M06_02,M06,ARXML datatype change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.026
+BATTERY_EV,BATTERY_EV_M06_02,M06,ARXML datatype change,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.658
+BATTERY_EV,BATTERY_EV_M07_02,M07,ARXML scaling change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M07_02,M07,ARXML scaling change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.692
+BATTERY_EV,BATTERY_EV_M07_02,M07,ARXML scaling change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.21
+BATTERY_EV,BATTERY_EV_M07_02,M07,ARXML scaling change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.559
+BATTERY_EV,BATTERY_EV_M07_02,M07,ARXML scaling change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+BATTERY_EV,BATTERY_EV_M07_02,M07,ARXML scaling change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.024
+BATTERY_EV,BATTERY_EV_M07_02,M07,ARXML scaling change,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.571
+BATTERY_EV,BATTERY_EV_M08_02,M08,Interface field change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M08_02,M08,Interface field change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.659
+BATTERY_EV,BATTERY_EV_M08_02,M08,Interface field change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.314
+BATTERY_EV,BATTERY_EV_M08_02,M08,Interface field change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.606
+BATTERY_EV,BATTERY_EV_M08_02,M08,Interface field change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.007
+BATTERY_EV,BATTERY_EV_M08_02,M08,Interface field change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.024
+BATTERY_EV,BATTERY_EV_M08_02,M08,Interface field change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.711
+BATTERY_EV,BATTERY_EV_M09_02,M09,Interface version change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M09_02,M09,Interface version change,Keyword,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.648
+BATTERY_EV,BATTERY_EV_M09_02,M09,Interface version change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.616
+BATTERY_EV,BATTERY_EV_M09_02,M09,Interface version change,Embedding_Context,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,1.18
+BATTERY_EV,BATTERY_EV_M09_02,M09,Interface version change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.015
+BATTERY_EV,BATTERY_EV_M09_02,M09,Interface version change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.051
+BATTERY_EV,BATTERY_EV_M09_02,M09,Interface version change,Hybrid_AURA_Fixed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,1.38
+BATTERY_EV,BATTERY_EV_M10_02,M10,C function signature change,Full_Suite,80,80,6,6,6,6,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M10_02,M10,C function signature change,Keyword,80,7,6,6,6,6,6,1.0,0.8571,0.9231,0.9865,0.9125,1.0,0,1.423
+BATTERY_EV,BATTERY_EV_M10_02,M10,C function signature change,Embedding_Only,80,6,6,6,6,6,6,1.0,1.0,1.0,1.0,0.925,1.0,0,0.589
+BATTERY_EV,BATTERY_EV_M10_02,M10,C function signature change,Embedding_Context,80,13,6,6,6,6,6,1.0,0.4615,0.6316,0.9054,0.8375,1.0,0,2.828
+BATTERY_EV,BATTERY_EV_M10_02,M10,C function signature change,Graph_Only,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.334
+BATTERY_EV,BATTERY_EV_M10_02,M10,C function signature change,Hybrid_AURA_Routed,80,21,6,6,6,6,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.438
+BATTERY_EV,BATTERY_EV_M10_02,M10,C function signature change,Hybrid_AURA_Fixed,80,27,6,6,6,6,6,1.0,0.2222,0.3636,0.7162,0.6625,1.0,0,3.148
+BATTERY_EV,BATTERY_EV_M11_02,M11,C constant change,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M11_02,M11,C constant change,Keyword,80,3,6,1,0,0,1,0.1667,0.3333,0.2222,1.0405,0.9625,1.0,5,1.03
+BATTERY_EV,BATTERY_EV_M11_02,M11,C constant change,Embedding_Only,80,2,6,1,0,0,1,0.1667,0.5,0.25,1.0541,0.975,1.0,5,0.315
+BATTERY_EV,BATTERY_EV_M11_02,M11,C constant change,Embedding_Context,80,10,6,3,0,0,3,0.5,0.3,0.375,0.9459,0.875,1.0,3,4.109
+BATTERY_EV,BATTERY_EV_M11_02,M11,C constant change,Graph_Only,80,19,6,6,0,0,6,1.0,0.3158,0.48,0.8243,0.7625,1.0,0,0.478
+BATTERY_EV,BATTERY_EV_M11_02,M11,C constant change,Hybrid_AURA_Routed,80,19,6,6,0,0,6,1.0,0.3158,0.48,0.8243,0.7625,1.0,0,0.521
+BATTERY_EV,BATTERY_EV_M11_02,M11,C constant change,Hybrid_AURA_Fixed,80,26,6,6,0,0,6,1.0,0.2308,0.375,0.7297,0.675,1.0,0,4.154
+BATTERY_EV,BATTERY_EV_M12_02,M12,Function dependency change,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M12_02,M12,Function dependency change,Keyword,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.929
+BATTERY_EV,BATTERY_EV_M12_02,M12,Function dependency change,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.331
+BATTERY_EV,BATTERY_EV_M12_02,M12,Function dependency change,Embedding_Context,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,2.934
+BATTERY_EV,BATTERY_EV_M12_02,M12,Function dependency change,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.292
+BATTERY_EV,BATTERY_EV_M12_02,M12,Function dependency change,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.38
+BATTERY_EV,BATTERY_EV_M12_02,M12,Function dependency change,Hybrid_AURA_Fixed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,3.337
+BATTERY_EV,BATTERY_EV_M13_02,M13,Variable dependency change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M13_02,M13,Variable dependency change,Keyword,80,8,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9,1.0,0,0.828
+BATTERY_EV,BATTERY_EV_M13_02,M13,Variable dependency change,Embedding_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.236
+BATTERY_EV,BATTERY_EV_M13_02,M13,Variable dependency change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.633
+BATTERY_EV,BATTERY_EV_M13_02,M13,Variable dependency change,Graph_Only,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+BATTERY_EV,BATTERY_EV_M13_02,M13,Variable dependency change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.035
+BATTERY_EV,BATTERY_EV_M13_02,M13,Variable dependency change,Hybrid_AURA_Fixed,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.83
+BATTERY_EV,BATTERY_EV_M14_02,M14,Test requirement modification,Full_Suite,80,80,12,12,2,2,12,1.0,0.15,0.2609,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M14_02,M14,Test requirement modification,Keyword,80,3,12,3,2,2,3,0.25,1.0,0.4,1.1324,0.9625,1.0,9,1.186
+BATTERY_EV,BATTERY_EV_M14_02,M14,Test requirement modification,Embedding_Only,80,2,12,2,2,2,2,0.1667,1.0,0.2857,1.1471,0.975,1.0,10,0.45
+BATTERY_EV,BATTERY_EV_M14_02,M14,Test requirement modification,Embedding_Context,80,2,12,2,2,2,2,0.1667,1.0,0.2857,1.1471,0.975,1.0,10,1.073
+BATTERY_EV,BATTERY_EV_M14_02,M14,Test requirement modification,Graph_Only,80,23,12,12,2,2,12,1.0,0.5217,0.6857,0.8382,0.7125,1.0,0,0.287
+BATTERY_EV,BATTERY_EV_M14_02,M14,Test requirement modification,Hybrid_AURA_Routed,80,23,12,12,2,2,12,1.0,0.5217,0.6857,0.8382,0.7125,1.0,0,0.395
+BATTERY_EV,BATTERY_EV_M14_02,M14,Test requirement modification,Hybrid_AURA_Fixed,80,23,12,12,2,2,12,1.0,0.5217,0.6857,0.8382,0.7125,1.0,0,1.509
+BATTERY_EV,BATTERY_EV_M15_02,M15,Unrelated/no-impact change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M15_02,M15,Unrelated/no-impact change,Keyword,80,2,0,0,0,0,0,1.0,0.0,0.0,0.0,0.975,1.0,0,0.745
+BATTERY_EV,BATTERY_EV_M15_02,M15,Unrelated/no-impact change,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.287
+BATTERY_EV,BATTERY_EV_M15_02,M15,Unrelated/no-impact change,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,1.618
+BATTERY_EV,BATTERY_EV_M15_02,M15,Unrelated/no-impact change,Graph_Only,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,0.302
+BATTERY_EV,BATTERY_EV_M15_02,M15,Unrelated/no-impact change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.009
+BATTERY_EV,BATTERY_EV_M15_02,M15,Unrelated/no-impact change,Hybrid_AURA_Fixed,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,2.004
+BATTERY_EV,BATTERY_EV_M16_02,M16,Indirect dependency change,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M16_02,M16,Indirect dependency change,Keyword,80,3,6,1,0,0,1,0.1667,0.3333,0.2222,1.0405,0.9625,1.0,5,0.662
+BATTERY_EV,BATTERY_EV_M16_02,M16,Indirect dependency change,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.217
+BATTERY_EV,BATTERY_EV_M16_02,M16,Indirect dependency change,Embedding_Context,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,1.577
+BATTERY_EV,BATTERY_EV_M16_02,M16,Indirect dependency change,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.368
+BATTERY_EV,BATTERY_EV_M16_02,M16,Indirect dependency change,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.401
+BATTERY_EV,BATTERY_EV_M16_02,M16,Indirect dependency change,Hybrid_AURA_Fixed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,2.716
+BATTERY_EV,BATTERY_EV_M17_02,M17,Long-chain dependency change,Full_Suite,80,80,11,11,3,3,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M17_02,M17,Long-chain dependency change,Keyword,80,6,11,4,3,3,4,0.3636,0.6667,0.4706,1.0725,0.925,1.0,7,0.895
+BATTERY_EV,BATTERY_EV_M17_02,M17,Long-chain dependency change,Embedding_Only,80,4,11,4,3,3,4,0.3636,1.0,0.5333,1.1014,0.95,1.0,7,0.395
+BATTERY_EV,BATTERY_EV_M17_02,M17,Long-chain dependency change,Embedding_Context,80,5,11,4,3,3,4,0.3636,0.8,0.5,1.087,0.9375,1.0,7,1.145
+BATTERY_EV,BATTERY_EV_M17_02,M17,Long-chain dependency change,Graph_Only,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.24
+BATTERY_EV,BATTERY_EV_M17_02,M17,Long-chain dependency change,Hybrid_AURA_Routed,80,19,11,11,3,3,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.316
+BATTERY_EV,BATTERY_EV_M17_02,M17,Long-chain dependency change,Hybrid_AURA_Fixed,80,20,11,11,3,3,11,1.0,0.55,0.7097,0.8696,0.75,1.0,0,1.512
+BATTERY_EV,BATTERY_EV_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Keyword,80,5,11,3,2,2,3,0.2727,0.6,0.375,1.087,0.9375,1.0,8,0.786
+BATTERY_EV,BATTERY_EV_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.313
+BATTERY_EV,BATTERY_EV_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Embedding_Context,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,1.189
+BATTERY_EV,BATTERY_EV_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.237
+BATTERY_EV,BATTERY_EV_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Routed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.457
+BATTERY_EV,BATTERY_EV_M18_02,M18,Cross-domain Req->ARXML->C->Test change,Hybrid_AURA_Fixed,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,1.445
+BATTERY_EV,BATTERY_EV_M19_02,M19,Misleading semantic similarity,Full_Suite,80,80,1,1,1,1,1,1.0,0.0125,0.0247,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M19_02,M19,Misleading semantic similarity,Keyword,80,3,1,1,1,1,1,1.0,0.3333,0.5,0.9747,0.9625,1.0,0,0.681
+BATTERY_EV,BATTERY_EV_M19_02,M19,Misleading semantic similarity,Embedding_Only,80,1,1,1,1,1,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,0.239
+BATTERY_EV,BATTERY_EV_M19_02,M19,Misleading semantic similarity,Embedding_Context,80,1,1,1,1,1,1,1.0,1.0,1.0,1.0,0.9875,1.0,0,1.061
+BATTERY_EV,BATTERY_EV_M19_02,M19,Misleading semantic similarity,Graph_Only,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,0.236
+BATTERY_EV,BATTERY_EV_M19_02,M19,Misleading semantic similarity,Hybrid_AURA_Routed,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,1.303
+BATTERY_EV,BATTERY_EV_M19_02,M19,Misleading semantic similarity,Hybrid_AURA_Fixed,80,19,1,1,1,1,1,1.0,0.0526,0.1,0.7722,0.7625,1.0,0,1.704
+BATTERY_EV,BATTERY_EV_M20_02,M20,Multiple simultaneous changes,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M20_02,M20,Multiple simultaneous changes,Keyword,80,2,6,1,0,0,1,0.1667,0.5,0.25,1.0541,0.975,1.0,5,0.95
+BATTERY_EV,BATTERY_EV_M20_02,M20,Multiple simultaneous changes,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.287
+BATTERY_EV,BATTERY_EV_M20_02,M20,Multiple simultaneous changes,Embedding_Context,80,9,6,3,0,0,3,0.5,0.3333,0.4,0.9595,0.8875,1.0,3,2.538
+BATTERY_EV,BATTERY_EV_M20_02,M20,Multiple simultaneous changes,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.287
+BATTERY_EV,BATTERY_EV_M20_02,M20,Multiple simultaneous changes,Hybrid_AURA_Routed,80,28,6,6,0,0,6,1.0,0.2143,0.3529,0.7027,0.65,1.0,0,2.915
+BATTERY_EV,BATTERY_EV_M20_02,M20,Multiple simultaneous changes,Hybrid_AURA_Fixed,80,28,6,6,0,0,6,1.0,0.2143,0.3529,0.7027,0.65,1.0,0,2.913
+BATTERY_EV,BATTERY_EV_M21_02,M21,Lexical renaming,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M21_02,M21,Lexical renaming,Keyword,80,40,6,6,0,0,6,1.0,0.15,0.2609,0.5405,0.5,1.0,0,0.779
+BATTERY_EV,BATTERY_EV_M21_02,M21,Lexical renaming,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.22
+BATTERY_EV,BATTERY_EV_M21_02,M21,Lexical renaming,Embedding_Context,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,1.452
+BATTERY_EV,BATTERY_EV_M21_02,M21,Lexical renaming,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.273
+BATTERY_EV,BATTERY_EV_M21_02,M21,Lexical renaming,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.367
+BATTERY_EV,BATTERY_EV_M21_02,M21,Lexical renaming,Hybrid_AURA_Fixed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,2.058
+BATTERY_EV,BATTERY_EV_M22_02,M22,Structural rename with same semantics,Full_Suite,80,80,6,6,0,0,6,1.0,0.075,0.1395,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M22_02,M22,Structural rename with same semantics,Keyword,80,3,6,1,0,0,1,0.1667,0.3333,0.2222,1.0405,0.9625,1.0,5,1.309
+BATTERY_EV,BATTERY_EV_M22_02,M22,Structural rename with same semantics,Embedding_Only,80,1,6,1,0,0,1,0.1667,1.0,0.2857,1.0676,0.9875,1.0,5,0.454
+BATTERY_EV,BATTERY_EV_M22_02,M22,Structural rename with same semantics,Embedding_Context,80,10,6,1,0,0,1,0.1667,0.1,0.125,0.9459,0.875,1.0,5,3.839
+BATTERY_EV,BATTERY_EV_M22_02,M22,Structural rename with same semantics,Graph_Only,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.302
+BATTERY_EV,BATTERY_EV_M22_02,M22,Structural rename with same semantics,Hybrid_AURA_Routed,80,21,6,6,0,0,6,1.0,0.2857,0.4444,0.7973,0.7375,1.0,0,0.408
+BATTERY_EV,BATTERY_EV_M22_02,M22,Structural rename with same semantics,Hybrid_AURA_Fixed,80,29,6,6,0,0,6,1.0,0.2069,0.3429,0.6892,0.6375,1.0,0,3.443
+BATTERY_EV,BATTERY_EV_M23_02,M23,Semantic requirement change with little textual overlap,Full_Suite,80,80,11,11,2,2,11,1.0,0.1375,0.2418,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M23_02,M23,Semantic requirement change with little textual overlap,Keyword,80,5,11,3,2,2,3,0.2727,0.6,0.375,1.087,0.9375,1.0,8,0.766
+BATTERY_EV,BATTERY_EV_M23_02,M23,Semantic requirement change with little textual overlap,Embedding_Only,80,3,11,3,2,2,3,0.2727,1.0,0.4286,1.1159,0.9625,1.0,8,0.355
+BATTERY_EV,BATTERY_EV_M23_02,M23,Semantic requirement change with little textual overlap,Embedding_Context,80,11,11,4,2,2,4,0.3636,0.3636,0.3636,1.0,0.8625,1.0,7,1.909
+BATTERY_EV,BATTERY_EV_M23_02,M23,Semantic requirement change with little textual overlap,Graph_Only,80,19,11,11,2,2,11,1.0,0.5789,0.7333,0.8841,0.7625,1.0,0,0.282
+BATTERY_EV,BATTERY_EV_M23_02,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Routed,80,25,11,11,2,2,11,1.0,0.44,0.6111,0.7971,0.6875,1.0,0,3.327
+BATTERY_EV,BATTERY_EV_M23_02,M23,Semantic requirement change with little textual overlap,Hybrid_AURA_Fixed,80,25,11,11,2,2,11,1.0,0.44,0.6111,0.7971,0.6875,1.0,0,2.336
+BATTERY_EV,BATTERY_EV_M24_02,M24,Dead-code modification,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M24_02,M24,Dead-code modification,Keyword,80,3,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9625,1.0,0,0.8
+BATTERY_EV,BATTERY_EV_M24_02,M24,Dead-code modification,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.222
+BATTERY_EV,BATTERY_EV_M24_02,M24,Dead-code modification,Embedding_Context,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.93
+BATTERY_EV,BATTERY_EV_M24_02,M24,Dead-code modification,Graph_Only,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,0.284
+BATTERY_EV,BATTERY_EV_M24_02,M24,Dead-code modification,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.01
+BATTERY_EV,BATTERY_EV_M24_02,M24,Dead-code modification,Hybrid_AURA_Fixed,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,1.275
+BATTERY_EV,BATTERY_EV_M25_02,M25,Documentation-only change,Full_Suite,80,80,0,0,0,0,0,1.0,0.0,0.0,0.0,0.0,1.0,0,0.1
+BATTERY_EV,BATTERY_EV_M25_02,M25,Documentation-only change,Keyword,80,3,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9625,1.0,0,0.674
+BATTERY_EV,BATTERY_EV_M25_02,M25,Documentation-only change,Embedding_Only,80,1,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9875,1.0,0,0.284
+BATTERY_EV,BATTERY_EV_M25_02,M25,Documentation-only change,Embedding_Context,80,3,0,0,0,0,0,1.0,0.0,0.0,0.0,0.9625,1.0,0,0.797
+BATTERY_EV,BATTERY_EV_M25_02,M25,Documentation-only change,Graph_Only,80,19,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7625,1.0,0,0.239
+BATTERY_EV,BATTERY_EV_M25_02,M25,Documentation-only change,Hybrid_AURA_Routed,80,0,0,0,0,0,0,1.0,1.0,1.0,1.0,1.0,1.0,0,0.009
+BATTERY_EV,BATTERY_EV_M25_02,M25,Documentation-only change,Hybrid_AURA_Fixed,80,21,0,0,0,0,0,1.0,0.0,0.0,0.0,0.7375,1.0,0,1.123

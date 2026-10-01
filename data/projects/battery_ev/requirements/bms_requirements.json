@@ -1,0 +1,502 @@
+[
+  {
+    "id": "REQ_BMS_001",
+    "name": "BMS_Req_01",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 1.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_001"
+    ]
+  },
+  {
+    "id": "REQ_BMS_002",
+    "name": "BMS_Req_02",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 2.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_002"
+    ]
+  },
+  {
+    "id": "REQ_BMS_003",
+    "name": "BMS_Req_03",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 3.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_003"
+    ]
+  },
+  {
+    "id": "REQ_BMS_004",
+    "name": "BMS_Req_04",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 4.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_004"
+    ]
+  },
+  {
+    "id": "REQ_BMS_005",
+    "name": "BMS_Req_05",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 5.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_005"
+    ]
+  },
+  {
+    "id": "REQ_BMS_006",
+    "name": "BMS_Req_06",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 6.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_006"
+    ]
+  },
+  {
+    "id": "REQ_BMS_007",
+    "name": "BMS_Req_07",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 7.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_007"
+    ]
+  },
+  {
+    "id": "REQ_BMS_008",
+    "name": "BMS_Req_08",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 8.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_008"
+    ]
+  },
+  {
+    "id": "REQ_BMS_009",
+    "name": "BMS_Req_09",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 9.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_009"
+    ]
+  },
+  {
+    "id": "REQ_BMS_010",
+    "name": "BMS_Req_10",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 10.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_010"
+    ]
+  },
+  {
+    "id": "REQ_BMS_011",
+    "name": "BMS_Req_11",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 11.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_011"
+    ]
+  },
+  {
+    "id": "REQ_BMS_012",
+    "name": "BMS_Req_12",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 12.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_012"
+    ]
+  },
+  {
+    "id": "REQ_BMS_013",
+    "name": "BMS_Req_13",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 13.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_013"
+    ]
+  },
+  {
+    "id": "REQ_BMS_014",
+    "name": "BMS_Req_14",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 14.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_014"
+    ]
+  },
+  {
+    "id": "REQ_BMS_015",
+    "name": "BMS_Req_15",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 15.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_015"
+    ]
+  },
+  {
+    "id": "REQ_BMS_016",
+    "name": "BMS_Req_16",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 16.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_016"
+    ]
+  },
+  {
+    "id": "REQ_BMS_017",
+    "name": "BMS_Req_17",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 17.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_017"
+    ]
+  },
+  {
+    "id": "REQ_BMS_018",
+    "name": "BMS_Req_18",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 18.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_018"
+    ]
+  },
+  {
+    "id": "REQ_BMS_019",
+    "name": "BMS_Req_19",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 19.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_019"
+    ]
+  },
+  {
+    "id": "REQ_BMS_020",
+    "name": "BMS_Req_20",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 20.",
+    "asil_level": "ASIL_D",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_020"
+    ]
+  },
+  {
+    "id": "REQ_BMS_021",
+    "name": "BMS_Req_21",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 21.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_021"
+    ]
+  },
+  {
+    "id": "REQ_BMS_022",
+    "name": "BMS_Req_22",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 22.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_022"
+    ]
+  },
+  {
+    "id": "REQ_BMS_023",
+    "name": "BMS_Req_23",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 23.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_023"
+    ]
+  },
+  {
+    "id": "REQ_BMS_024",
+    "name": "BMS_Req_24",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 24.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_024"
+    ]
+  },
+  {
+    "id": "REQ_BMS_025",
+    "name": "BMS_Req_25",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 25.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_025"
+    ]
+  },
+  {
+    "id": "REQ_BMS_026",
+    "name": "BMS_Req_26",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 26.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_026"
+    ]
+  },
+  {
+    "id": "REQ_BMS_027",
+    "name": "BMS_Req_27",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 27.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_027"
+    ]
+  },
+  {
+    "id": "REQ_BMS_028",
+    "name": "BMS_Req_28",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 28.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_028"
+    ]
+  },
+  {
+    "id": "REQ_BMS_029",
+    "name": "BMS_Req_29",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 29.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_029"
+    ]
+  },
+  {
+    "id": "REQ_BMS_030",
+    "name": "BMS_Req_30",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 30.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_030"
+    ]
+  },
+  {
+    "id": "REQ_BMS_031",
+    "name": "BMS_Req_31",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 31.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_031"
+    ]
+  },
+  {
+    "id": "REQ_BMS_032",
+    "name": "BMS_Req_32",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 32.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_032"
+    ]
+  },
+  {
+    "id": "REQ_BMS_033",
+    "name": "BMS_Req_33",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 33.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_033"
+    ]
+  },
+  {
+    "id": "REQ_BMS_034",
+    "name": "BMS_Req_34",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 34.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_034"
+    ]
+  },
+  {
+    "id": "REQ_BMS_035",
+    "name": "BMS_Req_35",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 35.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_035"
+    ]
+  },
+  {
+    "id": "REQ_BMS_036",
+    "name": "BMS_Req_36",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 36.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_036"
+    ]
+  },
+  {
+    "id": "REQ_BMS_037",
+    "name": "BMS_Req_37",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 37.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_037"
+    ]
+  },
+  {
+    "id": "REQ_BMS_038",
+    "name": "BMS_Req_38",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 38.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_038"
+    ]
+  },
+  {
+    "id": "REQ_BMS_039",
+    "name": "BMS_Req_39",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 39.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_039"
+    ]
+  },
+  {
+    "id": "REQ_BMS_040",
+    "name": "BMS_Req_40",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 40.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_040"
+    ]
+  },
+  {
+    "id": "REQ_BMS_041",
+    "name": "BMS_Req_41",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 41.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_041"
+    ]
+  },
+  {
+    "id": "REQ_BMS_042",
+    "name": "BMS_Req_42",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 42.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_042"
+    ]
+  },
+  {
+    "id": "REQ_BMS_043",
+    "name": "BMS_Req_43",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 43.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_043"
+    ]
+  },
+  {
+    "id": "REQ_BMS_044",
+    "name": "BMS_Req_44",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 44.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_044"
+    ]
+  },
+  {
+    "id": "REQ_BMS_045",
+    "name": "BMS_Req_45",
+    "description": "Battery state of charge (SoC) estimation and cell balancing algorithm. Operational verification requirement 45.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_045"
+    ]
+  },
+  {
+    "id": "REQ_BMS_046",
+    "name": "BMS_Req_46",
+    "description": "Accumulator pack sub-zero ambient temperature heating loop management. Operational verification requirement 46.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_046"
+    ]
+  },
+  {
+    "id": "REQ_BMS_047",
+    "name": "BMS_Req_47",
+    "description": "Battery over-voltage and thermal runaway detection alarm protocol. Operational verification requirement 47.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_047"
+    ]
+  },
+  {
+    "id": "REQ_BMS_048",
+    "name": "BMS_Req_48",
+    "description": "Insulation resistance monitoring and chassis ground fault detection. Operational verification requirement 48.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_048"
+    ]
+  },
+  {
+    "id": "REQ_BMS_049",
+    "name": "BMS_Req_49",
+    "description": "Battery cell charging rate regulation and pack thermal protection derate mode. Operational verification requirement 49.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_049"
+    ]
+  },
+  {
+    "id": "REQ_BMS_050",
+    "name": "BMS_Req_50",
+    "description": "High-voltage DC contactor isolation interlock and emergency disconnect. Operational verification requirement 50.",
+    "asil_level": "QM",
+    "project": "BATTERY_EV",
+    "verification_tests": [
+      "TC_BMS_050"
+    ]
+  }
+]

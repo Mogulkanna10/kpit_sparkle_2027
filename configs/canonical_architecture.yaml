@@ -1,0 +1,60 @@
+# AURA-Impact Canonical Architecture Configuration
+# Frozen Architecture B: Two-Stage Bounded Graph + Context-Constrained Semantic Fallback
+
+version: "2.0.0"
+architecture_name: "Architecture_B_Two_Stage_Bounded_Graph_Plus_Semantic_Fallback"
+locked: true
+lock_date: "2026-09-29"
+
+pipeline:
+  orchestrator: "src.api.pipeline.AuraImpactPipeline"
+  mode: "two_stage_strict_union"
+
+graph:
+  enabled: true
+  traverser: "src.graph.traversal.BoundedGraphTraverser"
+  max_depth: 3
+  direction: "forward"
+  deterministic_confidence: 1.0
+  allow_cycles: false
+
+semantic:
+  enabled: true
+  embedder: "src.semantic.embedder.SemanticEmbedder"
+  model: "AURA-DomainHashEmbedder-384"
+  embedding_dimension: 384
+  threshold: 0.45
+  top_k: 10
+  fallback_on_incomplete_structural: true
+  context_filter:
+    enforce_subsystem_isolation: true
+    enforce_artifact_type_compatibility: true
+    min_context_score: 0.50
+
+impact_union:
+  mode: "strict_union"  # S_final = S_struct UNION S_semantic
+  allow_weighted_fusion: false
+  allow_learned_routing: false
+
+safety_gate:
+  mandatory: true
+  enforcer: "src.testing.safety_gate.SafetyGate"
+  fail_mode: "FAIL_CLOSED"
+  critical_levels:
+    - "ASIL_C"
+    - "ASIL_D"
+    - "ASIL-C"
+    - "ASIL-D"
+  invariant_assertion: true
+
+test_selection:
+  selector: "src.testing.regression_selector.RegressionSelector"
+  prioritization: "safety_first"
+
+evidence:
+  logger: "src.evidence.evidence_logger.EvidenceLogger"
+  report_generator: "src.evidence.report_generator.ReportGenerator"
+  generate_json: true
+  generate_html: true
+  generate_markdown: true
+  output_dir: "reports/analysis"

@@ -1,0 +1,67 @@
+{
+  "version": "GATE-14-v2.0.0",
+  "timestamp": "2026-09-30T04:47:36.756671+00:00",
+  "seed": 42,
+  "dataset_fingerprint": "3bc8c11efb2398a0",
+  "canonical_config": "C:\\Users\\USER\\OneDrive\\Desktop\\KPIT_2026_aura_impact\\configs\\final.yaml",
+  "canonical_threshold": 0.45,
+  "model": "AURA-DomainHashEmbedder-384",
+  "union_mode": "strict_union",
+  "n_mutations": 150,
+  "n_calibration": 30,
+  "n_validation": 30,
+  "n_test": 90,
+  "calibrated_threshold": 0.8,
+  "metrics": {
+    "aura_hybrid_routed": {
+      "artifact_recall": 0.6311,
+      "artifact_precision": 0.5492,
+      "artifact_f1": 0.5503,
+      "test_recall": 0.9007,
+      "test_reduction_pct": 82.29,
+      "safety_recall": 1.0
+    },
+    "graph_only": {
+      "artifact_recall": 0.6307,
+      "artifact_precision": 0.5443,
+      "artifact_f1": 0.4557
+    },
+    "embedding_context": {
+      "artifact_recall": 0.4336,
+      "artifact_precision": 0.4117,
+      "artifact_f1": 0.2667
+    }
+  },
+  "semantic": {
+    "recall_at_1": 0.0333,
+    "recall_at_3": 0.0667,
+    "recall_at_5": 0.1333,
+    "recall_at_10": 0.2,
+    "mrr": 0.0665
+  },
+  "safety": {
+    "invariant_verified": true,
+    "pass_count": 150,
+    "total": 150,
+    "pass_pct": 100.0
+  },
+  "statistics": {
+    "wilcoxon_recall_W": 5513.0,
+    "wilcoxon_recall_p": 0.7480015320388294,
+    "wilcoxon_prec_W": 981.0,
+    "wilcoxon_prec_p": 0.8524822123046703,
+    "bonferroni_alpha": 0.0125,
+    "significant_recall": false,
+    "significant_prec": false
+  },
+  "run_duration_s": 3.45,
+  "outputs": {
+    "impact_csv": "benchmark/final/outputs/impact_results.csv",
+    "regression_csv": "benchmark/final/outputs/regression_results.csv",
+    "semantic_csv": "benchmark/final/outputs/semantic_results.csv",
+    "ablation_csv": "benchmark/final/outputs/ablation_results.csv",
+    "scale_csv": "benchmark/final/outputs/scale_results.csv",
+    "summary_csv": "benchmark/final/outputs/summary_table.csv",
+    "report_md": "reports/final/FINAL_BENCHMARK_REPORT.md"
+  }
+}

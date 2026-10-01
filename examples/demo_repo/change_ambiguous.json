@@ -1,0 +1,9 @@
+{
+  "artifact_id": "REQ_AMB_099",
+  "artifact_type": "Requirement",
+  "subsystem": "ADAS",
+  "ecu": "ECU_1",
+  "change_type": "MODIFY",
+  "after_content": "Under-specified driver notification logic with ambiguous alert thresholds.",
+  "change_semantics": "Ambiguous unclear driver alert notification without technical parameters"
+}

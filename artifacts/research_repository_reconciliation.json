@@ -1,0 +1,111 @@
+{
+  "gate_id": "GATE-01",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:26:00+05:30",
+  "commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "audit_version": "1.0.0",
+  "reconciled_items": [
+    {
+      "area": "architecture",
+      "research_claim": "Architecture B (Two-Stage Bounded Graph + Semantic Fallback with Strict Union) vs Version C weighted routing",
+      "current_code": "TwoStageImpactEngine in src/impact/impact_engine.py implements Architecture B; allow_weighted_fusion: false",
+      "evidence": "src/impact/impact_engine.py, configs/architecture.yaml",
+      "conflict": "Historical reports describe Version C with weights; code executes strict union Architecture B",
+      "impact": "Low (code is consistent, documentation needs unification)",
+      "final_position": "Architecture B (Locked): deterministic BFS k<=3 + semantic fallback + strict union",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "semantic_model",
+      "research_claim": "BGE-M3 Dense Neural Vectorizer (d=384)",
+      "current_code": "Custom deterministic hash vectorizer in src/semantic/embedder.py (MD5+SHA256+domain ontology)",
+      "evidence": "src/semantic/embedder.py:L1-L180",
+      "conflict": "Docs claim HuggingFace neural transformer; code uses deterministic hash vectorizer",
+      "impact": "High (claims must be truthful and accurate)",
+      "final_position": "AURA-DomainHashEmbedder-384: retain custom embedder, rename and document truthfully",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "safety_invariant",
+      "research_claim": "100% ASIL-C/D Safety Retention (T_safe SUBSET OF T_selected)",
+      "current_code": "SafetyGate.enforce() fail-closed check in src/testing/safety_gate.py",
+      "evidence": "src/testing/safety_gate.py, tests/unit/test_safety_gate.py",
+      "conflict": "None on invariant; 100% enforced and verified by tests",
+      "impact": "None (invariant holds unconditionally)",
+      "final_position": "Safety Invariant is 100% verified; fail-closed behavior confirmed",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "safety_critical_recall",
+      "research_claim": "README claims 100% safety recall; benchmark final_report.md records 47.61%",
+      "current_code": "Benchmark runner measures latent safety test discovery in synthetic mutations",
+      "evidence": "reports/final_report.md:L29,L59,L72",
+      "conflict": "Conflation of Safety Invariant (100%) with Latent Safety Test Discovery Recall (47.61%)",
+      "impact": "High (metric transparency)",
+      "final_position": "Formally separate Safety Invariant (100%) from Safety Discovery Recall (47.61% benchmark-scoped)",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "semantic_threshold",
+      "research_claim": "tau=0.45 in semantic.yaml vs tau=0.65 in frozen_final.yaml/benchmark.yaml",
+      "current_code": "SemanticRetriever uses config threshold; runtime default 0.45",
+      "evidence": "configs/semantic.yaml, configs/frozen_final.yaml",
+      "conflict": "Multiple competing threshold values across config files",
+      "impact": "Medium (operational ambiguity)",
+      "final_position": "Canonical threshold tau=0.45 frozen in configs/final.yaml (Gate 4)",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "graph_depth",
+      "research_claim": "Depth k<=3 in architecture.yaml vs depth k=5 in frozen_final.yaml",
+      "current_code": "BoundedGraphTraverser defaults to max_depth=3",
+      "evidence": "src/graph/traversal.py, configs/architecture.yaml",
+      "conflict": "Discrepancy between max_depth=3 and max_depth=5",
+      "impact": "Medium (propagation boundary)",
+      "final_position": "Canonical depth k=3 frozen in configs/final.yaml",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "context_filtering",
+      "research_claim": "Hard context constraints suppress out-of-domain semantic distractors",
+      "current_code": "ContextFilter in src/semantic/context_filter.py (subsystem, ecu, artifact_type)",
+      "evidence": "src/semantic/context_filter.py, tests/adversarial/test_context_filter_adversarial.py",
+      "conflict": "None (code implements exactly what research specified)",
+      "impact": "Positive (proven decoy suppression)",
+      "final_position": "Active and verified; supports ACCEPT, REJECT, REVIEW_REQUIRED",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "test_suite_reduction",
+      "research_claim": "87.75% reduction on 150 mutations; 52.4%-76.1% in validation scenarios",
+      "current_code": "RegressionSelector in src/testing/regression_selector.py",
+      "evidence": "reports/final_report.md, validation/final_validation_report.md",
+      "conflict": "Numbers vary by evaluation suite scope (mutations vs scenario attacks)",
+      "impact": "Low (both numbers are valid for their specific scope)",
+      "final_position": "Document test reduction as 52.4% - 87.75% with explicitly labeled scopes",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "ci_pipeline",
+      "research_claim": "Automated CI testing",
+      "current_code": "No .github/workflows directory present",
+      "evidence": "Repository root scan",
+      "conflict": "Claimed CI absent in repository",
+      "impact": "Medium (missing automated checks)",
+      "final_position": "Create .github/workflows/aura-impact.yml in Gate 19",
+      "status": "RECONCILED"
+    },
+    {
+      "area": "certification_claims",
+      "research_claim": "Phrasing suggesting full ISO 26262 certification or production ALM replacement",
+      "current_code": "Research prototype for KPIT Sparkle 2027",
+      "evidence": "README.md, src/",
+      "conflict": "Marketing claims exceed actual prototype scope",
+      "impact": "High (ethical compliance and competition guidelines)",
+      "final_position": "Tone down claims to 'Research Prototype designed in alignment with ISO 26262 Part 6 principles'",
+      "status": "RECONCILED"
+    }
+  ],
+  "unexplained_discrepancies": [],
+  "gate_verdict": "PASS"
+}

@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M07_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M07",
+  "category_name": "ARXML scaling change",
+  "source_artifact": "arxml/battery_ev_swc.arxml",
+  "target_node_id": "I_SWC_HighVoltageSafety_Out_DE_SWC_HighVoltageSafety_Health",
+  "artifact_type": "ARXML",
+  "before_state": "<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>",
+  "after_state": "<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+  "diff": "--- arxml/battery_ev_swc.arxml\n+++ arxml/battery_ev_swc.arxml\n@@ -1,4 +1,4 @@\n-<FACTOR>0.1</FACTOR><OFFSET>0</OFFSET>\n+<FACTOR>0.01</FACTOR><OFFSET>0</OFFSET>",
+  "intended_change_semantics": "Physical scaling resolution factor refinement",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M07",
+    "repeat": 2
+  }
+}

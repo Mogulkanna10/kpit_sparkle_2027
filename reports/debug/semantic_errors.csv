@@ -1,0 +1,25 @@
+mutation_id,change_type,project,target_id,target_type,rank,error_classification,top_candidates_retrieved,query_snippet
+ADAS_M03_01,M03,ADAS,R_ADAS_033,REQUIREMENT,>10,Lexical / semantic vocabulary shift,"['R_ADAS_011', 'R_ADAS_041', 'R_ADAS_001', 'R_ADAS_021', 'R_ADAS_051']",The automated braking system shall execute autonomous stopping when a collision hazard is identified
+ADAS_M04_01,M04,ADAS,R_ADAS_021,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Compute longitudinal velocity and exert deceleration force.
+ADAS_M19_01,M19,ADAS,R_ADAS_031,REQUIREMENT,>10,Misleading similarity distractor,[],Calibrate parking brake pressure hold threshold.
+ADAS_M23_01,M23,ADAS,R_ADAS_026,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Radar-guided distance tracking regulation.
+ADAS_M03_02,M03,ADAS,R_ADAS_034,REQUIREMENT,>10,Lexical / semantic vocabulary shift,"['R_ADAS_011', 'R_ADAS_041', 'R_ADAS_001', 'R_ADAS_021', 'R_ADAS_051']",The automated braking system shall execute autonomous stopping when a collision hazard is identified
+ADAS_M04_02,M04,ADAS,R_ADAS_037,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Compute longitudinal velocity and exert deceleration force.
+ADAS_M19_02,M19,ADAS,R_ADAS_029,REQUIREMENT,>10,Misleading similarity distractor,[],Calibrate parking brake pressure hold threshold.
+ADAS_M23_02,M23,ADAS,R_ADAS_019,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Radar-guided distance tracking regulation.
+POWERTRAIN_M03_01,M03,POWERTRAIN,R_PT_028,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],The automated braking system shall execute autonomous stopping when a collision hazard is identified
+POWERTRAIN_M04_01,M04,POWERTRAIN,R_PT_052,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Compute longitudinal velocity and exert deceleration force.
+POWERTRAIN_M19_01,M19,POWERTRAIN,R_PT_002,REQUIREMENT,>10,Misleading similarity distractor,[],Calibrate parking brake pressure hold threshold.
+POWERTRAIN_M23_01,M23,POWERTRAIN,R_PT_016,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Radar-guided distance tracking regulation.
+POWERTRAIN_M03_02,M03,POWERTRAIN,R_PT_021,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],The automated braking system shall execute autonomous stopping when a collision hazard is identified
+POWERTRAIN_M04_02,M04,POWERTRAIN,R_PT_022,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Compute longitudinal velocity and exert deceleration force.
+POWERTRAIN_M19_02,M19,POWERTRAIN,R_PT_032,REQUIREMENT,>10,Misleading similarity distractor,[],Calibrate parking brake pressure hold threshold.
+POWERTRAIN_M23_02,M23,POWERTRAIN,R_PT_025,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Radar-guided distance tracking regulation.
+BATTERY_EV_M03_01,M03,BATTERY_EV,R_BMS_045,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],The automated braking system shall execute autonomous stopping when a collision hazard is identified
+BATTERY_EV_M04_01,M04,BATTERY_EV,R_BMS_041,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Compute longitudinal velocity and exert deceleration force.
+BATTERY_EV_M19_01,M19,BATTERY_EV,R_BMS_014,REQUIREMENT,>10,Misleading similarity distractor,[],Calibrate parking brake pressure hold threshold.
+BATTERY_EV_M23_01,M23,BATTERY_EV,R_BMS_011,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Radar-guided distance tracking regulation.
+BATTERY_EV_M03_02,M03,BATTERY_EV,R_BMS_016,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],The automated braking system shall execute autonomous stopping when a collision hazard is identified
+BATTERY_EV_M04_02,M04,BATTERY_EV,R_BMS_037,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Compute longitudinal velocity and exert deceleration force.
+BATTERY_EV_M19_02,M19,BATTERY_EV,R_BMS_012,REQUIREMENT,>10,Misleading similarity distractor,[],Calibrate parking brake pressure hold threshold.
+BATTERY_EV_M23_02,M23,BATTERY_EV,R_BMS_036,REQUIREMENT,>10,Lexical / semantic vocabulary shift,[],Radar-guided distance tracking regulation.

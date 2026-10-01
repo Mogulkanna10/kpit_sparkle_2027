@@ -1,0 +1,7 @@
+variant,mean_hsr
+C0_Raw_Embedding,0.2
+C1_Plus_Artifact_Type,0.4067
+C2_Plus_Subsystem_Isolation,0.4067
+C3_Plus_Graph_Proximity,0.4067
+C4_Plus_Trace_Support,0.4067
+C5_All_Context_Combined,0.4067

@@ -1,0 +1,226 @@
+{
+  "mutation_id": "BATTERY_EV_M01_02",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_031",
+  "true_impacted_artifacts": [
+    "BMS_Func_031",
+    "BMS_Func_032",
+    "BMS_Func_033",
+    "BMS_Func_034",
+    "I_SWC_BMS_Main_Out",
+    "I_SWC_BMS_Main_Out_DE_SWC_BMS_Main_Health",
+    "R_BMS_031",
+    "SWC_BMS_Main",
+    "SWC_BMS_Main_Health",
+    "SWC_BMS_Main_P_SWC_BMS_Main_Status",
+    "SWC_BMS_Main_RE_SWC_BMS_Main_Step",
+    "SWC_BMS_Main_Step",
+    "SWC_SoC_Estimator_Health",
+    "SWC_ThermalRunawayMonitor_Health",
+    "TC_BMS_031"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_001",
+    "TC_BMS_011",
+    "TC_BMS_021",
+    "TC_BMS_031",
+    "TC_BMS_032",
+    "TC_BMS_033",
+    "TC_BMS_034",
+    "TC_BMS_041",
+    "TC_BMS_051",
+    "TC_BMS_061",
+    "TC_BMS_071"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_001",
+    "TC_BMS_011",
+    "TC_BMS_021"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_BMS_031",
+      "relation_path": [
+        "R_BMS_031"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BMS_Main",
+      "relation_path": [
+        "R_BMS_031",
+        "SWC_BMS_Main"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_BMS_031",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BMS_Main_P_SWC_BMS_Main_Status",
+      "relation_path": [
+        "R_BMS_031",
+        "SWC_BMS_Main",
+        "SWC_BMS_Main_P_SWC_BMS_Main_Status"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BMS_Main_RE_SWC_BMS_Main_Step",
+      "relation_path": [
+        "R_BMS_031",
+        "SWC_BMS_Main",
+        "SWC_BMS_Main_RE_SWC_BMS_Main_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_031",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031",
+        "BMS_Func_031"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_BMS_Main_Out",
+      "relation_path": [
+        "R_BMS_031",
+        "SWC_BMS_Main",
+        "SWC_BMS_Main_P_SWC_BMS_Main_Status",
+        "I_SWC_BMS_Main_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BMS_Main_Step",
+      "relation_path": [
+        "R_BMS_031",
+        "SWC_BMS_Main",
+        "SWC_BMS_Main_RE_SWC_BMS_Main_Step",
+        "SWC_BMS_Main_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_032",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031",
+        "BMS_Func_031",
+        "BMS_Func_032"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_BMS_Main_Health",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031",
+        "BMS_Func_031",
+        "SWC_BMS_Main_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_BMS_Main_Out_DE_SWC_BMS_Main_Health",
+      "relation_path": [
+        "R_BMS_031",
+        "SWC_BMS_Main",
+        "SWC_BMS_Main_P_SWC_BMS_Main_Status",
+        "I_SWC_BMS_Main_Out",
+        "I_SWC_BMS_Main_Out_DE_SWC_BMS_Main_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_SoC_Estimator_Health",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031",
+        "BMS_Func_031",
+        "BMS_Func_032",
+        "SWC_SoC_Estimator_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_033",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031",
+        "BMS_Func_031",
+        "BMS_Func_032",
+        "BMS_Func_033"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_034",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031",
+        "BMS_Func_031",
+        "BMS_Func_032",
+        "BMS_Func_033",
+        "BMS_Func_034"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_ThermalRunawayMonitor_Health",
+      "relation_path": [
+        "R_BMS_031",
+        "TC_BMS_031",
+        "BMS_Func_031",
+        "BMS_Func_032",
+        "BMS_Func_033",
+        "SWC_ThermalRunawayMonitor_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

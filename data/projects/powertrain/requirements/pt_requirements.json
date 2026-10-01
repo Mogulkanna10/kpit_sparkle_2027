@@ -1,0 +1,502 @@
+[
+  {
+    "id": "REQ_PT_001",
+    "name": "PT_Req_01",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 1.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_001"
+    ]
+  },
+  {
+    "id": "REQ_PT_002",
+    "name": "PT_Req_02",
+    "description": "Inverter IGBT temperature thermal protection and power derating control. Parameter verification variant 2.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_002"
+    ]
+  },
+  {
+    "id": "REQ_PT_003",
+    "name": "PT_Req_03",
+    "description": "Accelerator pedal demand torque mapping and traction torque ramp rate limitation. Parameter verification variant 3.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_003"
+    ]
+  },
+  {
+    "id": "REQ_PT_004",
+    "name": "PT_Req_04",
+    "description": "Regenerative braking energy recovery and deceleration torque blending. Parameter verification variant 4.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_004"
+    ]
+  },
+  {
+    "id": "REQ_PT_005",
+    "name": "PT_Req_05",
+    "description": "High voltage DC bus voltage regulation and active discharge fail-safe. Parameter verification variant 5.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_005"
+    ]
+  },
+  {
+    "id": "REQ_PT_006",
+    "name": "PT_Req_06",
+    "description": "Motor rotor angular position resolver sensor decoding and speed estimation. Parameter verification variant 6.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_006"
+    ]
+  },
+  {
+    "id": "REQ_PT_007",
+    "name": "PT_Req_07",
+    "description": "Traction motor over-speed protection and emergency torque shutoff. Parameter verification variant 7.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_007"
+    ]
+  },
+  {
+    "id": "REQ_PT_008",
+    "name": "PT_Req_08",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 8.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_008"
+    ]
+  },
+  {
+    "id": "REQ_PT_009",
+    "name": "PT_Req_09",
+    "description": "Inverter IGBT temperature thermal protection and power derating control. Parameter verification variant 9.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_009"
+    ]
+  },
+  {
+    "id": "REQ_PT_010",
+    "name": "PT_Req_10",
+    "description": "Accelerator pedal demand torque mapping and traction torque ramp rate limitation. Parameter verification variant 10.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_010"
+    ]
+  },
+  {
+    "id": "REQ_PT_011",
+    "name": "PT_Req_11",
+    "description": "Regenerative braking energy recovery and deceleration torque blending. Parameter verification variant 11.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_011"
+    ]
+  },
+  {
+    "id": "REQ_PT_012",
+    "name": "PT_Req_12",
+    "description": "High voltage DC bus voltage regulation and active discharge fail-safe. Parameter verification variant 12.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_012"
+    ]
+  },
+  {
+    "id": "REQ_PT_013",
+    "name": "PT_Req_13",
+    "description": "Motor rotor angular position resolver sensor decoding and speed estimation. Parameter verification variant 13.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_013"
+    ]
+  },
+  {
+    "id": "REQ_PT_014",
+    "name": "PT_Req_14",
+    "description": "Traction motor over-speed protection and emergency torque shutoff. Parameter verification variant 14.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_014"
+    ]
+  },
+  {
+    "id": "REQ_PT_015",
+    "name": "PT_Req_15",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 15.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_015"
+    ]
+  },
+  {
+    "id": "REQ_PT_016",
+    "name": "PT_Req_16",
+    "description": "Inverter IGBT temperature thermal protection and power derating control. Parameter verification variant 16.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_016"
+    ]
+  },
+  {
+    "id": "REQ_PT_017",
+    "name": "PT_Req_17",
+    "description": "Accelerator pedal demand torque mapping and traction torque ramp rate limitation. Parameter verification variant 17.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_017"
+    ]
+  },
+  {
+    "id": "REQ_PT_018",
+    "name": "PT_Req_18",
+    "description": "Regenerative braking energy recovery and deceleration torque blending. Parameter verification variant 18.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_018"
+    ]
+  },
+  {
+    "id": "REQ_PT_019",
+    "name": "PT_Req_19",
+    "description": "High voltage DC bus voltage regulation and active discharge fail-safe. Parameter verification variant 19.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_019"
+    ]
+  },
+  {
+    "id": "REQ_PT_020",
+    "name": "PT_Req_20",
+    "description": "Motor rotor angular position resolver sensor decoding and speed estimation. Parameter verification variant 20.",
+    "asil_level": "ASIL_D",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_020"
+    ]
+  },
+  {
+    "id": "REQ_PT_021",
+    "name": "PT_Req_21",
+    "description": "Traction motor over-speed protection and emergency torque shutoff. Parameter verification variant 21.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_021"
+    ]
+  },
+  {
+    "id": "REQ_PT_022",
+    "name": "PT_Req_22",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 22.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_022"
+    ]
+  },
+  {
+    "id": "REQ_PT_023",
+    "name": "PT_Req_23",
+    "description": "Inverter IGBT temperature thermal protection and power derating control. Parameter verification variant 23.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_023"
+    ]
+  },
+  {
+    "id": "REQ_PT_024",
+    "name": "PT_Req_24",
+    "description": "Accelerator pedal demand torque mapping and traction torque ramp rate limitation. Parameter verification variant 24.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_024"
+    ]
+  },
+  {
+    "id": "REQ_PT_025",
+    "name": "PT_Req_25",
+    "description": "Regenerative braking energy recovery and deceleration torque blending. Parameter verification variant 25.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_025"
+    ]
+  },
+  {
+    "id": "REQ_PT_026",
+    "name": "PT_Req_26",
+    "description": "High voltage DC bus voltage regulation and active discharge fail-safe. Parameter verification variant 26.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_026"
+    ]
+  },
+  {
+    "id": "REQ_PT_027",
+    "name": "PT_Req_27",
+    "description": "Motor rotor angular position resolver sensor decoding and speed estimation. Parameter verification variant 27.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_027"
+    ]
+  },
+  {
+    "id": "REQ_PT_028",
+    "name": "PT_Req_28",
+    "description": "Traction motor over-speed protection and emergency torque shutoff. Parameter verification variant 28.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_028"
+    ]
+  },
+  {
+    "id": "REQ_PT_029",
+    "name": "PT_Req_29",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 29.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_029"
+    ]
+  },
+  {
+    "id": "REQ_PT_030",
+    "name": "PT_Req_30",
+    "description": "Inverter IGBT temperature thermal protection and power derating control. Parameter verification variant 30.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_030"
+    ]
+  },
+  {
+    "id": "REQ_PT_031",
+    "name": "PT_Req_31",
+    "description": "Accelerator pedal demand torque mapping and traction torque ramp rate limitation. Parameter verification variant 31.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_031"
+    ]
+  },
+  {
+    "id": "REQ_PT_032",
+    "name": "PT_Req_32",
+    "description": "Regenerative braking energy recovery and deceleration torque blending. Parameter verification variant 32.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_032"
+    ]
+  },
+  {
+    "id": "REQ_PT_033",
+    "name": "PT_Req_33",
+    "description": "High voltage DC bus voltage regulation and active discharge fail-safe. Parameter verification variant 33.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_033"
+    ]
+  },
+  {
+    "id": "REQ_PT_034",
+    "name": "PT_Req_34",
+    "description": "Motor rotor angular position resolver sensor decoding and speed estimation. Parameter verification variant 34.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_034"
+    ]
+  },
+  {
+    "id": "REQ_PT_035",
+    "name": "PT_Req_35",
+    "description": "Traction motor over-speed protection and emergency torque shutoff. Parameter verification variant 35.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_035"
+    ]
+  },
+  {
+    "id": "REQ_PT_036",
+    "name": "PT_Req_36",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 36.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_036"
+    ]
+  },
+  {
+    "id": "REQ_PT_037",
+    "name": "PT_Req_37",
+    "description": "Inverter IGBT temperature thermal protection and power derating control. Parameter verification variant 37.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_037"
+    ]
+  },
+  {
+    "id": "REQ_PT_038",
+    "name": "PT_Req_38",
+    "description": "Accelerator pedal demand torque mapping and traction torque ramp rate limitation. Parameter verification variant 38.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_038"
+    ]
+  },
+  {
+    "id": "REQ_PT_039",
+    "name": "PT_Req_39",
+    "description": "Regenerative braking energy recovery and deceleration torque blending. Parameter verification variant 39.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_039"
+    ]
+  },
+  {
+    "id": "REQ_PT_040",
+    "name": "PT_Req_40",
+    "description": "High voltage DC bus voltage regulation and active discharge fail-safe. Parameter verification variant 40.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_040"
+    ]
+  },
+  {
+    "id": "REQ_PT_041",
+    "name": "PT_Req_41",
+    "description": "Motor rotor angular position resolver sensor decoding and speed estimation. Parameter verification variant 41.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_041"
+    ]
+  },
+  {
+    "id": "REQ_PT_042",
+    "name": "PT_Req_42",
+    "description": "Traction motor over-speed protection and emergency torque shutoff. Parameter verification variant 42.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_042"
+    ]
+  },
+  {
+    "id": "REQ_PT_043",
+    "name": "PT_Req_43",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 43.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_043"
+    ]
+  },
+  {
+    "id": "REQ_PT_044",
+    "name": "PT_Req_44",
+    "description": "Inverter IGBT temperature thermal protection and power derating control. Parameter verification variant 44.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_044"
+    ]
+  },
+  {
+    "id": "REQ_PT_045",
+    "name": "PT_Req_45",
+    "description": "Accelerator pedal demand torque mapping and traction torque ramp rate limitation. Parameter verification variant 45.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_045"
+    ]
+  },
+  {
+    "id": "REQ_PT_046",
+    "name": "PT_Req_46",
+    "description": "Regenerative braking energy recovery and deceleration torque blending. Parameter verification variant 46.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_046"
+    ]
+  },
+  {
+    "id": "REQ_PT_047",
+    "name": "PT_Req_47",
+    "description": "High voltage DC bus voltage regulation and active discharge fail-safe. Parameter verification variant 47.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_047"
+    ]
+  },
+  {
+    "id": "REQ_PT_048",
+    "name": "PT_Req_48",
+    "description": "Motor rotor angular position resolver sensor decoding and speed estimation. Parameter verification variant 48.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_048"
+    ]
+  },
+  {
+    "id": "REQ_PT_049",
+    "name": "PT_Req_49",
+    "description": "Traction motor over-speed protection and emergency torque shutoff. Parameter verification variant 49.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_049"
+    ]
+  },
+  {
+    "id": "REQ_PT_050",
+    "name": "PT_Req_50",
+    "description": "Electric motor stator magnetic field torque regulation and PMSM field oriented control. Parameter verification variant 50.",
+    "asil_level": "QM",
+    "project": "POWERTRAIN",
+    "verification_tests": [
+      "TC_PT_050"
+    ]
+  }
+]

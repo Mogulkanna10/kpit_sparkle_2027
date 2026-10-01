@@ -1,0 +1,126 @@
+{
+  "stage": "11",
+  "gate_id": "GATE-11",
+  "status": "PASS",
+  "timestamp": "2026-09-29T23:00:08+05:30",
+  "branch": "main",
+  "objective": "Final Benchmark Reconstruction \u2014 frozen, reproducible benchmark with 150 mutations, 7 methods, safety-gated, full statistical validation",
+  "benchmark_version": "GATE-11-v1.0.0",
+  "dataset": {
+    "mutations": 150,
+    "projects": [
+      "ADAS",
+      "POWERTRAIN",
+      "BATTERY_EV"
+    ],
+    "fingerprint": "3bc8c11efb2398a0",
+    "seed": 42,
+    "splits": {
+      "calibration": 30,
+      "validation": 30,
+      "test": 90
+    }
+  },
+  "calibration": {
+    "calibrated_threshold": 0.8,
+    "grid": [
+      0.4,
+      0.45,
+      0.5,
+      0.55,
+      0.6,
+      0.65,
+      0.7,
+      0.75,
+      0.8
+    ]
+  },
+  "metrics": {
+    "aura_hybrid_routed": {
+      "artifact_recall": 0.6307,
+      "test_reduction_pct": 84.4,
+      "safety_recall": 1.0
+    },
+    "safety_invariant": {
+      "pass_count": 150,
+      "total": 150,
+      "pass_pct": 100.0,
+      "invariant_verified": true
+    },
+    "semantic": {
+      "recall_at_1": 0.033,
+      "recall_at_5": 0.133,
+      "mrr": 0.0665
+    },
+    "statistical": {
+      "wilcoxon_recall_p": 1.0,
+      "wilcoxon_prec_p": 0.0006984,
+      "bonferroni_alpha": 0.0125,
+      "prec_significant": true
+    }
+  },
+  "changes": [
+    "Created benchmark/final/__init__.py",
+    "Created benchmark/final/config.py (frozen, locked benchmark parameters)",
+    "Created benchmark/final/runner.py (self-contained Gate-11 benchmark runner)",
+    "Created tests/benchmark/test_final_benchmark.py (15 acceptance tests)",
+    "Fixed src/semantic/retrieval.py: API mismatch (query_text -> query_vec + tuple unpacking)",
+    "Fixed src/semantic/context_filter.py: Added passes_hard_filter() + graph_distance/trace_support_score to compute_context_score",
+    "Generated benchmark/final/outputs/*.csv (6 CSV files)",
+    "Generated reports/final/FINAL_BENCHMARK_REPORT.md",
+    "Generated artifacts/final_benchmark_results.json"
+  ],
+  "tests": {
+    "gate_11": {
+      "module": "tests/benchmark/test_final_benchmark.py",
+      "total": 15,
+      "passed": 15,
+      "failed": 0
+    },
+    "full_suite": {
+      "total": 107,
+      "passed": 107,
+      "failed": 0,
+      "regressions": 0
+    }
+  },
+  "acceptance_criteria": {
+    "benchmark_runs_cleanly": true,
+    "dataset_150_mutations_loaded": true,
+    "fingerprint_recorded": true,
+    "prng_seed_42_enforced": true,
+    "calibration_split_isolated": true,
+    "all_7_methods_evaluated": true,
+    "safety_invariant_100pct": true,
+    "aura_beats_graph_recall": true,
+    "test_reduction_gte_50pct": true,
+    "semantic_recall_nonzero": true,
+    "recall_at_k_monotone": true,
+    "output_files_all_exist": true,
+    "version_tag_correct": true,
+    "no_regressions_in_prior_107_tests": true
+  },
+  "outputs": {
+    "impact_csv": "benchmark/final/outputs/impact_results.csv",
+    "regression_csv": "benchmark/final/outputs/regression_results.csv",
+    "semantic_csv": "benchmark/final/outputs/semantic_results.csv",
+    "ablation_csv": "benchmark/final/outputs/ablation_results.csv",
+    "scale_csv": "benchmark/final/outputs/scale_results.csv",
+    "summary_csv": "benchmark/final/outputs/summary_table.csv",
+    "report_md": "reports/final/FINAL_BENCHMARK_REPORT.md",
+    "artifact_json": "artifacts/final_benchmark_results.json"
+  },
+  "failures": [],
+  "bugs_fixed": [
+    "SemanticRetriever.retrieve_candidates_for_change called index.search() with query_text= (wrong kwarg) \u2014 fixed to embed text first, then call search(query_vec=...)",
+    "ContextFilter missing passes_hard_filter() \u2014 added",
+    "ContextFilter.compute_context_score missing graph_distance and trace_support_score \u2014 added",
+    "Node() constructor called with unsupported description= kwarg in scalability profiling \u2014 removed",
+    "FAISSSemanticIndex.search called with text string in scalability \u2014 fixed to use query_vec"
+  ],
+  "next_stage": "12",
+  "checkpoint": "Gate 11 passed cleanly. 107/107 tests pass. Final benchmark fully executed and validated. Ready for Gate 12.",
+  "gate": "GATE-11",
+  "title": "Final Benchmark Reconstruction \u2014 frozen, reproducible benchmark with 150 mutations, 7 methods, safety-gated, full statistical validation",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72"
+}

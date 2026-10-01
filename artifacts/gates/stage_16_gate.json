@@ -1,0 +1,60 @@
+{
+  "gate": "GATE-16",
+  "title": "Performance and Scalability",
+  "status": "PASS",
+  "git_commit": "ffc284ce5eb8e6b5fd25c7f09ea7822f2c27de72",
+  "timestamp": "2026-09-30T03:58:57.712103+00:00",
+  "measured_node_counts": [
+    100,
+    500,
+    1000,
+    5000,
+    10000,
+    25000
+  ],
+  "scalability_data": [
+    {
+      "nodes": 100,
+      "graph_build_ms": 4.3,
+      "query_ms": 0.727,
+      "peak_memory_mb": 0.15
+    },
+    {
+      "nodes": 500,
+      "graph_build_ms": 12.5,
+      "query_ms": 0.765,
+      "peak_memory_mb": 0.76
+    },
+    {
+      "nodes": 1000,
+      "graph_build_ms": 25.46,
+      "query_ms": 0.515,
+      "peak_memory_mb": 1.52
+    },
+    {
+      "nodes": 5000,
+      "graph_build_ms": 118.95,
+      "query_ms": 0.678,
+      "peak_memory_mb": 7.53
+    },
+    {
+      "nodes": 10000,
+      "graph_build_ms": 274.21,
+      "query_ms": 0.5,
+      "peak_memory_mb": 15.07
+    },
+    {
+      "nodes": 25000,
+      "graph_build_ms": 643.91,
+      "query_ms": 0.473,
+      "peak_memory_mb": 39.39
+    }
+  ],
+  "benchmark_runtime_s": 11.37,
+  "note": "Scalability measured via BenchmarkRunner phase 8 (tracemalloc + perf_counter). 150 mutations processed in ~11s.",
+  "acceptance_criteria": {
+    "measured_not_estimated": "VERIFIED",
+    "no_theoretical_claims": "VERIFIED",
+    "runtime_documented": "VERIFIED"
+  }
+}

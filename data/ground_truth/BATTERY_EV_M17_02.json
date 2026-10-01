@@ -1,0 +1,226 @@
+{
+  "mutation_id": "BATTERY_EV_M17_02",
+  "project_id": "BATTERY_EV",
+  "source_artifact": "data\\projects\\battery_ev\\requirements\\battery_requirements.json",
+  "target_node_id": "R_BMS_045",
+  "true_impacted_artifacts": [
+    "BMS_Func_045",
+    "BMS_Func_046",
+    "BMS_Func_047",
+    "BMS_Func_048",
+    "I_SWC_RegenCoordinator_Out",
+    "I_SWC_RegenCoordinator_Out_DE_SWC_RegenCoordinator_Health",
+    "R_BMS_045",
+    "SWC_HighVoltageSafety_Health",
+    "SWC_InverterControl_Health",
+    "SWC_RegenCoordinator",
+    "SWC_RegenCoordinator_Health",
+    "SWC_RegenCoordinator_P_SWC_RegenCoordinator_Status",
+    "SWC_RegenCoordinator_RE_SWC_RegenCoordinator_Step",
+    "SWC_RegenCoordinator_Step",
+    "TC_BMS_045"
+  ],
+  "true_impacted_tests": [
+    "TC_BMS_005",
+    "TC_BMS_015",
+    "TC_BMS_025",
+    "TC_BMS_035",
+    "TC_BMS_045",
+    "TC_BMS_046",
+    "TC_BMS_047",
+    "TC_BMS_048",
+    "TC_BMS_055",
+    "TC_BMS_065",
+    "TC_BMS_075"
+  ],
+  "safety_critical_tests": [
+    "TC_BMS_005",
+    "TC_BMS_015",
+    "TC_BMS_025"
+  ],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_BMS_045",
+      "relation_path": [
+        "R_BMS_045"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_RegenCoordinator",
+      "relation_path": [
+        "R_BMS_045",
+        "SWC_RegenCoordinator"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "TC_BMS_045",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_RegenCoordinator_P_SWC_RegenCoordinator_Status",
+      "relation_path": [
+        "R_BMS_045",
+        "SWC_RegenCoordinator",
+        "SWC_RegenCoordinator_P_SWC_RegenCoordinator_Status"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_RegenCoordinator_RE_SWC_RegenCoordinator_Step",
+      "relation_path": [
+        "R_BMS_045",
+        "SWC_RegenCoordinator",
+        "SWC_RegenCoordinator_RE_SWC_RegenCoordinator_Step"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_045",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045",
+        "BMS_Func_045"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_RegenCoordinator_Out",
+      "relation_path": [
+        "R_BMS_045",
+        "SWC_RegenCoordinator",
+        "SWC_RegenCoordinator_P_SWC_RegenCoordinator_Status",
+        "I_SWC_RegenCoordinator_Out"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_RegenCoordinator_Step",
+      "relation_path": [
+        "R_BMS_045",
+        "SWC_RegenCoordinator",
+        "SWC_RegenCoordinator_RE_SWC_RegenCoordinator_Step",
+        "SWC_RegenCoordinator_Step"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_046",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045",
+        "BMS_Func_045",
+        "BMS_Func_046"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_RegenCoordinator_Health",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045",
+        "BMS_Func_045",
+        "SWC_RegenCoordinator_Health"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "I_SWC_RegenCoordinator_Out_DE_SWC_RegenCoordinator_Health",
+      "relation_path": [
+        "R_BMS_045",
+        "SWC_RegenCoordinator",
+        "SWC_RegenCoordinator_P_SWC_RegenCoordinator_Status",
+        "I_SWC_RegenCoordinator_Out",
+        "I_SWC_RegenCoordinator_Out_DE_SWC_RegenCoordinator_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_047",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045",
+        "BMS_Func_045",
+        "BMS_Func_046",
+        "BMS_Func_047"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_HighVoltageSafety_Health",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045",
+        "BMS_Func_045",
+        "BMS_Func_046",
+        "SWC_HighVoltageSafety_Health"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_InverterControl_Health",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045",
+        "BMS_Func_045",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "SWC_InverterControl_Health"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "BMS_Func_048",
+      "relation_path": [
+        "R_BMS_045",
+        "TC_BMS_045",
+        "BMS_Func_045",
+        "BMS_Func_046",
+        "BMS_Func_047",
+        "BMS_Func_048"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M20_01",
+  "project_id": "ADAS",
+  "change_type": "M20",
+  "category_name": "Multiple simultaneous changes",
+  "source_artifact": "data\\projects\\adas\\arxml\\SWC_ACC.arxml",
+  "target_node_id": "SWC_ACC_Init",
+  "artifact_type": "C_CODE",
+  "before_state": "void SWC_ACC_Init() { compute(); send(); }",
+  "after_state": "void SWC_ACC_Init() { compute_v2(); filter(); send(); }",
+  "diff": "--- data\\projects\\adas\\arxml\\SWC_ACC.arxml\n+++ data\\projects\\adas\\arxml\\SWC_ACC.arxml\n@@ -1,4 +1,4 @@\n-void SWC_ACC_Init() { compute(); send(); }\n+void SWC_ACC_Init() { compute_v2(); filter(); send(); }",
+  "intended_change_semantics": "Multiple simultaneous logic and dependency updates",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M20",
+    "repeat": 1
+  }
+}

@@ -1,0 +1,37 @@
+benchmark:
+  name: "AURA-Impact Benchmark"
+  version: "1.0.0"
+  random_seed: 42
+  
+  projects:
+    - name: "ADAS"
+      path: "data/projects/adas"
+      domain: "Advanced Driver Assistance Systems"
+    - name: "Powertrain"
+      path: "data/projects/powertrain"
+      domain: "Engine & Transmission Control"
+    - name: "Battery_EV"
+      path: "data/projects/battery_ev"
+      domain: "Battery Management & Electric Traction"
+
+  splits:
+    calibration_ratio: 0.20
+    validation_ratio: 0.20
+    test_ratio: 0.60
+
+  thresholds:
+    semantic_similarity: 0.65
+    calibration_grid: [0.40, 0.45, 0.50, 0.55, 0.60, 0.65, 0.70, 0.75, 0.80, 0.85]
+
+  fusion_weights:
+    wg: 0.55
+    ws: 0.30
+    wc: 0.15
+
+  graph:
+    max_traversal_depth: 5
+    edge_weight_decay: 0.85
+
+  safety_gate:
+    enforce_mandatory_safety: true
+    critical_levels: ["ASIL_D", "ASIL_C", "SAFETY_CRITICAL"]

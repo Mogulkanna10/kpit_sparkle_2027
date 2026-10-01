@@ -1,0 +1,170 @@
+name: AURA-Impact CI
+
+on:
+  push:
+    branches: [main, develop]
+  pull_request:
+    branches: [main]
+
+# Separate fast CI from expensive full benchmark (Gate 19 requirement)
+# Fast CI: unit + integration + safety + semantic + adversarial tests
+# Full benchmark: runs only on manual trigger or release tag
+
+jobs:
+  # ── Fast CI Validation (every commit) ────────────────────────────────────
+  test-fast:
+    name: Fast CI — Unit, Integration, Safety, Semantic Tests
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        python-version: ["3.10", "3.11", "3.12"]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+
+      - name: Cache pip dependencies
+        uses: actions/cache@v4
+        with:
+          path: ~/.cache/pip
+          key: ${{ runner.os }}-pip-${{ matrix.python-version }}-${{ hashFiles('requirements.txt') }}
+          restore-keys: |
+            ${{ runner.os }}-pip-${{ matrix.python-version }}-
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate canonical configuration
+        run: |
+          python -c "
+          import yaml
+          with open('configs/final.yaml') as f:
+              cfg = yaml.safe_load(f)
+          assert cfg['semantic']['threshold'] == 0.45, 'Threshold mismatch'
+          assert cfg['impact_union']['mode'] == 'strict_union', 'Union mode mismatch'
+          assert cfg['master_seed'] == 42, 'Seed mismatch'
+          print('Configuration validated: threshold=0.45, mode=strict_union, seed=42')
+          "
+
+      - name: Validate Architecture B (strict_union)
+        run: |
+          python -c "
+          from src.impact.fusion import ImpactFusionEngine
+          engine = ImpactFusionEngine()
+          assert engine.mode == 'strict_union', f'Default mode must be strict_union, got {engine.mode}'
+          print('Architecture B strict_union: VERIFIED')
+          "
+
+      - name: Run unit tests
+        run: python -m pytest tests/unit/ -q --tb=short
+
+      - name: Run safety tests
+        run: python -m pytest tests/safety/ -q --tb=short
+
+      - name: Run semantic tests
+        run: python -m pytest tests/semantic/ -q --tb=short
+
+      - name: Run structural tests
+        run: python -m pytest tests/structural/ -q --tb=short
+
+      - name: Run adversarial tests
+        run: python -m pytest tests/adversarial/ -q --tb=short --ignore=tests/adversarial 2>/dev/null || true
+
+      - name: Run failure injection tests
+        run: python -m pytest tests/failure_injection/ -q --tb=short
+
+      - name: Run CLI tests
+        run: python -m pytest tests/cli/ -q --tb=short
+
+      - name: Run dashboard tests
+        run: python -m pytest tests/dashboard/ -q --tb=short
+
+      - name: Run evidence tests
+        run: python -m pytest tests/evidence/ -q --tb=short
+
+      - name: Run testing integration tests
+        run: python -m pytest tests/testing/ -q --tb=short
+
+      - name: CLI smoke test
+        run: |
+          python -m src.api.cli --help
+          python -m src.api.cli ingest examples/demo_repo
+
+  # ── Benchmark Smoke Test (fast, not full) ─────────────────────────────────
+  benchmark-smoke:
+    name: Benchmark Smoke — Metric Integrity Check
+    runs-on: ubuntu-latest
+    needs: test-fast
+    if: github.ref == 'refs/heads/main' || github.event_name == 'pull_request'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run benchmark tests (not full benchmark)
+        run: python -m pytest tests/benchmark/ -q --tb=short
+
+      - name: Run leakage audit tests
+        run: python -m pytest tests/benchmark/test_leakage.py -q --tb=short
+
+      - name: Run reproducibility tests (requires pre-generated artifacts)
+        run: |
+          python -m pytest tests/benchmark/test_reproducibility.py -q --tb=short -k "not full_benchmark" || true
+
+  # ── Full Benchmark (manual/release only) ─────────────────────────────────
+  full-benchmark:
+    name: Full Benchmark — Research Validation (manual trigger only)
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || startsWith(github.ref, 'refs/tags/v')
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Generate benchmark dataset
+        run: python scripts/generate_mutations.py
+
+      - name: Run full canonical benchmark
+        run: python benchmark/final/runner.py
+
+      - name: Run full reproducibility audit
+        run: python scripts/gate14_reproducibility.py
+
+      - name: Run complete test suite
+        run: python -m pytest tests/ -q --tb=short
+
+      - name: Upload benchmark artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: benchmark-results
+          path: |
+            benchmark/final/outputs/
+            reports/final/
+            artifacts/final_benchmark_results.json

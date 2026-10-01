@@ -1,0 +1,18 @@
+{
+  "mutation_id": "BATTERY_EV_M24_02",
+  "project_id": "BATTERY_EV",
+  "change_type": "M24",
+  "category_name": "Dead-code modification",
+  "source_artifact": "data\\projects\\battery_ev\\src\\bms_controller.c",
+  "target_node_id": "BMS_Func_009",
+  "artifact_type": "C_CODE",
+  "before_state": "if (0) { execute_unused_routine(); }",
+  "after_state": "if (0) { execute_unused_routine_v2(); }",
+  "diff": "--- data\\projects\\battery_ev\\src\\bms_controller.c\n+++ data\\projects\\battery_ev\\src\\bms_controller.c\n@@ -1,4 +1,4 @@\n-if (0) { execute_unused_routine(); }\n+if (0) { execute_unused_routine_v2(); }",
+  "intended_change_semantics": "Dead branch modification",
+  "expected_impact_scope": "LOCAL",
+  "metadata": {
+    "change_type": "M24",
+    "repeat": 2
+  }
+}

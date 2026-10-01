@@ -1,0 +1,29 @@
+{
+  "mutation_id": "ADAS_M19_01",
+  "project_id": "ADAS",
+  "source_artifact": "data\\projects\\adas\\requirements\\adas_requirements.json",
+  "target_node_id": "R_ADAS_031",
+  "true_impacted_artifacts": [
+    "R_ADAS_031"
+  ],
+  "true_impacted_tests": [
+    "TC_ADAS_031"
+  ],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "DISAMBIGUATED_DOMAIN_SPECIFICATION",
+    "COMPILER_SYMBOL_TABLE"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "R_ADAS_031",
+      "relation_path": [
+        "R_ADAS_031"
+      ],
+      "distance": 0,
+      "ground_truth_method": "DISAMBIGUATED_DOMAIN_SPECIFICATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

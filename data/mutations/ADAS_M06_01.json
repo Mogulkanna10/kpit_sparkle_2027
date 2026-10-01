@@ -1,0 +1,18 @@
+{
+  "mutation_id": "ADAS_M06_01",
+  "project_id": "ADAS",
+  "change_type": "M06",
+  "category_name": "ARXML datatype change",
+  "source_artifact": "arxml/adas_swc.arxml",
+  "target_node_id": "I_SWC_AEB_In_DE_SWC_AEB_RawData",
+  "artifact_type": "ARXML",
+  "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+  "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+  "diff": "--- arxml/adas_swc.arxml\n+++ arxml/adas_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+  "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M06",
+    "repeat": 1
+  }
+}

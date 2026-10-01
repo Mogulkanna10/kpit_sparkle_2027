@@ -1,0 +1,165 @@
+{
+  "mutation_id": "POWERTRAIN_M16_02",
+  "project_id": "POWERTRAIN",
+  "source_artifact": "data\\projects\\powertrain\\src\\powertrain_controller.c",
+  "target_node_id": "PT_Func_050",
+  "true_impacted_artifacts": [
+    "PT_Func_050",
+    "PT_Func_052",
+    "PT_Func_054",
+    "PT_Func_056",
+    "PT_Func_058",
+    "PT_Func_060",
+    "SWC_CruiseGovernor_TorqueDemand",
+    "SWC_DriveModeSelector_TorqueDemand",
+    "SWC_IgnitionTiming_TorqueDemand",
+    "SWC_TorqueManager_TorqueDemand",
+    "SWC_Turbocharger_TorqueDemand"
+  ],
+  "true_impacted_tests": [
+    "TC_PT_050",
+    "TC_PT_052",
+    "TC_PT_054",
+    "TC_PT_056",
+    "TC_PT_058",
+    "TC_PT_060"
+  ],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION",
+    "REQUIREMENT_VERIFICATION_MATRIX"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "PT_Func_050",
+      "relation_path": [
+        "PT_Func_050"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_DriveModeSelector_TorqueDemand",
+      "relation_path": [
+        "PT_Func_050",
+        "SWC_DriveModeSelector_TorqueDemand"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_052",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052"
+      ],
+      "distance": 1,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_054",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "PT_Func_054"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_TorqueManager_TorqueDemand",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "SWC_TorqueManager_TorqueDemand"
+      ],
+      "distance": 2,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_056",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_CruiseGovernor_TorqueDemand",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "PT_Func_054",
+        "SWC_CruiseGovernor_TorqueDemand"
+      ],
+      "distance": 3,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_058",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056",
+        "PT_Func_058"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_IgnitionTiming_TorqueDemand",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056",
+        "SWC_IgnitionTiming_TorqueDemand"
+      ],
+      "distance": 4,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "PT_Func_060",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056",
+        "PT_Func_058",
+        "PT_Func_060"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    },
+    {
+      "target_artifact": "SWC_Turbocharger_TorqueDemand",
+      "relation_path": [
+        "PT_Func_050",
+        "PT_Func_052",
+        "PT_Func_054",
+        "PT_Func_056",
+        "PT_Func_058",
+        "SWC_Turbocharger_TorqueDemand"
+      ],
+      "distance": 5,
+      "ground_truth_method": "BOUNDED_ARCHITECTURAL_PROPAGATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

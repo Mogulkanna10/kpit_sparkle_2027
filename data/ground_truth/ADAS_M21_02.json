@@ -1,0 +1,27 @@
+{
+  "mutation_id": "ADAS_M21_02",
+  "project_id": "ADAS",
+  "source_artifact": "data\\projects\\adas\\arxml\\SWC_BrakeActuator.arxml",
+  "target_node_id": "SWC_BrakeActuator_Init",
+  "true_impacted_artifacts": [
+    "SWC_BrakeActuator_Init"
+  ],
+  "true_impacted_tests": [],
+  "safety_critical_tests": [],
+  "ground_truth_method": [
+    "TARGET_SYMBOL_EXTRACTION",
+    "BOUNDED_AST_DATA_FLOW_PROPAGATION"
+  ],
+  "provenance_records": [
+    {
+      "target_artifact": "SWC_BrakeActuator_Init",
+      "relation_path": [
+        "SWC_BrakeActuator_Init"
+      ],
+      "distance": 0,
+      "ground_truth_method": "TARGET_SYMBOL_DECLARATION",
+      "confidence": 1.0
+    }
+  ],
+  "confidence": "verified"
+}

@@ -1,0 +1,34 @@
+[
+  {
+    "id": "TC_AEB_001",
+    "description": "Verify Time-To-Collision calculation accuracy under varied radar distance profiles.",
+    "artifact_targets": ["C_Function_CalculateTTC", "SWC_AEB", "REQ_AEB_001"],
+    "safety_class": "ASIL_D",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1"
+  },
+  {
+    "id": "TC_AEB_002",
+    "description": "Verify Emergency Brake Actuation deceleration ramp and hydraulic pressure clamping.",
+    "artifact_targets": ["C_Function_TriggerBrake"],
+    "safety_class": "ASIL_D",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1"
+  },
+  {
+    "id": "TC_BODY_001",
+    "description": "Verify Cabin Climate blower level and setpoint stabilization.",
+    "artifact_targets": ["C_Function_CabinClimateControl", "REQ_BODY_005"],
+    "safety_class": "QM",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body"
+  },
+  {
+    "id": "TC_AMB_001",
+    "description": "Verify driver alert chime buzzer triggering.",
+    "artifact_targets": ["C_Function_UnspecifiedAlert"],
+    "safety_class": "ASIL_B",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1"
+  }
+]

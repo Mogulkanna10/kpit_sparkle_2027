@@ -1,0 +1,19 @@
+# ==============================================================================
+# HISTORICAL ARCHIVE — DO NOT USE FOR PRODUCTION RUNTIME
+# Historical model references from initial exploratory baseline evaluations.
+# Canonical runtime model is AURA-DomainHashEmbedder-384 in configs/final.yaml.
+# ==============================================================================
+models:
+  embedding:
+    primary: "all-MiniLM-L6-v2"
+    fallback: "sentence-transformers/all-MiniLM-L6-v2"
+    device: "cpu"
+    batch_size: 32
+    normalize_embeddings: true
+    max_seq_length: 256
+    cache_dir: ".cache/embeddings"
+
+  keyword:
+    algorithm: "tfidf_bm25"
+    ngram_range: [1, 2]
+    min_df: 1

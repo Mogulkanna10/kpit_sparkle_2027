@@ -1,0 +1,18 @@
+{
+  "mutation_id": "POWERTRAIN_M06_02",
+  "project_id": "POWERTRAIN",
+  "change_type": "M06",
+  "category_name": "ARXML datatype change",
+  "source_artifact": "arxml/powertrain_swc.arxml",
+  "target_node_id": "I_SWC_Turbocharger_Out_DE_SWC_Turbocharger_TorqueDemand",
+  "artifact_type": "ARXML",
+  "before_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>",
+  "after_state": "<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+  "diff": "--- arxml/powertrain_swc.arxml\n+++ arxml/powertrain_swc.arxml\n@@ -1,4 +1,4 @@\n-<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint16</TYPE-TREF>\n+<TYPE-TREF>/AUTOSAR/Platform/ImplementationDataTypes/uint32</TYPE-TREF>",
+  "intended_change_semantics": "Datatype width widening from 16-bit to 32-bit",
+  "expected_impact_scope": "PROPAGATED",
+  "metadata": {
+    "change_type": "M06",
+    "repeat": 2
+  }
+}

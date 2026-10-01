@@ -1,0 +1,53 @@
+[
+  {
+    "id": "REQ_AEB_001",
+    "title": "Autonomous Emergency Braking Time-to-Collision Calculation",
+    "description": "The AEB controller shall compute Time-to-Collision (TTC) based on radar distance and ego vehicle velocity.",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1",
+    "asil": "ASIL_D",
+    "trace_links": [
+      "SWC_AEB"
+    ]
+  },
+  {
+    "id": "REQ_AEB_014",
+    "title": "Emergency Braking Actuation Deceleration Clamp",
+    "description": "Trigger emergency deceleration and clamp hydraulic brake line pressure when TTC falls below threshold.",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1",
+    "asil": "ASIL_D",
+    "trace_links": []
+  },
+  {
+    "id": "REQ_BODY_005",
+    "title": "Cabin Temperature Climate Defroster Blower Control",
+    "description": "Adjust cabin temperature and defroster blower power level for interior passenger comfort.",
+    "subsystem": "Body_Electronics",
+    "ecu": "ECU_Body",
+    "asil": "QM",
+    "trace_links": [
+      "SWC_BodyControl"
+    ]
+  },
+  {
+    "id": "REQ_AMB_099",
+    "title": "Unspecified Driver Warning Alert",
+    "description": "Provide ambiguous driver notification when alert conditions occur without clear timing or threshold parameters.",
+    "subsystem": "ADAS",
+    "ecu": "ECU_1",
+    "asil": "ASIL_B",
+    "trace_links": []
+  },
+  {
+    "id": "REQ_ACC_001",
+    "title": "Adaptive Cruise Control Speed Target",
+    "description": "Maintain vehicle cruise setpoint speed and throttle modulation according to forward clearance.",
+    "subsystem": "Powertrain",
+    "ecu": "ECU_Engine",
+    "asil": "ASIL_B",
+    "trace_links": [
+      "SWC_ACC"
+    ]
+  }
+]

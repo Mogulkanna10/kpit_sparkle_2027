@@ -1,0 +1,19 @@
+{
+  "git_commit": "v5.0.0-final-cert",
+  "python_version": "3.14.0",
+  "os": "Windows-11-10.0.26200-SP0",
+  "processor": "Intel64 Family 6 Model 183 Stepping 1, GenuineIntel",
+  "embedding_model": "all-MiniLM-L6-v2 (Deterministic Subword Hashing)",
+  "vector_dimensions": 384,
+  "primary_seed": 3003,
+  "held_out_seed": 9999,
+  "runner_seed": 42,
+  "semantic_threshold": 0.3,
+  "top_k": 10,
+  "context_weights": {
+    "alpha": 0.2,
+    "beta": 0.15,
+    "gamma": 0.1,
+    "delta": 0.05
+  }
+}

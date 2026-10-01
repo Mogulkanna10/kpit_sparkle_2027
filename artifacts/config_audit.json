@@ -1,0 +1,104 @@
+{
+  "gate_id": "GATE-04",
+  "status": "PASS",
+  "timestamp": "2026-09-29T22:34:00+05:30",
+  "canonical_configuration": "configs/final.yaml",
+  "canonical_sha256": "81f08ad3cb993b8fe90709b19dfb48270381666ff050e8a7fc239c4e8b3400dc",
+  "parameter_resolutions": {
+    "semantic_threshold": {
+      "canonical_value": 0.45,
+      "conflicting_values": [0.65, 0.80],
+      "resolution": "Frozen at 0.45 for canonical runtime; provides high sensitivity when guarded by hard ContextFilter",
+      "status": "RESOLVED"
+    },
+    "graph_max_depth": {
+      "canonical_value": 3,
+      "conflicting_values": [5],
+      "resolution": "Frozen at 3 for bounded BFS to prevent transitive overreach and graph explosion",
+      "status": "RESOLVED"
+    },
+    "embedding_model": {
+      "canonical_value": "AURA-DomainHashEmbedder-384",
+      "conflicting_values": ["BGE-M3", "all-MiniLM-L6-v2"],
+      "resolution": "Truthfully frozen as AURA-DomainHashEmbedder-384 (384-D deterministic hash vectorizer)",
+      "status": "RESOLVED"
+    },
+    "impact_union_mode": {
+      "canonical_value": "strict_union",
+      "conflicting_values": ["weighted_fusion (wg=0.55, ws=0.30)"],
+      "resolution": "Strict set union S_final = S_struct UNION S_semantic; weighted fusion disabled",
+      "status": "RESOLVED"
+    },
+    "safety_gate": {
+      "canonical_value": "FAIL_CLOSED (ASIL-C / ASIL-D mandatory)",
+      "status": "RESOLVED"
+    }
+  },
+  "file_audit_table": [
+    {
+      "file": "configs/final.yaml",
+      "status": "CANONICAL_PRODUCTION",
+      "role": "Single authoritative production configuration"
+    },
+    {
+      "file": "configs/canonical_architecture.yaml",
+      "status": "CANONICAL_ARCHITECTURE_LOCK",
+      "role": "Architecture lock definition"
+    },
+    {
+      "file": "configs/architecture.yaml",
+      "status": "SUBSYSTEM_ACTIVE",
+      "role": "Architecture component settings"
+    },
+    {
+      "file": "configs/semantic.yaml",
+      "status": "SUBSYSTEM_ACTIVE",
+      "role": "Semantic retrieval settings"
+    },
+    {
+      "file": "configs/graph.yaml",
+      "status": "SUBSYSTEM_ACTIVE",
+      "role": "Graph traversal settings"
+    },
+    {
+      "file": "configs/safety.yaml",
+      "status": "SUBSYSTEM_ACTIVE",
+      "role": "Safety gate configuration"
+    },
+    {
+      "file": "configs/test_selection.yaml",
+      "status": "SUBSYSTEM_ACTIVE",
+      "role": "Regression selector configuration"
+    },
+    {
+      "file": "configs/semantic_context.yaml",
+      "status": "SUBSYSTEM_ACTIVE",
+      "role": "Context filter rules"
+    },
+    {
+      "file": "configs/impact_boundary.yaml",
+      "status": "HISTORICAL_BENCHMARK",
+      "role": "Boundary parameter exploration (depth=5)"
+    },
+    {
+      "file": "configs/benchmark.yaml",
+      "status": "HISTORICAL_BENCHMARK",
+      "role": "Benchmark runner config (v6)"
+    },
+    {
+      "file": "configs/frozen_final.yaml",
+      "status": "HISTORICAL_ARCHIVE",
+      "role": "Archived v6 benchmark sweep"
+    },
+    {
+      "file": "configs/models.yaml",
+      "status": "HISTORICAL_ARCHIVE",
+      "role": "Historical exploratory model references"
+    },
+    {
+      "file": "configs/random_seeds.json",
+      "status": "HISTORICAL_SEEDS",
+      "role": "Experimental seed records"
+    }
+  ]
+}
